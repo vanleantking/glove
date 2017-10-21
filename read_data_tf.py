@@ -168,9 +168,9 @@ if __name__ == '__main__':
         file.write('\n')
     file.close()
 
-    model = tf_glove.GloVeModel(embedding_size=100, context_size=3)
+    model = tf_glove.GloVeModel(embedding_size=100, context_size=4)
     model.fit_to_corpus(corpus)
-    model.train(num_epochs=1, log_dir="log/example", summary_batch_interval=1000)
+    model.train(num_epochs=150, log_dir="log/example", summary_batch_interval=1000)
     print(model.embedding_for("oakley"))
     print(model.embeded_phrases("dr oakley"))
     print(model.embeded_phrases("Redwood Area Hospital"))
