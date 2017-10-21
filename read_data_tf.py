@@ -168,9 +168,9 @@ if __name__ == '__main__':
         file.write('\n')
     file.close()
 
-    model = tf_glove.GloVeModel(embedding_size=300, context_size=4)
+    model = tf_glove.GloVeModel(embedding_size=100, context_size=3)
     model.fit_to_corpus(corpus)
-    model.train(num_epochs=50, log_dir="log/example", summary_batch_interval=1000)
+    model.train(num_epochs=1, log_dir="log/example", summary_batch_interval=1000)
     print(model.embedding_for("oakley"))
     print(model.embeded_phrases("dr oakley"))
     print(model.embeded_phrases("Redwood Area Hospital"))
@@ -195,6 +195,11 @@ if __name__ == '__main__':
     print("euclid: ", numpy.linalg.norm(e-d))
     print(cosine_similarity([model.embedding_for("clarkfield")], [model.embedding_for("oakley")]))
     print("euclid: ", numpy.linalg.norm(e-a))
+
+    print(cosine_similarity([model.embedding_for("qhs")], [model.embeded_phrases("po qhs")]))
+    print(cosine_similarity([model.embedding_for("insulin")], [model.embedding_for("nph")]))
+    print(cosine_similarity([model.embedding_for("he")], [model.embedding_for("she")]))
+    # print("euclid: ", numpy.linalg.norm(e-a))
     
     model.generate_tsne(path='log/tsne')
 

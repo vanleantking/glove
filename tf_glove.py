@@ -14,7 +14,7 @@ class NotFitToCorpusError(Exception):
     pass
 
 class GloVeModel():
-    def __init__(self, embedding_size, context_size, max_vocab_size=10000000, min_occurrences=1,
+    def __init__(self, embedding_size, context_size, max_vocab_size=100000, min_occurrences=2,
                  scaling_factor=3/4, cooccurrence_cap=100, batch_size=512, learning_rate=0.05):
         self.embedding_size = embedding_size
         if isinstance(context_size, tuple):
@@ -124,7 +124,7 @@ class GloVeModel():
         should_generate_tsne = log_dir is not None and tsne_epoch_interval
         batches = self.__prepare_batches()
         total_steps = 0
-        with tf.Session(graph=self.__graph, config=tf.ConfigProto(intra_op_parallelism_threads=4)) as session:
+        with tf.Session(graph=self.__graph) as session:
             if should_write_summaries:
                 print("Writing TensorBoard summaries to {}".format(log_dir))
                 summary_writer = tf.summary.FileWriter(log_dir, graph=session.graph)
@@ -176,10 +176,15 @@ class GloVeModel():
             vec = self.embedding_for(phrases)
             return vec
         except KeyError, e:
-            arr_vec = {}
+            arr_vec = np.zeros(self.embedding_size)
+            num_words = 0
             for word in words:
-                arr_vec[word] = self.embedding_for(word.strip().lower())
-            return sum(arr_vec.values())
+                try:
+                    arr_vec = np.add(arr_vec, self.embedding_for(word.strip().lower()))
+                    num_words +=1
+                except:
+                    pass
+            return arr_vec/np.sqrt(arr_vec.dot(arr_vec))
 
     
     
