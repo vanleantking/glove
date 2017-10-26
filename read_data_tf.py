@@ -11,10 +11,13 @@ from nltk.tokenize import sent_tokenize
 from nltk.tokenize import word_tokenize
 from scipy.spatial.distance import cdist
 from sklearn.metrics.pairwise import cosine_similarity
-import numpy
+import numpy as np
+from bikmeans import BiKMeans
+from owlready2 import *
 
 
 BASE_DIR_DATA = '/media/vanle/Studying/python/word2vec/glove/data'
+
 
 def load_corpus():
     tokenizer = nltk.data.load('tokenizers/punkt/english.pickle')
@@ -33,7 +36,9 @@ def load_corpus():
                 t = f.read()
                 text = bs.BeautifulSoup(t, 'xml')
                 data = text.TEXT.string
-                sents = sent_tokenize(unicodedata.normalize('NFKD', data).encode('ascii','ignore'))
+                tmp = unicodedata.normalize('NFKD', data).encode('ascii','ignore')
+                # print(tmp)
+                sents = sent_tokenize(tmp.decode("ascii"))
                 for sent in sents:
                     if sent.strip():
                         words_arrays = word_tokenize(sent.strip().lower())
@@ -145,63 +150,40 @@ def load_data():
     
 if __name__ == '__main__':
     
-    file = open("phrase_corpus.txt","w") 
-    # Build the corpus dictionary and the cooccurrence matrix.
+    onto = get_ontology("file:///media/vanle/Studying/python/readOntology/emr.owl").load()
+    # file = open("phrase_corpus.txt","w") 
     print('Pre-processing corpus')
-    '''
-    corpus = load_data()
-    
-    model = tf_glove.GloVeModel(embedding_size=300, context_size=10)
-    model.fit_to_corpus(corpus)
-    model.train(num_epochs=1, log_dir="log/example", summary_batch_interval=1000)
-    print(model.embedding_for("Oakley"))
-    print(model.embeded_phrases("Oakley Narrative"))
-    # print(model.embeddings)
-    model.generate_tsne(path='log/tsne')
-
-    '''
     corpus, corpus_size = load_corpus()
     corpus = learning_phrase(corpus, corpus_size)
     print('learning phrase completed')
-    for text in corpus:
-        file.write(' '.join(text))
-        file.write('\n')
-    file.close()
+    # for text in corpus:
+    #     file.write(' '.join(text))
+    #     file.write('\n')
+    # file.close()
 
-    model = tf_glove.GloVeModel(embedding_size=100, context_size=4)
+    model = tf_glove.GloVeModel(embedding_size=100, context_size=2)
     model.fit_to_corpus(corpus)
     model.train(num_epochs=150, log_dir="log/example", summary_batch_interval=1000)
-    print(model.embedding_for("oakley"))
-    print(model.embeded_phrases("dr oakley"))
-    print(model.embeded_phrases("Redwood Area Hospital"))
+
     
+    patitens = []
+    for i in onto.Patient.instances():
+        patitens.append(model.embeded_phrases(i.name))
 
-    a = model.embedding_for("oakley")
-    b = model.embedding_for("dr")
-    d = model.embeded_phrases("dr oakley")
-    e = model.embedding_for("clarkfield")
-    f = model.embeded_phrases("Oakley narrative")
+    bikmeans = BiKMeans(3)
+    print(bikmeans.execute(patitens))
 
-    c = a + b
-    print(cosine_similarity([model.embedding_for("oakley")], [model.embeded_phrases("dr oakley")]))
-    print("euclid: ", numpy.linalg.norm(a-d))
-    print(cosine_similarity([c], [model.embeded_phrases("dr oakley")]))
-    print("euclid: ", numpy.linalg.norm(c-b))
-    print(cosine_similarity([model.embedding_for("oakley")], [model.embeded_phrases("Oakley narrative")]))
-    print("euclid: ", numpy.linalg.norm(a-f))
-    print(cosine_similarity([model.embeded_phrases("dr oakley")], [model.embeded_phrases("Oakley narrative")]))
-    print("euclid: ", numpy.linalg.norm(d-f))
-    print(cosine_similarity([model.embedding_for("clarkfield")], [model.embeded_phrases("dr oakley")]))
-    print("euclid: ", numpy.linalg.norm(e-d))
-    print(cosine_similarity([model.embedding_for("clarkfield")], [model.embedding_for("oakley")]))
-    print("euclid: ", numpy.linalg.norm(e-a))
+    doctors = []
+    for i in onto.Doctor.instances():
+        doctors.append(model.embeded_phrases(i.name))
 
-    print(cosine_similarity([model.embedding_for("qhs")], [model.embeded_phrases("po qhs")]))
-    print(cosine_similarity([model.embedding_for("insulin")], [model.embedding_for("nph")]))
-    print(cosine_similarity([model.embedding_for("he")], [model.embedding_for("she")]))
-    # print("euclid: ", numpy.linalg.norm(e-a))
+    docs = BiKMeans(3)
+    print(docs.execute(doctors))
+    print(cosine_similarity([model.embeded_phrases("Yosef Q Ullrich")], [model.embeded_phrases("Yosef Ullrich")]))
+    print(cosine_similarity([model.embeded_phrases("Y Ullrich")], [model.embeded_phrases("Y.Ullrich")]))
     
     model.generate_tsne(path='log/tsne')
+    print("doctorrrrrrrrrrrrrrrrr: ", docs)
 
     # dist = numpy.linalg.norm(a-b)
 

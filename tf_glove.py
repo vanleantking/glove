@@ -14,7 +14,7 @@ class NotFitToCorpusError(Exception):
     pass
 
 class GloVeModel():
-    def __init__(self, embedding_size, context_size, max_vocab_size=100000, min_occurrences=2,
+    def __init__(self, embedding_size, context_size, max_vocab_size=100000, min_occurrences=1,
                  scaling_factor=3/4, cooccurrence_cap=100, batch_size=512, learning_rate=0.05):
         self.embedding_size = embedding_size
         if isinstance(context_size, tuple):
@@ -175,7 +175,7 @@ class GloVeModel():
         try:
             vec = self.embedding_for(phrases)
             return vec
-        except KeyError, e:
+        except KeyError as e:
             arr_vec = np.zeros(self.embedding_size)
             num_words = 0
             for word in words:
