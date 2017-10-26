@@ -163,7 +163,6 @@ class BiKMeans(KMeans):
 
     
     def calculate_centroid(self, clusters):
-        print(clusters)
         return list(np.mean(clusters, axis=0))
 
     def find_smallest_sim_cluster(self, clusters):
