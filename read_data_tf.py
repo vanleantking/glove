@@ -14,6 +14,7 @@ from scipy.spatial.distance import cdist
 from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
 from bikmeans import BiKMeans
+from sklearn.cluster import KMeans
 from owlready2 import *
 
 
@@ -173,15 +174,17 @@ if __name__ == '__main__':
     for i in onto.Patient.instances():
         patitens.append(model.embeded_phrases(i.name))
 
-    bikmeans = BiKMeans(3)
-    print(bikmeans.execute(patitens))
+    bikmeans = KMeans(n_clusters=2, random_state=0).fit(patitens)
+    print(bikmeans.labels_)
 
-    doctors = []
+    doctors = {}
     for i in onto.Doctor.instances():
-        doctors.append(model.embeded_phrases(i.name))
+        doctors[i.name] = model.embeded_phrases(i.name)
+        # doctors.append(model.embeded_phrases(i.name))
 
-    docs = BiKMeans(3)
-    print(docs.execute(doctors))
+    docs = KMeans(n_clusters=10, random_state=0).fit(doctors.keys())
+    print(docs.labels_)
+    print(doctors.keys())
     print(cosine_similarity([model.embeded_phrases("Yosef Q Ullrich")], [model.embeded_phrases("Yosef Ullrich")]))
     print(cosine_similarity([model.embeded_phrases("Y Ullrich")], [model.embeded_phrases("Y. Ullrich")]))
     print(cosine_similarity([model.embeded_phrases("Y Ullrich")], [model.embeded_phrases("Ullrich")]))
