@@ -9,6 +9,7 @@ import unicodedata
 from string import punctuation
 from nltk.tokenize import sent_tokenize
 from nltk.tokenize import word_tokenize
+from nltk.corpus import stopwords
 from scipy.spatial.distance import cdist
 from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
@@ -41,7 +42,9 @@ def load_corpus():
                 sents = sent_tokenize(tmp.decode("ascii"))
                 for sent in sents:
                     if sent.strip():
-                        words_arrays = word_tokenize(sent.strip().lower())
+                        sentence = "".join(c for c in sent if c not in ('!','.',':', '-', '\'s', '+', '_', '(', ')', '*', '&', '#', ';', '?', '>', '<', '%'))
+                        process_words = " ".join(word for word in sentence.split() if word not in stopwords.words('english'))
+                        words_arrays = word_tokenize(process_words.strip().lower())
                         words_train += len(words_arrays)
                         texts.append(words_arrays)
     return texts, words_train
@@ -151,21 +154,21 @@ def load_data():
 if __name__ == '__main__':
     
     onto = get_ontology("file:///media/vanle/Studying/python/readOntology/emr.owl").load()
-    # file = open("phrase_corpus.txt","w") 
+    file = open("phrase_corpus.txt","w") 
     print('Pre-processing corpus')
     corpus, corpus_size = load_corpus()
     corpus = learning_phrase(corpus, corpus_size)
     print('learning phrase completed')
-    # for text in corpus:
-    #     file.write(' '.join(text))
-    #     file.write('\n')
-    # file.close()
+    for text in corpus:
+        file.write(' '.join(text))
+        file.write('\n')
+    file.close()
 
-    model = tf_glove.GloVeModel(embedding_size=100, context_size=2)
+    model = tf_glove.GloVeModel(embedding_size=100, context_size=1)
     model.fit_to_corpus(corpus)
     model.train(num_epochs=150, log_dir="log/example", summary_batch_interval=1000)
 
-    
+
     patitens = []
     for i in onto.Patient.instances():
         patitens.append(model.embeded_phrases(i.name))
@@ -180,12 +183,17 @@ if __name__ == '__main__':
     docs = BiKMeans(3)
     print(docs.execute(doctors))
     print(cosine_similarity([model.embeded_phrases("Yosef Q Ullrich")], [model.embeded_phrases("Yosef Ullrich")]))
-    print(cosine_similarity([model.embeded_phrases("Y Ullrich")], [model.embeded_phrases("Y.Ullrich")]))
+    print(cosine_similarity([model.embeded_phrases("Y Ullrich")], [model.embeded_phrases("Y. Ullrich")]))
+    print(cosine_similarity([model.embeded_phrases("Y Ullrich")], [model.embeded_phrases("Ullrich")]))
+    print(cosine_similarity([model.embeded_phrases("Yosef Q Ullrich")], [model.embeded_phrases("Ullrich")]))
+    print(cosine_similarity([model.embeded_phrases("Y Ullrich")], [model.embeded_phrases("Y. Ullrich")]))
+    print(cosine_similarity([model.embeded_phrases("Ullysses B. Gilbert")], [model.embeded_phrases("Ullysses Gilbert")]))
+    print(cosine_similarity([model.embeded_phrases("Ullysses B. Gilbert")], [model.embeded_phrases("Ullysses Gilbert")]))
+    print(cosine_similarity([model.embeded_phrases("Ullysses B. Gilbert")], [model.embeded_phrases("Gilbert")]))
+    print(cosine_similarity([model.embeded_phrases("Gilbert")], [model.embeded_phrases("Ullysses Gilbert")]))
     
     model.generate_tsne(path='log/tsne')
-    print("doctorrrrrrrrrrrrrrrrr: ", docs)
-
-    # dist = numpy.linalg.norm(a-b)
+    print("doctorrrrrrrrrrrrrrrrr: ", doctors)
 
 
     

@@ -170,6 +170,7 @@ class GloVeModel():
     
     
     def embeded_phrases(self, phrases):
+        phrases = "".join(c for c in phrases if c not in ('!','.',':', '-', '\'s', '+', '_', '(', ')', '*', '&', '#', ';', '?', '>', '<', '%'))
         words = phrases.strip().lower().split()
         phrases = '_'.join(words)
         try:
@@ -184,7 +185,7 @@ class GloVeModel():
                     num_words +=1
                 except:
                     pass
-            return arr_vec/np.sqrt(arr_vec.dot(arr_vec))
+            return arr_vec / np.sqrt(arr_vec.dot(arr_vec))
 
     
     
