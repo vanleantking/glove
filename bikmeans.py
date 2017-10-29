@@ -64,8 +64,8 @@ class KMeans:
             centroids.append(np.mean(clusters[k], axis = 0))
         return centroids
     
-    def kmeans(self, X):
-        old_centroids = X[np.random.choice(X.shape[0], size=self.k, replace=False), :]
+    def kmeans(self, X, k):
+        old_centroids = X[np.random.choice(X.shape[0], size=k, replace=False), :]
         centroids = old_centroids
         iterations = 0
         lc_clusters = []
@@ -122,12 +122,11 @@ class BiKMeans(KMeans):
         cluster.centroid = self.calculate_centroid(cluster.vectors)
        
         clusters.append(cluster)
-        while True:
+        while (len(clusters) != self.k):
             split_cluster = self.find_smallest_sim_cluster(clusters)
 
             # re-construct clusters except the split cluster
             clusters = [d for d in clusters if not np.array_equal(d['centroid'], split_cluster['centroid'])]
-            old_clusters = clusters
             max_cluster = float("-inf")
             max_bicluster = None
             for i in range(self.max_iter):
@@ -141,8 +140,8 @@ class BiKMeans(KMeans):
                     max_cluster = sim
 
             clusters.extend(biclusters)
-            if (self.bi_convegence(clusters, old_clusters)):
-                break
+            # if (self.bi_convegence(clusters, old_clusters)):
+            #     break
         return clusters
 
 
@@ -175,5 +174,6 @@ class BiKMeans(KMeans):
                 sim += centroid[index]**2
             if sim < min_sim:
                 min_sim = sim
-                min_cluster = cluster
+                if len(cluster['vectors']) > 1:
+                    min_cluster = cluster
         return min_cluster

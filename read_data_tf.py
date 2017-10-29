@@ -15,6 +15,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
 from bikmeans import BiKMeans
 from sklearn.cluster import KMeans
+from sklearn.metrics.pairwise import cosine_similarity
 from owlready2 import *
 
 
@@ -165,7 +166,7 @@ if __name__ == '__main__':
         file.write('\n')
     file.close()
 
-    model = tf_glove.GloVeModel(embedding_size=100, context_size=1)
+    model = tf_glove.GloVeModel(embedding_size=100, context_size=2)
     model.fit_to_corpus(corpus)
     model.train(num_epochs=150, log_dir="log/example", summary_batch_interval=1000)
 
@@ -177,14 +178,13 @@ if __name__ == '__main__':
     bikmeans = KMeans(n_clusters=2, random_state=0).fit(patitens)
     print(bikmeans.labels_)
 
-    doctors = {}
+    doctors = []
+    l_doctors = []
     for i in onto.Doctor.instances():
-        doctors[i.name] = model.embeded_phrases(i.name)
-        # doctors.append(model.embeded_phrases(i.name))
+        doctors.append(i.name)
+        l_doctors.append(model.embeded_phrases(i.name))
 
-    docs = KMeans(n_clusters=10, random_state=0).fit(doctors.keys())
-    print(docs.labels_)
-    print(doctors.keys())
+    docs = KMeans(n_clusters=10, random_state=0).fit(l_doctors)
     print(cosine_similarity([model.embeded_phrases("Yosef Q Ullrich")], [model.embeded_phrases("Yosef Ullrich")]))
     print(cosine_similarity([model.embeded_phrases("Y Ullrich")], [model.embeded_phrases("Y. Ullrich")]))
     print(cosine_similarity([model.embeded_phrases("Y Ullrich")], [model.embeded_phrases("Ullrich")]))
@@ -194,9 +194,18 @@ if __name__ == '__main__':
     print(cosine_similarity([model.embeded_phrases("Ullysses B. Gilbert")], [model.embeded_phrases("Ullysses Gilbert")]))
     print(cosine_similarity([model.embeded_phrases("Ullysses B. Gilbert")], [model.embeded_phrases("Gilbert")]))
     print(cosine_similarity([model.embeded_phrases("Gilbert")], [model.embeded_phrases("Ullysses Gilbert")]))
+    print(cosine_similarity([model.embeded_phrases("Yosef Q Ullrich")], [model.embeded_phrases("Herman N. Weller")]))
+    print(cosine_similarity(l_doctors))
+    print(model.embeded_phrases("Betty Kaitlin Wood"))
+    # print(l_doctors)
+    print(doctors)
+    print(docs.labels_)
+    print("Betty Kaitlin Wood: ", cosine_similarity([model.embeded_phrases("Betty Kaitlin Wood")], l_doctors))
+    print("Herman N. Weller: ", cosine_similarity([model.embeded_phrases("Herman N. Weller")], l_doctors))
+    print("Yosef Q Ullrich: ", cosine_similarity([model.embeded_phrases("Yosef Q Ullrich")], l_doctors))
     
     model.generate_tsne(path='log/tsne')
-    print("doctorrrrrrrrrrrrrrrrr: ", doctors)
+    # print("doctorrrrrrrrrrrrrrrrr: ", doctors)
 
 
     
