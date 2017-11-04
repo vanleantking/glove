@@ -14,8 +14,11 @@ from scipy.spatial.distance import cdist
 from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
 from bikmeans import BiKMeans
+from KMedoids import KMedoids
 from sklearn.cluster import KMeans
-from sklearn.metrics.pairwise import cosine_similarity
+from sklearn.metrics.pairwise import pairwise_distances
+from nltk.stem.snowball import SnowballStemmer
+# import kmedoids
 from owlready2 import *
 
 
@@ -27,6 +30,7 @@ def load_corpus():
     texts = []  # list of text samples
     doc = []
     words_train = 0
+    stemmer = SnowballStemmer("english")
     for name in sorted(os.listdir(BASE_DIR_DATA)):
         path = os.path.join(BASE_DIR_DATA, name)
         if os.path.isdir(path):
@@ -43,9 +47,28 @@ def load_corpus():
                 # print(tmp)
                 sents = sent_tokenize(tmp.decode("ascii"))
                 for sent in sents:
-                    if sent.strip():
-                        sentence = "".join(c for c in sent if c not in ('!','.',':', '-', '\'s', '+', '_', '(', ')', '*', '&', '#', ';', '?', '>', '<', '%'))
+                    if sent.strip():                        
+                        
+                        #remove date in sentence
+                        sentence = "".join(word for word in sent if not re.search(r'[0-9]{1,4}[\/,:,-][0-9]{1,3}([\/,:,-][0-9]{2,4})?([\/,:,-][0-9]{2,4})?', word))
+
+                        sentence = "".join(word for word in sentence if not re.search(r'\'s', word))
+
+                        #remove specials symbols
+                        sentence = "".join(c for c in sentence if c not in ('!','.',':', '-', '+', '_', '(', ')', '*', '&', '#', ';', '?', '>', '<', '%', '{', '}', '=', ',', ']', '[', '`', '\''))
+
+                        sentence = "".join(c for c in sentence if not re.search(r'^/[/]?', c))
+
+                        #remove digits in sentence
+                        sentence = "".join(word for word in sentence if not re.search(r'^\d+(mg)?', word))
+
+                        #remove stopwords in sentence
                         process_words = " ".join(word for word in sentence.split() if word not in stopwords.words('english'))
+
+                        #stemming words in sentences
+                        process_words = "".join(stemmer.stem(t) for t in process_words)
+
+                        #tokenizer sentence
                         words_arrays = word_tokenize(process_words.strip().lower())
                         words_train += len(words_arrays)
                         texts.append(words_arrays)
@@ -155,7 +178,21 @@ def load_data():
     
 if __name__ == '__main__':
     
-    onto = get_ontology("file:///media/vanle/Studying/python/readOntology/emr.owl").load()
+    onto = get_ontology("file:///media/vanle/Studying/python/readOntology/newemr.owl").load()
+
+    # devices = []
+    # dates = []
+    # ages = []
+    # phones = []
+    # emails = []
+    # Faxes = []
+    # urls = []
+    # devices = []
+    # ids = []
+    # zips = []
+    # usernames = []
+    # locationothers = []
+
     file = open("phrase_corpus.txt","w") 
     print('Pre-processing corpus')
     corpus, corpus_size = load_corpus()
@@ -166,26 +203,88 @@ if __name__ == '__main__':
         file.write('\n')
     file.close()
 
-    model = tf_glove.GloVeModel(embedding_size=100, context_size=2)
+    model = tf_glove.GloVeModel(embedding_size=100, context_size=1)
     model.fit_to_corpus(corpus)
     model.train(num_epochs=150, log_dir="log/example", summary_batch_interval=1000)
 
+    num = 1
+    for patientRecord in onto.Patient.instances():
+        #data per patient
+        patients = []
+        doctors = []
+        doctorIndex = [] 
+        cities = []
+        streets = []        
+        hospitals = []        
+        countries = []
+        organizations = []        
+        professions = []        
+        states = []
+        
+        num +=1
+        #patient name in each patients record
+        for patient in patientRecord.hasName:
+            # patients.append(model.embeded_phrases(patient))
+            patients.append(patient)
 
-    patitens = []
-    for i in onto.Patient.instances():
-        patitens.append(model.embeded_phrases(i.name))
+        #get data for each medical record
+        for medicalRecord in patientRecord.was_recorded_at:
+            doctorRecord = []
+            # , professionRecord, citieRecord, streetRecord, stateRecord, hospitalRecord, organizationRecord, countrieRecord 
+            doctorRecord = [doctor.hasName for doctor in medicalRecord.doctor_dianose]
+            doctorRecord = [model.embeded_phrases(doctor.hasName) for doctor in medicalRecord.doctor_dianose]
+            doctorIndex.extend([{"name": doctor, "value": model.embeded_phrases(doctor.hasName)} for doctor in medicalRecord.doctor_dianose])
+            # professionRecord = [model.embeded_phrases(profession.jobName) for profession in medicalRecord.job_position]
+            # citieRecord = [model.embeded_phrases(city.hasLocation) for city in medicalRecord.has_city]
+            # streetRecord = [model.embeded_phrases(street.hasLocation) for street in medicalRecord.has_street]
+            # stateRecord = [model.embeded_phrases(state.hasLocation) for state in medicalRecord.has_state]
+            # hospitalRecord = [model.embeded_phrases(hospital.hasLocation) for hospital in medicalRecord.has_hospital]
+            # organizationRecord = [model.embeded_phrases(organization.hasLocation) for organization in medicalRecord.has_organization]
+            # countrieRecord = [model.embeded_phrases(country.hasLocation) for country in medicalRecord.has_country]
 
-    bikmeans = KMeans(n_clusters=2, random_state=0).fit(patitens)
-    print(bikmeans.labels_)
+            doctors.extend(doctorRecord)
+        # print(doctors)
+        # D = pairwise_distances(doctors, metric='cosine')        
 
-    doctors = []
-    l_doctors = []
-    for i in onto.Doctor.instances():
-        doctors.append(i.name)
-        l_doctors.append(model.embeded_phrases(i.name))
+        docs = KMeans(n_clusters=4, random_state=0).fit(doctors)
+        print(docs.labels_)
+        print(doctorIndex)
+        # docscluster = {i : [] for i in range(4)}
+        # for index, label in enumerate(docs.labels_):
+        #     docscluster[label].append(docIndex['name'] for docIndex in doctorIndex if np.array_equal(docIndex['value'],doctors[index]))
+        # print(docscluster)
+        D = 1 - cdist(doctors, doctors, 'cosine')
+        print(D, doctors)
+        # M, C = kmedoids.kMedoids(D, 4)
+        # print('')
+        # print('clustering result:')
+        # for label in C:
+        #     for point_idx in C[label]:
+        #         print('label {0}:　{1}'.format(label, doctors[point_idx]))
+        # docscluster = {}
 
-    docs = KMeans(n_clusters=10, random_state=0).fit(l_doctors)
-    print(cosine_similarity([model.embeded_phrases("Yosef Q Ullrich")], [model.embeded_phrases("Yosef Ullrich")]))
+        # for index, label in enumerate(docs.labels_):
+        #     docscluster[label].append(doctors[index])
+        #     states = 
+        #     medicalRecord.was_use_device
+        break
+
+
+    # patitens = []
+    # for i in onto.Patient.instances():
+    #     patitens.append(model.embeded_phrases(i.name))
+
+    # bikmeans = KMeans(n_clusters=2, random_state=0).fit(patitens)
+    # print(bikmeans.labels_)
+
+    # doctors = []
+    # l_doctors = []
+    # for i in onto.Doctor.instances():
+    #     doctors.append(i.name)
+    #     l_doctors.append(model.embeded_phrases(i.name))
+
+    # docs = KMeans(n_clusters=10, random_state=0).fit(l_doctors)
+    print(cosine_similarity([model.embeded_phrases("Yechiel Kidd")], [model.embeded_phrases("Kidd")]))
     print(cosine_similarity([model.embeded_phrases("Y Ullrich")], [model.embeded_phrases("Y. Ullrich")]))
     print(cosine_similarity([model.embeded_phrases("Y Ullrich")], [model.embeded_phrases("Ullrich")]))
     print(cosine_similarity([model.embeded_phrases("Yosef Q Ullrich")], [model.embeded_phrases("Ullrich")]))
@@ -195,17 +294,16 @@ if __name__ == '__main__':
     print(cosine_similarity([model.embeded_phrases("Ullysses B. Gilbert")], [model.embeded_phrases("Gilbert")]))
     print(cosine_similarity([model.embeded_phrases("Gilbert")], [model.embeded_phrases("Ullysses Gilbert")]))
     print(cosine_similarity([model.embeded_phrases("Yosef Q Ullrich")], [model.embeded_phrases("Herman N. Weller")]))
-    print(cosine_similarity(l_doctors))
-    print(model.embeded_phrases("Betty Kaitlin Wood"))
-    # print(l_doctors)
-    print(doctors)
-    print(docs.labels_)
+    # print(cosine_similarity(l_doctors))
+    # print(model.embeded_phrases("Betty Kaitlin Wood"))
+
+    # print(doctors)
+    # print(docs.labels_)
     print("Betty Kaitlin Wood: ", cosine_similarity([model.embeded_phrases("Betty Kaitlin Wood")], l_doctors))
     print("Herman N. Weller: ", cosine_similarity([model.embeded_phrases("Herman N. Weller")], l_doctors))
     print("Yosef Q Ullrich: ", cosine_similarity([model.embeded_phrases("Yosef Q Ullrich")], l_doctors))
     
     model.generate_tsne(path='log/tsne')
-    # print("doctorrrrrrrrrrrrrrrrr: ", doctors)
 
 
     

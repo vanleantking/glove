@@ -130,10 +130,10 @@ class BiKMeans(KMeans):
             max_cluster = float("-inf")
             max_bicluster = None
             for i in range(self.max_iter):
-                kmeans = KMeans(k=2)
+                kmeans = KMeans()
 
                 # loop max_iter to find the best way to split
-                biclusters = kmeans.kmeans(np.array(split_cluster.vectors))
+                biclusters = kmeans.kmeans(np.array(split_cluster.vectors), k = 2)
                 sim = kmeans.similitary(biclusters)
                 if (sim > max_cluster):
                     max_bicluster = [d for d in biclusters]
