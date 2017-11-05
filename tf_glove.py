@@ -115,8 +115,9 @@ class GloVeModel():
                 self.__total_loss)
             self.__summary = tf.summary.merge_all()
 
-            self.__combined_embeddings = tf.add(focal_embeddings, context_embeddings,
+            self.__combined_embeddings = tf.Variable(tf.add(focal_embeddings, context_embeddings),
                                                 name="combined_embeddings")
+            w1 = tf.placeholder(tf.float32, name="combined_embeddings")
 
     def train(self, num_epochs, log_dir=None, summary_batch_interval=1000,
               tsne_epoch_interval=None):
@@ -129,6 +130,8 @@ class GloVeModel():
                 print("Writing TensorBoard summaries to {}".format(log_dir))
                 summary_writer = tf.summary.FileWriter(log_dir, graph=session.graph)
             tf.global_variables_initializer().run()
+            # Add ops to save and restore all the variables.
+            saver = tf.train.Saver(tf.global_variables())            
             for epoch in range(num_epochs):
                 shuffle(batches)
                 for batch_index, batch in enumerate(batches):
@@ -149,6 +152,10 @@ class GloVeModel():
                     output_path = os.path.join(log_dir, "epoch{:03d}.png".format(epoch + 1))
                     self.generate_tsne(output_path, embeddings=current_embeddings)
             self.__embeddings = self.__combined_embeddings.eval()
+
+            # Save the variables to disk.
+            saver.save(session, "/media/vanle/Studying/python/word2vec/glove/examples/tf_glove.model", global_step=total_steps)
+            # print("Model saved in file: %s" % save_path)
             if should_write_summaries:
                 summary_writer.close()
 
@@ -188,7 +195,25 @@ class GloVeModel():
             return arr_vec / np.sqrt(arr_vec.dot(arr_vec))
 
     
-    
+    def setembedding(self, embeddings):
+        if self.__embeddings is None:
+            self.__embeddings = embeddings
+
+    def restore(checkpoint_file='tf_glove.model'):
+        save_dir = '/media/vanle/Studying/python/word2vec/glove/examples/'
+        if tf.train.latest_checkpoint(save_dir) is not None:
+            with tf.Session() as session:
+                ckpt = tf.train.get_checkpoint_state(save_dir)
+                saver = tf.train.import_meta_graph('tf_glove.model-94050.meta')
+                saver.restore(session, ckpt.model_checkpoint_path)
+                graph = tf.get_default_graph()
+                embedding_object = graph.get_tensor_by_name('combined_embeddings:0')
+                return embedding_object.eval()
+        else:
+            return []
+
+    def get_global_variables(self):
+        return tf.global_variables_initializer()
     
     @property
     def vocab_size(self):

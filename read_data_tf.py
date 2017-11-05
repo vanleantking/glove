@@ -18,11 +18,15 @@ from KMedoids import KMedoids
 from sklearn.cluster import KMeans
 from sklearn.metrics.pairwise import pairwise_distances
 from nltk.stem.snowball import SnowballStemmer
+import tensorflow as tf
+import pickle
 # import kmedoids
 from owlready2 import *
 
 
 BASE_DIR_DATA = '/media/vanle/Studying/python/word2vec/glove/data'
+CORPUS_DIR_DATA = '/media/vanle/Studying/python/word2vec/glove/examples'
+corpus_file = os.path.join(CORPUS_DIR_DATA, 'tf_corpus.p')
 
 
 def load_corpus():
@@ -74,40 +78,6 @@ def load_corpus():
                         texts.append(words_arrays)
     return texts, words_train
 
-def old_learning_phrase(corpus, corpus_size, word_phrases = 4, min_count = 5, threshold = 100):
-    file = open("learning_phrase.txt","w") 
-    word_counts = Counter()
-    loop = 1
-    while(loop < word_phrases):
-        loop +=1
-        print(loop)
-        if (loop == 2):
-            threshold = 200
-        for line in corpus:
-            word_counts.update(line)
-            for i in range(len(line)):
-                if i + 1 < len(line):
-                    word_counts.update([line[i]+"_"+line[i+1]])
-
-        for line in corpus:
-            i = 0
-            while (i < len(line) - 1):
-                if (word_counts[line[i]]) < min_count or (word_counts[line[i+1]]) < min_count :
-                    i += 1
-                else:
-                    word_score = (word_counts[line[i]+"_"+line[i+1]] - min_count) / float(word_counts[line[i]]) / float(word_counts[line[i+1]]) * corpus_size;
-                    
-                    if word_score > threshold:
-                        file.write(str(word_score) + " " + line[i] + " " + line[i+1] + " " + str(word_counts[line[i]+"_"+line[i+1]]) + " " + str(min_count) + " " + str(word_counts[line[i]]) + " " + str(word_counts[line[i+1]]) + " " + str(corpus_size))
-                        file.write('\n')
-                        line.insert(i+1, line[i]+"_"+line[i+1])
-                        i = i + 2
-                    else:
-                        del word_counts[line[i]+"_"+line[i+1]]
-                        i = i+1
-                    
-    return corpus
-
 def find_ngrams(input_list, n):
     return zip(*[input_list[i:] for i in range(n)])
 
@@ -124,6 +94,7 @@ def learning_phrase(corpus, corpus_size, word_phrases = 4, min_count = 2, thresh
     phrase = 1
     ngram_counter = Counter()
     corpuses = []
+    corpus_dict = {}
     while (phrase <= word_phrases):
         ngram_counter += construct_ngrams(corpus, phrase)
         phrase += 1
@@ -145,12 +116,10 @@ def learning_phrase(corpus, corpus_size, word_phrases = 4, min_count = 2, thresh
                     del ngram_counter[line[i]+"_"+line[i+1]]
                 i = i + 1
         corpuses.append(text)
+    corpus_dict['corpus'] = corpuses
+    corpus_dict['corpus_size'] = corpus_size
+    pickle.dump( corpus_dict, open( "tf_corpus.p", "wb" ) )
     return corpuses
-    
-
-
-
-
 
 
 def load_data():
@@ -179,7 +148,32 @@ def load_data():
 if __name__ == '__main__':
     
     onto = get_ontology("file:///media/vanle/Studying/python/readOntology/newemr.owl").load()
+    embedding = None
 
+    if os.path.isfile(corpus_file):
+        corpus_dict = pickle.load( open( corpus_file, "rb" ) )
+        corpus = corpus_dict['corpus']
+        corpus_size = corpus_dict['corpus_size']
+    else:
+        corpus, corpus_size = load_corpus()
+        corpus = learning_phrase(corpus, corpus_size)
+    print('learning phrase completed')
+    file = open("learning_phrase.txt","w")
+    for text in corpus:
+        file.write(' '.join(text))
+        file.write('\n')
+    file.close()
+
+
+    model = tf_glove.GloVeModel(embedding_size=100, context_size=1)
+    model.fit_to_corpus(corpus)
+    embedding = model.restore()
+    if len(embedding) > 0:
+        model.setembedding(embedding)
+    else:
+        model.train(num_epochs=150, log_dir="log/example", summary_batch_interval=1000)
+
+    num = 1
     # devices = []
     # dates = []
     # ages = []
@@ -192,22 +186,6 @@ if __name__ == '__main__':
     # zips = []
     # usernames = []
     # locationothers = []
-
-    file = open("phrase_corpus.txt","w") 
-    print('Pre-processing corpus')
-    corpus, corpus_size = load_corpus()
-    corpus = learning_phrase(corpus, corpus_size)
-    print('learning phrase completed')
-    for text in corpus:
-        file.write(' '.join(text))
-        file.write('\n')
-    file.close()
-
-    model = tf_glove.GloVeModel(embedding_size=100, context_size=1)
-    model.fit_to_corpus(corpus)
-    model.train(num_epochs=150, log_dir="log/example", summary_batch_interval=1000)
-
-    num = 1
     for patientRecord in onto.Patient.instances():
         #data per patient
         patients = []
@@ -284,6 +262,7 @@ if __name__ == '__main__':
     #     l_doctors.append(model.embeded_phrases(i.name))
 
     # docs = KMeans(n_clusters=10, random_state=0).fit(l_doctors)
+    # print(cosine_similarity([model.embeded_phrases("Yechiel Kidd")], [model2.embeded_phrases("Kidd")]))
     print(cosine_similarity([model.embeded_phrases("Yechiel Kidd")], [model.embeded_phrases("Kidd")]))
     print(cosine_similarity([model.embeded_phrases("Y Ullrich")], [model.embeded_phrases("Y. Ullrich")]))
     print(cosine_similarity([model.embeded_phrases("Y Ullrich")], [model.embeded_phrases("Ullrich")]))
