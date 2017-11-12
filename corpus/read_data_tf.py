@@ -59,9 +59,9 @@ def load_corpus():
 
                         sentence = [c for c in sentence if not re.search(r'^/[/]?', c)]
                         sentence = [c for c in sentence if not re.search(r'_+', c)]
-                        sentence = [c for word in sentence for c in re.split(r'([A-Za-z\']+)', word) if c]
+                        sentence = [c for word in sentence for c in re.split(r'([0-9]*)([a-zA-Z\'0-9]+)', word) if c]
                         #remove digits in sentence
-                        sentence = [word for word in sentence if not re.search(r'\d+(\.\s?\d+)?\w*', word)]
+                        sentence = [word for word in sentence if not re.search(r'^\d+\.*\s?\d*\s?[mg]*$', word)]
                         sentence = [c for c in sentence if not re.search(r'^mg', c)]
                         
 

@@ -39,6 +39,7 @@ streetclusterpath = os.path.join(RESULT_DIR_DATA, 'streetcluster.txt')
 organizationclusterpath = os.path.join(RESULT_DIR_DATA, 'organizationcluster.txt')
 hospitalclusterpath = os.path.join(RESULT_DIR_DATA, 'hospitalcluster.txt')
 countryclusterpath = os.path.join(RESULT_DIR_DATA, 'countrycluster.txt')
+usernameclusterpath = os.path.join(RESULT_DIR_DATA, 'usernamecluster.txt')
 
 
  
@@ -101,6 +102,7 @@ if __name__ == '__main__':
     countrylogclustering = open(countryclusterpath,"w")
     hospitallogclustering = open(hospitalclusterpath,"w")
     organizationlogclustering = open(organizationclusterpath,"w")
+    usernamelogclustering = open(usernameclusterpath,"w")
     pre = PreProcessingText()
 
     if os.path.isfile(corpus_file):
@@ -139,7 +141,6 @@ if __name__ == '__main__':
     # devices = []
     # ids = []
     # zips = []
-    # usernames = []
     # locationothers = []
     professions = []
     professionIndex = []
@@ -155,6 +156,8 @@ if __name__ == '__main__':
     organizations = []
     hospitalIndex = []
     hospitals = []
+    usernames = []
+    usernameIndex = []
     for patientRecord in onto.Patient.instances():
         #data per patient
         patients = []
@@ -164,7 +167,6 @@ if __name__ == '__main__':
         num +=1
         #patient name in each patients record
         for patient in patientRecord.hasName:
-            # patients.append(model.embeded_phrases(patient))
             patients.append(patient)
 
         #get data for each medical record
@@ -177,6 +179,7 @@ if __name__ == '__main__':
             hospitalRecord = []
             streetRecord = []
             organizationRecord = []
+            usernameRecord = []
             # , professionRecord, citieRecord, streetRecord, , hospitalRecord, organizationRecord, countrieRecord
 
             doctorRecord = [model.embeded_phrases(doctor.hasName[0]) for doctor in medicalRecord.doctor_dianose if np.isnan(model.embeded_phrases(doctor.hasName[0])).any() == False]
@@ -223,6 +226,11 @@ if __name__ == '__main__':
                 hospitalIndex.extend([{"name": hospital, "value": model.embeded_phrases(hospital.name)} for hospital in medicalRecord.record_from_hospital if np.isnan(model.embeded_phrases(hospital.name)).any() == False])
                 hospitals.extend(hospitalRecord)
 
+            if len(medicalRecord.has_username) > 0:
+                usernameRecord = [model.embeded_phrases(username.hasName[0]) for username in medicalRecord.has_username if np.isnan(model.embeded_phrases(username.hasName[0])).any() == False]
+                usernameIndex.extend([{"name": username, "value": model.embeded_phrases(username.hasName[0])} for username in medicalRecord.has_username if np.isnan(model.embeded_phrases(username.hasName[0])).any() == False])
+                usernames.extend(usernameRecord)
+
         docscluster, clusters_number = hierarchical(doctors, doctorIndex, 0.55)
 
         docslogclustering.write("result patienttttttttttttttttttttttttttttttttttttttttttttttttt: " + str(patientRecord.hasRecordName[0]))
@@ -242,14 +250,14 @@ if __name__ == '__main__':
 
         logdocsfile(docslogclustering, docscluster)
 
-
-    professionscluster, clusters_number = hierarchical(professions, doctorIndex, 0.15)
+    professionscluster, clusters_number = hierarchical(professions, professionIndex, 0.15)
     citiescluster, clusters_city_number = hierarchical(cities, cityIndex, 0.15)
     statescluster, clusters_city_number = hierarchical(states, stateIndex, 0.15)
     countriescluster, clusters_city_number = hierarchical(countries, countryIndex, 0.15)
     streetscluster, clusters_city_number = hierarchical(streets, streetIndex, 0.15)
     hospitalscluster, clusters_city_number = hierarchical(hospitals, hospitalIndex, 0.15)
     organizationscluster, clusters_city_number = hierarchical(organizations, organizationIndex, 0.15)
+    usernamescluster, clusters_username_number = hierarchical(usernames, usernameIndex, 0.15)
     # statescluster, clusters_city_number = hierarchical(states, cityIndex, 0.15)
     # statescluster, clusters_city_number = hierarchical(states, cityIndex, 0.15)
     
@@ -273,6 +281,7 @@ if __name__ == '__main__':
     logfile(streetlogclustering, streetscluster)
     logfile(hospitallogclustering, hospitalscluster)
     logfile(organizationlogclustering, organizationscluster)
+    logfile(usernamelogclustering, usernamescluster)
     docslogclustering.close()
     
 
