@@ -41,59 +41,119 @@ hospitalclusterpath = os.path.join(RESULT_DIR_DATA, 'hospitalcluster.txt')
 countryclusterpath = os.path.join(RESULT_DIR_DATA, 'countrycluster.txt')
 usernameclusterpath = os.path.join(RESULT_DIR_DATA, 'usernamecluster.txt')
 
+class HierachicalClustering:
 
- 
-def cosine_simi(vector1, vector2):
-    prod = 0.0
+    def __init__(self):
+        self.model = self.setGloveModel()
+        self.pre = PreProcessingText()
+
+    def get_model(self):
+        return self.model
+
+    def get_pre(self):
+        return self.pre
+
     
-    mag1 = 0.0
-    mag2 = 0.0
-    
-    for index, value in enumerate(vector1):
-        prod += vector1[index] * vector2[index]
-        mag1 += vector1[index] * vector1[index]
-        mag2 += vector2[index] * vector2[index]
-    
-    return prod / (math.sqrt(mag1) * math.sqrt(mag2))
+    def setGloveModel(self, is_abbreviation = False):
+        if os.path.isfile(corpus_file):
+            corpus_dict = pickle.load( open( corpus_file, "rb" ) )
+            corpus = corpus_dict['corpus']
+            corpus_size = corpus_dict['corpus_size']
+        else:
+            corpus, corpus_size = load_corpus()
+            corpus = learning_phrase(corpus, corpus_size)
+        print('learning phrase completed')
+        file = open(corpus_log,"w")
+        for text in corpus:
+            file.write(' '.join(text))
+            file.write('\n')
+        file.close()
 
-def hierarchical(datas, dataIndex, distance):
-    Zdocs = linkage(datas, 'single', 'cosine')
-        # fig = plt.figure(figsize=(25, 10))
-        # dn = dendrogram(Zdocs)
+        print('log corpus completed')
 
-    clustersdocs = fcluster(Zdocs, distance, criterion='distance')
-    clusters_number =  len(np.unique(clustersdocs))
 
-    docscluster = {i : [] for i in range(1, clusters_number+1)}
+        model = GloVeModel(embedding_size=50, context_size=1)
+        model.fit_to_corpus(corpus)
+        embedding = model.restore()
+        if len(embedding) > 0:
+            model.setembedding(embedding)
+        else:
+            model.train(num_epochs=150, log_dir="log/example", summary_batch_interval=1000)
 
-    for index, docIndex in enumerate(dataIndex):
-        if np.array_equal(docIndex['value'],datas[index]):
-            docscluster[clustersdocs[index]].append(docIndex['name'] )
+        return model
 
-    return docscluster, clusters_number
 
-def logfile(file, data):
-    file.write('\n')
-    for k, v in data.items():
-        file.write('cluster ' + str(k))
-        file.write(''.join(str(v)))
+    def cosine_simi(self, vector1, vector2):
+        prod = 0.0
+        
+        mag1 = 0.0
+        mag2 = 0.0
+        
+        for index, value in enumerate(vector1):
+            prod += vector1[index] * vector2[index]
+            mag1 += vector1[index] * vector1[index]
+            mag2 += vector2[index] * vector2[index]
+        
+        return prod / (math.sqrt(mag1) * math.sqrt(mag2))
+
+    def hierarchical(self, datas, dataIndex, distance):
+        Zdocs = linkage(datas, 'single', 'cosine')
+            # fig = plt.figure(figsize=(25, 10))
+            # dn = dendrogram(Zdocs)
+
+        clustersdocs = fcluster(Zdocs, distance, criterion='distance')
+        clusters_number =  len(np.unique(clustersdocs))
+
+        docscluster = {i : [] for i in range(1, clusters_number+1)}
+
+        for index, docIndex in enumerate(dataIndex):
+            if np.array_equal(docIndex['value'],datas[index]):
+                docscluster[clustersdocs[index]].append(docIndex['name'] )
+
+        return docscluster, clusters_number
+
+
+    def getword2vectabb(self, obj, max_length, is_abb = False):
+        if is_abb:
+            return self.get_model().embeded_phrases(obj)
+        else:
+            return np.concatenate((np.array(self.get_model().embeded_phrases(obj)), np.asarray(self.getabbreviation(self, obj, max_length, is_username), dtype=np.float32)), axis=0)
+
+    def getmaxlengthabb(self, datas, is_username = False):
+        return max([(len(self.pre.abbreviation(data, is_username))) for data in datas])
+
+    def getabbreviation(self, obj, max_length, is_username= False):
+        abb, is_abb = self.pre.abbreviation(obj, is_username)
+        length_abb = len(abb)
+        result = []
+        for index in range(max_length):
+            if index < length_abb:
+                result[index] = ord(abb[index])
+            else:
+                result[index] = 0
+        return result
+
+
+    def logfile(self, file, data):
         file.write('\n')
-    file.write('\n\n\n\n\n')
-    file.close()
+        for k, v in data.items():
+            file.write('cluster ' + str(k))
+            file.write(''.join(str(v)))
+            file.write('\n')
+        file.write('\n\n\n\n\n')
+        file.close()
 
-def logdocsfile(file, data):
-    file.write('\n')
-    for k, v in data.items():
-        file.write('cluster ' + str(k))
-        file.write(''.join(str(v)))
+    def logdocsfile(self, file, data):
         file.write('\n')
-    file.write('\n\n\n\n\n')
-    # file.close()
-    
-if __name__ == '__main__':
-    
-    onto = get_ontology("file:///media/vanle/Studying/python/readOntology/newemr.owl").load()
-    embedding = None
+        for k, v in data.items():
+            file.write('cluster ' + str(k))
+            file.write(''.join(str(v)))
+            file.write('\n')
+        file.write('\n\n\n\n\n')
+
+
+
+def constructioncluster(hc, doctorsmaxlength, professionsmaxlength, citysmaxlength, statesmaxlength, streetsmaxlength, countrysmaxlength, hospitalsmaxlength, organizationsmaxlength, usernamesmaxlength, is_abbrv = False):
     docslogclustering = open(doctorclusterpath,"w")
     professionlogclustering = open(professionclusterpath,"w")
     citylogclustering = open(cityclusterpath,"w")
@@ -103,45 +163,7 @@ if __name__ == '__main__':
     hospitallogclustering = open(hospitalclusterpath,"w")
     organizationlogclustering = open(organizationclusterpath,"w")
     usernamelogclustering = open(usernameclusterpath,"w")
-    pre = PreProcessingText()
 
-    if os.path.isfile(corpus_file):
-        corpus_dict = pickle.load( open( corpus_file, "rb" ) )
-        corpus = corpus_dict['corpus']
-        corpus_size = corpus_dict['corpus_size']
-    else:
-        corpus, corpus_size = load_corpus()
-        corpus = learning_phrase(corpus, corpus_size)
-    print('learning phrase completed')
-    file = open(corpus_log,"w")
-    for text in corpus:
-        file.write(' '.join(text))
-        file.write('\n')
-    file.close()
-
-    print('log corpus completed')
-
-
-    model = GloVeModel(embedding_size=50, context_size=1)
-    model.fit_to_corpus(corpus)
-    embedding = model.restore()
-    if len(embedding) > 0:
-        model.setembedding(embedding)
-    else:
-        model.train(num_epochs=150, log_dir="log/example", summary_batch_interval=1000)
-
-    num = 1
-    # devices = []
-    # dates = []
-    # ages = []
-    # phones = []
-    # emails = []
-    # Faxes = []
-    # urls = []
-    # devices = []
-    # ids = []
-    # zips = []
-    # locationothers = []
     professions = []
     professionIndex = []
     cities = []
@@ -164,7 +186,6 @@ if __name__ == '__main__':
         doctors = []
         doctorIndex = []       
         
-        num +=1
         #patient name in each patients record
         for patient in patientRecord.hasName:
             patients.append(patient)
@@ -180,63 +201,56 @@ if __name__ == '__main__':
             streetRecord = []
             organizationRecord = []
             usernameRecord = []
-            # , professionRecord, citieRecord, streetRecord, , hospitalRecord, organizationRecord, countrieRecord
 
-            doctorRecord = [model.embeded_phrases(doctor.hasName[0]) for doctor in medicalRecord.doctor_dianose if np.isnan(model.embeded_phrases(doctor.hasName[0])).any() == False]
-            doctorIndex.extend([{"name": doctor, "value": model.embeded_phrases(doctor.hasName[0])} for doctor in medicalRecord.doctor_dianose if np.isnan(model.embeded_phrases(doctor.hasName[0])).any() == False])
-            # streetRecord = [model.embeded_phrases(street.hasLocation) for street in medicalRecord.has_street]
-            # stateRecord = [model.embeded_phrases(state.hasLocation) for state in medicalRecord.has_state]
-            # hospitalRecord = [model.embeded_phrases(hospital.hasLocation) for hospital in medicalRecord.has_hospital]
-            # organizationRecord = [model.embeded_phrases(organization.hasLocation) for organization in medicalRecord.has_organization]
-            # countrieRecord = [model.embeded_phrases(country.hasLocation) for country in medicalRecord.has_country]
-            # print(professionRecord)
+            doctorRecord = [hc.getword2vectabb(doctor.hasName[0], doctorsmaxlength, is_abbrv) for doctor in medicalRecord.doctor_dianose if np.isnan(hc.get_model().embeded_phrases(doctor.hasName[0])).any() == False]
+            doctorIndex.extend([{"name": doctor, "value": hc.getword2vectabb(doctor.hasName[0], doctorsmaxlength, is_abbrv)} for doctor in medicalRecord.doctor_dianose if np.isnan(hc.get_model().embeded_phrases(doctor.hasName[0])).any() == False])
             doctors.extend(doctorRecord)
             if len(medicalRecord.job_position) > 0:
-                professionRecord = [model.embeded_phrases(profession.jobName[0]) for profession in medicalRecord.job_position if np.isnan(model.embeded_phrases(profession.jobName[0])).any() == False]
-                professionIndex.extend([{"name": profession, "value": model.embeded_phrases(profession.jobName[0])} for profession in medicalRecord.job_position if np.isnan(model.embeded_phrases(profession.jobName[0])).any() == False])
+                professionRecord = [hc.getword2vectabb(profession.jobName[0], professionsmaxlength, is_abbrv) for profession in medicalRecord.job_position if np.isnan(hc.get_model().embeded_phrases(profession.jobName[0])).any() == False]
+                professionIndex.extend([{"name": profession, "value": hc.getword2vectabb(profession.jobName[0], professionsmaxlength, is_abbrv)} for profession in medicalRecord.job_position if np.isnan(hc.get_model().embeded_phrases(profession.jobName[0])).any() == False])
                 professions.extend(professionRecord)
 
             if len(medicalRecord.has_city) > 0:
-                cityRecord = [model.embeded_phrases(city.hasLocation[0]) for city in medicalRecord.has_city if np.isnan(model.embeded_phrases(city.hasLocation[0])).any() == False]
-                cityIndex.extend([{"name": city, "value": model.embeded_phrases(city.hasLocation[0])} for city in medicalRecord.has_city if np.isnan(model.embeded_phrases(city.hasLocation[0])).any() == False])
+                cityRecord = [hc.getword2vectabb(city.hasLocation[0], citysmaxlength, is_abbrv) for city in medicalRecord.has_city if np.isnan(hc.get_model().embeded_phrases(city.hasLocation[0])).any() == False]
+                cityIndex.extend([{"name": city, "value": hc.getword2vectabb(city.hasLocation[0], citysmaxlength, is_abbrv)} for city in medicalRecord.has_city if np.isnan(hc.get_model().embeded_phrases(city.hasLocation[0])).any() == False])
                 cities.extend(cityRecord)
 
             if len(medicalRecord.has_state) > 0:
-                stateRecord = [model.embeded_phrases(state.name) for state in medicalRecord.has_state if np.isnan(model.embeded_phrases(state.name)).any() == False]
-                stateIndex.extend([{"name": state, "value": model.embeded_phrases(state.name)} for state in medicalRecord.has_state if np.isnan(model.embeded_phrases(state.name)).any() == False])
+                stateRecord = [hc.getword2vectabb(state.name, statesmaxlength, is_abbrv) for state in medicalRecord.has_state if np.isnan(hc.get_model().embeded_phrases(state.name)).any() == False]
+                stateIndex.extend([{"name": state, "value": hc.getword2vectabb(state.name, statesmaxlength, is_abbrv)} for state in medicalRecord.has_state if np.isnan(hc.get_model().embeded_phrases(state.name)).any() == False])
                 states.extend(stateRecord)
 
             if len(medicalRecord.has_country) > 0:
-                countryRecord = [model.embeded_phrases(country.hasLocation[0]) for country in medicalRecord.has_country if np.isnan(model.embeded_phrases(country.hasLocation[0])).any() == False]
-                countryIndex.extend([{"name": country, "value": model.embeded_phrases(country.hasLocation[0])} for country in medicalRecord.has_country if np.isnan(model.embeded_phrases(country.hasLocation[0])).any() == False])
+                countryRecord = [hc.getword2vectabb(country.hasLocation[0], countrysmaxlength, is_abbrv) for country in medicalRecord.has_country if np.isnan(hc.get_model().embeded_phrases(country.hasLocation[0])).any() == False]
+                countryIndex.extend([{"name": country, "value": hc.getword2vectabb(country.hasLocation[0], countrysmaxlength, is_abbrv)} for country in medicalRecord.has_country if np.isnan(hc.get_model().embeded_phrases(country.hasLocation[0])).any() == False])
                 countries.extend(countryRecord)
 
             if len(medicalRecord.has_organization) > 0:
-                organizationRecord = [model.embeded_phrases(organization.name) for organization in medicalRecord.has_organization if np.isnan(model.embeded_phrases(organization.name)).any() == False]
-                organizationIndex.extend([{"name": organization, "value": model.embeded_phrases(organization.name)} for organization in medicalRecord.has_organization if np.isnan(model.embeded_phrases(organization.name)).any() == False])
+                organizationRecord = [hc.getword2vectabb(organization.name, organizationsmaxlength, is_abbrv) for organization in medicalRecord.has_organization if np.isnan(hc.get_model().embeded_phrases(organization.name)).any() == False]
+                organizationIndex.extend([{"name": organization, "value": hc.getword2vectabb(organization.name, organizationsmaxlength, is_abbrv)} for organization in medicalRecord.has_organization if np.isnan(hc.get_model().embeded_phrases(organization.name)).any() == False])
                 organizations.extend(organizationRecord)
 
             if len(medicalRecord.has_street) > 0:
-                streetRecord = [model.embeded_phrases(street.hasLocation[0]) for street in medicalRecord.has_street if np.isnan(model.embeded_phrases(street.hasLocation[0])).any() == False]
-                streetIndex.extend([{"name": street, "value": model.embeded_phrases(street.hasLocation[0])} for street in medicalRecord.has_street if np.isnan(model.embeded_phrases(street.hasLocation[0])).any() == False])
+                streetRecord = [hc.getword2vectabb(street.hasLocation[0], streetsmaxlength, is_abbrv) for street in medicalRecord.has_street if np.isnan(hc.get_model().embeded_phrases(street.hasLocation[0])).any() == False]
+                streetIndex.extend([{"name": street, "value": hc.getword2vectabb(street.hasLocation[0], streetsmaxlength, is_abbrv)} for street in medicalRecord.has_street if np.isnan(hc.get_model().embeded_phrases(street.hasLocation[0])).any() == False])
                 streets.extend(streetRecord)
 
             if len(medicalRecord.record_from_hospital) > 0:
-                hospitalRecord = [model.embeded_phrases(hospital.name) for hospital in medicalRecord.record_from_hospital if np.isnan(model.embeded_phrases(hospital.name)).any() == False]
-                hospitalIndex.extend([{"name": hospital, "value": model.embeded_phrases(hospital.name)} for hospital in medicalRecord.record_from_hospital if np.isnan(model.embeded_phrases(hospital.name)).any() == False])
+                hospitalRecord = [hc.getword2vectabb(hospital.name, hospitalsmaxlength, is_abbrv) for hospital in medicalRecord.record_from_hospital if np.isnan(hc.get_model().embeded_phrases(hospital.name)).any() == False]
+                hospitalIndex.extend([{"name": hospital, "value": hc.getword2vectabb(hospital.name, hospitalsmaxlength, is_abbrv)} for hospital in medicalRecord.record_from_hospital if np.isnan(hc.get_model().embeded_phrases(hospital.name)).any() == False])
                 hospitals.extend(hospitalRecord)
 
             if len(medicalRecord.has_username) > 0:
-                usernameRecord = [model.embeded_phrases(username.hasName[0]) for username in medicalRecord.has_username if np.isnan(model.embeded_phrases(username.hasName[0])).any() == False]
-                usernameIndex.extend([{"name": username, "value": model.embeded_phrases(username.hasName[0])} for username in medicalRecord.has_username if np.isnan(model.embeded_phrases(username.hasName[0])).any() == False])
+                usernameRecord = [hc.getword2vectabb(username.hasName[0], usernamesmaxlength, is_abbrv) for username in medicalRecord.has_username if np.isnan(hc.get_model().embeded_phrases(username.hasName[0])).any() == False]
+                usernameIndex.extend([{"name": username, "value": hc.getword2vectabb(username.hasName[0], usernamesmaxlength, is_abbrv)} for username in medicalRecord.has_username if np.isnan(hc.get_model().embeded_phrases(username.hasName[0])).any() == False])
                 usernames.extend(usernameRecord)
 
-        docscluster, clusters_number = hierarchical(doctors, doctorIndex, 0.55)
+        docscluster, clusters_number = hc.hierarchical(doctors, doctorIndex, 0.55)
 
         docslogclustering.write("result patienttttttttttttttttttttttttttttttttttttttttttttttttt: " + str(patientRecord.hasRecordName[0]))
         
         #post processing for doctors
-        pcp = PostNameClusterProcessing(pre)
+        pcp = PostNameClusterProcessing(hc.get_pre())
         for i in range(1, clusters_number+1):
             for j in range (i+1, clusters_number+1):
                 if i in docscluster.keys() and j in docscluster.keys():
@@ -248,18 +262,16 @@ if __name__ == '__main__':
                         except:
                             pass
 
-        logdocsfile(docslogclustering, docscluster)
+        hc.logdocsfile(docslogclustering, docscluster)
 
-    professionscluster, clusters_number = hierarchical(professions, professionIndex, 0.15)
-    citiescluster, clusters_city_number = hierarchical(cities, cityIndex, 0.15)
-    statescluster, clusters_city_number = hierarchical(states, stateIndex, 0.15)
-    countriescluster, clusters_city_number = hierarchical(countries, countryIndex, 0.15)
-    streetscluster, clusters_city_number = hierarchical(streets, streetIndex, 0.15)
-    hospitalscluster, clusters_city_number = hierarchical(hospitals, hospitalIndex, 0.15)
-    organizationscluster, clusters_city_number = hierarchical(organizations, organizationIndex, 0.15)
-    usernamescluster, clusters_username_number = hierarchical(usernames, usernameIndex, 0.15)
-    # statescluster, clusters_city_number = hierarchical(states, cityIndex, 0.15)
-    # statescluster, clusters_city_number = hierarchical(states, cityIndex, 0.15)
+    professionscluster, clusters_number = hc.hierarchical(professions, professionIndex, 0.15)
+    citiescluster, clusters_city_number = hc.hierarchical(cities, cityIndex, 0.15)
+    statescluster, clusters_city_number = hc.hierarchical(states, stateIndex, 0.15)
+    countriescluster, clusters_city_number = hc.hierarchical(countries, countryIndex, 0.15)
+    streetscluster, clusters_city_number = hc.hierarchical(streets, streetIndex, 0.15)
+    hospitalscluster, clusters_city_number = hc.hierarchical(hospitals, hospitalIndex, 0.45)
+    organizationscluster, clusters_city_number = hc.hierarchical(organizations, organizationIndex, 0.15)
+    usernamescluster, clusters_username_number = hc.hierarchical(usernames, usernameIndex, 0.15)
     
     #post processing for profession
     # ppcp = PostProfessionClusterProcessing(pre)
@@ -274,21 +286,65 @@ if __name__ == '__main__':
     #                 except:
     #                     pass
     
-    logfile(professionlogclustering, professionscluster)
-    logfile(citylogclustering, citiescluster)
-    logfile(statelogclustering, statescluster)
-    logfile(countrylogclustering, countriescluster)
-    logfile(streetlogclustering, streetscluster)
-    logfile(hospitallogclustering, hospitalscluster)
-    logfile(organizationlogclustering, organizationscluster)
-    logfile(usernamelogclustering, usernamescluster)
+    hc.logfile(professionlogclustering, professionscluster)
+    hc.logfile(citylogclustering, citiescluster)
+    hc.logfile(statelogclustering, statescluster)
+    hc.logfile(countrylogclustering, countriescluster)
+    hc.logfile(streetlogclustering, streetscluster)
+    hc.logfile(hospitallogclustering, hospitalscluster)
+    hc.logfile(organizationlogclustering, organizationscluster)
+    hc.logfile(usernamelogclustering, usernamescluster)
     docslogclustering.close()
     
 
     print('log cluster success')
+    
+if __name__ == '__main__':
+    
+    onto = get_ontology("file:///media/vanle/Studying/python/readOntology/newemr.owl").load()
+    print(onto.Doctor)
+    
+    for doctor in onto.Doctor.instances():
+        print(doctor.name)
+        break
 
-    # bikmeans = KMeans(n_clusters=2, random_state=0).fit(patitens)
-    # print(bikmeans.labels_)
+    doctorsName = [doctor.name for doctor in onto.Doctor.instances()]
+    professionsName = [profession.name for profession in onto.Profession.instances()]
+    citysName = [city.name for city in onto.City.instances()]
+    statesName = [state.name for state in onto.State.instances()]
+    streetsName = [street.name for street in onto.Street.instances()]
+    countrysName = [country.name for country in onto.Country.instances()]
+    hospitalsName = [hospital.name for hospital in onto.Hospital.instances()]
+    organizationsName = [organization.name for organization in onto.Organization.instances()]
+    usernamesName = [username.name for username in onto.Username.instances()]
+
+    hc = HierachicalClustering()
+
+    doctorsmaxlength = hc.getmaxlengthabb(doctorsName, is_username = False)
+    professionsmaxlength = hc.getmaxlengthabb(professionsName, is_username = False)
+    citysmaxlength = hc.getmaxlengthabb(citysName, is_username = False)
+    statesmaxlength = hc.getmaxlengthabb(statesName, is_username = False)
+    streetsmaxlength = hc.getmaxlengthabb(streetsName, is_username = False)
+    countrysmaxlength = hc.getmaxlengthabb(countrysName, is_username = False)
+    hospitalsmaxlength = hc.getmaxlengthabb(hospitalsName, is_username = False)
+    organizationsmaxlength = hc.getmaxlengthabb(organizationsName, is_username = False)
+    usernamesmaxlength = hc.getmaxlengthabb(usernamesName, is_username = False)
+
+
+    constructioncluster(hc, doctorsmaxlength, professionsmaxlength, citysmaxlength, statesmaxlength, streetsmaxlength, countrysmaxlength, hospitalsmaxlength, organizationsmaxlength, usernamesmaxlength, is_abbrv=True)
+
+    # devices = []
+    # dates = []
+    # ages = []
+    # phones = []
+    # emails = []
+    # Faxes = []
+    # urls = []
+    # devices = []
+    # ids = []
+    # zips = []
+    # locationothers = []
+    
     
     # model.generate_tsne(path='log/tsne')
 

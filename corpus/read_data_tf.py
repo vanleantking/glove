@@ -57,10 +57,15 @@ def load_corpus():
                         #remove specials symbols
                         sentence = [c for c in sentence if c not in ('!','.',':', '-', '+', '_', '(', ')', '*', '&', '#', ';', '?', '>', '<', '%', '{', '}', '=', ',', ']', '[', '`', '\'')]
 
+                        #remove // in text
                         sentence = [c for c in sentence if not re.search(r'^/[/]?', c)]
+
+                        #remove ________ in text
                         sentence = [c for c in sentence if not re.search(r'_+', c)]
+
+                        #split string 123tert to 123 tert
                         sentence = [c for word in sentence for c in re.split(r'([0-9]*)([a-zA-Z\'0-9]+)', word) if c]
-                        #remove digits in sentence
+                        #remove measure weight/digits in sentence
                         sentence = [word for word in sentence if not re.search(r'^\d+\.*\s?\d*\s?[mg]*$', word)]
                         sentence = [c for c in sentence if not re.search(r'^mg', c)]
                         
