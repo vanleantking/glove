@@ -14,7 +14,7 @@ from scipy.cluster.hierarchy import dendrogram, linkage
 from scipy.spatial.distance import cdist
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.metrics.pairwise import pairwise_distances
-from nameprocessing import PostNameClusterProcessing, PreProcessingText, PostProfessionClusterProcessing
+from nameprocessing import PreProcessingText, PostProcessing, PostHospitalClusterProcessing, PostNameClusterProcessing
 import sys
 import os.path
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
@@ -98,8 +98,6 @@ class HierachicalClustering:
 
     def hierarchical(self, datas, dataIndex, distance):
         Zdocs = linkage(datas, 'single', 'cosine')
-            # fig = plt.figure(figsize=(25, 10))
-            # dn = dendrogram(Zdocs)
 
         clustersdocs = fcluster(Zdocs, distance, criterion='distance')
         clusters_number =  len(np.unique(clustersdocs))
@@ -111,6 +109,19 @@ class HierachicalClustering:
                 docscluster[clustersdocs[index]].append(docIndex['name'] )
 
         return docscluster, clusters_number
+
+    def postclustering(self, clusters, clusters_number, processing_type):
+        for i in range(1, clusters_number+1):
+            for j in range (i+1, clusters_number+1):
+                if i in clusters.keys() and j in clusters.keys():
+                    merged = processing_type.mergecluster(clusters[i], clusters[j])
+                    if merged:
+                        try:
+                            clusters[i].extend(clusters[j])
+                            del clusters[j]
+                        except:
+                            pass
+        return clusters
 
 
     def getword2vectabb(self, obj, max_length, is_abb = False):
@@ -176,8 +187,6 @@ def constructioncluster(hc, doctorsmaxlength, professionsmaxlength, citysmaxleng
     streets = []
     organizationIndex = []
     organizations = []
-    hospitalIndex = []
-    hospitals = []
     usernames = []
     usernameIndex = []
     for patientRecord in onto.Patient.instances():
@@ -185,6 +194,8 @@ def constructioncluster(hc, doctorsmaxlength, professionsmaxlength, citysmaxleng
         patients = []
         doctors = []
         doctorIndex = []       
+        hospitalIndex = []
+        hospitals = []
         
         #patient name in each patients record
         for patient in patientRecord.hasName:
@@ -247,54 +258,41 @@ def constructioncluster(hc, doctorsmaxlength, professionsmaxlength, citysmaxleng
 
         docscluster, clusters_number = hc.hierarchical(doctors, doctorIndex, 0.55)
 
-        docslogclustering.write("result patienttttttttttttttttttttttttttttttttttttttttttttttttt: " + str(patientRecord.hasRecordName[0]))
         
         #post processing for doctors
-        pcp = PostNameClusterProcessing(hc.get_pre())
-        for i in range(1, clusters_number+1):
-            for j in range (i+1, clusters_number+1):
-                if i in docscluster.keys() and j in docscluster.keys():
-                    merged = pcp.mergecluster(docscluster[i], docscluster[j])
-                    if merged:
-                        try:
-                            docscluster[i].extend(docscluster[j])
-                            del docscluster[j]
-                        except:
-                            pass
-
+        docslogclustering.write("result patienttttttttttttttttttttttttttttttttttttttttttttttttt: " + str(patientRecord.hasRecordName[0]))
+        pncp = PostNameClusterProcessing(hc.get_pre())
+        docscluster = hc.postclustering(docscluster, clusters_number, pncp)
         hc.logdocsfile(docslogclustering, docscluster)
+
+        if len(hospitals) > 1:
+            hospitalscluster, clusters_city_number = hc.hierarchical(hospitals, hospitalIndex, 0.35)
+            phcp = PostHospitalClusterProcessing(hc.get_pre())
+            hospitalscluster = hc.postclustering(hospitalscluster, clusters_number, phcp)
+        else:
+            hospitalscluster = {1 : []}
+            hospitalscluster[1].append(hospitalIndex[0]['name'])
+        hc.logdocsfile(hospitallogclustering, hospitalscluster)
 
     professionscluster, clusters_number = hc.hierarchical(professions, professionIndex, 0.15)
     citiescluster, clusters_city_number = hc.hierarchical(cities, cityIndex, 0.15)
     statescluster, clusters_city_number = hc.hierarchical(states, stateIndex, 0.15)
     countriescluster, clusters_city_number = hc.hierarchical(countries, countryIndex, 0.15)
     streetscluster, clusters_city_number = hc.hierarchical(streets, streetIndex, 0.15)
-    hospitalscluster, clusters_city_number = hc.hierarchical(hospitals, hospitalIndex, 0.45)
     organizationscluster, clusters_city_number = hc.hierarchical(organizations, organizationIndex, 0.15)
     usernamescluster, clusters_username_number = hc.hierarchical(usernames, usernameIndex, 0.15)
     
     #post processing for profession
-    # ppcp = PostProfessionClusterProcessing(pre)
-    # for i in range(1, clusters_number+1):
-    #     for j in range (i+1, clusters_number+1):
-    #         if i in docscluster.keys() and j in docscluster.keys():
-    #             merged = ppcp.mergecluster(docscluster[i], docscluster[j])
-    #             if merged:
-    #                 try:
-    #                     docscluster[i].extend(docscluster[j])
-    #                     del docscluster[j]
-    #                 except:
-    #                     pass
     
     hc.logfile(professionlogclustering, professionscluster)
     hc.logfile(citylogclustering, citiescluster)
     hc.logfile(statelogclustering, statescluster)
     hc.logfile(countrylogclustering, countriescluster)
     hc.logfile(streetlogclustering, streetscluster)
-    hc.logfile(hospitallogclustering, hospitalscluster)
     hc.logfile(organizationlogclustering, organizationscluster)
     hc.logfile(usernamelogclustering, usernamescluster)
     docslogclustering.close()
+    hospitallogclustering.close()
     
 
     print('log cluster success')
