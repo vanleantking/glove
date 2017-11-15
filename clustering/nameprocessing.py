@@ -7,18 +7,32 @@ class PreProcessingText:
         
      
     def abbreviation(self, name, is_username = False):
+
+        if is_username:
+            return name, False
+
         name_processed = self.preprocess(name)
         abb = []
-        abbreviation = all(char not in self._vowels for c in name_processed for char in c)
-        if is_username or (abbreviation == True and is_username == False) :
+        isconsonant = all(char not in self._vowels for c in name_processed for char in c)
+        len_name = name.strip().split()       
+
+        #all consonant mean name is abbreviation or process for name with length = 1 with all upper (for both name = 1(XUE, FREDDY..) and name is abbreviation ready)
+        if isconsonant == True or (len(len_name) == 1 and name.strip() == name.strip().upper()):
             abb = [c for c in name_processed for char in c if c.strip() != '']
-        else:
+
+
+        #len is large than 1 mean name is not abbreviation, or name with length = 1 (example: Xue, Freddy)
+        elif (len(len_name) == 1 and name.strip() != name.strip().upper()) or len(len_name) > 1:
             abb = [c[0] for c in name_processed.split(' ') if c != ' ' and c[0].strip() != '']
+            isconsonant = False
 
-        return abb, abbreviation
+        return abb, isconsonant
 
-    def preprocess(self, name):
+    def preprocess(self, name, is_username = False):
         phrases = name.strip()
+        if is_username:
+            return phrases
+
         phrases = "".join(c for c in name if c not in self._special_symbols)
         phrases = "".join(c for c in phrases if not re.search(r'^/[/]?', c))
 
@@ -83,9 +97,16 @@ class PostProcessing:
     def check_equal(self, name1, name2):
         name1_processed = self._pre.preprocess(name1)
         name2_processed = self._pre.preprocess(name2)
-        if self.check_equal_name(name1, name2):
+        len_name1 = name1.strip().split()
+        len_name2 = name2.strip().split()
+
+        if len(len_name1) == 1 and self.is_abbrev(name1_processed, name2_processed):
             return True
-        return self.is_abbrev(name1_processed, name2_processed) or self.is_abbrev(name2_processed, name1_processed)
+
+        if len(len_name2) == 1 and self.is_abbrev(name2_processed, name1_processed):
+            return True
+
+        return self.check_equal_name(name1, name2)
 
 #post clustering for docstor name
 class PostNameClusterProcessing(PostProcessing):

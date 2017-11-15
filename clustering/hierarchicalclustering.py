@@ -189,6 +189,7 @@ def constructioncluster(hc, doctorsmaxlength, professionsmaxlength, citysmaxleng
     organizations = []
     usernames = []
     usernameIndex = []
+    is_abbrv = True
     for patientRecord in onto.Patient.instances():
         #data per patient
         patients = []
@@ -266,7 +267,7 @@ def constructioncluster(hc, doctorsmaxlength, professionsmaxlength, citysmaxleng
         hc.logdocsfile(docslogclustering, docscluster)
 
         if len(hospitals) > 1:
-            hospitalscluster, clusters_city_number = hc.hierarchical(hospitals, hospitalIndex, 0.35)
+            hospitalscluster, clusters_city_number = hc.hierarchical(hospitals, hospitalIndex, 0.5)
             phcp = PostHospitalClusterProcessing(hc.get_pre())
             hospitalscluster = hc.postclustering(hospitalscluster, clusters_number, phcp)
         else:
@@ -326,7 +327,7 @@ if __name__ == '__main__':
     countrysmaxlength = hc.getmaxlengthabb(countrysName, is_username = False)
     hospitalsmaxlength = hc.getmaxlengthabb(hospitalsName, is_username = False)
     organizationsmaxlength = hc.getmaxlengthabb(organizationsName, is_username = False)
-    usernamesmaxlength = hc.getmaxlengthabb(usernamesName, is_username = False)
+    usernamesmaxlength = hc.getmaxlengthabb(usernamesName, is_username = True)
 
 
     constructioncluster(hc, doctorsmaxlength, professionsmaxlength, citysmaxlength, statesmaxlength, streetsmaxlength, countrysmaxlength, hospitalsmaxlength, organizationsmaxlength, usernamesmaxlength, is_abbrv=True)
