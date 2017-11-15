@@ -126,12 +126,16 @@ class HierachicalClustering:
 
     def getword2vectabb(self, obj, max_length, is_abb = False):
         if is_abb:
-            return self.get_model().embeded_phrases(obj)
-        else:
-            return np.concatenate((np.array(self.get_model().embeded_phrases(obj)), np.asarray(self.getabbreviation(self, obj, max_length, is_username), dtype=np.float32)), axis=0)
+            return np.concatenate((np.array(self.get_model().embeded_phrases(obj)), np.asarray(self.getabbreviation(obj, max_length), dtype=np.float32)), axis=0)
+        
+        return self.get_model().embeded_phrases(obj)
 
     def getmaxlengthabb(self, datas, is_username = False):
-        return max([(len(self.pre.abbreviation(data, is_username))) for data in datas])
+        result = []
+        for data in datas:
+            abb, is_abb = self.pre.abbreviation(data, is_username)
+            result.append(len(abb))
+        return max(result)
 
     def getabbreviation(self, obj, max_length, is_username= False):
         abb, is_abb = self.pre.abbreviation(obj, is_username)
@@ -139,9 +143,9 @@ class HierachicalClustering:
         result = []
         for index in range(max_length):
             if index < length_abb:
-                result[index] = ord(abb[index])
+                result.append(ord(abb[index]))
             else:
-                result[index] = 0
+                result.append(0)
         return result
 
 
@@ -189,7 +193,7 @@ def constructioncluster(hc, doctorsmaxlength, professionsmaxlength, citysmaxleng
     organizations = []
     usernames = []
     usernameIndex = []
-    is_abbrv = True
+    is_abbrv = False
     for patientRecord in onto.Patient.instances():
         #data per patient
         patients = []
@@ -301,11 +305,11 @@ def constructioncluster(hc, doctorsmaxlength, professionsmaxlength, citysmaxleng
 if __name__ == '__main__':
     
     onto = get_ontology("file:///media/vanle/Studying/python/readOntology/newemr.owl").load()
-    print(onto.Doctor)
+    # print(onto.Doctor)
     
-    for doctor in onto.Doctor.instances():
-        print(doctor.name)
-        break
+    # for doctor in onto.Doctor.instances():
+    #     print(doctor.name)
+    #     break
 
     doctorsName = [doctor.name for doctor in onto.Doctor.instances()]
     professionsName = [profession.name for profession in onto.Profession.instances()]
