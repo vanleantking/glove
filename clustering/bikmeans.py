@@ -114,6 +114,7 @@ class BiKMeans(KMeans):
 
     def execute(self, X):
         clusters = []
+        results = []
         cluster = dotdict()
         cluster.vectors = []
         for x in X:
@@ -137,13 +138,18 @@ class BiKMeans(KMeans):
                 biclusters = kmeans.kmeans(np.array(split_cluster.vectors), k = 2)
                 sim = kmeans.similitary(biclusters)
                 if (sim > max_cluster):
-                    max_bicluster = [d for d in biclusters]
                     max_cluster = sim
+                    max_bicluster = [d for d in biclusters]
 
             clusters.extend(biclusters)
+            for cluster in clusters:
+                if (len(cluster['vectors']) == 1):
+                    results.extend(cluster)
+                    clusters.remove(cluster)
             if (self.bi_convegence(clusters, old_clusters)):
+                results.extend(clusters)
                 break
-        return clusters
+        return results
 
 
     def convert_dotdict(self, datas):
@@ -156,9 +162,6 @@ class BiKMeans(KMeans):
 
 
     def bi_convegence(self, clusters, old_clusters):
-        for cluster in clusters:
-            if (len(cluster['vectors']) == 1):
-                return True
         return (set([tuple(a['centroid']) for a in clusters]) == set([tuple(a['centroid']) for a in old_clusters]))
 
     
