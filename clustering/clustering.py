@@ -25,6 +25,7 @@ from corpus.read_data_tf import load_corpus, learning_phrase
 CORPUS_DIR_DATA = '/media/vanle/Studying/python/word2vec/glove/thesis/corpus'
 corpus_log = os.path.join(CORPUS_DIR_DATA, 'corpus.txt')
 corpus_file = os.path.join(CORPUS_DIR_DATA, 'tf_corpus.p')
+
 class Clustering:
     
     

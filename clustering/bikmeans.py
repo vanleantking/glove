@@ -11,7 +11,7 @@ except ImportError: # will be 3.x series
   pass
 
 class KMeans:
-    def __init__(self, k = 2, delta=.001, maxiter=300, metric='cosine'):
+    def __init__(self, k = 2, delta=.001, maxiter=300, metric='euclidean'):
         self.k = k
         self.delta = delta
         self.maxiter = maxiter
@@ -114,8 +114,8 @@ class BiKMeans(KMeans):
 
     def execute(self, X):
         clusters = []
-        results = []
         cluster = dotdict()
+        results = []
         cluster.vectors = []
         for x in X:
             cluster.vectors.append(x)
@@ -138,18 +138,17 @@ class BiKMeans(KMeans):
                 biclusters = kmeans.kmeans(np.array(split_cluster.vectors), k = 2)
                 sim = kmeans.similitary(biclusters)
                 if (sim > max_cluster):
-                    max_cluster = sim
                     max_bicluster = [d for d in biclusters]
-
+                    max_cluster = sim
+            for index, clust in enumerate(biclusters):
+                if len(clust['vectors']) == 1:
+                    del biclusters[index]
+                    results.append(clust)
             clusters.extend(biclusters)
-            for cluster in clusters:
-                if (len(cluster['vectors']) == 1):
-                    results.extend(cluster)
-                    clusters.remove(cluster)
             if (self.bi_convegence(clusters, old_clusters)):
-                results.extend(clusters)
+                clusters.extend(results)
                 break
-        return results
+        return clusters
 
 
     def convert_dotdict(self, datas):
@@ -162,6 +161,9 @@ class BiKMeans(KMeans):
 
 
     def bi_convegence(self, clusters, old_clusters):
+        for cluster in clusters:
+            if (len(cluster['vectors']) == 1):
+                return True
         return (set([tuple(a['centroid']) for a in clusters]) == set([tuple(a['centroid']) for a in old_clusters]))
 
     
