@@ -192,20 +192,20 @@ def constructioncluster(hc, doctorsmaxlength, professionsmaxlength, citysmaxleng
         hc.logdocsfile(docslogclustering, docscluster)
 
         if len(hospitals) > 1:
-            hospitalscluster, clusters_city_number = hc.hierarchical(hospitals, hospitalIndex, 0.5)
+            hospitalscluster, clusters_hospital_number = hc.hierarchical(hospitals, hospitalIndex, 0.3)
             phcp = PostHospitalClusterProcessing(hc.get_pre())
-            hospitalscluster = hc.postclustering(hospitalscluster, clusters_number, phcp)
+            hospitalscluster = hc.postclustering(hospitalscluster, clusters_hospital_number, phcp)
         else:
             hospitalscluster = {1 : []}
             hospitalscluster[1].append(hospitalIndex[0]['name'])
         hc.logdocsfile(hospitallogclustering, hospitalscluster)
 
-    professionscluster, clusters_number = hc.hierarchical(professions, professionIndex, 0.15)
+    professionscluster, clusters_profession_number = hc.hierarchical(professions, professionIndex, 0.15)
     citiescluster, clusters_city_number = hc.hierarchical(cities, cityIndex, 0.15)
-    statescluster, clusters_city_number = hc.hierarchical(states, stateIndex, 0.15)
-    countriescluster, clusters_city_number = hc.hierarchical(countries, countryIndex, 0.15)
-    streetscluster, clusters_city_number = hc.hierarchical(streets, streetIndex, 0.15)
-    organizationscluster, clusters_city_number = hc.hierarchical(organizations, organizationIndex, 0.15)
+    statescluster, clusters_state_number = hc.hierarchical(states, stateIndex, 0.15)
+    countriescluster, clusters_country_number = hc.hierarchical(countries, countryIndex, 0.15)
+    streetscluster, clusters_street_number = hc.hierarchical(streets, streetIndex, 0.15)
+    organizationscluster, clusters_organization_number = hc.hierarchical(organizations, organizationIndex, 0.15)
     usernamescluster, clusters_username_number = hc.hierarchical(usernames, usernameIndex, 0.15)
     
     #post processing for profession
