@@ -50,7 +50,7 @@ class PreProcessingText:
 
 class PostProcessing:
 
-    def __init__(self, _pre):
+    def __init__(self):
         self._pre = PreProcessingText()
 
     def mergecluster(self, cluster1, cluster2):
@@ -111,9 +111,6 @@ class PostProcessing:
 #post clustering for docstor name
 class PostNameClusterProcessing(PostProcessing):
 
-    def __init__(self, _pre):
-        super().__init__(_pre)
-
     def mergecluster(self, cluster1, cluster2):
         return any(self.check_equal(element1.hasName[0], element2.hasName[0]) for element1 in cluster1 for element2 in cluster2)
 
@@ -121,17 +118,11 @@ class PostNameClusterProcessing(PostProcessing):
 #post clustering for professions
 class PostProfessionClusterProcessing(PostProcessing):
 
-    def __init__(self, _pre):
-        super().__init__(_pre)
-
     def mergecluster(self, cluster1, cluster2):
         return any(self.check_equal_name(element1.jobName[0], element2.jobName[0]) for element1 in cluster1 for element2 in cluster2)
 
 #post clustering for hospital
 class PostHospitalClusterProcessing(PostProcessing):
-
-    def __init__(self, _pre):
-        super().__init__(_pre)
 
     def check_equal_name(self, name1, name2):
         name1_processed = self._pre.preprocess(name1)
@@ -140,7 +131,7 @@ class PostHospitalClusterProcessing(PostProcessing):
         abb_name2, is_abb2 = self._pre.abbreviation(name2)
 
         if is_abb1 == False and is_abb2 == False:
-            if set(name1_processed.split(' ')).issubset(name2_processed.split(' ')) or set(name2_processed.split(' ')).issubset(name1_processed.split(' ')):
+            if set(name1_processed.split()).issubset(name2_processed.split()) or set(name2_processed.split()).issubset(name1_processed.split()):
                 return True
             return False
 

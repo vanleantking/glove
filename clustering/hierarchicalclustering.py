@@ -26,7 +26,6 @@ from owlready2 import *
 
 
 RESULT_DIR_DATA = '/media/vanle/Studying/python/word2vec/glove/thesis/clustering/result/hierarchicalclustering/'
-CURRENT_FOLDER = os.path.dirname(os.path.realpath('__file__'))
 
 doctorclusterpath = os.path.join(RESULT_DIR_DATA, 'doctorcluster.txt')
 patientclusterpath = os.path.join(RESULT_DIR_DATA, 'patientcluster.txt')
@@ -187,13 +186,13 @@ def constructioncluster(hc, doctorsmaxlength, professionsmaxlength, citysmaxleng
         
         #post processing for doctors
         docslogclustering.write("result patienttttttttttttttttttttttttttttttttttttttttttttttttt: " + str(patientRecord.hasRecordName[0]))
-        pncp = PostNameClusterProcessing(hc.get_pre())
+        pncp = PostNameClusterProcessing()
         docscluster = hc.postclustering(docscluster, clusters_number, pncp)
         hc.logdocsfile(docslogclustering, docscluster)
 
         if len(hospitals) > 1:
-            hospitalscluster, clusters_hospital_number = hc.hierarchical(hospitals, hospitalIndex, 0.3)
-            phcp = PostHospitalClusterProcessing(hc.get_pre())
+            hospitalscluster, clusters_hospital_number = hc.hierarchical(hospitals, hospitalIndex, 0.5)
+            phcp = PostHospitalClusterProcessing()
             hospitalscluster = hc.postclustering(hospitalscluster, clusters_hospital_number, phcp)
         else:
             hospitalscluster = {1 : []}
@@ -231,7 +230,7 @@ if __name__ == '__main__':
     # for doctor in onto.Doctor.instances():
     #     print(doctor.name)
     #     break
-
+    patientsName = [patient for patientRecord in onto.Patient.instances() for patient in patientRecord.hasName]
     doctorsName = [doctor.name for doctor in onto.Doctor.instances()]
     professionsName = [profession.name for profession in onto.Profession.instances()]
     citysName = [city.name for city in onto.City.instances()]
