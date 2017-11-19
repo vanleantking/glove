@@ -72,9 +72,7 @@ class PostProcessing:
         if abbrev[0] != text[0]:
             return False
         else:
-            return (self.is_abbrev(abbrev[1:],' '.join(words[1:])) or
-                    any(self.is_abbrev(abbrev[1:],text[i+1:])
-                        for i in range(len(words[0]))))
+            return (self.is_abbrev(abbrev[1:],' '.join(words[1:])))
 
     # check abbrev is abbreviation of text
     def check_equal_name(self, name1, name2):
@@ -133,10 +131,9 @@ class PostHospitalClusterProcessing(PostProcessing):
         abb_name1, is_abb1 = self._pre.abbreviation(name1)
         abb_name2, is_abb2 = self._pre.abbreviation(name2)
 
-        if is_abb1 == False and is_abb2 == False:
-            if set(name1_processed.split()).issubset(name2_processed.split()) or set(name2_processed.split()).issubset(name1_processed.split()):
-                return True
-            return False
+        
+        if set(name1_processed.split()).issubset(name2_processed.split()) or set(name2_processed.split()).issubset(name1_processed.split()):
+            return True
 
         if len(abb_name2) > 1 and len(abb_name1) > 1:
             if abb_name1 == abb_name2:
@@ -148,6 +145,7 @@ class PostHospitalClusterProcessing(PostProcessing):
         return any(self.check_equal(element1.name, element2.name) for element1 in cluster1 for element2 in cluster2)
 
     def splitcluster(self, clusters):
+        print(clusters)
         result = []
         for index, cluster in clusters.items():
             lencls = len(cluster)
@@ -155,18 +153,15 @@ class PostHospitalClusterProcessing(PostProcessing):
                 for i in range(lencls):
                     try:
                         if (all(self.check_equal(cluster[i].name, cluster[j].name) == False for j in range(lencls) if cluster[i] and cluster[j] and i != j)):
-                            result.append(cluster[i])
+                            result.append([cluster[i]])
                             del cluster[i]
                     except:
                         pass
         result.extend(clusters.values())
-        results = {i: [] for i in range(len(result))}
         lenrsl = len(result)
+        results = {i: [] for i in range(lenrsl)}
         for i in range(lenrsl):
-            if type(result[i]) is list:
-                results[i].extend(result[i])
-            else:
-                results[i].append(result[i])
+            results[i].extend(result[i])
         return results, lenrsl
 
 
