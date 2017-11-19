@@ -1,0 +1,15 @@
+
+cluster 0[newemr.Panama, newemr.Cambodia, newemr.ENG]
+cluster 1[newemr.Croatian, newemr.Croatian, newemr.Croatian, newemr.Croatian, newemr.Croatian, newemr.Croatian, newemr.Croatian, newemr.Croatian, newemr.Croatian, newemr.England, newemr.England, newemr.England, newemr.England, newemr.Mexico, newemr.Mexico, newemr.Mexico, newemr.Mexico, newemr.US, newemr.German, newemr.Equadorian, newemr.Cameroon, newemr.Tunisia, newemr.Argentina, newemr.Italy, newemr.Italy, newemr.Italy, newemr.Italy]
+cluster 2[newemr.UNITED KINGDOM, newemr.UNITED KINGDOM, newemr.UNITED KINGDOM, newemr.UNITED KINGDOM, newemr.Iran, newemr.Iran, newemr.Iran, newemr.Iran, newemr.Mexican, newemr.english, newemr.English, newemr.English, newemr.English, newemr.english, newemr.English, newemr.English, newemr.English, newemr.english, newemr.English, newemr.English, newemr.English, newemr.english, newemr.English, newemr.English, newemr.English, newemr.Angola, newemr.United States]
+cluster 3[newemr.Chilean, newemr.Chilean, newemr.Chilean, newemr.Indonesian, newemr.Indonesian, newemr.Indonesian, newemr.Indonesian, newemr.Indonesian, newemr.Indonesian, newemr.Indonesian, newemr.Indonesian, newemr.Indonesian, newemr.Portugal, newemr.Portugal, newemr.Portugal, newemr.Portugal, newemr.Portugal, newemr.Portugal, newemr.Portugal, newemr.Portugal, newemr.Portugal, newemr.Herzegovina, newemr.Herzegovina, newemr.Herzegovina, newemr.Herzegovina, newemr.Herzegovina, newemr.Herzegovina, newemr.Canada, newemr.Herzegovina, newemr.Herzegovina, newemr.Herzegovina, newemr.Korea, newemr.Gambia, newemr.Gambia, newemr.Gambia, newemr.Gambia, newemr.Gambia, newemr.Gambia, newemr.Gambia, newemr.Gambia, newemr.Gambia, newemr.Chilean, newemr.Chilean, newemr.Chilean, newemr.Chilean, newemr.Chilean, newemr.Chilean, newemr.Romania, newemr.Puerto Rico, newemr.Poland]
+cluster 4[newemr.Chile, newemr.Peru, newemr.Peru, newemr.Peru, newemr.Peru, newemr.Peru, newemr.Peru, newemr.Peru, newemr.Peru, newemr.Peru, newemr.Peru, newemr.Peruvian, newemr.America, newemr.Iranian, newemr.Iranian, newemr.Iranian, newemr.Iranian, newemr.Peru, newemr.Peru, newemr.Peru, newemr.Peru, newemr.Peru, newemr.Peru, newemr.Peru, newemr.Peru, newemr.Peru, newemr.Peru, newemr.Peru, newemr.Peru, newemr.Peru, newemr.Peru, newemr.Peru, newemr.Korean, newemr.Paraguay, newemr.Israel]
+cluster 5[newemr.the UK, newemr.the UK, newemr.the UK, newemr.the UK]
+cluster 6[newemr.Denmark]
+cluster 7[newemr.the United Kingdom]
+cluster 8[newemr.the UK, newemr.the UK]
+
+
+
+
+

@@ -1,0 +1,1741 @@
+
+cluster 0[newemr.MEDIQUIK, newemr.Mediquik, newemr.MEDIQUIK, newemr.Mediquik]
+cluster 1[newemr.MEDIQUIK, newemr.Mediquik]
+
+
+
+
+
+
+cluster 1[newemr.Highland Park Care Center]
+
+
+
+
+
+
+cluster 0[newemr.CMC, newemr.CMC, newemr.CMC, newemr.CMC, newemr.CMC, newemr.CMC, newemr.CMC, newemr.CMC, newemr.CMC, newemr.CMC, newemr.CMC, newemr.CMC, newemr.CMC, newemr.CMC, newemr.CMC, newemr.CMC]
+cluster 1[newemr.CURTIS MEDICAL CENTER, newemr.CURTIS MEDICAL CENTER, newemr.CURTIS MEDICAL CENTER, newemr.CURTIS MEDICAL CENTER]
+cluster 2[newemr.CURTIS MEDICAL CENTER, newemr.CURTIS MEDICAL CENTER]
+
+
+
+
+
+
+cluster 1[newemr.Glancy Memorial Hospital]
+
+
+
+
+
+
+cluster 0[newemr.MARY, newemr.MARY, newemr.MARY, newemr.MARY]
+cluster 1[newemr.MARY, newemr.MARY]
+
+
+
+
+
+
+cluster 0[newemr.Promptcare, newemr.Promptcare, newemr.Promptcare, newemr.Promptcare, newemr.Promptcare, newemr.Promptcare, newemr.Promptcare, newemr.Promptcare, newemr.Promptcare, newemr.LH, newemr.LH, newemr.LH, newemr.LH]
+cluster 1[newemr.MEDIQUIK, newemr.MEDIQUIK, newemr.MEDIQUIK, newemr.MEDIQUIK]
+cluster 2[newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA]
+cluster 3[newemr.EDUCARE-PULLMAN, newemr.EDUCARE-PULLMAN, newemr.EDUCARE-PULLMAN, newemr.EDUCARE-PULLMAN, newemr.EDUCARE-PULLMAN, newemr.EDUCARE-PULLMAN, newemr.EDUCARE-PULLMAN, newemr.EDUCARE-PULLMAN, newemr.EDUCARE-PULLMAN]
+cluster 4[newemr.Grace Cottage]
+cluster 5[newemr.Payson Hospital]
+cluster 6[newemr.Langmack Hospital]
+cluster 7[newemr.EDUCARE-PULLMAN, newemr.EDUCARE-PULLMAN, newemr.EDUCARE-PULLMAN]
+
+
+
+
+
+
+cluster 0[newemr.Mid Coast, newemr.Mid Coast, newemr.Mid Coast, newemr.Mid Coast]
+cluster 1[newemr.Glenbrook Hospital, newemr.Mid Coast Hospital]
+cluster 2[newemr.Bryan W Whitfield Memorial Hospital]
+cluster 3[newemr.GUADALUPE VALLEY HOSPITAL]
+cluster 4[newemr.Loudes Hospital]
+
+
+
+
+
+
+cluster 0[newemr.MEDIQUIK, newemr.MEDIQUIK, newemr.MEDIQUIK, newemr.MEDIQUIK, newemr.MEDIQUIK, newemr.MEDIQUIK, newemr.MEDIQUIK, newemr.MEDIQUIK, newemr.MEDIQUIK]
+cluster 1[newemr.KEKELA, newemr.KEKELA, newemr.KEKELA, newemr.KEKELA]
+cluster 2[newemr.EDUCARE-FARGO]
+cluster 3[newemr.Adventist Home]
+cluster 4[newemr.KEKELA, newemr.KEKELA]
+
+
+
+
+
+
+cluster 0[newemr.MEDIQUIK, newemr.MEDIQUIK, newemr.MEDIQUIK, newemr.MEDIQUIK]
+cluster 1[newemr.Educare-Pullman, newemr.Educare-Pullman, newemr.Educare-Pullman, newemr.Educare-Pullman, newemr.Educare-Pullman, newemr.Educare-Pullman, newemr.Educare-Pullman, newemr.Educare-Pullman, newemr.Educare-Pullman]
+cluster 2[newemr.Educare-Pullman, newemr.Educare-Pullman, newemr.Educare-Pullman]
+
+
+
+
+
+
+cluster 0[newemr.EDUCARE-PULLMAN, newemr.Educare-Pullman, newemr.Educare-Pullman, newemr.EDUCARE-PULLMAN, newemr.Educare-Pullman, newemr.Educare-Pullman, newemr.EDUCARE-PULLMAN, newemr.Educare-Pullman, newemr.Educare-Pullman]
+cluster 1[newemr.EDUCARE-FARGO]
+cluster 2[newemr.EDUCARE-PULLMAN, newemr.Educare-Pullman, newemr.Educare-Pullman]
+
+
+
+
+
+
+cluster 0[newemr.Manamana, newemr.Manamana, newemr.Manamana, newemr.Manamana]
+cluster 1[newemr.Mediquik, newemr.Mediquik, newemr.Mediquik, newemr.Mediquik]
+cluster 2[newemr.EDUCARE-PULLMAN]
+cluster 3[newemr.Correction Hospital]
+
+
+
+
+
+
+cluster 0[newemr.Educare-Fargo, newemr.Educare-Fargo, newemr.Educare-Fargo, newemr.Educare-Fargo, newemr.Educare-Fargo, newemr.Educare-Fargo, newemr.Educare-Fargo, newemr.Educare-Fargo, newemr.Educare-Fargo]
+cluster 1[newemr.MEDIQUIK, newemr.MEDIQUIK, newemr.MEDIQUIK, newemr.MEDIQUIK, newemr.MEDIQUIK, newemr.MEDIQUIK, newemr.MEDIQUIK, newemr.MEDIQUIK, newemr.MEDIQUIK, newemr.MEDIQUIK, newemr.MEDIQUIK, newemr.MEDIQUIK, newemr.MEDIQUIK, newemr.MEDIQUIK, newemr.MEDIQUIK, newemr.MEDIQUIK]
+cluster 2[newemr.Parkview Haven, newemr.parkview haven, newemr.Parkview Haven, newemr.parkview haven]
+cluster 3[newemr.MARY]
+cluster 4[newemr.Parkview Haven, newemr.parkview haven]
+
+
+
+
+
+
+cluster 0[newemr.Dixmont State Hospital, newemr.Dixmont State Hospital, newemr.Dixmont State Hospital, newemr.Nutfield Surgicenter, newemr.Dixmont State Hospital, newemr.Dixmont State Hospital, newemr.Dixmont State Hospital, newemr.Dixmont State Hospital, newemr.Dixmont State Hospital, newemr.Dixmont State Hospital, newemr.Lorain Community Hospital, newemr.Lorain Community Hospital, newemr.Lorain Community Hospital, newemr.Lorain Community Hospital]
+cluster 1[newemr.Bloomfield Care Center, newemr.Bloomfield Care Center, newemr.Bloomfield Care Center, newemr.Bloomfield Care Center]
+cluster 2[newemr.Boys Town National Research Hospital]
+cluster 3[newemr.Ashley County Medical Center]
+cluster 4[newemr.Saint Josephs Hospital Of Atlanta]
+cluster 5[newemr.Boys Town National]
+
+
+
+
+
+
+cluster 0[newemr.RCH, newemr.RCH, newemr.RCH, newemr.RCH, newemr.RCH, newemr.RCH, newemr.Redbud Community Hospital, newemr.REDBUD COMMUNITY HOSPITAL, newemr.RCH, newemr.RCH, newemr.RCH, newemr.RCH, newemr.RCH, newemr.RCH, newemr.RCH, newemr.RCH, newemr.RCH, newemr.RCH, newemr.RCH, newemr.RCH, newemr.Redbud Community Hospital, newemr.REDBUD COMMUNITY HOSPITAL, newemr.RCH, newemr.RCH, newemr.RCH, newemr.RCH, newemr.RCH, newemr.RCH, newemr.RCH, newemr.RCH, newemr.RCH, newemr.RCH, newemr.RCH, newemr.RCH, newemr.RCH, newemr.RCH, newemr.RCH, newemr.RCH, newemr.RCH, newemr.RCH]
+cluster 1[newemr.Lew Healthcare Clinic]
+cluster 2[newemr.KEKELA]
+cluster 3[newemr.Educare-Fargo]
+
+
+
+
+
+
+cluster 0[newemr.SLHC, newemr.SLHC, newemr.SLHC, newemr.SLHC, newemr.EFHC, newemr.EFHC, newemr.EFHC, newemr.EFHC]
+cluster 1[newemr.Sawtelle Veterans Hospital, newemr.OGH, newemr.OGH, newemr.OGH, newemr.OGH, newemr.OGH, newemr.OGH, newemr.OGH, newemr.OGH, newemr.OGH]
+cluster 2[newemr.SAINT LUKE'S-ROOSEVELT HOSPITAL CENTER]
+cluster 3[newemr.Seymour Hospital]
+
+
+
+
+
+
+cluster 0[newemr.RSC, newemr.RSC, newemr.RSC, newemr.RSC, newemr.RSC, newemr.RSC, newemr.RSC, newemr.RSC, newemr.RSC, newemr.RSC, newemr.RSC, newemr.RSC, newemr.RSC, newemr.RSC, newemr.RSC, newemr.RSC, newemr.RSC, newemr.RSC, newemr.RSC, newemr.RSC, newemr.RSC, newemr.RSC, newemr.RSC, newemr.RSC, newemr.RSC, newemr.RSC, newemr.RSC, newemr.RSC, newemr.RSC, newemr.RSC, newemr.RSC, newemr.RSC, newemr.RSC, newemr.RSC, newemr.RSC, newemr.RSC, newemr.RSC, newemr.RSC, newemr.RSC, newemr.RSC, newemr.RSC, newemr.RSC, newemr.RSC, newemr.RSC, newemr.RSC, newemr.RSC, newemr.RSC, newemr.RSC, newemr.RSC, newemr.RSC, newemr.RSC, newemr.RSC, newemr.RSC, newemr.RSC, newemr.RSC, newemr.RSC, newemr.RSC, newemr.RSC, newemr.RSC, newemr.RSC, newemr.RSC, newemr.RSC, newemr.RSC, newemr.RSC]
+cluster 1[newemr.RYBURY HOSPITAL]
+cluster 2[newemr.RSC, newemr.RSC, newemr.RSC, newemr.RSC, newemr.RSC, newemr.RSC, newemr.RSC, newemr.RSC]
+
+
+
+
+
+
+cluster 0[newemr.Harper Hospital, newemr.HH, newemr.HH, newemr.HH, newemr.HH, newemr.HH, newemr.johnson rest home, newemr.Clinica Rovira, newemr.Lahey Clinic, newemr.HH, newemr.HH, newemr.HH, newemr.HH, newemr.HH, newemr.HH, newemr.HH, newemr.HH, newemr.HH, newemr.HH, newemr.Brookwood Hospital, newemr.HH, newemr.HH, newemr.HH, newemr.HH, newemr.HH, newemr.HH, newemr.HH, newemr.HH, newemr.HH, newemr.HH]
+cluster 1[newemr.St. Mary's, newemr.St. Mary's, newemr.St. Mary's, newemr.St. Mary's]
+cluster 2[newemr.Stone-Wheeling]
+cluster 3[newemr.St. Mary's, newemr.St. Mary's]
+
+
+
+
+
+
+cluster 0[newemr.Levine Hospital]
+cluster 1[newemr.HRC]
+
+
+
+
+
+
+cluster 0[newemr.GBH, newemr.GBH, newemr.GBH, newemr.GBH, newemr.Simmons, newemr.Simmons, newemr.Simmons, newemr.Simmons]
+cluster 1[newemr.Eitel Hospital]
+cluster 2[newemr.mcc]
+
+
+
+
+
+
+cluster 0[newemr.Hartsville General Hospital, newemr.HGH]
+cluster 1[newemr.Colonial Haven]
+cluster 2[newemr.Halcyon House]
+
+
+
+
+
+
+cluster 0[newemr.Campbell, newemr.CAMPBELL, newemr.Campbell, newemr.CAMPBELL, newemr.DHN, newemr.DHN, newemr.Holy Cross, newemr.DHN, newemr.DHN, newemr.HPC]
+cluster 1[newemr.Tri-City Hospital, newemr.Doctors Hospital North, newemr.Doctors Hospital North, newemr.Doctors Hospital North, newemr.Doctors Hospital North, newemr.Doctors Hospital North, newemr.Doctors Hospital North, newemr.Doctors Hospital North, newemr.Doctors Hospital North, newemr.Doctors Hospital North]
+cluster 2[newemr.GHIC]
+cluster 3[newemr.Tenacre Foundation Nursing Home]
+
+
+
+
+
+
+cluster 0[newemr.Mercy, newemr.Mercy, newemr.MERCY, newemr.Mercy, newemr.Mercy, newemr.MERCY, newemr.Mercy, newemr.Mercy, newemr.MERCY]
+cluster 1[newemr.MERCY CARE CENTER, newemr.MERCY CARE CENTER, newemr.MERCY CARE CENTER, newemr.MERCY CARE CENTER, newemr.MERCY CARE CENTER, newemr.MERCY CARE CENTER, newemr.MERCY CARE CENTER, newemr.MERCY CARE CENTER, newemr.MERCY CARE CENTER]
+cluster 2[newemr.MERCY CARE CENTER, newemr.MERCY CARE CENTER, newemr.MERCY CARE CENTER]
+
+
+
+
+
+
+cluster 0[newemr.FAMILY HEALTH CLINIC, newemr.FAMILY HEALTH CLINIC, newemr.FAMILY HEALTH CLINIC, newemr.FAMILY HEALTH CLINIC]
+cluster 1[newemr.FHC]
+cluster 2[newemr.FAMILY HEALTH CLINIC, newemr.FAMILY HEALTH CLINIC]
+
+
+
+
+
+
+cluster 0[newemr.HUNTINGTON, newemr.HUNTINGTON, newemr.HUNTINGTON, newemr.HUNTINGTON]
+cluster 1[newemr.HUNTINGTON, newemr.HUNTINGTON]
+
+
+
+
+
+
+cluster 0[newemr.LC, newemr.NMH]
+cluster 1[newemr.NASHUA MEMORIAL HOSPITAL]
+cluster 2[newemr.Legacy Center]
+
+
+
+
+
+
+cluster 0[newemr.FCH, newemr.FCH, newemr.FCH, newemr.FCH, newemr.FCH, newemr.FCH, newemr.FCH, newemr.FCH, newemr.FCH]
+cluster 1[newemr.Bellflower Doctors Hospital, newemr.Bellflower Doctors Hospital, newemr.BELLFLOWER DOCTORS HOSPITAL, newemr.Bellflower Doctors Hospital, newemr.Bellflower Doctors Hospital, newemr.BELLFLOWER DOCTORS HOSPITAL, newemr.Bellflower Doctors Hospital, newemr.Bellflower Doctors Hospital, newemr.BELLFLOWER DOCTORS HOSPITAL]
+cluster 2[newemr.Pioneer Home]
+cluster 3[newemr.Bellflower Doctors Hospital, newemr.Bellflower Doctors Hospital, newemr.BELLFLOWER DOCTORS HOSPITAL]
+
+
+
+
+
+
+cluster 0[newemr.United Methodist Behavioral Hospital]
+cluster 1[newemr.NORTHWEST IOWA HEALTH CENTER]
+cluster 2[newemr.NIHC]
+
+
+
+
+
+
+cluster 0[newemr.Shady Brook Hospital, newemr.Shady Brook Hospital, newemr.Shady Brook Hospital, newemr.Shady Brook Hospital]
+cluster 1[newemr.Frankenmuth Care]
+cluster 2[newemr.Tobey Hospital]
+cluster 3[newemr.Heritage Residence]
+cluster 4[newemr.Shady Brook Hospital, newemr.Shady Brook Hospital]
+
+
+
+
+
+
+cluster 0[newemr.Natchaug Hospital, newemr.Natchaug Hospital, newemr.Natchaug Hospital, newemr.Natchaug Hospital, newemr.Natchaug Hospital, newemr.Natchaug Hospital, newemr.Natchaug Hospital, newemr.Natchaug Hospital, newemr.Natchaug Hospital, newemr.Natchaug Hospital, newemr.Natchaug Hospital, newemr.Natchaug Hospital, newemr.Natchaug Hospital, newemr.Natchaug Hospital, newemr.Natchaug Hospital, newemr.Natchaug Hospital, newemr.Natchaug Hospital, newemr.Natchaug Hospital, newemr.Natchaug Hospital, newemr.Natchaug Hospital, newemr.Natchaug Hospital, newemr.Natchaug Hospital, newemr.Natchaug Hospital, newemr.Natchaug Hospital, newemr.Natchaug Hospital]
+cluster 1[newemr.GIBSON COMMUNITY HOSPITAL, newemr.GIBSON COMMUNITY HOSPITAL, newemr.Gibson Community Hospital, newemr.Gibson Community Hospital, newemr.GIBSON COMMUNITY HOSPITAL, newemr.GIBSON COMMUNITY HOSPITAL, newemr.GIBSON COMMUNITY HOSPITAL, newemr.Gibson Community Hospital, newemr.Gibson Community Hospital, newemr.GIBSON COMMUNITY HOSPITAL, newemr.GIBSON COMMUNITY HOSPITAL, newemr.GIBSON COMMUNITY HOSPITAL, newemr.Gibson Community Hospital, newemr.Gibson Community Hospital, newemr.GIBSON COMMUNITY HOSPITAL, newemr.GIBSON COMMUNITY HOSPITAL, newemr.GIBSON COMMUNITY HOSPITAL, newemr.Gibson Community Hospital, newemr.Gibson Community Hospital, newemr.GIBSON COMMUNITY HOSPITAL, newemr.GIBSON COMMUNITY HOSPITAL, newemr.GIBSON COMMUNITY HOSPITAL, newemr.Gibson Community Hospital, newemr.Gibson Community Hospital, newemr.GIBSON COMMUNITY HOSPITAL]
+cluster 2[newemr.NH]
+cluster 3[newemr.GCH]
+cluster 4[newemr.GIBSON COMMUNITY HOSPITAL, newemr.GIBSON COMMUNITY HOSPITAL, newemr.Gibson Community Hospital, newemr.Gibson Community Hospital, newemr.GIBSON COMMUNITY HOSPITAL]
+
+
+
+
+
+
+cluster 0[newemr.HAWTHORNE STATE HOSPITAL, newemr.HAWTHORNE STATE HOSPITAL, newemr.HAWTHORNE STATE HOSPITAL, newemr.HAWTHORNE STATE HOSPITAL]
+cluster 1[newemr.Jensen Clinic]
+cluster 2[newemr.HAWTHORNE STATE HOSPITAL, newemr.HAWTHORNE STATE HOSPITAL]
+
+
+
+
+
+
+cluster 0[newemr.WILSON MEDICAL CENTER, newemr.Wilson Medical Center, newemr.Wilson Medical Center, newemr.WILSON MEDICAL CENTER, newemr.Wilson Medical Center, newemr.Wilson Medical Center, newemr.WILSON MEDICAL CENTER, newemr.Wilson Medical Center, newemr.Wilson Medical Center]
+cluster 1[newemr.WILSON MEDICAL CENTER, newemr.Wilson Medical Center, newemr.Wilson Medical Center]
+
+
+
+
+
+
+cluster 0[newemr.AGH, newemr.AGH, newemr.AGH, newemr.AGH, newemr.AGH, newemr.AGH, newemr.AGH, newemr.AGH, newemr.AGH, newemr.AGH, newemr.AGH, newemr.AGH, newemr.AGH, newemr.AGH, newemr.AGH, newemr.AGH, newemr.AGH, newemr.AGH, newemr.AGH, newemr.AGH, newemr.AGH, newemr.AGH, newemr.AGH, newemr.AGH, newemr.AGH, newemr.AGH, newemr.AGH, newemr.AGH, newemr.AGH, newemr.AGH, newemr.AGH, newemr.AGH, newemr.AGH, newemr.AGH, newemr.AGH, newemr.AGH]
+cluster 1[newemr.Abbeville General Hospital]
+cluster 2[newemr.AGH, newemr.AGH, newemr.AGH, newemr.AGH, newemr.AGH, newemr.AGH]
+
+
+
+
+
+
+cluster 0[newemr.HMS, newemr.Holden District Hospital]
+cluster 1[newemr.HDH, newemr.HSC]
+cluster 2[newemr.Gadsden Medical Center]
+cluster 3[newemr.Gadsden Medical]
+
+
+
+
+
+
+cluster 0[newemr.VALLEJO GENERAL HOSPITAL, newemr.VALLEJO GENERAL HOSPITAL, newemr.VALLEJO GENERAL HOSPITAL, newemr.VALLEJO GENERAL HOSPITAL, newemr.Vallejo General Hospital, newemr.Vallejo General Hospital, newemr.Vallejo General Hospital, newemr.VALLEJO GENERAL HOSPITAL, newemr.VALLEJO GENERAL HOSPITAL, newemr.VALLEJO GENERAL HOSPITAL, newemr.VALLEJO GENERAL HOSPITAL, newemr.Vallejo General Hospital, newemr.Vallejo General Hospital, newemr.Vallejo General Hospital, newemr.VALLEJO GENERAL HOSPITAL, newemr.VALLEJO GENERAL HOSPITAL, newemr.VALLEJO GENERAL HOSPITAL, newemr.VALLEJO GENERAL HOSPITAL, newemr.Vallejo General Hospital, newemr.Vallejo General Hospital, newemr.Vallejo General Hospital, newemr.VALLEJO GENERAL HOSPITAL, newemr.VALLEJO GENERAL HOSPITAL, newemr.VALLEJO GENERAL HOSPITAL, newemr.VALLEJO GENERAL HOSPITAL, newemr.Vallejo General Hospital, newemr.Vallejo General Hospital, newemr.Vallejo General Hospital, newemr.VALLEJO GENERAL HOSPITAL, newemr.VALLEJO GENERAL HOSPITAL, newemr.VALLEJO GENERAL HOSPITAL, newemr.VALLEJO GENERAL HOSPITAL, newemr.Vallejo General Hospital, newemr.Vallejo General Hospital, newemr.Vallejo General Hospital, newemr.VALLEJO GENERAL HOSPITAL, newemr.VALLEJO GENERAL HOSPITAL, newemr.VALLEJO GENERAL HOSPITAL, newemr.VALLEJO GENERAL HOSPITAL, newemr.Vallejo General Hospital, newemr.Vallejo General Hospital, newemr.Vallejo General Hospital, newemr.VALLEJO GENERAL HOSPITAL, newemr.VALLEJO GENERAL HOSPITAL, newemr.VALLEJO GENERAL HOSPITAL, newemr.VALLEJO GENERAL HOSPITAL, newemr.Vallejo General Hospital, newemr.Vallejo General Hospital, newemr.Vallejo General Hospital]
+cluster 1[newemr.Vallejo General]
+cluster 2[newemr.VGH]
+
+
+
+
+
+
+cluster 0[newemr.MC, newemr.MC, newemr.MC, newemr.MC]
+cluster 1[newemr.SNC]
+cluster 2[newemr.MC, newemr.MC]
+
+
+
+
+
+
+cluster 0[newemr.Osteopathic Medical Center, newemr.Osteopathic Medical Center, newemr.Osteopathic Medical Center, newemr.Osteopathic Medical Center, newemr.Osteopathic Medical Center, newemr.Osteopathic Medical Center, newemr.Osteopathic Medical Center, newemr.Osteopathic Medical Center, newemr.Osteopathic Medical Center]
+cluster 1[newemr.OMC, newemr.OMC, newemr.OMC, newemr.OMC, newemr.OMC, newemr.OMC, newemr.OMC, newemr.OMC, newemr.OMC]
+cluster 2[newemr.CBC]
+cluster 3[newemr.Pioneer Hospital]
+cluster 4[newemr.KH]
+cluster 5[newemr.OMC, newemr.OMC, newemr.OMC]
+
+
+
+
+
+
+cluster 0[newemr.CCH, newemr.CCH, newemr.CCH, newemr.CCH]
+cluster 1[newemr.CAPE CORAL HOSPITAL, newemr.CAPE CORAL HOSPITAL, newemr.CAPE CORAL HOSPITAL, newemr.CAPE CORAL HOSPITAL]
+cluster 2[newemr.GMS]
+cluster 3[newemr.CAPE CORAL HOSPITAL, newemr.CAPE CORAL HOSPITAL]
+
+
+
+
+
+
+cluster 0[newemr.WMC, newemr.WMC, newemr.WMC, newemr.WMC, newemr.WMC, newemr.Shenandoah Hospital, newemr.Shenandoah Hospital, newemr.Shenandoah Hospital, newemr.Shenandoah Hospital, newemr.Westlake, newemr.Shenandoah Hospital, newemr.Shenandoah Hospital, newemr.Shenandoah Hospital, newemr.Shenandoah Hospital, newemr.Shenandoah Hospital, newemr.Shenandoah Hospital, newemr.Shenandoah Hospital, newemr.Shenandoah Hospital, newemr.WMC, newemr.WMC, newemr.WMC, newemr.WMC, newemr.WMC, newemr.WMC, newemr.WMC, newemr.WMC, newemr.WMC, newemr.WMC, newemr.WMC, newemr.WMC, newemr.WMC, newemr.WMC, newemr.WMC, newemr.WMC, newemr.WMC, newemr.WMC, newemr.WMC, newemr.WMC, newemr.Shenandoah Hospital, newemr.Shenandoah Hospital, newemr.Shenandoah Hospital, newemr.Shenandoah Hospital, newemr.FSM]
+cluster 1[newemr.LMC, newemr.LMC, newemr.MVH, newemr.MVH, newemr.MVH, newemr.MVH, newemr.LMC, newemr.LMC, newemr.MVH, newemr.MVH, newemr.MVH, newemr.MVH, newemr.MVH, newemr.MVH, newemr.MVH, newemr.MVH, newemr.MVH, newemr.MVH, newemr.MVH, newemr.MVH]
+cluster 2[newemr.Bowne Hospital]
+cluster 3[newemr.SHMC]
+cluster 4[newemr.Harper Hospital]
+cluster 5[newemr.BOWNE]
+
+
+
+
+
+
+cluster 0[newemr.SOUTH BAY HOSPITAL, newemr.PMSC]
+cluster 1[newemr.SBH, newemr.SBH, newemr.SBH, newemr.SBH]
+cluster 2[newemr.Mount San Rafael Hospital, newemr.Mount San Rafael Hospital, newemr.Mount San Rafael Hospital, newemr.Mount San Rafael Hospital]
+cluster 3[newemr.Mount San Rafael Hospital, newemr.Mount San Rafael Hospital]
+
+
+
+
+
+
+cluster 0[newemr.Louisville Care Center, newemr.Louisville Care Center, newemr.Louisville Care Center, newemr.Louisville Care Center, newemr.Louisville Care Center, newemr.Louisville Care Center, newemr.Louisville Care Center, newemr.Louisville Care Center, newemr.Louisville Care Center]
+cluster 1[newemr.Otis Hospital, newemr.Otis Hospital, newemr.Otis Hospital, newemr.Otis Hospital]
+cluster 2[newemr.LCC]
+cluster 3[newemr.Otis Hospital, newemr.Otis Hospital]
+
+
+
+
+
+
+cluster 0[newemr.SCH]
+cluster 1[newemr.Souther Millway Hospital]
+cluster 2[newemr.RH]
+
+
+
+
+
+
+cluster 0[newemr.GMH, newemr.GMH, newemr.GMH, newemr.GMH, newemr.GMH, newemr.GMH, newemr.GMH, newemr.GMH, newemr.GMH, newemr.GMH, newemr.GMH, newemr.GMH, newemr.GMH, newemr.GMH, newemr.GMH, newemr.GMH]
+cluster 1[newemr.GLENNON MEMORIAL HOSPITAL]
+cluster 2[newemr.GMH, newemr.GMH, newemr.GMH, newemr.GMH]
+
+
+
+
+
+
+cluster 0[newemr.SRH, newemr.SRH, newemr.SRH, newemr.SRH]
+cluster 1[newemr.SAH, newemr.SAH, newemr.SAH, newemr.SAH]
+cluster 2[newemr.Newport]
+cluster 3[newemr.Stallworth Rehabilitation Hospital]
+cluster 4[newemr.Friends Hospital]
+cluster 5[newemr.SAH, newemr.SAH]
+
+
+
+
+
+
+cluster 0[newemr.PREAKNESS HEALTHCARE CENTER, newemr.PREAKNESS HEALTHCARE CENTER, newemr.PREAKNESS HEALTHCARE CENTER, newemr.PREAKNESS HEALTHCARE CENTER, newemr.PREAKNESS HEALTHCARE CENTER, newemr.PREAKNESS HEALTHCARE CENTER, newemr.PREAKNESS HEALTHCARE CENTER, newemr.PREAKNESS HEALTHCARE CENTER, newemr.PREAKNESS HEALTHCARE CENTER, newemr.PREAKNESS HEALTHCARE CENTER, newemr.PREAKNESS HEALTHCARE CENTER, newemr.PREAKNESS HEALTHCARE CENTER, newemr.PREAKNESS HEALTHCARE CENTER, newemr.PREAKNESS HEALTHCARE CENTER, newemr.PREAKNESS HEALTHCARE CENTER, newemr.PREAKNESS HEALTHCARE CENTER]
+cluster 1[newemr.Klickitat Valley]
+cluster 2[newemr.Klickitat Valley Hospital]
+
+
+
+
+
+
+cluster 0[newemr.Colorow, newemr.Colorow, newemr.Colorow, newemr.Colorow, newemr.Colorow, newemr.Colorow, newemr.Colorow, newemr.Colorow, newemr.Colorow]
+cluster 1[newemr.DCHC, newemr.DCHC, newemr.DCHC, newemr.DCHC]
+cluster 2[newemr.PCH, newemr.PCH, newemr.PCH, newemr.PCH, newemr.PCH, newemr.PCH, newemr.PCH, newemr.PCH, newemr.PCH, newemr.PCH, newemr.PCH, newemr.PCH, newemr.PCH, newemr.PCH, newemr.PCH, newemr.PCH, newemr.PCH, newemr.PCH, newemr.PCH, newemr.PCH, newemr.PCH, newemr.PCH, newemr.PCH, newemr.PCH, newemr.PCH, newemr.PCH, newemr.PCH, newemr.PCH, newemr.PCH, newemr.PCH, newemr.PCH, newemr.PCH, newemr.PCH, newemr.PCH, newemr.PCH, newemr.PCH, newemr.PCH, newemr.PCH, newemr.PCH, newemr.PCH, newemr.PCH, newemr.PCH, newemr.PCH, newemr.PCH, newemr.PCH, newemr.PCH, newemr.PCH, newemr.PCH, newemr.PCH, newemr.PCH, newemr.PCH, newemr.PCH, newemr.PCH, newemr.PCH, newemr.PCH, newemr.PCH, newemr.PCH, newemr.PCH, newemr.PCH, newemr.PCH, newemr.PCH, newemr.PCH, newemr.PCH, newemr.PCH]
+cluster 3[newemr.PACIFIC COAST HOSPITAL]
+cluster 4[newemr.Georgian Clinic]
+
+
+
+
+
+
+cluster 0[newemr.LRC, newemr.LRC, newemr.LRC, newemr.LRC]
+cluster 1[newemr.FORT WASHINGTON HOSPITAL, newemr.Fort Washington Hospital, newemr.FORT WASHINGTON HOSPITAL, newemr.Fort Washington Hospital, newemr.PAH, newemr.PAH, newemr.PAH, newemr.PAH, newemr.PAH, newemr.FORT WASHINGTON HOSPITAL, newemr.Fort Washington Hospital, newemr.FORT WASHINGTON HOSPITAL, newemr.Fort Washington Hospital, newemr.FORT WASHINGTON HOSPITAL, newemr.Fort Washington Hospital, newemr.FORT WASHINGTON HOSPITAL, newemr.Fort Washington Hospital, newemr.PAH, newemr.PAH, newemr.PAH, newemr.PAH, newemr.PAH, newemr.FORT WASHINGTON HOSPITAL, newemr.Fort Washington Hospital, newemr.FORT WASHINGTON HOSPITAL, newemr.Fort Washington Hospital, newemr.Pan American Hospital, newemr.Pan American Hospital, newemr.PAH, newemr.PAH, newemr.PAH, newemr.PAH, newemr.PAH, newemr.PAH, newemr.PAH, newemr.PAH, newemr.PAH, newemr.PAH, newemr.PAH, newemr.PAH, newemr.PAH, newemr.PAH, newemr.PAH, newemr.Pan American Hospital, newemr.Pan American Hospital]
+cluster 2[newemr.McDonough County Nursing Home, newemr.McDonough County Nursing Home, newemr.McDonough County Nursing Home, newemr.McDonough County Nursing Home]
+cluster 3[newemr.McDonough County Rehabilitation]
+cluster 4[newemr.MC nursing home]
+cluster 5[newemr.McDonough County Rehabilitation Center]
+
+
+
+
+
+
+cluster 0[newemr.BCC, newemr.BCC, newemr.BCC, newemr.BCC, newemr.BCC, newemr.BCC, newemr.BCC, newemr.BCC, newemr.BCC, newemr.BCC, newemr.BCC, newemr.BCC, newemr.BCC, newemr.BCC, newemr.BCC, newemr.BCC, newemr.BCC, newemr.BCC, newemr.BCC, newemr.BCC, newemr.BCC, newemr.BCC, newemr.BCC, newemr.BCC, newemr.BCC, newemr.BCC, newemr.BCC, newemr.BCC, newemr.BCC, newemr.BCC, newemr.BCC, newemr.BCC, newemr.BCC, newemr.BCC, newemr.BCC, newemr.BCC, newemr.BCC, newemr.BCC, newemr.BCC, newemr.BCC, newemr.BCC, newemr.BCC, newemr.BCC, newemr.BCC, newemr.BCC, newemr.BCC, newemr.BCC, newemr.BCC, newemr.BCC]
+cluster 1[newemr.BAUER CHIROPRACTIC CLINIC]
+cluster 2[newemr.BCC, newemr.BCC, newemr.BCC, newemr.BCC, newemr.BCC, newemr.BCC, newemr.BCC]
+
+
+
+
+
+
+cluster 0[newemr.Parkview Memorial Hospital, newemr.Parkview Memorial Hospital, newemr.Parkview Memorial Hospital, newemr.Parkview Memorial Hospital, newemr.Parkview Memorial Hospital, newemr.Parkview Memorial Hospital, newemr.PMH, newemr.PMH, newemr.PMH, newemr.PMH, newemr.Promptcare, newemr.PMH, newemr.PMH, newemr.PMH, newemr.PMH, newemr.Parkview Memorial Hospital, newemr.Parkview Memorial Hospital, newemr.Parkview Memorial Hospital, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.PMH, newemr.PMH, newemr.PMH, newemr.PMH, newemr.Humana Hospital Ville Platte, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.PMH, newemr.PMH, newemr.PMH, newemr.PMH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH, newemr.WGH]
+cluster 1[newemr.Gravette Medical Center, newemr.RSH, newemr.RSH, newemr.RSH, newemr.RSH]
+cluster 2[newemr.Rochester State Hospital]
+cluster 3[newemr.Welsh General Hospital]
+cluster 4[newemr.Hendry Hospital]
+
+
+
+
+
+
+cluster 1[newemr.MAHASKA COUNTY HOSPITAL]
+
+
+
+
+
+
+cluster 0[newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA, newemr.MANAMANA]
+cluster 1[newemr.Mediquik]
+cluster 2[newemr.MANAMANA, newemr.MANAMANA]
+
+
+
+
+
+
+cluster 0[newemr.Shady Rest Care Center, newemr.EFS, newemr.EFS, newemr.EFS, newemr.EFS]
+cluster 1[newemr.ROSELAND COMMUNITY HOSPITAL, newemr.ROSELAND COMMUNITY HOSPITAL, newemr.ROSELAND COMMUNITY HOSPITAL, newemr.ROSELAND COMMUNITY HOSPITAL, newemr.ROSELAND COMMUNITY HOSPITAL, newemr.ROSELAND COMMUNITY HOSPITAL, newemr.ROSELAND COMMUNITY HOSPITAL, newemr.ROSELAND COMMUNITY HOSPITAL, newemr.ROSELAND COMMUNITY HOSPITAL]
+cluster 2[newemr.ROSELAND COMMUNITY HOSPITAL, newemr.ROSELAND COMMUNITY HOSPITAL, newemr.ROSELAND COMMUNITY HOSPITAL]
+
+
+
+
+
+
+cluster 0[newemr.MCH, newemr.MCH, newemr.MCH, newemr.MCH, newemr.MCH, newemr.MCH, newemr.MCH, newemr.MCH, newemr.MCH, newemr.MCH, newemr.MCH, newemr.MCH, newemr.MCH, newemr.MCH, newemr.MCH, newemr.MCH]
+cluster 1[newemr.Educare-Fargo, newemr.Falls Clinic]
+cluster 2[newemr.Memorial Community Hospital, newemr.Memorial Community Hospital, newemr.Memorial Community Hospital, newemr.Memorial Community Hospital]
+cluster 3[newemr.Memorial Community Hospital, newemr.Memorial Community Hospital]
+
+
+
+
+
+
+cluster 0[newemr.LEPROSARIUM, newemr.LEPROSARIUM, newemr.LEPROSARIUM, newemr.LEPROSARIUM]
+cluster 1[newemr.McCaw Family Medicine]
+cluster 2[newemr.LEPROSARIUM, newemr.LEPROSARIUM]
+
+
+
+
+
+
+cluster 0[newemr.Promptcare, newemr.Promptcare, newemr.PromptCare, newemr.Promptcare, newemr.Promptcare, newemr.PromptCare, newemr.Promptcare, newemr.Promptcare, newemr.PromptCare]
+cluster 1[newemr.Willow Pointe Assisted Living Center, newemr.Willow Pointe Assisted Living Center, newemr.Willow Pointe Assisted Living Center, newemr.Willow Pointe Assisted Living Center]
+cluster 2[newemr.PMC]
+cluster 3[newemr.Willow Pointe Assisted Living Center, newemr.Willow Pointe Assisted Living Center]
+
+
+
+
+
+
+cluster 0[newemr.Wheeling Clinic, newemr.Wheeling Clinic, newemr.Wheeling Clinic, newemr.Wheeling Clinic, newemr.Wheeling Clinic, newemr.Wheeling Clinic, newemr.Wheeling Clinic, newemr.Wheeling Clinic, newemr.Wheeling Clinic, newemr.Wheeling Clinic, newemr.Wheeling Clinic, newemr.Wheeling Clinic, newemr.Wheeling Clinic, newemr.Wheeling Clinic, newemr.Wheeling Clinic, newemr.Wheeling Clinic, newemr.Wheeling Clinic, newemr.Wheeling Clinic, newemr.Wheeling Clinic, newemr.Wheeling Clinic, newemr.Wheeling Clinic, newemr.Wheeling Clinic, newemr.Wheeling Clinic, newemr.Wheeling Clinic, newemr.Wheeling Clinic, newemr.Wheeling Clinic, newemr.Wheeling Clinic, newemr.Wheeling Clinic, newemr.Wheeling Clinic, newemr.Wheeling Clinic, newemr.Wheeling Clinic, newemr.Wheeling Clinic, newemr.Wheeling Clinic, newemr.Wheeling Clinic, newemr.Wheeling Clinic, newemr.Wheeling Clinic, newemr.Wheeling Clinic, newemr.Wheeling Clinic, newemr.Wheeling Clinic, newemr.Wheeling Clinic, newemr.Wheeling Clinic, newemr.Wheeling Clinic, newemr.Wheeling Clinic, newemr.Wheeling Clinic, newemr.Wheeling Clinic, newemr.Wheeling Clinic, newemr.Wheeling Clinic, newemr.Wheeling Clinic, newemr.Wheeling Clinic, newemr.LEPROSARIUM]
+cluster 1[newemr.Madison Medical Center, newemr.Madison Medical Center, newemr.Madison Medical Center, newemr.Madison Medical Center]
+cluster 2[newemr.Deaconess Hospital]
+cluster 3[newemr.Madison Medical Center, newemr.Madison Medical Center]
+
+
+
+
+
+
+cluster 0[newemr.CH, newemr.CH, newemr.CH, newemr.CH, newemr.CH, newemr.CH, newemr.CH, newemr.CH, newemr.CH, newemr.Kekela, newemr.GMH, newemr.GMH, newemr.GMH, newemr.GMH, newemr.PROMPTCARE, newemr.GMH, newemr.GMH, newemr.GMH, newemr.GMH, newemr.GMH, newemr.GMH, newemr.GMH, newemr.GMH, newemr.GMH, newemr.GMH, newemr.GMH, newemr.GMH]
+cluster 1[newemr.Griffin Memorial Hospital, newemr.Griffin Memorial Hospital, newemr.Griffin Memorial Hospital, newemr.Griffin Memorial Hospital]
+cluster 2[newemr.Copley Hospital]
+cluster 3[newemr.Griffin Memorial Hospital, newemr.Griffin Memorial Hospital]
+
+
+
+
+
+
+cluster 0[newemr.PGH, newemr.PGH, newemr.Smithers Albany Center, newemr.PGH, newemr.PGH, newemr.SAC]
+cluster 1[newemr.POLK GENERAL HOSPITAL, newemr.POLK GENERAL HOSPITAL, newemr.POLK GENERAL HOSPITAL, newemr.POLK GENERAL HOSPITAL]
+cluster 2[newemr.POLK GENERAL HOSPITAL, newemr.POLK GENERAL HOSPITAL]
+
+
+
+
+
+
+cluster 0[newemr.MARY, newemr.MARY, newemr.MARY, newemr.MARY, newemr.MARY, newemr.MARY, newemr.MARY, newemr.MARY, newemr.MARY]
+cluster 1[newemr.VAN WERT COUNTY HOSPITAL]
+cluster 2[newemr.MARY, newemr.MARY, newemr.MARY]
+
+
+
+
+
+
+cluster 0[newemr.BNH, newemr.SH]
+cluster 1[newemr.Brookwood Nursing Home, newemr.Brookwood Nursing Home, newemr.Educare-Pullman, newemr.Educare-Pullman, newemr.Brookwood Nursing Home, newemr.Brookwood Nursing Home, newemr.Educare-Pullman, newemr.Educare-Pullman]
+cluster 2[newemr.Saint Olaf Hospital, newemr.Saint Olaf Hospital, newemr.Saint Olaf Hospital, newemr.Saint Olaf Hospital]
+cluster 3[newemr.RHR]
+cluster 4[newemr.Stanton Hospital]
+cluster 5[newemr.Saint Olaf Hospital, newemr.Saint Olaf Hospital]
+
+
+
+
+
+
+cluster 0[newemr.Salvation Army Hospital, newemr.Salvation Army Hospital, newemr.Salvation Army Hospital, newemr.Salvation Army Hospital, newemr.Salvation Army Hospital, newemr.Salvation Army Hospital, newemr.Salvation Army Hospital, newemr.Salvation Army Hospital, newemr.Salvation Army Hospital, newemr.Salvation Army Hospital, newemr.Salvation Army Hospital, newemr.Salvation Army Hospital, newemr.Salvation Army Hospital, newemr.Salvation Army Hospital, newemr.Salvation Army Hospital, newemr.Salvation Army Hospital, newemr.Salvation Army Hospital, newemr.Salvation Army Hospital, newemr.Salvation Army Hospital, newemr.Salvation Army Hospital, newemr.Salvation Army Hospital, newemr.Salvation Army Hospital, newemr.Salvation Army Hospital, newemr.Salvation Army Hospital, newemr.Salvation Army Hospital]
+cluster 1[newemr.Cocke County Baptist Hospital, newemr.Cocke County Baptist Hospital, newemr.Cocke County Baptist Hospital, newemr.Cocke County Baptist Hospital]
+cluster 2[newemr.Educare-Pullman]
+cluster 3[newemr.Cocke County Baptist Hospital, newemr.Cocke County Baptist Hospital]
+
+
+
+
+
+
+cluster 0[newemr.Marshalltown Pond Clinic, newemr.SCH, newemr.SCH, newemr.SCH, newemr.SCH]
+cluster 1[newemr.Southside Community Hospital]
+cluster 2[newemr.Eldora Nursing Rehab Center]
+cluster 3[newemr.MPC]
+
+
+
+
+
+
+cluster 0[newemr.LIMA]
+cluster 1[newemr.LOGWOOD]
+
+
+
+
+
+
+cluster 0[newemr.CCH, newemr.CCH, newemr.CCH, newemr.CCH]
+cluster 1[newemr.GH, newemr.GH, newemr.GH, newemr.GH]
+cluster 2[newemr.GH, newemr.GH]
+
+
+
+
+
+
+cluster 0[newemr.PCH]
+cluster 1[newemr.MEDIQUIK]
+cluster 2[newemr.Stonybrook]
+
+
+
+
+
+
+cluster 0[newemr.ZOLLMAN, newemr.Zollman Community Clinic]
+cluster 1[newemr.TIPTREE, newemr.ZCC, newemr.ZCC, newemr.YGH, newemr.ZCC, newemr.ZCC]
+cluster 2[newemr.LEPROSARIUM, newemr.BH, newemr.BH, newemr.BH, newemr.BH]
+cluster 3[newemr.Brooks Hospital, newemr.Brooks Hospital, newemr.Brooks Hospital, newemr.Brooks Hospital]
+cluster 4[newemr.Brooks Hospital, newemr.Brooks Hospital]
+
+
+
+
+
+
+cluster 0[newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC, newemr.BMC]
+cluster 1[newemr.Baycoast Medical Center, newemr.Baycoast Medical Center, newemr.Baycoast Medical Center, newemr.Baycoast Medical Center]
+cluster 2[newemr.Guttenberg Care Center]
+cluster 3[newemr.Baycoast Medical Center, newemr.Baycoast Medical Center]
+
+
+
+
+
+
+cluster 0[newemr.PICH, newemr.PICH, newemr.PICH, newemr.PICH, newemr.PICH, newemr.PICH, newemr.PICH, newemr.PICH, newemr.PICH, newemr.PICH, newemr.PICH, newemr.PICH, newemr.PICH, newemr.PICH, newemr.PICH, newemr.PICH, newemr.PICH, newemr.PICH, newemr.PICH, newemr.PICH, newemr.PICH, newemr.PICH, newemr.PICH, newemr.PICH, newemr.PICH, newemr.PICH, newemr.PICH, newemr.PICH, newemr.PICH, newemr.PICH, newemr.PICH, newemr.PICH, newemr.PICH, newemr.PICH, newemr.PICH, newemr.PICH, newemr.PICH, newemr.PICH, newemr.PICH, newemr.PICH, newemr.PICH, newemr.PICH, newemr.PICH, newemr.PICH, newemr.PICH, newemr.PICH, newemr.PICH, newemr.PICH, newemr.PICH, newemr.PICH, newemr.PICH, newemr.PICH, newemr.PICH, newemr.PICH, newemr.PICH, newemr.PICH, newemr.PICH, newemr.PICH, newemr.PICH, newemr.PICH, newemr.PICH, newemr.PICH, newemr.PICH, newemr.PICH]
+cluster 1[newemr.MTCI, newemr.MTCI, newemr.MTCI, newemr.MTCI, newemr.MTCI, newemr.MTCI, newemr.MTCI, newemr.MTCI, newemr.MTCI]
+cluster 2[newemr.Windsor Hospital, newemr.Windsor Hospital, newemr.Windsor Hospital, newemr.Windsor Hospital]
+cluster 3[newemr.Montgomery Infirmary]
+cluster 4[newemr.Windsor Hospital, newemr.Windsor Hospital]
+
+
+
+
+
+
+cluster 0[newemr.UGM]
+cluster 1[newemr.AMA]
+
+
+
+
+
+
+cluster 0[newemr.HALE MEMORIAL HOSPITAL, newemr.HALE MEMORIAL HOSPITAL, newemr.Hale Memorial Hospital, newemr.HALE MEMORIAL HOSPITAL, newemr.HALE MEMORIAL HOSPITAL, newemr.HALE MEMORIAL HOSPITAL, newemr.HALE MEMORIAL HOSPITAL, newemr.Hale Memorial Hospital, newemr.HALE MEMORIAL HOSPITAL, newemr.HALE MEMORIAL HOSPITAL, newemr.HALE MEMORIAL HOSPITAL, newemr.HALE MEMORIAL HOSPITAL, newemr.Hale Memorial Hospital, newemr.HALE MEMORIAL HOSPITAL, newemr.HALE MEMORIAL HOSPITAL, newemr.HALE MEMORIAL HOSPITAL, newemr.HALE MEMORIAL HOSPITAL, newemr.Hale Memorial Hospital, newemr.HALE MEMORIAL HOSPITAL, newemr.HALE MEMORIAL HOSPITAL, newemr.HALE MEMORIAL HOSPITAL, newemr.HALE MEMORIAL HOSPITAL, newemr.Hale Memorial Hospital, newemr.HALE MEMORIAL HOSPITAL, newemr.HALE MEMORIAL HOSPITAL]
+cluster 1[newemr.SH]
+cluster 2[newemr.HMH]
+
+
+
+
+
+
+cluster 0[newemr.EDUCARE-FARGO, newemr.EDUCARE-FARGO, newemr.EDUCARE-FARGO, newemr.EDUCARE-FARGO, newemr.CMH, newemr.CMH, newemr.EDUCARE-FARGO, newemr.EDUCARE-FARGO, newemr.EDUCARE-FARGO, newemr.EDUCARE-FARGO, newemr.CMH, newemr.CMH, newemr.EDUCARE-FARGO, newemr.EDUCARE-FARGO, newemr.EDUCARE-FARGO, newemr.EDUCARE-FARGO, newemr.EDUCARE-FARGO, newemr.EDUCARE-FARGO, newemr.EDUCARE-FARGO, newemr.EDUCARE-FARGO]
+cluster 1[newemr.Cochran Memorial Hospital, newemr.Cochran Memorial Hospital, newemr.Cochran Memorial Hospital, newemr.Cochran Memorial Hospital]
+cluster 2[newemr.PROMPTCARE]
+cluster 3[newemr.Cochran Memorial Hospital, newemr.Cochran Memorial Hospital]
+
+
+
+
+
+
+cluster 1[newemr.North Iowa Oral Surgery Center]
+
+
+
+
+
+
+cluster 0[newemr.KEKELA, newemr.KEKELA, newemr.KEKELA, newemr.KEKELA]
+cluster 1[newemr.KCH]
+cluster 2[newemr.Hospital De Doctor Pila]
+
+
+
+
+
+
+cluster 0[newemr.HBH, newemr.HBH, newemr.HBH, newemr.HBH, newemr.HBH, newemr.HBH, newemr.HBH, newemr.HBH, newemr.SMHFC, newemr.SMHFC, newemr.Santa Barbara General Hospital, newemr.HBH, newemr.HBH, newemr.HBH, newemr.HBH, newemr.SMHFC, newemr.SMHFC, newemr.HBH, newemr.HBH, newemr.HBH, newemr.HBH]
+cluster 1[newemr.Saint Mary's Hospital Fallbright Center]
+cluster 2[newemr.Veterans Administration Roseburg Healthcare System]
+cluster 3[newemr.TNA]
+
+
+
+
+
+
+cluster 0[newemr.KCM, newemr.KCM, newemr.KCM, newemr.Kimball County Manor, newemr.KCM, newemr.KCM, newemr.KCM, newemr.Helena Hospital, newemr.KCM, newemr.KCM, newemr.KCM, newemr.HH, newemr.HH, newemr.HH, newemr.HH]
+cluster 1[newemr.Lamoni Nursing Rehabilitation Center, newemr.Lamoni Nursing Rehabilitation Center, newemr.Lamoni Nursing Rehabilitation Center, newemr.Lamoni Nursing Rehabilitation Center]
+cluster 2[newemr.Lamoni Nursing Rehabilitation]
+cluster 3[newemr.Lamoni Nursing Rehabilitation Center, newemr.Lamoni Nursing Rehabilitation Center]
+
+
+
+
+
+
+cluster 0[newemr.PCC, newemr.PCC, newemr.PCC, newemr.PCC]
+cluster 1[newemr.LEPROSARIUM]
+cluster 2[newemr.Mondovi Hospital]
+
+
+
+
+
+
+cluster 0[newemr.SH, newemr.SH, newemr.SH, newemr.SH, newemr.SH, newemr.SH, newemr.SH, newemr.SH, newemr.SH, newemr.SH, newemr.SH, newemr.SH, newemr.SH, newemr.SH, newemr.SH, newemr.SH]
+cluster 1[newemr.Solemar Hospital]
+cluster 2[newemr.SH, newemr.SH, newemr.SH, newemr.SH]
+
+
+
+
+
+
+cluster 0[newemr.Middle Tennessee Institute]
+cluster 1[newemr.LBH]
+
+
+
+
+
+
+cluster 0[newemr.DDCH, newemr.DDCH, newemr.DDCH, newemr.DDCH, newemr.DDCH, newemr.DDCH, newemr.DDCH, newemr.DDCH, newemr.DDCH]
+cluster 1[newemr.DDCH, newemr.DDCH, newemr.DDCH]
+
+
+
+
+
+
+cluster 0[newemr.SNH, newemr.SNH, newemr.SNH, newemr.SNH, newemr.SNH, newemr.SNH, newemr.SNH, newemr.SNH, newemr.SNH, newemr.SNH, newemr.SNH, newemr.SNH, newemr.SNH, newemr.SNH, newemr.SNH, newemr.SNH]
+cluster 1[newemr.STANTON NURSING HOME, newemr.STANTON NURSING HOME, newemr.STANTON NURSING HOME, newemr.STANTON NURSING HOME]
+cluster 2[newemr.STANTON NURSING]
+cluster 3[newemr.STANTON NURSING HOME, newemr.STANTON NURSING HOME]
+
+
+
+
+
+
+cluster 0[newemr.NVH, newemr.NVH, newemr.NVH, newemr.NVH]
+cluster 1[newemr.NIOBRARA VALLEY HOSPITAL]
+cluster 2[newemr.NVH, newemr.NVH]
+
+
+
+
+
+
+cluster 0[newemr.Fairview-Southdale Hospital, newemr.Missouri Baptist Hospital, newemr.Missouri Baptist Hospital, newemr.Missouri Baptist Hospital, newemr.Missouri Baptist Hospital, newemr.Missouri Baptist, newemr.Missouri Baptist Hospital, newemr.Missouri Baptist Hospital, newemr.Missouri Baptist Hospital, newemr.Missouri Baptist Hospital, newemr.Missouri Baptist Hospital, newemr.Missouri Baptist Hospital, newemr.Missouri Baptist Hospital, newemr.Missouri Baptist Hospital, newemr.Missouri Baptist Hospital, newemr.Missouri Baptist Hospital, newemr.Missouri Baptist Hospital, newemr.Missouri Baptist Hospital]
+cluster 1[newemr.PSH, newemr.PSH, newemr.PSH, newemr.PSH, newemr.PSH, newemr.PSH, newemr.PSH, newemr.PSH, newemr.PSH]
+cluster 2[newemr.Philadelphia State Hospital]
+cluster 3[newemr.PCH]
+
+
+
+
+
+
+cluster 0[newemr.BMA, newemr.BMA, newemr.BMA, newemr.Forest Hills, newemr.Forest Hills, newemr.Forest Hills, newemr.Forest Hills, newemr.Forest Hills, newemr.Forest Hills, newemr.Forest Hills, newemr.Forest Hills, newemr.Forest Hills, newemr.BMA, newemr.BMA, newemr.BMA, newemr.BMA, newemr.BMA, newemr.BMA]
+cluster 1[newemr.Brown Hospital, newemr.Dameron Hospital]
+cluster 2[newemr.Forest Hils]
+cluster 3[newemr.BH]
+cluster 4[newemr.DH]
+cluster 5[newemr.Forest Hills Center]
+
+
+
+
+
+
+cluster 0[newemr.LMH, newemr.LMH, newemr.LMH, newemr.LMH, newemr.LMH, newemr.LMH, newemr.LMH, newemr.LMH, newemr.LMH, newemr.LMH, newemr.LMH, newemr.LMH, newemr.LMH, newemr.LMH, newemr.LMH, newemr.LMH]
+cluster 1[newemr.BNH, newemr.BNH, newemr.BNH, newemr.BNH, newemr.BNH, newemr.BNH, newemr.BNH, newemr.BNH, newemr.BNH, newemr.BNH, newemr.BNH, newemr.BNH, newemr.BNH, newemr.BNH, newemr.BNH, newemr.BNH, newemr.BNH, newemr.BNH, newemr.BNH, newemr.BNH, newemr.BNH, newemr.BNH, newemr.BNH, newemr.BNH, newemr.BNH, newemr.BNH, newemr.BNH, newemr.BNH, newemr.BNH, newemr.BNH, newemr.BNH, newemr.BNH, newemr.BNH, newemr.BNH, newemr.BNH, newemr.BNH, newemr.BNH, newemr.BNH, newemr.BNH, newemr.BNH, newemr.BNH, newemr.BNH, newemr.BNH, newemr.BNH, newemr.BNH, newemr.BNH, newemr.BNH, newemr.BNH, newemr.BNH, newemr.BNH, newemr.BNH, newemr.BNH, newemr.BNH, newemr.BNH, newemr.BNH, newemr.BNH, newemr.BNH, newemr.BNH, newemr.BNH, newemr.BNH, newemr.BNH, newemr.BNH, newemr.BNH, newemr.BNH]
+cluster 2[newemr.Laurens Memorial Hospital, newemr.LAURENS MEMORIAL HOSPITAL, newemr.Laurens Memorial Hospital, newemr.LAURENS MEMORIAL HOSPITAL]
+cluster 3[newemr.Boaz Nursing Home]
+cluster 4[newemr.Laurens Memorial Hospital, newemr.LAURENS MEMORIAL HOSPITAL]
+
+
+
+
+
+
+cluster 0[newemr.PMH, newemr.PMH, newemr.PMH, newemr.PMH, newemr.PMH, newemr.PMH, newemr.PMH, newemr.PMH, newemr.PMH]
+cluster 1[newemr.Paoli Memorial Hospital]
+cluster 2[newemr.PMH, newemr.PMH, newemr.PMH]
+
+
+
+
+
+
+cluster 0[newemr.LCMH, newemr.LCMH, newemr.LCMH, newemr.LCMH, newemr.LCMH, newemr.LCMH, newemr.LCMH, newemr.LCMH, newemr.LCMH]
+cluster 1[newemr.Colonial Manor, newemr.Colonial Manor, newemr.Colonial Manor, newemr.Colonial Manor]
+cluster 2[newemr.MESA VISTA HOSPITAL, newemr.MESA VISTA HOSPITAL, newemr.MESA VISTA HOSPITAL, newemr.MESA VISTA HOSPITAL, newemr.MESA VISTA HOSPITAL, newemr.MESA VISTA HOSPITAL, newemr.MESA VISTA HOSPITAL, newemr.MESA VISTA HOSPITAL, newemr.MESA VISTA HOSPITAL, newemr.MESA VISTA HOSPITAL, newemr.MESA VISTA HOSPITAL, newemr.MESA VISTA HOSPITAL, newemr.MESA VISTA HOSPITAL, newemr.MESA VISTA HOSPITAL, newemr.MESA VISTA HOSPITAL, newemr.MESA VISTA HOSPITAL]
+cluster 3[newemr.Abbott Hospital]
+cluster 4[newemr.Leake County Memorial Hospital]
+
+
+
+
+
+
+cluster 0[newemr.GNC]
+cluster 1[newemr.GRIFFIN NURSING CENTER]
+
+
+
+
+
+
+cluster 0[newemr.WMH, newemr.WMH, newemr.WMH, newemr.WMH, newemr.WMH, newemr.WMH, newemr.WMH, newemr.WMH, newemr.WMH]
+cluster 1[newemr.Wausau Memorial Hospital]
+cluster 2[newemr.WMH, newemr.WMH, newemr.WMH]
+
+
+
+
+
+
+cluster 0[newemr.HCH, newemr.HCH, newemr.HCH, newemr.HCH]
+cluster 1[newemr.GRC, newemr.GRC, newemr.GRC, newemr.GRC, newemr.GRC, newemr.GRC, newemr.GRC, newemr.GRC, newemr.GRC, newemr.GRC, newemr.GRC, newemr.GRC, newemr.GRC, newemr.GRC, newemr.GRC, newemr.GRC]
+cluster 2[newemr.GRC, newemr.GRC, newemr.GRC, newemr.GRC]
+
+
+
+
+
+
+cluster 0[newemr.DLC, newemr.DLC, newemr.DLC, newemr.DLC, newemr.DLC, newemr.DLC, newemr.DLC, newemr.DLC, newemr.DLC, newemr.DLC, newemr.DLC, newemr.DLC, newemr.DLC, newemr.DLC, newemr.DLC, newemr.DLC]
+cluster 1[newemr.DEER LODGE CLINIC]
+cluster 2[newemr.Siouxland]
+
+
+
+
+
+
+cluster 1[newemr.BNMC]
+
+
+
+
+
+
+cluster 0[newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.Gordon Hospital, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH, newemr.SSH]
+cluster 1[newemr.MSH, newemr.MSH, newemr.MSH, newemr.MSH, newemr.MSH, newemr.MSH, newemr.MSH, newemr.MSH, newemr.MSH, newemr.MSH, newemr.MSH, newemr.MSH, newemr.MSH, newemr.MSH, newemr.MSH, newemr.MSH, newemr.MSH, newemr.MSH, newemr.MSH, newemr.MSH, newemr.MSH, newemr.MSH, newemr.MSH, newemr.MSH, newemr.MSH, newemr.MSH, newemr.MSH, newemr.MSH, newemr.MSH, newemr.MSH, newemr.MSH, newemr.MSH, newemr.MSH, newemr.MSH, newemr.MSH, newemr.MSH]
+cluster 2[newemr.Modesto State Hospital]
+cluster 3[newemr.MSH, newemr.MSH, newemr.MSH, newemr.MSH, newemr.MSH, newemr.MSH]
+
+
+
+
+
+
+cluster 0[newemr.LOVELAND MEMEORIAL HOSPITAL, newemr.LOVELAND MEMEORIAL HOSPITAL, newemr.LOVELAND MEMEORIAL HOSPITAL, newemr.LOVELAND MEMEORIAL HOSPITAL, newemr.LOVELAND MEMEORIAL HOSPITAL, newemr.LOVELAND MEMEORIAL HOSPITAL, newemr.LOVELAND MEMEORIAL HOSPITAL, newemr.LOVELAND MEMEORIAL HOSPITAL, newemr.LOVELAND MEMEORIAL HOSPITAL, newemr.LOVELAND MEMEORIAL HOSPITAL, newemr.LOVELAND MEMEORIAL HOSPITAL, newemr.LOVELAND MEMEORIAL HOSPITAL, newemr.LOVELAND MEMEORIAL HOSPITAL, newemr.LOVELAND MEMEORIAL HOSPITAL, newemr.LOVELAND MEMEORIAL HOSPITAL, newemr.LOVELAND MEMEORIAL HOSPITAL]
+cluster 1[newemr.LOVELAND, newemr.LOVELAND, newemr.LOVELAND, newemr.LOVELAND, newemr.LOVELAND, newemr.LOVELAND, newemr.LOVELAND, newemr.LOVELAND, newemr.LOVELAND, newemr.LOVELAND, newemr.LOVELAND, newemr.LOVELAND, newemr.LOVELAND, newemr.LOVELAND, newemr.LOVELAND, newemr.LOVELAND, newemr.LOVELAND, newemr.LOVELAND, newemr.LOVELAND, newemr.LOVELAND, newemr.LOVELAND, newemr.LOVELAND, newemr.LOVELAND, newemr.LOVELAND, newemr.LOVELAND, newemr.LOVELAND, newemr.LOVELAND, newemr.LOVELAND, newemr.LOVELAND, newemr.LOVELAND, newemr.LOVELAND, newemr.LOVELAND, newemr.LOVELAND, newemr.LOVELAND, newemr.LOVELAND, newemr.LOVELAND, newemr.LOVELAND, newemr.LOVELAND, newemr.LOVELAND, newemr.LOVELAND, newemr.LOVELAND, newemr.LOVELAND, newemr.LOVELAND, newemr.LOVELAND, newemr.LOVELAND, newemr.LOVELAND, newemr.LOVELAND, newemr.LOVELAND, newemr.LOVELAND]
+cluster 2[newemr.Connerstone Regional Hospital]
+cluster 3[newemr.LOVELAND, newemr.LOVELAND, newemr.LOVELAND, newemr.LOVELAND, newemr.LOVELAND, newemr.LOVELAND, newemr.LOVELAND]
+
+
+
+
+
+
+cluster 0[newemr.BBH, newemr.BBH, newemr.BBH, newemr.BBH, newemr.BBH, newemr.BBH, newemr.BBH, newemr.BBH, newemr.BBH]
+cluster 1[newemr.Pennsylvania Hospital, newemr.Pennsylvania Hospital, newemr.Pennsylvania Hospital, newemr.Pennsylvania Hospital, newemr.Pennsylvania Hospital, newemr.Pennsylvania Hospital, newemr.Pennsylvania Hospital, newemr.Pennsylvania Hospital, newemr.Pennsylvania Hospital]
+cluster 2[newemr.BETHANY BRETHREN HOSPITAL]
+cluster 3[newemr.Pennsylvania Hospital, newemr.Pennsylvania Hospital, newemr.Pennsylvania Hospital]
+
+
+
+
+
+
+cluster 0[newemr.Campellton-Graceville Hospital, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH, newemr.CGH]
+cluster 1[newemr.Grant Clinic, newemr.Grant Clinic, newemr.Grant Clinic, newemr.Grant Clinic, newemr.Grant Clinic, newemr.Grant Clinic, newemr.Grant Clinic, newemr.Grant Clinic, newemr.Grant Clinic, newemr.Grant Clinic, newemr.Grant Clinic, newemr.Grant Clinic, newemr.Grant Clinic, newemr.Grant Clinic, newemr.Grant Clinic, newemr.Grant Clinic]
+cluster 2[newemr.Waverly, newemr.Waverly, newemr.Waverly, newemr.Waverly, newemr.Waverly, newemr.Waverly, newemr.Waverly, newemr.Waverly, newemr.Waverly, newemr.Waverly, newemr.Waverly, newemr.Waverly, newemr.Waverly, newemr.Waverly, newemr.Waverly, newemr.Waverly]
+cluster 3[newemr.GC]
+cluster 4[newemr.Waverly, newemr.Waverly, newemr.Waverly, newemr.Waverly]
+
+
+
+
+
+
+cluster 0[newemr.HMC, newemr.HMC, newemr.HMC, newemr.HMC, newemr.hmc, newemr.Hometown Medical, newemr.RGH, newemr.RGH, newemr.HMC, newemr.HMC, newemr.HMC, newemr.HMC, newemr.hmc, newemr.RGH, newemr.RGH, newemr.Hometown Medical Center, newemr.HMC, newemr.HMC, newemr.HMC, newemr.HMC, newemr.hmc, newemr.HMC, newemr.HMC, newemr.HMC, newemr.HMC, newemr.hmc, newemr.HMC, newemr.HMC, newemr.HMC, newemr.HMC, newemr.hmc]
+cluster 1[newemr.FMH, newemr.FMH, newemr.FMH, newemr.FMH, newemr.FMH, newemr.FMH, newemr.SVRHC, newemr.FMH, newemr.FMH, newemr.FMH]
+cluster 2[newemr.RANKIN GENERAL HOSPITAL, newemr.RANKIN GENERAL HOSPITAL, newemr.RANKIN GENERAL HOSPITAL, newemr.RANKIN GENERAL HOSPITAL]
+cluster 3[newemr.Graduate Hospital]
+cluster 4[newemr.FREEPORT MEMORIAL HOSPITAL]
+cluster 5[newemr.Jewish Hospital]
+cluster 6[newemr.RANKIN GENERAL HOSPITAL, newemr.RANKIN GENERAL HOSPITAL]
+
+
+
+
+
+
+cluster 0[newemr.South Side Hospital, newemr.South Side Hospital, newemr.South Side Hospital, newemr.South Side Hospital]
+cluster 1[newemr.Carolinas Medical Center-Mercy, newemr.Carolinas Medical Center-Mercy, newemr.Carolinas Medical Center-Mercy, newemr.Carolinas Medical Center-Mercy]
+cluster 2[newemr.Bayonet Point]
+cluster 3[newemr.SOUT SIDE]
+cluster 4[newemr.Harmon Medical Rehabilitation Hospital]
+cluster 5[newemr.Regional Medical Center Bayonet Point]
+
+
+
+
+
+
+cluster 0[newemr.Southside Medical Center]
+cluster 1[newemr.Mary]
+
+
+
+
+
+
+cluster 0[newemr.PMC, newemr.PMC, newemr.PMC, newemr.PMC]
+cluster 1[newemr.Janesville, newemr.Janesville, newemr.Janesville, newemr.Janesville]
+cluster 2[newemr.Janesville Clinic, newemr.Janesville Clinic, newemr.Janesville Clinic, newemr.Janesville Clinic]
+cluster 3[newemr.PERHAM MERITCARE CLINIC]
+cluster 4[newemr.Janesville Clinic, newemr.Janesville Clinic]
+
+
+
+
+
+
+cluster 0[newemr.MH, newemr.MH, newemr.MH, newemr.MH, newemr.MH, newemr.MH, newemr.MH, newemr.MH, newemr.MH, newemr.MH, newemr.MH, newemr.MH, newemr.MH, newemr.MH, newemr.MH, newemr.MH, newemr.MH, newemr.MH, newemr.MH, newemr.MH, newemr.MH, newemr.MH, newemr.MH, newemr.MH, newemr.MH, newemr.MH, newemr.MH, newemr.MH, newemr.MH, newemr.MH, newemr.MH, newemr.MH, newemr.MH, newemr.MH, newemr.MH, newemr.MH, newemr.MH, newemr.MH, newemr.MH, newemr.MH, newemr.MH, newemr.MH, newemr.MH, newemr.MH, newemr.MH, newemr.MH, newemr.MH, newemr.MH, newemr.MH, newemr.MH, newemr.MH, newemr.MH, newemr.MH, newemr.MH, newemr.MH, newemr.MH, newemr.MH, newemr.MH, newemr.MH, newemr.MH, newemr.MH, newemr.MH, newemr.MH, newemr.MH, newemr.Johnson Rehab, newemr.Ochsner]
+cluster 1[newemr.FSH, newemr.FSH, newemr.FSH, newemr.FSH, newemr.FSH, newemr.FSH, newemr.FSH, newemr.FSH, newemr.FSH, newemr.FSH, newemr.FSH, newemr.FSH, newemr.FSH, newemr.FSH, newemr.FSH, newemr.FSH]
+cluster 2[newemr.MEC, newemr.MEC, newemr.MEC, newemr.MEC, newemr.MEC, newemr.MEC, newemr.MEC, newemr.MEC, newemr.MEC]
+cluster 3[newemr.McCook Erie Clinic, newemr.McCook Erie Clinic, newemr.McCook Erie Clinic, newemr.McCook Erie Clinic]
+cluster 4[newemr.McCook Clinic]
+cluster 5[newemr.McCook Erie Clinic, newemr.McCook Erie Clinic]
+
+
+
+
+
+
+cluster 0[newemr.Missouri River Manor, newemr.NGH, newemr.NGH, newemr.NGH, newemr.NGH]
+cluster 1[newemr.Crest Nursing Home, newemr.Crest Nursing Home, newemr.Crest Nursing Home, newemr.Crest Nursing Home]
+cluster 2[newemr.North Greenville Hospital]
+cluster 3[newemr.Hospital De Distrito]
+
+
+
+
+
+
+cluster 0[newemr.CCH, newemr.Healthwin Hospital]
+cluster 1[newemr.BRA, newemr.BRA, newemr.BRA, newemr.BRA, newemr.BRA, newemr.BRA, newemr.BRA, newemr.BRA, newemr.BRA, newemr.CLERMONT COUNTY HOSPITAL, newemr.CLERMONT COUNTY HOSPITAL, newemr.CLERMONT COUNTY HOSPITAL, newemr.CLERMONT COUNTY HOSPITAL]
+cluster 2[newemr.Ridge Family Practice Center]
+cluster 3[newemr.Butte Ridge Associates]
+cluster 4[newemr.Ridge Family Practice]
+
+
+
+
+
+
+cluster 0[newemr.Dunn County Associates]
+cluster 1[newemr.MCCLENDON MEDICAL CENTER]
+cluster 2[newemr.BH]
+cluster 3[newemr.MMC]
+
+
+
+
+
+
+cluster 0[newemr.FPM, newemr.FPM, newemr.FPM, newemr.FPM, newemr.Family Practice Missoula, newemr.Family Practice Missoula, newemr.FPM, newemr.FPM, newemr.FPM, newemr.FPM, newemr.Family Practice Missoula, newemr.Family Practice Missoula, newemr.FPM, newemr.FPM, newemr.FPM, newemr.FPM, newemr.FPM, newemr.FPM, newemr.FPM, newemr.FPM]
+cluster 1[newemr.Macdonald Hospital, newemr.Macdonald Hospital, newemr.Macdonald Hospital, newemr.Macdonald Hospital]
+cluster 2[newemr.Radford Community Hospital]
+cluster 3[newemr.MH]
+cluster 4[newemr.Macdonald Hospital, newemr.Macdonald Hospital]
+
+
+
+
+
+
+cluster 0[newemr.HEARTHSTONE, newemr.Hearthstone, newemr.HEARTHSTONE, newemr.Hearthstone]
+cluster 1[newemr.HEARTHSTONE, newemr.Hearthstone]
+
+
+
+
+
+
+cluster 0[newemr.NAMC, newemr.NAMC, newemr.NAMC, newemr.NAMC, newemr.NAMC, newemr.NAMC, newemr.NAMC, newemr.NAMC, newemr.DGH, newemr.NAMC, newemr.NAMC, newemr.NAMC, newemr.NAMC, newemr.NAMC, newemr.NAMC, newemr.NAMC, newemr.NAMC, newemr.NAMC, newemr.NAMC, newemr.NAMC, newemr.NAMC, newemr.NAMC, newemr.NAMC, newemr.NAMC, newemr.NAMC, newemr.NAMC, newemr.NAMC, newemr.NAMC, newemr.NAMC, newemr.NAMC, newemr.NAMC, newemr.NAMC, newemr.NAMC, newemr.NAMC, newemr.NAMC, newemr.NAMC, newemr.NAMC, newemr.NAMC, newemr.NAMC, newemr.NAMC, newemr.NAMC, newemr.Fremont Medical Center, newemr.FMC, newemr.FMC, newemr.FMC, newemr.FMC, newemr.NAMC, newemr.NAMC, newemr.NAMC, newemr.NAMC, newemr.NAMC, newemr.NAMC, newemr.NAMC, newemr.NAMC, newemr.NAMC, newemr.NAMC, newemr.NAMC, newemr.NAMC, newemr.NAMC, newemr.NAMC, newemr.NAMC, newemr.NAMC, newemr.FMC, newemr.FMC, newemr.FMC, newemr.FMC, newemr.FMC, newemr.FMC, newemr.FMC, newemr.FMC, newemr.NAMC, newemr.NAMC, newemr.NAMC, newemr.NAMC, newemr.NAMC, newemr.NAMC, newemr.NAMC, newemr.NAMC, newemr.FMC, newemr.FMC, newemr.FMC, newemr.FMC]
+cluster 1[newemr.Bolingbrook Senior Home, newemr.Dibble General Hospital]
+cluster 2[newemr.Blakely House]
+cluster 3[newemr.Central WV]
+cluster 4[newemr.NAMC - Central WV Clinic]
+
+
+
+
+
+
+cluster 0[newemr.SFOC, newemr.SFOC, newemr.SFOC, newemr.SFOC, newemr.SFOC, newemr.SFOC, newemr.SFOC, newemr.SFOC, newemr.SFOC]
+cluster 1[newemr.Glenn Helen, newemr.Glenn Helen, newemr.GLENN HELEN, newemr.GLENN HELEN, newemr.GLENN HELEN, newemr.Glenn Helen, newemr.Glenn Helen, newemr.GLENN HELEN, newemr.GLENN HELEN, newemr.GLENN HELEN, newemr.Glenn Helen, newemr.Glenn Helen, newemr.GLENN HELEN, newemr.GLENN HELEN, newemr.GLENN HELEN, newemr.Glenn Helen, newemr.Glenn Helen, newemr.GLENN HELEN, newemr.GLENN HELEN, newemr.GLENN HELEN, newemr.Glenn Helen, newemr.Glenn Helen, newemr.GLENN HELEN, newemr.GLENN HELEN, newemr.GLENN HELEN]
+cluster 2[newemr.Saint Francis Outpatient Center, newemr.Saint Francis Outpatient Center, newemr.Saint Francis Outpatient Center, newemr.Saint Francis Outpatient Center]
+cluster 3[newemr.Glenn Helen Infirmary]
+cluster 4[newemr.Saint Francis Outpatient Center, newemr.Saint Francis Outpatient Center]
+
+
+
+
+
+
+cluster 0[newemr.TRIBAL, newemr.TRIBAL, newemr.Tribal, newemr.Tribal, newemr.TRIBAL, newemr.TRIBAL, newemr.Tribal, newemr.Tribal, newemr.THD, newemr.THD, newemr.THD, newemr.THD, newemr.TRIBAL, newemr.TRIBAL, newemr.Tribal, newemr.Tribal, newemr.TRIBAL, newemr.TRIBAL, newemr.Tribal, newemr.Tribal]
+cluster 1[newemr.TRIBAL HEALTH DEPARTMENT, newemr.TRIBAL HEALTH DEPARTMENT, newemr.TRIBAL HEALTH DEPARTMENT, newemr.TRIBAL HEALTH DEPARTMENT]
+cluster 2[newemr.TRIBAL HEALTH DEPARTMENT, newemr.TRIBAL HEALTH DEPARTMENT]
+
+
+
+
+
+
+cluster 0[newemr.Mauston, newemr.Sawtooth Cancer Clinic, newemr.FHC]
+cluster 1[newemr.Franciscan Health Center, newemr.FRANCISCAN HEALTH CENTER, newemr.Franciscan Health Center, newemr.FRANCISCAN HEALTH CENTER]
+cluster 2[newemr.Elk Ridge Health Center]
+cluster 3[newemr.Franciscan Health Center, newemr.FRANCISCAN HEALTH CENTER]
+
+
+
+
+
+
+cluster 0[newemr.Brooksville Regional Hospital, newemr.Brooksville Regional Hospital, newemr.Brooksville Regional Hospital, newemr.Brooksville Regional Hospital]
+cluster 1[newemr.FLH]
+cluster 2[newemr.Brooksville Regional Hospital, newemr.Brooksville Regional Hospital]
+
+
+
+
+
+
+cluster 0[newemr.MC, newemr.MC, newemr.LH, newemr.LH, newemr.LH, newemr.LH, newemr.MeritCare Clinic, newemr.MeritCare Clinic, newemr.LH, newemr.LH, newemr.LH, newemr.LH, newemr.MC, newemr.MC, newemr.LH, newemr.LH, newemr.LH, newemr.LH, newemr.MeritCare Clinic, newemr.MeritCare Clinic, newemr.LH, newemr.LH, newemr.LH, newemr.LH, newemr.Leprosarium]
+cluster 1[newemr.PARK VIEW HOSPITAL, newemr.Vermilion Hospital, newemr.Vermilion Hospital, newemr.Vermilion Hospital, newemr.Vermilion Hospital, newemr.Vermilion Hospital, newemr.Vermilion Hospital, newemr.Vermilion Hospital, newemr.Vermilion Hospital, newemr.Vermilion Hospital]
+cluster 2[newemr.Vermillion, newemr.Vermillion, newemr.Vermillion, newemr.Vermillion]
+cluster 3[newemr.Livingstone Homes, newemr.Livingstone Homes, newemr.Livingstone Homes, newemr.Livingstone Homes]
+cluster 4[newemr.Livingstone Homes, newemr.Livingstone Homes]
+
+
+
+
+
+
+cluster 0[newemr.OCHILTREE GENERAL HOSPITAL, newemr.OCHILTREE GENERAL HOSPITAL, newemr.OCHILTREE GENERAL HOSPITAL, newemr.OCHILTREE GENERAL HOSPITAL, newemr.OCHILTREE GENERAL HOSPITAL, newemr.OCHILTREE GENERAL HOSPITAL, newemr.OCHILTREE GENERAL HOSPITAL, newemr.OCHILTREE GENERAL HOSPITAL, newemr.OCHILTREE GENERAL HOSPITAL, newemr.OCHILTREE GENERAL HOSPITAL, newemr.OCHILTREE GENERAL HOSPITAL, newemr.OCHILTREE GENERAL HOSPITAL, newemr.OCHILTREE GENERAL HOSPITAL, newemr.OCHILTREE GENERAL HOSPITAL, newemr.OCHILTREE GENERAL HOSPITAL, newemr.OCHILTREE GENERAL HOSPITAL, newemr.OCHILTREE GENERAL HOSPITAL, newemr.OCHILTREE GENERAL HOSPITAL, newemr.OCHILTREE GENERAL HOSPITAL, newemr.OCHILTREE GENERAL HOSPITAL, newemr.OCHILTREE GENERAL HOSPITAL, newemr.OCHILTREE GENERAL HOSPITAL, newemr.OCHILTREE GENERAL HOSPITAL, newemr.OCHILTREE GENERAL HOSPITAL, newemr.OCHILTREE GENERAL HOSPITAL]
+cluster 1[newemr.Ochiltree General, newemr.OGH, newemr.OGH, newemr.OGH, newemr.OGH]
+cluster 2[newemr.Evanston Hospital, newemr.Evanston Hospital, newemr.Evanston Hospital, newemr.Evanston Hospital]
+cluster 3[newemr.Evanston Hospital, newemr.Evanston Hospital]
+
+
+
+
+
+
+cluster 0[newemr.Willow Gardens Care - Columbus, newemr.Willow Gardens Care - Columbus, newemr.Willow Gardens Care - Columbus, newemr.Willow Gardens Care - Columbus, newemr.Willow Gardens Care - Columbus, newemr.Willow Gardens Care - Columbus, newemr.Berrien, newemr.Berrien, newemr.Willow Gardens Care - Columbus, newemr.Willow Gardens Care - Columbus, newemr.Willow Gardens Care - Columbus, newemr.Berrien, newemr.Berrien]
+cluster 1[newemr.WILLOW GARDENS CARE CENTER, newemr.Willow Gardens Care Center, newemr.WILLOW GARDENS CARE CENTER, newemr.Willow Gardens Care Center]
+cluster 2[newemr.WGCC]
+cluster 3[newemr.WILLOW GARDEN CARE CENTER]
+cluster 4[newemr.WILLOW GARDENS CARE CENTER, newemr.Willow Gardens Care Center]
+
+
+
+
+
+
+cluster 0[newemr.Clarkfield, newemr.Clarkfield, newemr.Clarkfield, newemr.Clarkfield, newemr.Clarkfield, newemr.Clarkfield, newemr.Clarkfield, newemr.Clarkfield, newemr.Clarkfield, newemr.Clarkfield, newemr.Clarkfield, newemr.Clarkfield, newemr.Clarkfield, newemr.Clarkfield, newemr.Clarkfield, newemr.Clarkfield, newemr.Clarkfield, newemr.Clarkfield, newemr.Clarkfield, newemr.Clarkfield, newemr.Clarkfield, newemr.Clarkfield, newemr.Clarkfield, newemr.Clarkfield, newemr.Clarkfield]
+cluster 1[newemr.Moton Hospital, newemr.Moton Hospital, newemr.Moton Hospital, newemr.Moton Hospital]
+cluster 2[newemr.Moton Hospital, newemr.Moton Hospital]
+
+
+
+
+
+
+cluster 0[newemr.KELLIHER CARE CENTER, newemr.Kelliher Care Center, newemr.KELLIHER CARE CENTER, newemr.KELLIHER CARE CENTER, newemr.Kelliher Care Center, newemr.KELLIHER CARE CENTER, newemr.KELLIHER CARE CENTER, newemr.Kelliher Care Center, newemr.KELLIHER CARE CENTER]
+cluster 1[newemr.KCC]
+cluster 2[newemr.KELLIHER CARE CENTER, newemr.Kelliher Care Center, newemr.KELLIHER CARE CENTER]
+
+
+
+
+
+
+cluster 1[newemr.Protestant Home Hospital]
+
+
+
+
+
+
+cluster 0[newemr.RAH, newemr.RAH, newemr.RAH, newemr.RAH, newemr.RAH, newemr.RAH, newemr.RAH, newemr.RAH, newemr.RAH, newemr.RAH, newemr.RAH, newemr.RAH, newemr.RAH, newemr.RAH, newemr.RAH, newemr.RAH]
+cluster 1[newemr.Redwood Area Hospital, newemr.Redwood Area Hospital, newemr.Redwood Area Hospital, newemr.Redwood Area Hospital]
+cluster 2[newemr.Redwood Area Hospital, newemr.Redwood Area Hospital]
+
+
+
+
+
+
+cluster 0[newemr.Florida Hospital Orland, newemr.FHO, newemr.FHO, newemr.FHO, newemr.FHO, newemr.FHO, newemr.FHO, newemr.WCH, newemr.WCH, newemr.WCH, newemr.WCH, newemr.WCH, newemr.WCH, newemr.WCH, newemr.WCH, newemr.WCH, newemr.WCH, newemr.FHO, newemr.FHO, newemr.FHO, newemr.WCH, newemr.WCH, newemr.WCH, newemr.WCH, newemr.WCH, newemr.WCH, newemr.WCH, newemr.WCH, newemr.WCH, newemr.WCH, newemr.WCH, newemr.WCH, newemr.WCH, newemr.WCH, newemr.WCH]
+cluster 1[newemr.Florida Hospital Orlando, newemr.Florida Hospital Orlando, newemr.Florida Hospital Orlando, newemr.Florida Hospital Orlando, newemr.Florida Hospital Orlando, newemr.Florida Hospital Orlando, newemr.Florida Hospital Orlando, newemr.Florida Hospital Orlando, newemr.Florida Hospital Orlando]
+cluster 2[newemr.WETZEL COUNTY HOSPITAL, newemr.WETZEL COUNTY HOSPITAL, newemr.WETZEL COUNTY HOSPITAL, newemr.WETZEL COUNTY HOSPITAL, newemr.WETZEL COUNTY HOSPITAL, newemr.WETZEL COUNTY HOSPITAL, newemr.WETZEL COUNTY HOSPITAL, newemr.WETZEL COUNTY HOSPITAL, newemr.WETZEL COUNTY HOSPITAL]
+cluster 3[newemr.WETZEL COUNTY HOSPITAL, newemr.WETZEL COUNTY HOSPITAL, newemr.WETZEL COUNTY HOSPITAL]
+
+
+
+
+
+
+cluster 0[newemr.Skiff, newemr.Skiff, newemr.Skiff, newemr.Skiff, newemr.Skiff, newemr.Skiff, newemr.Skiff, newemr.Skiff, newemr.Skiff, newemr.Skiff, newemr.Skiff, newemr.Skiff, newemr.Skiff, newemr.Skiff, newemr.Skiff, newemr.Skiff, newemr.Skiff, newemr.Skiff, newemr.Skiff, newemr.Skiff, newemr.Skiff, newemr.Skiff, newemr.Skiff, newemr.Skiff, newemr.Skiff, newemr.Skiff, newemr.Skiff, newemr.Skiff, newemr.Skiff, newemr.Skiff, newemr.Skiff, newemr.Skiff, newemr.Skiff, newemr.Skiff, newemr.Skiff, newemr.Skiff]
+cluster 1[newemr.Saline Community Hospital, newemr.Saline Community Hospital, newemr.Saline Community Hospital, newemr.Saline Community Hospital, newemr.Saline Community Hospital, newemr.Saline Community Hospital, newemr.Saline Community Hospital, newemr.Saline Community Hospital, newemr.Saline Community Hospital, newemr.Saline Community Hospital, newemr.Saline Community Hospital, newemr.Saline Community Hospital, newemr.Saline Community Hospital, newemr.Saline Community Hospital, newemr.Saline Community Hospital, newemr.Saline Community Hospital]
+cluster 2[newemr.HRMC, newemr.HRMC, newemr.HRMC, newemr.HRMC, newemr.HRMC, newemr.HRMC, newemr.HRMC, newemr.HRMC, newemr.HRMC, newemr.HRMC, newemr.HRMC, newemr.HRMC, newemr.HRMC, newemr.HRMC, newemr.HRMC, newemr.HRMC]
+cluster 3[newemr.HRMC, newemr.HRMC, newemr.HRMC, newemr.HRMC]
+
+
+
+
+
+
+cluster 0[newemr.RDC, newemr.RDC, newemr.RDC, newemr.RDC, newemr.RDC, newemr.RDC, newemr.LMH, newemr.RDC, newemr.RDC, newemr.RDC]
+cluster 1[newemr.RSH, newemr.RSH, newemr.RSH, newemr.RSH, newemr.RSH, newemr.RSH, newemr.RSH, newemr.RSH, newemr.RSH, newemr.RSH, newemr.RSH, newemr.RSH, newemr.RSH, newemr.RSH, newemr.RSH, newemr.RSH, newemr.RSH, newemr.RSH, newemr.RSH, newemr.RSH, newemr.RSH, newemr.RSH, newemr.RSH, newemr.RSH, newemr.RSH, newemr.RSH, newemr.RSH, newemr.RSH, newemr.RSH, newemr.RSH, newemr.RSH, newemr.RSH, newemr.RSH, newemr.RSH, newemr.RSH, newemr.RSH, newemr.RSH, newemr.RSH, newemr.RSH, newemr.RSH, newemr.RSH, newemr.RSH, newemr.RSH, newemr.RSH, newemr.RSH, newemr.RSH, newemr.RSH, newemr.RSH, newemr.RSH, newemr.RSH, newemr.RSH, newemr.RSH, newemr.RSH, newemr.RSH, newemr.RSH, newemr.RSH, newemr.RSH, newemr.RSH, newemr.RSH, newemr.RSH, newemr.RSH, newemr.RSH, newemr.RSH, newemr.RSH]
+cluster 2[newemr.LANCASTER MEMORIAL HOSPITAL, newemr.MTR]
+cluster 3[newemr.Rusk State Hospital]
+cluster 4[newemr.Rusk State]
+
+
+
+
+
+
+cluster 1[newemr.BBH]
+
+
+
+
+
+
+cluster 0[newemr.Davis Monthan Hospital, newemr.Davis Monthan Hospital, newemr.Davis Monthan Hospital, newemr.Davis Monthan Hospital, newemr.Davis Monthan Hospital, newemr.Davis Monthan Hospital, newemr.Davis Monthan Hospital, newemr.Davis Monthan Hospital, newemr.Davis Monthan Hospital]
+cluster 1[newemr.Davis Monthan Hospital, newemr.Davis Monthan Hospital, newemr.Davis Monthan Hospital]
+
+
+
+
+
+
+cluster 0[newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP, newemr.WFP]
+cluster 1[newemr.WISNER FAMILY PRACTICE]
+cluster 2[newemr.Mariners Hospital]
+cluster 3[newemr.BII]
+
+
+
+
+
+
+cluster 0[newemr.Duluth Clinic-Floodwood, newemr.Beechwood]
+cluster 1[newemr.North Penn Hospital, newemr.North Penn Hospital, newemr.North Penn Hospital, newemr.North Penn Hospital]
+cluster 2[newemr.Hospital Regional Universitario, newemr.Hospital Regional Universitario, newemr.Hospital Regional Universitario, newemr.Hospital Regional Universitario]
+cluster 3[newemr.EDUCARE-FARGO]
+cluster 4[newemr.Hospital Regional Universitario, newemr.Hospital Regional Universitario]
+
+
+
+
+
+
+cluster 0[newemr.BCH, newemr.Lynchburg City Health Department]
+cluster 1[newemr.Lee County Community Hospital]
+cluster 2[newemr.Boulder County Hospital]
+
+
+
+
+
+
+cluster 0[newemr.Ridgewood Hospital, newemr.RSH, newemr.RSH, newemr.RSH, newemr.RSH, newemr.RSH, newemr.RSH, newemr.EDUCARE-FARGO, newemr.RSH, newemr.RSH, newemr.RSH]
+cluster 1[newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic]
+cluster 2[newemr.SEH]
+cluster 3[newemr.Buzan Chiropractic Clinic]
+cluster 4[newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic, newemr.Buzan County Clinic]
+
+
+
+
+
+
+cluster 0[newemr.Cancer Center, newemr.Cancer Center, newemr.Cancer Center, newemr.Cancer Center, newemr.Muncy Valley Hospital, newemr.Muncy Valley Hospital, newemr.GSH, newemr.Muncy Valley Hospital, newemr.Muncy Valley Hospital]
+cluster 1[newemr.Oakridge State]
+cluster 2[newemr.Trimont Health Care Center]
+cluster 3[newemr.Grafton State Hospital]
+cluster 4[newemr.Grafton State]
+
+
+
+
+
+
+cluster 0[newemr.GCC, newemr.GCC, newemr.GCC, newemr.GCC, newemr.West Memorial Infirmary, newemr.GCC, newemr.GCC, newemr.GCC, newemr.GCC, newemr.GCC, newemr.GCC, newemr.GCC, newemr.GCC, newemr.GCC, newemr.GCC, newemr.GCC, newemr.GCC]
+cluster 1[newemr.GRETNA COUNTY CENTER]
+cluster 2[newemr.Bainbridge State Hospital]
+cluster 3[newemr.GRETNA COUNTYHIROPRACTIC CENTER]
+cluster 4[newemr.GRETNA CHIROPRACTIC CENTER]
+
+
+
+
+
+
+cluster 0[newemr.DISTRICT FOUR]
+cluster 1[newemr.District Four State Hospital]
+
+
+
+
+
+
+cluster 0[newemr.Houghton Community Health Center, newemr.Elm Hills, newemr.GCM]
+cluster 1[newemr.GRANITE, newemr.GRANITE COUNTY MEMORIAL HOSPITAL]
+cluster 2[newemr.GRANITE COUNTY MEMORIAL, newemr.GRANITE COUNTY MEMORIAL, newemr.GRANITE COUNTY MEMORIAL, newemr.GRANITE COUNTY MEMORIAL, newemr.GRANITE COUNTY MEMORIAL, newemr.GRANITE COUNTY MEMORIAL, newemr.GRANITE COUNTY MEMORIAL, newemr.GRANITE COUNTY MEMORIAL, newemr.GRANITE COUNTY MEMORIAL, newemr.GRANITE COUNTY MEMORIAL, newemr.GRANITE COUNTY MEMORIAL, newemr.GRANITE COUNTY MEMORIAL, newemr.GRANITE COUNTY MEMORIAL, newemr.GRANITE COUNTY MEMORIAL, newemr.GRANITE COUNTY MEMORIAL, newemr.GRANITE COUNTY MEMORIAL, newemr.Duluth Clinic]
+cluster 3[newemr.Elm Hills Nursing Home, newemr.Elm Hills Nursing Home, newemr.Elm Hills Nursing Home, newemr.Elm Hills Nursing Home]
+cluster 4[newemr.Senior Care Clinic]
+cluster 5[newemr.Elm Hill Nursing Home]
+cluster 6[newemr.Elm Hills Nursing Home, newemr.Elm Hills Nursing Home]
+
+
+
+
+
+
+cluster 0[newemr.SABINE MEDICAL CENTER, newemr.SABINE MEDICAL CENTER, newemr.SABINE MEDICAL CENTER, newemr.SABINE MEDICAL CENTER, newemr.SABINE MEDICAL CENTER, newemr.SABINE MEDICAL CENTER, newemr.SABINE MEDICAL CENTER, newemr.SABINE MEDICAL CENTER, newemr.SABINE MEDICAL CENTER, newemr.SABINE MEDICAL CENTER, newemr.SABINE MEDICAL CENTER, newemr.SABINE MEDICAL CENTER, newemr.SABINE MEDICAL CENTER, newemr.SABINE MEDICAL CENTER, newemr.SABINE MEDICAL CENTER, newemr.SABINE MEDICAL CENTER]
+cluster 1[newemr.SMC, newemr.SMC, newemr.SMC, newemr.SMC]
+cluster 2[newemr.Lowell General Hospital]
+cluster 3[newemr.SMC, newemr.SMC]
+
+
+
+
+
+
+cluster 0[newemr.BHCC, newemr.BHCC, newemr.BHCC, newemr.BHCC, newemr.BHCC, newemr.BHCC, newemr.BHCC, newemr.BHCC, newemr.BHCC, newemr.BHCC, newemr.BHCC, newemr.BHCC, newemr.BHCC, newemr.BHCC, newemr.BHCC, newemr.BHCC]
+cluster 1[newemr.Saint John River District Hospital, newemr.CentralBuffalo]
+cluster 2[newemr.Bonner General Hospital]
+cluster 3[newemr.LOUISIANA AVENUE MEDICAL CENTER]
+cluster 4[newemr.Central Buffalo Hospital]
+cluster 5[newemr.San Luis Obispo County General Hospital]
+
+
+
+
+
+
+cluster 0[newemr.Texas Medical Center, newemr.HOB, newemr.HOB, newemr.HOB, newemr.HOB, newemr.HOB, newemr.HOB, newemr.HOB, newemr.HOB, newemr.HOB, newemr.HOB, newemr.HOB, newemr.HOB, newemr.HOB, newemr.HOB, newemr.HOB, newemr.HOB, newemr.HOB, newemr.HOB, newemr.HOB, newemr.HOB, newemr.HOB, newemr.HOB, newemr.HOB, newemr.HOB, newemr.HOB, newemr.HOB, newemr.HOB, newemr.HOB, newemr.HOB, newemr.HOB, newemr.HOB, newemr.HOB, newemr.HOB, newemr.HOB, newemr.HOB, newemr.HOB, newemr.HOB, newemr.HOB, newemr.HOB, newemr.HOB, newemr.HOB, newemr.HOB, newemr.HOB, newemr.HOB, newemr.HOB, newemr.Belleview Convalescent Hospital, newemr.HOB, newemr.HOB, newemr.HOB, newemr.HOB, newemr.HOB, newemr.HOB, newemr.HOB, newemr.HOB, newemr.HOB, newemr.HOB, newemr.HOB, newemr.HOB, newemr.HOB, newemr.HOB, newemr.HOB, newemr.HOB, newemr.HOB, newemr.HOB, newemr.HOB, newemr.HOB, newemr.HOB, newemr.HOB, newemr.HOB, newemr.HOB, newemr.HOB, newemr.HOB, newemr.HOB, newemr.HOB, newemr.HOB, newemr.HOB, newemr.HOB, newemr.HOB, newemr.HOB, newemr.HOB, newemr.HOB, newemr.HOB, newemr.BCH, newemr.BCH, newemr.BCH, newemr.BCH]
+cluster 1[newemr.Lakeland Hospital, newemr.Pullman]
+cluster 2[newemr.LH]
+cluster 3[newemr.Heritage Of Bridgeport]
+
+
+
+
+
+
+cluster 0[newemr.Ludlow Medical Center, newemr.Ludlow Medical Center, newemr.Ludlow Medical Center, newemr.Ludlow Medical Center, newemr.Ludlow Medical Center, newemr.Ludlow Medical Center, newemr.Ludlow Medical Center, newemr.Ludlow Medical Center, newemr.Ludlow Medical Center, newemr.Ludlow Medical Center, newemr.Ludlow Medical Center, newemr.Ludlow Medical Center, newemr.hadley memorial hospital, newemr.Ludlow Medical Center, newemr.Ludlow Medical Center, newemr.Ludlow Medical Center, newemr.Ludlow Medical Center]
+cluster 1[newemr.WSH, newemr.WSH, newemr.WSH, newemr.WSH, newemr.ICMA, newemr.LMC, newemr.WSH, newemr.WSH, newemr.WSH, newemr.WSH, newemr.WSH, newemr.WSH, newemr.WSH, newemr.WSH, newemr.WSH, newemr.WSH, newemr.WSH, newemr.WSH]
+cluster 2[newemr.RFPC, newemr.RFPC, newemr.RFPC, newemr.RFPC]
+cluster 3[newemr.Wytheville South Hospital, newemr.Wytheville South Hospital, newemr.Wytheville South Hospital, newemr.Wytheville South Hospital, newemr.Riverside Family Practice Center, newemr.Riverside Family Practice Center, newemr.Wytheville South Hospital, newemr.Wytheville South Hospital, newemr.Wytheville South Hospital, newemr.Wytheville South Hospital, newemr.Riverside Family Practice Center, newemr.Riverside Family Practice Center, newemr.Wytheville South Hospital, newemr.Wytheville South Hospital, newemr.Wytheville South Hospital, newemr.Wytheville South Hospital, newemr.Wytheville South Hospital, newemr.Wytheville South Hospital, newemr.Wytheville South Hospital, newemr.Wytheville South Hospital]
+cluster 4[newemr.Wytheville South]
+cluster 5[newemr.Wytheville Sanitarium Hospital]
+
+
+
+
+
+
+cluster 0[newemr.STONYBROOK, newemr.Stonybrook, newemr.STONYBROOK, newemr.Stonybrook]
+cluster 1[newemr.SMC]
+cluster 2[newemr.Jefferson County Memorial Hospital]
+cluster 3[newemr.STONYBROOK, newemr.Stonybrook]
+
+
+
+
+
+
+cluster 0[newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV, newemr.FHV]
+cluster 1[newemr.BAPTIST MEMORIAL HOSPITAL]
+cluster 2[newemr.Florence Heights Village]
+cluster 3[newemr.Jones Hospital]
+
+
+
+
+
+
+cluster 0[newemr.RCH, newemr.RCH, newemr.RCH, newemr.RCH]
+cluster 1[newemr.RCH, newemr.RCH]
+
+
+
+
+
+
+cluster 0[newemr.ANC, newemr.ANC, newemr.ANC, newemr.ANC, newemr.BKMC]
+cluster 1[newemr.Keely Institute, newemr.Keely Institute, newemr.Keely Institute, newemr.Keely Institute]
+cluster 2[newemr.Brighton]
+cluster 3[newemr.Minnie Hamilton Health Care Center]
+cluster 4[newemr.Keely Institute, newemr.Keely Institute]
+
+
+
+
+
+
+cluster 0[newemr.MARTHA JEFFERSON HOSPITAL, newemr.MARTHA JEFFERSON HOSPITAL, newemr.MARTHA JEFFERSON HOSPITAL, newemr.MARTHA JEFFERSON HOSPITAL, newemr.MARTHA JEFFERSON HOSPITAL, newemr.MARTHA JEFFERSON HOSPITAL, newemr.MARTHA JEFFERSON HOSPITAL, newemr.MARTHA JEFFERSON HOSPITAL, newemr.MARTHA JEFFERSON HOSPITAL, newemr.MARTHA JEFFERSON HOSPITAL, newemr.MARTHA JEFFERSON HOSPITAL, newemr.MARTHA JEFFERSON HOSPITAL, newemr.MARTHA JEFFERSON HOSPITAL, newemr.MARTHA JEFFERSON HOSPITAL, newemr.MARTHA JEFFERSON HOSPITAL, newemr.MARTHA JEFFERSON HOSPITAL]
+cluster 1[newemr.MJH, newemr.MJH, newemr.MJH, newemr.MJH]
+cluster 2[newemr.SPENCER, newemr.Spencer, newemr.SPENCER, newemr.SPENCER, newemr.Spencer, newemr.SPENCER, newemr.SPENCER, newemr.Spencer, newemr.SPENCER]
+cluster 3[newemr.SPENCER STATE HOSPITAL, newemr.Spencer State Hospital, newemr.SPENCER STATE HOSPITAL, newemr.Spencer State Hospital]
+cluster 4[newemr.SPENCER STATE HOSPITAL, newemr.Spencer State Hospital]
+
+
+
+
+
+
+cluster 0[newemr.KRMC, newemr.KRMC, newemr.KRMC, newemr.KRMC]
+cluster 1[newemr.ZUCKER HILLSIDE HOSPITAL, newemr.ZUCKER HILLSIDE HOSPITAL, newemr.ZUCKER HILLSIDE HOSPITAL, newemr.ZUCKER HILLSIDE HOSPITAL]
+cluster 2[newemr.ZUCKER HILLSIDE HOSPITAL, newemr.ZUCKER HILLSIDE HOSPITAL]
+
+
+
+
+
+
+cluster 0[newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH]
+cluster 1[newemr.SLH]
+cluster 2[newemr.ST LUCIA]
+cluster 3[newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH, newemr.DCGH]
+
+
+
+
+
+
+cluster 0[newemr.SMI, newemr.SMI, newemr.SMI, newemr.SMI, newemr.SMI, newemr.SMI, newemr.SMI, newemr.SMI, newemr.SMI, newemr.SMI, newemr.SMI, newemr.SMI, newemr.SMI, newemr.SMI, newemr.SMI, newemr.SMI, newemr.SMI, newemr.SMI, newemr.SMI, newemr.SMI, newemr.SMI, newemr.SMI, newemr.SMI, newemr.SMI, newemr.SMI, newemr.SMI, newemr.SMI, newemr.SMI, newemr.SMI, newemr.SMI, newemr.SMI, newemr.SMI, newemr.SMI, newemr.SMI, newemr.SMI, newemr.SMI, newemr.SMI, newemr.SMI, newemr.SMI, newemr.SMI, newemr.SMI, newemr.SMI, newemr.SMI, newemr.SMI, newemr.SMI, newemr.SMI, newemr.SMI, newemr.SMI, newemr.SMI, newemr.SMI, newemr.SMI, newemr.SMI, newemr.SMI, newemr.SMI, newemr.Eye Specialties, newemr.SMI, newemr.SMI, newemr.SMI, newemr.SMI, newemr.SMI, newemr.SMI, newemr.SMI, newemr.SMI, newemr.SMI, newemr.SMI, newemr.SMI, newemr.SMI, newemr.SMI, newemr.SMI, newemr.SMI, newemr.SMI, newemr.SMI, newemr.SMI, newemr.SMI, newemr.SMI, newemr.SMI, newemr.SMI, newemr.SMI, newemr.SMI, newemr.SMI, newemr.SMI, newemr.SMI]
+cluster 1[newemr.KESSEL GROUP HOME, newemr.KESSEL GROUP HOME, newemr.Kessel Group Home, newemr.KESSEL GROUP HOME, newemr.KESSEL GROUP HOME, newemr.Kessel Group Home, newemr.KESSEL GROUP HOME, newemr.KESSEL GROUP HOME, newemr.Kessel Group Home]
+cluster 2[newemr.Saint Marys Infirmary]
+cluster 3[newemr.Victor Cullen State Hospital]
+cluster 4[newemr.KESSEL GROUP HOME, newemr.KESSEL GROUP HOME, newemr.Kessel Group Home]
+
+
+
+
+
+
+cluster 0[newemr.MARY, newemr.MARY, newemr.MARY, newemr.MARY, newemr.MARY, newemr.MARY, newemr.MARY, newemr.MARY, newemr.MARY, newemr.MARY, newemr.MARY, newemr.MARY, newemr.MARY, newemr.MARY, newemr.MARY, newemr.MARY, newemr.MARY, newemr.MARY, newemr.MARY, newemr.MARY, newemr.MARY, newemr.MARY, newemr.MARY, newemr.MARY, newemr.MARY, newemr.MARY, newemr.MARY, newemr.MARY, newemr.MARY, newemr.MARY, newemr.MARY, newemr.MARY, newemr.MARY, newemr.MARY, newemr.MARY, newemr.MARY, newemr.MARY, newemr.MARY, newemr.MARY, newemr.MARY, newemr.MARY, newemr.MARY, newemr.MARY, newemr.MARY, newemr.MARY, newemr.MARY, newemr.MARY, newemr.MARY, newemr.MARY, newemr.MARY, newemr.MARY, newemr.MARY, newemr.MARY, newemr.MARY, newemr.MARY, newemr.MARY, newemr.MARY, newemr.MARY, newemr.MARY, newemr.MARY, newemr.MARY, newemr.MARY, newemr.MARY, newemr.MARY]
+cluster 1[newemr.Marion Memorial Hospital]
+cluster 2[newemr.BOGC]
+cluster 3[newemr.Burlington Obstetrics Gynecology Center]
+
+
+
+
+
+
+cluster 0[newemr.Beaumont Hospital, newemr.Beaumont Hospital, newemr.Beaumont Hospital, newemr.Beaumont Hospital, newemr.Beaumont Hospital, newemr.Beaumont Hospital, newemr.Beaumont Hospital, newemr.Beaumont Hospital, newemr.Beaumont Hospital, newemr.Beaumont Hospital, newemr.Beaumont Hospital, newemr.Beaumont Hospital, newemr.Beaumont Hospital, newemr.Beaumont Hospital, newemr.Beaumont Hospital, newemr.Beaumont Hospital]
+cluster 1[newemr.Mitchel Memorial Hospital]
+cluster 2[newemr.BH]
+cluster 3[newemr.Beaumont Hospital, newemr.Beaumont Hospital, newemr.Beaumont Hospital, newemr.Beaumont Hospital]
+
+
+
+
+
+
+cluster 0[newemr.SDP, newemr.SDP, newemr.SDP, newemr.SDP, newemr.SDP, newemr.SDP, newemr.SDP, newemr.SDP, newemr.SDP, newemr.PROMPTCARE]
+cluster 1[newemr.Saint Davids Pavilion, newemr.Saint Davids Pavilion, newemr.Saint Davids Pavilion, newemr.Saint Davids Pavilion]
+cluster 2[newemr.Educare-Fargo]
+cluster 3[newemr.Saint Davids Pavilion, newemr.Saint Davids Pavilion]
+
+
+
+
+
+
+cluster 0[newemr.Linden Health Care Center, newemr.Linden Health Care Center, newemr.Linden Health Care Center, newemr.Linden Health Care Center, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH, newemr.BMH]
+cluster 1[newemr.Cottage Sanatorium, newemr.Cottage Sanatorium, newemr.Cottage Sanatorium, newemr.Cottage Sanatorium]
+cluster 2[newemr.BARTON MEMORIAL HOSPITAL]
+cluster 3[newemr.Linden Health]
+cluster 4[newemr.Cottage Sanatorium, newemr.Cottage Sanatorium]
+
+
+
+
+
+
+cluster 1[newemr.Immanuel Medical Center]
+
+
+
+
+
+
+cluster 0[newemr.Rio Grande State Center]
+cluster 1[newemr.RGSC]
+
+
+
+
+
+
+cluster 0[newemr.WMMC, newemr.WMMC, newemr.WMMC, newemr.WMMC, newemr.WMMC, newemr.WMMC, newemr.WMMC, newemr.WMMC, newemr.WMMC, newemr.WMMC, newemr.WMMC, newemr.WMMC, newemr.WMMC, newemr.WMMC, newemr.WMMC, newemr.Beloit State, newemr.WMMC, newemr.WMMC, newemr.WMMC, newemr.WMMC, newemr.WMMC, newemr.WMMC, newemr.WMMC, newemr.WMMC, newemr.WMMC, newemr.WMMC]
+cluster 1[newemr.ODC, newemr.ODC, newemr.ODC, newemr.ODC, newemr.ODC, newemr.ODC, newemr.ODC, newemr.ODC, newemr.ODC]
+cluster 2[newemr.OXFORD DELTA CLINIC, newemr.OXFORD DELTA CLINIC, newemr.OXFORD DELTA CLINIC, newemr.OXFORD DELTA CLINIC, newemr.OXFORD DELTA CLINIC, newemr.OXFORD DELTA CLINIC, newemr.OXFORD DELTA CLINIC, newemr.OXFORD DELTA CLINIC, newemr.OXFORD DELTA CLINIC, newemr.OXFORD DELTA CLINIC, newemr.OXFORD DELTA CLINIC, newemr.OXFORD DELTA CLINIC, newemr.OXFORD DELTA CLINIC, newemr.OXFORD DELTA CLINIC, newemr.OXFORD DELTA CLINIC, newemr.OXFORD DELTA CLINIC]
+cluster 3[newemr.BS]
+cluster 4[newemr.OXFORD DELTA CLINIC, newemr.OXFORD DELTA CLINIC, newemr.OXFORD DELTA CLINIC, newemr.OXFORD DELTA CLINIC]
+
+
+
+
+
+
+cluster 0[newemr.Marianjoy Rehabilitation Hospital, newemr.Marianjoy Rehabilitation Hospital, newemr.Marianjoy Rehabilitation Hospital, newemr.Marianjoy Rehabilitation Hospital, newemr.Marianjoy Rehabilitation Hospital, newemr.Marianjoy Rehabilitation Hospital, newemr.Marianjoy Rehabilitation Hospital, newemr.Marianjoy Rehabilitation Hospital, newemr.Marianjoy Rehabilitation Hospital]
+cluster 1[newemr.HIGHLAND HOSITAL, newemr.HIGHLAND HOSITAL, newemr.HIGHLAND HOSITAL, newemr.HIGHLAND HOSITAL, newemr.HIGHLAND HOSITAL, newemr.HIGHLAND HOSITAL, newemr.HIGHLAND HOSITAL, newemr.HIGHLAND HOSITAL, newemr.HIGHLAND HOSITAL]
+cluster 2[newemr.HIGHLAND HOSITAL, newemr.HIGHLAND HOSITAL, newemr.HIGHLAND HOSITAL]
+
+
+
+
+
+
+cluster 0[newemr.Christy Clinic, newemr.Christy]
+cluster 1[newemr.NORTHLAND MEDICAL CLINIC, newemr.NORTHLAND MEDICAL CLINIC, newemr.NORTHLAND MEDICAL CLINIC, newemr.NORTHLAND MEDICAL CLINIC, newemr.NORTHLAND MEDICAL CLINIC, newemr.NORTHLAND MEDICAL CLINIC, newemr.NORTHLAND MEDICAL CLINIC, newemr.NORTHLAND MEDICAL CLINIC, newemr.NORTHLAND MEDICAL CLINIC]
+cluster 2[newemr.Fahey Center, newemr.Fahey Center, newemr.Fahey Center, newemr.Fahey Center]
+cluster 3[newemr.Manamana]
+cluster 4[newemr.NMC]
+cluster 5[newemr.Fahey Center, newemr.Fahey Center]
+
+
+
+
+
+
+cluster 0[newemr.Cooley, newemr.Cooley, newemr.Cooley, newemr.Cooley]
+cluster 1[newemr.Cooley Dickinson Hospital, newemr.Cooley Dickinson Hospital, newemr.Cooley Dickinson Hospital, newemr.Cooley Dickinson Hospital, newemr.Cooley Dickinson Hospital, newemr.Cooley Dickinson Hospital, newemr.Cooley Dickinson Hospital, newemr.Cooley Dickinson Hospital, newemr.Cooley Dickinson Hospital, newemr.Cooley Dickinson Hospital, newemr.Cooley Dickinson Hospital, newemr.Cooley Dickinson Hospital, newemr.Cooley Dickinson Hospital, newemr.Cooley Dickinson Hospital, newemr.Cooley Dickinson Hospital, newemr.Cooley Dickinson Hospital, newemr.Cooley Dickinson Hospital, newemr.Cooley Dickinson Hospital, newemr.Cooley Dickinson Hospital, newemr.Cooley Dickinson Hospital, newemr.Cooley Dickinson Hospital, newemr.Cooley Dickinson Hospital, newemr.Cooley Dickinson Hospital, newemr.Cooley Dickinson Hospital, newemr.Cooley Dickinson Hospital]
+cluster 2[newemr.Cooley Dickinson Hospital, newemr.Cooley Dickinson Hospital, newemr.Cooley Dickinson Hospital, newemr.Cooley Dickinson Hospital, newemr.Cooley Dickinson Hospital]
+
+
+
+
+
+
+cluster 0[newemr.AMC, newemr.AMC, newemr.AMC, newemr.AMC]
+cluster 1[newemr.ALGIERS MEDICAL CENTER, newemr.ALGIERS MEDICAL CENTER, newemr.Algiers Medical Center, newemr.ALGIERS MEDICAL CENTER, newemr.ALGIERS MEDICAL CENTER, newemr.ALGIERS MEDICAL CENTER, newemr.Algiers Medical Center, newemr.ALGIERS MEDICAL CENTER, newemr.ALGIERS MEDICAL CENTER, newemr.ALGIERS MEDICAL CENTER, newemr.Algiers Medical Center, newemr.ALGIERS MEDICAL CENTER, newemr.ALGIERS MEDICAL CENTER, newemr.ALGIERS MEDICAL CENTER, newemr.Algiers Medical Center, newemr.ALGIERS MEDICAL CENTER]
+cluster 2[newemr.ALGIERS MEDICAL CENTER, newemr.ALGIERS MEDICAL CENTER, newemr.Algiers Medical Center, newemr.ALGIERS MEDICAL CENTER]
+
+
+
+
+
+
+cluster 0[newemr.YORK CONVALESCENT HOSPITAL, newemr.YORK CONVALESCENT HOSPITAL, newemr.YORK CONVALESCENT HOSPITAL, newemr.YORK CONVALESCENT HOSPITAL, newemr.YORK CONVALESCENT HOSPITAL, newemr.YORK CONVALESCENT HOSPITAL, newemr.YORK CONVALESCENT HOSPITAL, newemr.YORK CONVALESCENT HOSPITAL, newemr.YORK CONVALESCENT HOSPITAL, newemr.YORK CONVALESCENT HOSPITAL, newemr.YORK CONVALESCENT HOSPITAL, newemr.YORK CONVALESCENT HOSPITAL, newemr.YORK CONVALESCENT HOSPITAL, newemr.YORK CONVALESCENT HOSPITAL, newemr.YORK CONVALESCENT HOSPITAL, newemr.YORK CONVALESCENT HOSPITAL]
+cluster 1[newemr.YCH, newemr.Duluth Clinic]
+cluster 2[newemr.Muscatine Health Center]
+cluster 3[newemr.Muscatine Health]
+
+
+
+
+
+
+cluster 0[newemr.Vereen Memorial Hospital, newemr.Vereen Memorial Hospital, newemr.Vereen Memorial Hospital, newemr.Vereen Memorial Hospital]
+cluster 1[newemr.Comfrey Clinic]
+cluster 2[newemr.MEC]
+cluster 3[newemr.Midwest Eire Center]
+cluster 4[newemr.Loma Linda Community Hospital]
+cluster 5[newemr.Vereen Memorial Hospital, newemr.Vereen Memorial Hospital]
+
+
+
+
+
+
+cluster 0[newemr.SMMC, newemr.OKMH]
+cluster 1[newemr.LGH, newemr.LGH, newemr.LGH, newemr.LGH, newemr.LGH, newemr.LGH, newemr.LGH, newemr.LGH, newemr.LGH]
+cluster 2[newemr.LAGRANGE]
+cluster 3[newemr.EDUCARE-FARGO]
+cluster 4[newemr.CDH]
+
+
+
+
+
+
+cluster 0[newemr.Johnsonville Family Clinic, newemr.Johnsonville Family Clinic, newemr.Johnsonville Family Clinic, newemr.Johnsonville Family Clinic]
+cluster 1[newemr.BARROW MEDICAL CENTER]
+cluster 2[newemr.Johnson Family Vision Care]
+cluster 3[newemr.Johnsonville Family Clinic, newemr.Johnsonville Family Clinic]
+
+
+
+
+
+
+cluster 0[newemr.PVH, newemr.PVH, newemr.PVH, newemr.PVH, newemr.PVH, newemr.PVH, newemr.PVH, newemr.PVH, newemr.PVH, newemr.PVH, newemr.PVH, newemr.PVH, newemr.PVH, newemr.PVH, newemr.PVH, newemr.PVH, newemr.PVH, newemr.PVH, newemr.PVH, newemr.PVH, newemr.PVH, newemr.PVH, newemr.PVH, newemr.PVH, newemr.PVH, newemr.PVH, newemr.PVH, newemr.PVH, newemr.PVH, newemr.PVH, newemr.PVH, newemr.PVH, newemr.PVH, newemr.PVH, newemr.PVH, newemr.PVH]
+cluster 1[newemr.Stuart Hospital]
+cluster 2[newemr.Potomac Valley Hospital]
+cluster 3[newemr.University Hospital]
+
+
+
+
+
+
+cluster 0[newemr.NSCC, newemr.NSCC, newemr.NSCC, newemr.NSCC]
+cluster 1[newemr.JCH, newemr.JCH, newemr.JCH, newemr.JCH, newemr.JCH, newemr.JCH, newemr.JCH, newemr.JCH, newemr.JCH, newemr.JCH, newemr.JCH, newemr.JCH, newemr.KND, newemr.JCH, newemr.JCH, newemr.JCH, newemr.JCH, newemr.OCC, newemr.Appalachian Hospital]
+cluster 2[newemr.Johnson County Home, newemr.Johnson County Home, newemr.Johnson County Home, newemr.Johnson County Home, newemr.Johnson County Home, newemr.Johnson County Home, newemr.Johnson County Home, newemr.Johnson County Home, newemr.Johnson County Home, newemr.Johnson County Home, newemr.Johnson County Home, newemr.Johnson County Home, newemr.Johnson County Home, newemr.Johnson County Home, newemr.Johnson County Home, newemr.Johnson County Home]
+cluster 3[newemr.Duluth Clinic-Hermantown]
+cluster 4[newemr.Sparks County Clinic]
+
+
+
+
+
+
+cluster 0[newemr.MOUNTAIN SIDE, newemr.DSH, newemr.DSH, newemr.DSH, newemr.DSH, newemr.DSH, newemr.DSH, newemr.DSH, newemr.DSH, newemr.DSH, newemr.DSH, newemr.DSH, newemr.DSH, newemr.DSH, newemr.DSH, newemr.DSH, newemr.DSH, newemr.DSH, newemr.DSH, newemr.DSH, newemr.DSH, newemr.DSH, newemr.DSH, newemr.DSH, newemr.DSH, newemr.DSH, newemr.DSH, newemr.DSH, newemr.DSH, newemr.DSH, newemr.DSH, newemr.DSH, newemr.DSH, newemr.DSH, newemr.DSH, newemr.DSH, newemr.DSH]
+cluster 1[newemr.HCC, newemr.HCC, newemr.HCC, newemr.HCC, newemr.HCC, newemr.HCC, newemr.HCC, newemr.HCC, newemr.HCC, newemr.HCC, newemr.HCC, newemr.HCC, newemr.HCC, newemr.HCC, newemr.HCC, newemr.HCC, newemr.HCC, newemr.HCC, newemr.HCC, newemr.HCC, newemr.HCC, newemr.HCC, newemr.HCC, newemr.HCC, newemr.HCC, newemr.HCC, newemr.HCC, newemr.HCC, newemr.HCC, newemr.HCC, newemr.HCC, newemr.HCC, newemr.HCC, newemr.HCC, newemr.HCC, newemr.HCC, newemr.HCC, newemr.HCC, newemr.HCC, newemr.HCC, newemr.HCC, newemr.HCC, newemr.HCC, newemr.HCC, newemr.HCC, newemr.HCC, newemr.HCC, newemr.HCC, newemr.HCC]
+cluster 2[newemr.Heartland County Clinic, newemr.HEARTLAND COUNTY CLINIC, newemr.Heartland County Clinic, newemr.HEARTLAND COUNTY CLINIC]
+cluster 3[newemr.Danville State Hospital]
+cluster 4[newemr.Heartland County Clinic, newemr.HEARTLAND COUNTY CLINIC]
+
+
+
+
+
+
+cluster 0[newemr.MAH, newemr.MAH, newemr.MAH, newemr.MAH, newemr.MAH, newemr.MAH, newemr.MAH, newemr.MAH, newemr.MAH, newemr.Mount Ascutney Hospital, newemr.Mount Ascutney Hospital, newemr.MAH, newemr.MAH, newemr.MAH, newemr.MAH, newemr.MAH, newemr.MAH, newemr.MAH, newemr.MAH, newemr.MAH, newemr.Elders Home, newemr.Mount Ascutney Hospital, newemr.Mount Ascutney Hospital, newemr.MAH, newemr.MAH, newemr.MAH, newemr.MAH, newemr.MAH, newemr.MAH, newemr.MAH, newemr.MAH, newemr.MAH, newemr.MAH, newemr.MAH, newemr.MAH, newemr.MAH, newemr.MAH, newemr.MAH, newemr.MAH, newemr.MAH, newemr.MAH, newemr.MAH, newemr.MAH, newemr.MAH, newemr.MAH, newemr.MAH, newemr.MAH, newemr.MAH, newemr.MAH, newemr.MAH, newemr.MAH, newemr.MAH, newemr.MAH, newemr.MAH, newemr.MAH, newemr.MAH, newemr.MAH, newemr.MAH, newemr.MAH, newemr.MAH, newemr.MAH, newemr.MAH, newemr.MAH, newemr.MAH, newemr.MAH, newemr.MAH, newemr.MAH, newemr.MAH, newemr.MAH, newemr.MAH, newemr.MAH, newemr.MAH, newemr.MAH, newemr.MAH, newemr.MAH, newemr.MAH, newemr.MAH, newemr.MAH, newemr.MAH, newemr.MAH, newemr.MAH, newemr.MAH, newemr.MAH, newemr.MAH, newemr.MAH, newemr.MAH]
+cluster 1[newemr.WDMC, newemr.Kekela]
+cluster 2[newemr.Hilton Head Medical Center]
+cluster 3[newemr.Tuburculosis Hospital]
+
+
+
+
+
+
+cluster 0[newemr.Folsom Convalescent Hospital, newemr.FOLSOM CONVALESCENT HOSPITAL, newemr.FOLSOM CONVALESCENT HOSPITAL, newemr.FOLSOM CONVALESCENT HOSPITAL, newemr.Folsom Convalescent Hospital, newemr.FOLSOM CONVALESCENT HOSPITAL, newemr.FOLSOM CONVALESCENT HOSPITAL, newemr.FOLSOM CONVALESCENT HOSPITAL, newemr.Folsom Convalescent Hospital, newemr.FOLSOM CONVALESCENT HOSPITAL, newemr.FOLSOM CONVALESCENT HOSPITAL, newemr.FOLSOM CONVALESCENT HOSPITAL, newemr.Folsom Convalescent Hospital, newemr.FOLSOM CONVALESCENT HOSPITAL, newemr.FOLSOM CONVALESCENT HOSPITAL, newemr.FOLSOM CONVALESCENT HOSPITAL]
+cluster 1[newemr.Folsom Convalescent]
+cluster 2[newemr.Parker Hospital]
+cluster 3[newemr.PH]
+cluster 4[newemr.Folsom Convalescent Hospital, newemr.FOLSOM CONVALESCENT HOSPITAL, newemr.FOLSOM CONVALESCENT HOSPITAL, newemr.FOLSOM CONVALESCENT HOSPITAL]
+
+
+
+
+
+
+cluster 0[newemr.Titonka Care Center, newemr.Titonka Care Center, newemr.Titonka Care Center, newemr.Titonka Care Center, newemr.Titonka Care Center, newemr.Titonka Care Center, newemr.Titonka Care Center, newemr.Titonka Care Center, newemr.Titonka Care Center]
+cluster 1[newemr.Titonka]
+cluster 2[newemr.Titonka Cardiovascular Care Center]
+
+
+
+
+
+
+cluster 0[newemr.HCC, newemr.HCC, newemr.HCC, newemr.HCC, newemr.HCC, newemr.HCC, newemr.HCC, newemr.HCC, newemr.HCC]
+cluster 1[newemr.Health Care Center]
+cluster 2[newemr.Mediquik]
+
+
+
+
+
+
+cluster 0[newemr.ILC, newemr.ILC, newemr.ILC, newemr.ILC, newemr.INDEPENDENT, newemr.Independent Living Center, newemr.IMS]
+cluster 1[newemr.Illini Community Hospital, newemr.Illini Community Hospital, newemr.Illini Community Hospital, newemr.Illini Community Hospital]
+cluster 2[newemr.Crete Municipal Hospital]
+cluster 3[newemr.Illini Community Hospital, newemr.Illini Community Hospital]
+
+
+
+
+
+
+cluster 0[newemr.MIDLAND]
+cluster 1[newemr.LCFMC]
+
+
+
+
+
+
+cluster 0[newemr.COLLINGSWORTH GENERAL HOSPITAL, newemr.COLLINGSWORTH GENERAL HOSPITAL, newemr.COLLINGSWORTH GENERAL HOSPITAL, newemr.COLLINGSWORTH GENERAL HOSPITAL]
+cluster 1[newemr.COLLINGSWORTH GENERAL HOSPITAL, newemr.COLLINGSWORTH GENERAL HOSPITAL]
+
+
+
+
+
+
+cluster 0[newemr.Valley County Hospital, newemr.VALLEY COUNTY HOSPITAL, newemr.VALLEY COUNTY HOSPITAL, newemr.Valley County Hospital, newemr.Valley County Hospital, newemr.VALLEY COUNTY HOSPITAL, newemr.VALLEY COUNTY HOSPITAL, newemr.Valley County Hospital, newemr.Valley County Hospital, newemr.VALLEY COUNTY HOSPITAL, newemr.VALLEY COUNTY HOSPITAL, newemr.Valley County Hospital, newemr.Valley County Hospital, newemr.VALLEY COUNTY HOSPITAL, newemr.VALLEY COUNTY HOSPITAL, newemr.Valley County Hospital]
+cluster 1[newemr.Valley County]
+cluster 2[newemr.Copley Hospital]
+cluster 3[newemr.Valley County Hospital, newemr.VALLEY COUNTY HOSPITAL, newemr.VALLEY COUNTY HOSPITAL, newemr.Valley County Hospital]
+
+
+
+
+
+
+cluster 1[newemr.CityMemorial]
+
+
+
+
+
+
+cluster 0[newemr.ELIZABETHTOWN STATE HOSPITAL, newemr.ELIZABETHTOWN STATE HOSPITAL, newemr.Elizabethtown State Hospital, newemr.Elizabethtown State Hospital, newemr.ELIZABETHTOWN STATE HOSPITAL, newemr.ELIZABETHTOWN STATE HOSPITAL, newemr.ELIZABETHTOWN STATE HOSPITAL, newemr.Elizabethtown State Hospital, newemr.Elizabethtown State Hospital, newemr.ELIZABETHTOWN STATE HOSPITAL, newemr.ELIZABETHTOWN STATE HOSPITAL, newemr.ELIZABETHTOWN STATE HOSPITAL, newemr.Elizabethtown State Hospital, newemr.Elizabethtown State Hospital, newemr.ELIZABETHTOWN STATE HOSPITAL, newemr.ELIZABETHTOWN STATE HOSPITAL, newemr.ELIZABETHTOWN STATE HOSPITAL, newemr.Elizabethtown State Hospital, newemr.Elizabethtown State Hospital, newemr.ELIZABETHTOWN STATE HOSPITAL, newemr.ELIZABETHTOWN STATE HOSPITAL, newemr.ELIZABETHTOWN STATE HOSPITAL, newemr.Elizabethtown State Hospital, newemr.Elizabethtown State Hospital, newemr.ELIZABETHTOWN STATE HOSPITAL]
+cluster 1[newemr.ESH, newemr.ESH, newemr.ESH, newemr.ESH]
+cluster 2[newemr.ESH, newemr.ESH]
+
+
+
+
+
+
+cluster 0[newemr.CLAIBORNE, newemr.CLAIBORNE, newemr.Claiborne, newemr.CLAIBORNE, newemr.CLAIBORNE, newemr.Claiborne, newemr.GCH, newemr.Gwinnett County Hospital, newemr.CLAIBORNE, newemr.CLAIBORNE, newemr.Claiborne]
+cluster 1[newemr.Fairfield, newemr.Fairfield, newemr.Fairfield, newemr.Fairfield, newemr.Fairfield, newemr.Fairfield, newemr.Fairfield, newemr.Fairfield, newemr.Fairfield]
+cluster 2[newemr.Sheboygan Memorial Medical Center, newemr.Sheboygan Memorial Medical Center, newemr.Sheboygan Memorial Medical Center, newemr.Sheboygan Memorial Medical Center]
+cluster 3[newemr.Newton Hosp]
+cluster 4[newemr.Sheboygan Memorial Medical Center, newemr.Sheboygan Memorial Medical Center]
+
+
+
+
+
+
+cluster 0[newemr.Longview Hospital, newemr.LH, newemr.Homestead Hospital, newemr.Homestead, newemr.Homestead, newemr.Homestead, newemr.Homestead, newemr.Northwest Hospital]
+cluster 1[newemr.Ochsner Health Center Denham Springs, newemr.Ochsner Health Center Denham Springs, newemr.Ochsner Health Center Denham Springs, newemr.Ochsner Health Center Denham Springs]
+cluster 2[newemr.Ohc]
+cluster 3[newemr.HH]
+cluster 4[newemr.Ochsner Health Center Denham Springs, newemr.Ochsner Health Center Denham Springs]
+
+
+
+
+
+
+cluster 0[newemr.PH, newemr.PH, newemr.PH, newemr.PH, newemr.PH, newemr.PH, newemr.PH, newemr.PH, newemr.PH, newemr.PH, newemr.PH, newemr.PH, newemr.PH, newemr.PH, newemr.PH, newemr.PH]
+cluster 1[newemr.VALLEY LANE]
+cluster 2[newemr.PH, newemr.PH, newemr.PH, newemr.PH]
+
+
+
+
+
+
+cluster 0[newemr.UMH, newemr.UMH, newemr.UMH, newemr.UMH]
+cluster 1[newemr.Marquette]
+cluster 2[newemr.Community Health]
+cluster 3[newemr.Ocilla Hospital]
+cluster 4[newemr.CHC]
+cluster 5[newemr.UMH, newemr.UMH]
+
+
+
+
+
+
+cluster 0[newemr.ANRC, newemr.ANRC, newemr.ANRC, newemr.ANRC, newemr.ANRC, newemr.ANRC, newemr.ANRC, newemr.ANRC, newemr.Atlantic North, newemr.Atlantic North, newemr.Atlantic North, newemr.Atlantic North, newemr.Atlantic North, newemr.Atlantic North, newemr.Atlantic North, newemr.Atlantic North, newemr.Atlantic North, newemr.Atlantic North, newemr.Atlantic North, newemr.Atlantic North, newemr.Atlantic North, newemr.Atlantic North, newemr.Atlantic North, newemr.Atlantic North, newemr.Atlantic North, newemr.Atlantic North, newemr.Atlantic North, newemr.Atlantic North, newemr.Atlantic North, newemr.Atlantic North, newemr.Atlantic North, newemr.Atlantic North, newemr.Atlantic North, newemr.ANRC, newemr.ANRC, newemr.ANRC, newemr.ANRC, newemr.ANRC, newemr.ANRC, newemr.ANRC, newemr.ANRC]
+cluster 1[newemr.NYSH, newemr.NYSH, newemr.NYSH, newemr.NYSH, newemr.NYSH, newemr.NYSH, newemr.NYSH, newemr.NYSH, newemr.NYSH, newemr.NYSH, newemr.NYSH, newemr.NYSH, newemr.NYSH, newemr.NYSH, newemr.NYSH, newemr.NYSH, newemr.NYSH, newemr.NYSH, newemr.NYSH, newemr.NYSH, newemr.NYSH, newemr.NYSH, newemr.NYSH, newemr.NYSH, newemr.NYSH]
+cluster 2[newemr.NYSH-East, newemr.NYSH-East, newemr.NYSH-East, newemr.NYSH-East]
+cluster 3[newemr.Atlantic North Rehabilitation]
+cluster 4[newemr.Atlantic North Rehabilitation Center]
+
+
+
+
+
+
+cluster 0[newemr.KJH, newemr.KJH, newemr.KJH, newemr.KJH]
+cluster 1[newemr.Promptcare]
+cluster 2[newemr.KJH, newemr.KJH]
+
+
+
+
+
+
+cluster 0[newemr.P, newemr.P, newemr.P, newemr.P]
+cluster 1[newemr.PINELLAS, newemr.PINELLAS, newemr.PINELLAS, newemr.PINELLAS, newemr.PINELLAS, newemr.PINELLAS, newemr.PINELLAS, newemr.PINELLAS, newemr.PINELLAS, newemr.PINELLAS, newemr.PINELLAS, newemr.PINELLAS, newemr.PINELLAS, newemr.PINELLAS, newemr.PINELLAS, newemr.PINELLAS]
+cluster 2[newemr.PINELLAS GENERAL HOSPITAL, newemr.PINELLAS GENERAL HOSPITAL, newemr.PINELLAS GENERAL HOSPITAL, newemr.PINELLAS GENERAL HOSPITAL]
+cluster 3[newemr.PINELLAS GENERAL HOSPITAL, newemr.PINELLAS GENERAL HOSPITAL]
+
+
+
+
+
+
+cluster 0[newemr.NSH, newemr.NSH, newemr.NSH, newemr.NSH, newemr.NSH, newemr.NSH, newemr.NSH, newemr.NSH, newemr.NSH, newemr.NSH, newemr.NSH, newemr.NSH, newemr.NSH, newemr.NSH, newemr.NSH, newemr.NSH, newemr.MSTMC, newemr.Glenbeigh Hospital]
+cluster 1[newemr.NORTHERN STATE HOSPITAL, newemr.NORTHERN STATE HOSPITAL, newemr.NORTHERN STATE HOSPITAL, newemr.NORTHERN STATE HOSPITAL]
+cluster 2[newemr.Community Hospital]
+cluster 3[newemr.MSHMC]
+cluster 4[newemr.NORTHERN STATE HOSPITAL, newemr.NORTHERN STATE HOSPITAL]
+
+
+
+
+
+
+cluster 0[newemr.Ireton Medical Clinic]
+cluster 1[newemr.IMC]
+
+
+
+
+

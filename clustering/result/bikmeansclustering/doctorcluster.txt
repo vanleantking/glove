@@ -1,0 +1,2095 @@
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 308
+cluster 0[newemr.Yechiel Kidd, newemr.Kidd, Yechiel, newemr.Kidd, newemr.Kidd, newemr.Kidd, newemr.Kidd, newemr.Yechiel Kidd, newemr.Kidd, Yechiel]
+cluster 1[newemr.Kaufman]
+cluster 2[newemr.Tito Quast]
+cluster 3[newemr.Freddie V. Hickman]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 307
+cluster 0[newemr.KRIEGER, STEVEN, newemr.KRIEGER, STEVEN, newemr.KRIEGER, STEVEN, newemr.KRIEGER, STEVEN, newemr.KRIEGER, STEVEN, newemr.KRIEGER, STEVEN, newemr.KRIEGER, STEVEN, newemr.KRIEGER, STEVEN, newemr.KRIEGER, STEVEN]
+cluster 1[newemr.STEELE, SHAYLYN, newemr.STEELE, SHAYLYN, newemr.STEELE, SHAYLYN, newemr.STEELE, SHAYLYN, newemr.STEELE, SHAYLYN, newemr.STEELE, SHAYLYN, newemr.STEELE, SHAYLYN, newemr.STEELE, SHAYLYN, newemr.STEELE, SHAYLYN, newemr.STEELE, SHAYLYN, newemr.STEELE, SHAYLYN, newemr.STEELE, SHAYLYN, newemr.STEELE, SHAYLYN, newemr.STEELE, SHAYLYN, newemr.STEELE, SHAYLYN, newemr.STEELE, SHAYLYN, newemr.STEELE, SHAYLYN, newemr.STEELE, SHAYLYN, newemr.STEELE, SHAYLYN, newemr.STEELE, SHAYLYN, newemr.STEELE, SHAYLYN, newemr.STEELE, SHAYLYN, newemr.STEELE, SHAYLYN, newemr.STEELE, SHAYLYN, newemr.STEELE, SHAYLYN, newemr.STEELE, SHAYLYN, newemr.STEELE, SHAYLYN, newemr.STEELE, SHAYLYN, newemr.STEELE, SHAYLYN, newemr.STEELE, SHAYLYN, newemr.STEELE, SHAYLYN, newemr.STEELE, SHAYLYN, newemr.STEELE, SHAYLYN, newemr.STEELE, SHAYLYN, newemr.STEELE, SHAYLYN, newemr.STEELE, SHAYLYN]
+cluster 2[newemr.PHILLIPS, URHO, newemr.PHILLIPS, URHO, newemr.PHILLIPS, URHO, newemr.PHILLIPS, URHO, newemr.PHILLIPS, URHO, newemr.PHILLIPS, URHO, newemr.PHILLIPS, URHO, newemr.PHILLIPS, URHO, newemr.PHILLIPS, URHO]
+cluster 3[newemr.Penn]
+cluster 4[newemr.Frantz]
+cluster 5[newemr.Odell Jorgenson]
+cluster 6[newemr.Elmore]
+cluster 7[newemr.PHILLIPS, URHO, newemr.PHILLIPS, URHO, newemr.PHILLIPS, URHO]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 320
+cluster 0[newemr.Tillman, newemr.Tillman, newemr.Tillman, newemr.Tillman, newemr.DANIELLE TOMPKINS]
+cluster 1[newemr.Xue, newemr.Xue, newemr.Xue, Laura, newemr.Guadalupe Logan, newemr.Xue, newemr.Xue, newemr.Todd Riley, newemr.Todd Riley, newemr.Todd Riley, newemr.Todd Riley, newemr.Todd Riley, newemr.Todd Riley, newemr.Todd Riley, newemr.Todd Riley, newemr.Todd Riley, newemr.Todd Riley, newemr.Todd Riley, newemr.Todd Riley, newemr.Todd Riley, newemr.Todd Riley, newemr.Todd Riley, newemr.Todd Riley]
+cluster 2[newemr.Querry, Lucas Edwin, newemr.Querry, Lucas Edwin, newemr.Querry, Lucas Edwin, newemr.Querry, Lucas Edwin]
+cluster 3[newemr.Querry, Lucas Edwin, newemr.Querry, Lucas Edwin]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 309
+cluster 0[newemr.Julie Fraser, newemr.Julie Fraser, newemr.Julie Fraser, newemr.Julie Fraser, newemr.Julie Fraser, newemr.Julie Fraser, newemr.JF, newemr.JF, newemr.JF, newemr.Julie Fraser, newemr.Julie Fraser, newemr.Julie Fraser, newemr.Julie Fraser, newemr.Julie Fraser, newemr.Julie Fraser, newemr.JF, newemr.JF, newemr.JF, newemr.Julie Fraser, newemr.Julie Fraser, newemr.Julie Fraser, newemr.Julie Fraser, newemr.Julie Fraser, newemr.Julie Fraser, newemr.kang, newemr.Julie Fraser, newemr.Julie Fraser, newemr.Julie Fraser, newemr.Julie Fraser, newemr.Julie Fraser, newemr.Julie Fraser, newemr.JF, newemr.JF, newemr.JF, newemr.Julie Fraser, newemr.Julie Fraser, newemr.Julie Fraser, newemr.Julie Fraser, newemr.Julie Fraser, newemr.Julie Fraser, newemr.Julie Fraser, newemr.Julie Fraser, newemr.Julie Fraser, newemr.Julie Fraser, newemr.Julie Fraser, newemr.Julie Fraser]
+cluster 1[newemr.crane, newemr.crane, newemr.crane, newemr.crane, newemr.knox, newemr.crane, newemr.crane, newemr.crane, newemr.crane, newemr.Fraser, newemr.HK, newemr.crane, newemr.crane, newemr.crane, newemr.crane, newemr.crane, newemr.crane, newemr.crane, newemr.crane]
+cluster 2[newemr.powell, newemr.powell, newemr.powell, newemr.powell]
+cluster 3[newemr.Hope Kincaid, newemr.Hope Kincaid, newemr.Hope Kincaid, newemr.Hope Kincaid]
+cluster 4[newemr.Hope Kincaid, newemr.Hope Kincaid]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 321
+cluster 0[newemr.J Gaines, newemr.Gaines, newemr.Gaines, newemr.Gaines, newemr.Gaines, newemr.Gaines, newemr.Gaines, newemr.Gaines, newemr.Gaines, newemr.Gaines, newemr.Gaines, newemr.Gaines, newemr.Gaines, newemr.Gaines, newemr.Gaines, newemr.Gaines, newemr.Gaines, newemr.Gaines, newemr.Gaines, newemr.Gaines, newemr.Gaines, newemr.Gaines, newemr.Gaines, newemr.Gaines, newemr.Gaines, newemr.Gaines]
+cluster 1[newemr.Yan D. Ball, newemr.Yan D. Ball, newemr.Yan D. Ball, newemr.Vetter, newemr.Vetter, newemr.Vetter, newemr.Vetter, newemr.Vetter, newemr.Yan D. Ball, newemr.Yan D. Ball, newemr.Yan D. Ball, newemr.Vetter, newemr.Vetter, newemr.Vetter, newemr.Vetter, newemr.Vetter, newemr.Vetter, newemr.Vetter, newemr.Vetter, newemr.Vetter, newemr.Vetter, newemr.Vetter, newemr.Vetter, newemr.Vetter, newemr.Vetter, newemr.Vetter, newemr.Vetter, newemr.Vetter, newemr.Vetter, newemr.Vetter, newemr.Vetter, newemr.Yan D. Ball, newemr.Yan D. Ball, newemr.Yan D. Ball, newemr.Yan Ball]
+cluster 2[newemr.Pete Quintanar, newemr.Infant Church, newemr.Vazquez, newemr.Quintanar, newemr.Quintanar, newemr.Quintanar, newemr.Quintanar, newemr.Quintanar, newemr.Youngquist, newemr.Quintanar, newemr.Quintanar, newemr.Quintanar, newemr.Quintanar, newemr.Quintanar, newemr.Quintanar, newemr.Quintanar, newemr.Quintanar, newemr.Quintanar, newemr.Quintanar, newemr.Quintanar, newemr.Quintanar, newemr.Quintanar, newemr.Quintanar, newemr.Quintanar, newemr.Quintanar, newemr.Quintanar, newemr.Quintanar, newemr.Quintanar, newemr.Quintanar]
+cluster 3[newemr.Nathan France, newemr.Nathan France, newemr.Nathan France, newemr.Nathan France]
+cluster 4[newemr.Nathan France, newemr.Nathan France]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 322
+cluster 0[newemr.JABLONSKI, SHIRLEY, newemr.JABLONSKI, SHIRLEY, newemr.JABLONSKI, SHIRLEY, newemr.Jablonski, newemr.JABLONSKI, SHIRLEY, newemr.JABLONSKI, SHIRLEY, newemr.JABLONSKI, SHIRLEY, newemr.JABLONSKI, SHIRLEY, newemr.JABLONSKI, SHIRLEY, newemr.JABLONSKI, SHIRLEY, newemr.Uriel J. Pierson, newemr.Henry Jenkins, newemr.Hector Bennett, newemr.Ulysses Jurado, newemr.Susan Noyes]
+cluster 1[newemr.Ortiz, newemr.Quale, newemr.Talley, newemr.Tan, newemr.Prince, newemr.Prince, newemr.Prince, newemr.Prince, newemr.Prince, newemr.Prince, newemr.Prince, newemr.Prince, newemr.Prince, newemr.Prince, newemr.Prince, newemr.Prince, newemr.Prince, newemr.Prince, newemr.Prince, newemr.Prince, newemr.Wesley Nieves]
+cluster 2[newemr.Brittany Prince]
+cluster 3[newemr.Imani Blevins]
+cluster 4[newemr.Nina I Morris]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 323
+cluster 0[newemr.QUAGLIA, BRONSON, newemr.QUAGLIA, BRONSON, newemr.QUAGLIA, BRONSON, newemr.QUAGLIA, BRONSON, newemr.QUAGLIA, BRONSON, newemr.QUAGLIA, BRONSON, newemr.QUAGLIA, BRONSON, newemr.QUAGLIA, BRONSON, newemr.QUAGLIA, BRONSON]
+cluster 1[newemr.Roger York, newemr.Roger York, newemr.Roger York, newemr.Roger York, newemr.Roger York, newemr.Roger York, newemr.Roger York, newemr.Roger York, newemr.Roger York, newemr.Roger York, newemr.Roger York, newemr.Roger York, newemr.Roger York, newemr.Roger York, newemr.Roger York, newemr.Roger York]
+cluster 2[newemr.Uriah Yousif]
+cluster 3[newemr.Dana Vaughn]
+cluster 4[newemr.Misty U Alston]
+cluster 5[newemr.Roger York, newemr.Roger York, newemr.Roger York, newemr.Roger York]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 324
+cluster 0[newemr.Russell, newemr.Russell, newemr.Russell, newemr.Russell, newemr.Russell, newemr.Russell, newemr.Russell, newemr.Russell, newemr.Russell, newemr.Oviedo, newemr.YUTAKA PRITCHARD, newemr.YUTAKA PRITCHARD, newemr.YUTAKA PRITCHARD, newemr.YUTAKA PRITCHARD, newemr.OCASIO, WANDA, newemr.OCASIO, WANDA, newemr.OCASIO, WANDA, newemr.OCASIO, WANDA, newemr.OCASIO, WANDA, newemr.OCASIO, WANDA, newemr.OCASIO, WANDA, newemr.OCASIO, WANDA, newemr.OCASIO, WANDA, newemr.Acevedo, newemr.Acevedo, newemr.Ximena Webber, newemr.Acevedo, newemr.Acevedo]
+cluster 1[newemr.QUINTON OSWALD, newemr.QUINTON OSWALD, newemr.QUINTON OSWALD, newemr.QUINTON OSWALD]
+cluster 2[newemr.KYLE CONLEY, newemr.KYLE CONLEY, newemr.KYLE CONLEY, newemr.KYLE CONLEY]
+cluster 3[newemr.George T. Rutledge]
+cluster 4[newemr.Pappas]
+cluster 5[newemr.Arlene T. Whitaker]
+cluster 6[newemr.William Arndt]
+cluster 7[newemr.George Rutledge]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 326
+cluster 0[newemr.Ebert, newemr.Otto Schmitt, newemr.Schmitt, newemr.Schmitt, newemr.Schmitt, newemr.Schmitt, newemr.Schmitt, newemr.Schmitt, newemr.Schmitt, newemr.Schmitt, newemr.Schmitt, newemr.Schmitt, newemr.Schmitt, newemr.Schmitt, newemr.CHARLES ULLAH, newemr.Schmitt, newemr.Schmitt, newemr.Schmitt, newemr.Schmitt, newemr.Edwin Funk]
+cluster 1[newemr.Bianca Lowe]
+cluster 2[newemr.Asher]
+cluster 3[newemr.Urban J. Quinto]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 325
+cluster 0[newemr.Aviles, newemr.Quintina Golden]
+cluster 1[newemr.Vogel, newemr.Vogel, newemr.Vogel, newemr.Vogel, newemr.Meyers, newemr.Michael Queen]
+cluster 2[newemr.Kathryn Oakley, newemr.Oakley]
+cluster 3[newemr.Tillman, newemr.Tillman, newemr.Tillman, newemr.Tillman]
+cluster 4[newemr.Helen Updike, newemr.Helen Updike, newemr.Helen Updike, newemr.Helen Updike]
+cluster 5[newemr.Xiomar Ortega]
+cluster 6[newemr.Gricelda Ovalle]
+cluster 7[newemr.Tammy Yon]
+cluster 8[newemr.Helen Updike, newemr.Helen Updike]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 327
+cluster 0[newemr.Gill, newemr.Gill, newemr.Gill, newemr.Gill, newemr.Gill, newemr.Gill, newemr.Gill, newemr.Gill, newemr.Gill, newemr.Daniel C. Quillen, newemr.Daniel C. Quillen, newemr.Quadri, newemr.Daniel C. Quillen, newemr.Daniel C. Quillen]
+cluster 1[newemr.Gretchen Drew, newemr.Bertha Ely, newemr.Patti O. Bush, newemr.Dewitt]
+cluster 2[newemr.Naomi Newberry]
+cluster 3[newemr.Christine Newberry]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 328
+cluster 0[newemr.quirarte, newemr.Ila Araujo, newemr.Ila Araujo, newemr.Krystal Eddy, newemr.Ila Araujo, newemr.Ila Araujo, newemr.Peggy Ellis]
+cluster 1[newemr.James Colton Yancey, newemr.James Colton Yancey, newemr.James Colton Yancey, newemr.James Colton Yancey]
+cluster 2[newemr.Elliot Sexton, newemr.Elliot Sexton, newemr.Elliot Sexton, newemr.Elliot Sexton]
+cluster 3[newemr.Daniel E. Guzman]
+cluster 4[newemr.Oscar Urzua]
+cluster 5[newemr.Vincent H. Campos]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 330
+cluster 0[newemr.Amir Naranjo, newemr.Amir Naranjo, newemr.Amir Naranjo, newemr.Patricia Cameron Izzo, newemr.Olive Tripp, newemr.Amir Naranjo, newemr.Amir Naranjo, newemr.Amir Naranjo, newemr.Amir Naranjo, newemr.Amir Naranjo, newemr.Amir Naranjo, newemr.Michael P Rasmussen, newemr.James Ingles]
+cluster 1[newemr.Glenn V Baxter, newemr.Naranjo]
+cluster 2[newemr.Joshua Root, newemr.Joshua Root, newemr.Joshua Root, newemr.Joshua Root]
+cluster 3[newemr.Root]
+cluster 4[newemr.Joshua Hanna]
+cluster 5[newemr.Joshua A. Root]
+cluster 6[newemr.Joshua Root, newemr.Joshua Root]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 329
+cluster 0[newemr.YVONNE WELCH, newemr.YVONNE WELCH, newemr.YVONNE WELCH, newemr.YVONNE WELCH, newemr.Dodge, newemr.Howard G. Xiong]
+cluster 1[newemr.Xavier Uber, newemr.Xavier Uber, newemr.Xavier Uber, newemr.Xavier Uber, newemr.Daniel, newemr.Daniel, newemr.Daniel, newemr.Daniel]
+cluster 2[newemr.Uriel Mays, newemr.Uriel Mays, newemr.Uriel Mays, newemr.Uriel Mays]
+cluster 3[newemr.Giovanni Gabriel, newemr.Giovanni Gabriel, newemr.Giovanni Gabriel, newemr.Giovanni Gabriel]
+cluster 4[newemr.Giovanni Gabriel, newemr.Giovanni Gabriel]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 395
+cluster 0[newemr.Keane, newemr.Keane, newemr.Martinez, newemr.Keane, newemr.Keane, newemr.BEVERLY B. MARTINEZ, newemr.BEVERLY B. MARTINEZ, newemr.BEVERLY B. MARTINEZ, newemr.BEVERLY B. MARTINEZ, newemr.Jaeger, newemr.Harold G. Keane, newemr.Kyron M. Castaneda, newemr.Kyron M. Castaneda, newemr.Kyron M. Castaneda, newemr.Kyron M. Castaneda, newemr.Scott N. Jaeger]
+cluster 1[newemr.talbert, newemr.Orelia Burns, newemr.Orelia Burns, newemr.Orelia Burns, newemr.Orelia Burns, newemr.Denise Overman, newemr.Orelia D. Burns]
+cluster 2[newemr.Xanders, newemr.TIBOR OQUINN, newemr.Tibor Oquinn, newemr.TIBOR OQUINN, newemr.Tibor Oquinn]
+cluster 3[newemr.LISA NOYES, newemr.LISA NOYES, newemr.LISA NOYES, newemr.LISA NOYES]
+cluster 4[newemr.LISA NOYES, newemr.LISA NOYES]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 397
+cluster 0[newemr.Quentina Thornton, newemr.Rodriquez, newemr.Lange, newemr.Odom, Kacie]
+cluster 1[newemr.Vu C. Mccarty, newemr.Bailey]
+cluster 2[newemr.Richard Goins]
+cluster 3[newemr.Schmidt]
+cluster 4[newemr.Ian Jurado]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 396
+cluster 0[newemr.Dougherty, newemr.Dougherty, newemr.Dougherty, newemr.Dougherty, newemr.Dougherty, newemr.Dougherty, newemr.Dougherty, newemr.Dougherty, newemr.Dougherty, newemr.Yarborough, newemr.Dougherty, newemr.Dougherty, newemr.Dougherty, newemr.Dougherty, newemr.Dougherty, newemr.Dougherty, newemr.Dougherty, newemr.Dougherty, newemr.Dougherty, newemr.Dougherty, newemr.Dougherty, newemr.Dougherty, newemr.Dougherty, newemr.Dougherty, newemr.Dougherty, newemr.Dougherty, newemr.Dougherty, newemr.Dougherty, newemr.Dougherty, newemr.Dougherty, newemr.Dougherty, newemr.Dougherty, newemr.Dougherty, newemr.Dougherty, newemr.Dougherty, newemr.Dougherty, newemr.Dougherty, newemr.Dougherty, newemr.Dougherty, newemr.Dougherty, newemr.Dougherty, newemr.Dougherty, newemr.Dougherty, newemr.Dougherty, newemr.Dougherty, newemr.Dougherty, newemr.Dougherty, newemr.Dougherty, newemr.Dougherty, newemr.Dougherty, newemr.Dougherty, newemr.Dougherty, newemr.Dougherty, newemr.Dougherty, newemr.Dougherty, newemr.Dougherty, newemr.Dougherty, newemr.Dougherty, newemr.Dougherty, newemr.Dougherty, newemr.Dougherty, newemr.Dougherty, newemr.Dougherty, newemr.Dougherty, newemr.Dougherty, newemr.Dougherty, newemr.Dougherty, newemr.Dougherty, newemr.Dougherty, newemr.Dougherty, newemr.Dougherty, newemr.Dougherty, newemr.Dougherty, newemr.Dougherty, newemr.Dougherty, newemr.Dougherty, newemr.Dougherty, newemr.Dougherty, newemr.Dougherty, newemr.Dougherty, newemr.Dougherty, newemr.Dougherty, newemr.Wendy P Nowak]
+cluster 1[newemr.VALENTIN, IDA, newemr.VALENTIN, IDA, newemr.VALENTIN, IDA, newemr.VALENTIN, IDA, newemr.VALENTIN, IDA, newemr.VALENTIN, IDA, newemr.VALENTIN, IDA, newemr.VALENTIN, IDA, newemr.VALENTIN, IDA, newemr.Vandiver]
+cluster 2[newemr.Andrew Newhouse, newemr.Denny]
+cluster 3[newemr.Billy U. Webber, newemr.Billy U. Webber, newemr.Billy U. Webber, newemr.Billy U. Webber]
+cluster 4[newemr.Billy U. Webber, newemr.Billy U. Webber]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 398
+cluster 0[newemr.Brandon Nix, newemr.Norton]
+cluster 1[newemr.Xanders, newemr.Xanders, newemr.Xanders, newemr.Xanders, newemr.Xanders, newemr.Xanders, newemr.Jamie Uchida, newemr.Nakia Ingrassia, newemr.Xzavier Lujan, newemr.Xanders, newemr.Xanders, newemr.Xanders]
+cluster 2[newemr.Shoemaker, newemr.Shoemaker, newemr.Shoemaker, newemr.Shoemaker, newemr.Shoemaker, newemr.Shoemaker, newemr.Shoemaker, newemr.Shoemaker, newemr.Shoemaker]
+cluster 3[newemr.Anthony Edge, newemr.Anthony Edge, newemr.Anthony Edge, newemr.Anthony Edge]
+cluster 4[newemr.Evelyn Xuan]
+cluster 5[newemr.Kenny]
+cluster 6[newemr.Anthony Edge, newemr.Anthony Edge]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 399
+cluster 0[newemr.Bennett, newemr.Bennett, newemr.Bennett, newemr.Bennett, newemr.Bennett, newemr.Bennett, newemr.Leroy Kelly, newemr.Leroy Kelly, newemr.Leroy Kelly, newemr.Leroy Kelly, newemr.Leroy Kelly, newemr.Leroy Kelly, newemr.Bennett, newemr.Bennett, newemr.Bennett, newemr.Leroy Kelly, newemr.Leroy Kelly, newemr.Leroy Kelly]
+cluster 1[newemr.Kim Mays, newemr.Mays, newemr.quijada]
+cluster 2[newemr.Valladares]
+cluster 3[newemr.Vladimir Aguilar]
+cluster 4[newemr.Lona Hendrix]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 400
+cluster 0[newemr.Jameson, newemr.Rosas, newemr.Gregory Rosas, newemr.Gregory Rosas, newemr.Gregory Rosas, newemr.Gregory Rosas, newemr.Gregory Rosas, newemr.Gregory Rosas, newemr.Gregory Rosas, newemr.Gregory Rosas, newemr.Gregory Rosas, newemr.Alina Mccoy]
+cluster 1[newemr.Xavier Aaron Lowe]
+cluster 2[newemr.Marvin Zigler]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 100
+cluster 0[newemr.Habib Valenzuela, newemr.Habib Valenzuela, newemr.Habib Valenzuela, newemr.Habib Valenzuela, newemr.Habib Valenzuela, newemr.Habib Valenzuela, newemr.Habib Valenzuela, newemr.Habib Valenzuela, newemr.Habib Valenzuela, newemr.Vicente, newemr.Vicente Barker, newemr.Victor Shepard]
+cluster 1[newemr.Harold Nutter, newemr.Harold Nutter, newemr.Harold Nutter, newemr.Harold Nutter, newemr.Vicente Blair, newemr.Nutter]
+cluster 2[newemr.Harlan Oneil, newemr.Harlan Oneil, newemr.kuntz, newemr.Harlan Oneil, newemr.Harlan Oneil, newemr.Yovani Vergara]
+cluster 3[newemr.HV, newemr.Anna V. Wendy-Bird]
+cluster 4[newemr.JAY CARROLL, newemr.JAY CARROLL, newemr.JAY CARROLL, newemr.JAY CARROLL]
+cluster 5[newemr.Vern Snow]
+cluster 6[newemr.AALIYAH IRAHETA]
+cluster 7[newemr.JAY CARROLL, newemr.JAY CARROLL]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 101
+cluster 0[newemr.QR, newemr.QR, newemr.QR, newemr.QR, newemr.QR, newemr.QR, newemr.QR, newemr.QR, newemr.QR]
+cluster 1[newemr.Quinn Rutledge, newemr.Quinn Rutledge, newemr.Quinn Rutledge, newemr.Quinn Rutledge, newemr.Quinn Rutledge, newemr.Quinn Rutledge, newemr.Quinn Rutledge, newemr.Quinn Rutledge, newemr.Quinn Rutledge]
+cluster 2[newemr.Lu, newemr.Lu, newemr.Lu, newemr.Lu]
+cluster 3[newemr.Dawson]
+cluster 4[newemr.Lu, newemr.Lu]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 102
+cluster 0[newemr.Yeomans, Vertis K., newemr.Dailey, newemr.Dailey, newemr.Devan Chandler, newemr.Devan Chandler, newemr.Devan Chandler, newemr.Dailey, newemr.Dailey, newemr.Devan Chandler, newemr.Devan Chandler, newemr.Devan Chandler, newemr.Devan Chandler, newemr.Devan Chandler, newemr.Devan Chandler, newemr.Dunham]
+cluster 1[newemr.Yager, newemr.Chandler, newemr.Chandler, newemr.Chandler, newemr.YAEL Pratt, newemr.Chandler, newemr.Chandler, newemr.Chandler, newemr.Aldridge, newemr.Ann Vandenberg, newemr.Ann Vandenberg, newemr.Chandler, newemr.Chandler, newemr.Chandler, newemr.Ann Vandenberg, newemr.Ann Vandenberg]
+cluster 2[newemr.Brian, newemr.Brian, newemr.Brian, newemr.Brian, newemr.Bruce Brian, newemr.Bruce Brian, newemr.Bruce Brian, newemr.Bruce Brian]
+cluster 3[newemr.Bruce D Brian, newemr.Bruce D. Brian, newemr.Bruce D. Brian, newemr.Bruce D Brian, newemr.Bruce D. Brian, newemr.Bruce D. Brian, newemr.Bruce D Brian, newemr.Bruce D. Brian, newemr.Bruce D. Brian]
+cluster 4[newemr.Betty G. Pierce, newemr.Betty G. Pierce, newemr.Betty G. Pierce, newemr.Betty G. Pierce]
+cluster 5[newemr.Bruce D. Brian, Jr.]
+cluster 6[newemr.Betty G. Pierce, newemr.Betty G. Pierce]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 103
+cluster 0[newemr.KEMPER, SYLVAN, newemr.KEMPER, SYLVAN, newemr.KEMPER, SYLVAN, newemr.Donnelly, newemr.KEMPER, SYLVAN, newemr.KEMPER, SYLVAN, newemr.KEMPER, SYLVAN, newemr.KEMPER, SYLVAN, newemr.KEMPER, SYLVAN, newemr.KEMPER, SYLVAN, newemr.Ickes, newemr.Ickes, newemr.Ickes, newemr.Ickes]
+cluster 1[newemr.Earley, newemr.TONYA YOO, newemr.TONYA YOO, newemr.TONYA YOO, newemr.TONYA YOO, newemr.HOFFMAN, VICTOR, newemr.HOFFMAN, VICTOR, newemr.HOFFMAN, VICTOR, newemr.HOFFMAN, VICTOR, newemr.HOFFMAN, VICTOR, newemr.HOFFMAN, VICTOR, newemr.HOFFMAN, VICTOR, newemr.HOFFMAN, VICTOR, newemr.HOFFMAN, VICTOR]
+cluster 2[newemr.MARVIN UTECHT, newemr.MARVIN UTECHT, newemr.MARVIN UTECHT, newemr.MARVIN UTECHT]
+cluster 3[newemr.Jewell-Wilson]
+cluster 4[newemr.MARVIN UTECHT, newemr.MARVIN UTECHT]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 104
+cluster 0[newemr.tyree, newemr.Vincent A. Xayavong, newemr.Prater]
+cluster 1[newemr.Mcfarland, newemr.Nixon, newemr.Bruce Koontz]
+cluster 2[newemr.Good, newemr.Good, newemr.Good, newemr.Good, newemr.Good, newemr.Good, newemr.Good, newemr.Good, newemr.Good, newemr.Good, newemr.Good, newemr.Good, newemr.Good, newemr.Good, newemr.Good, newemr.Good]
+cluster 3[newemr.ludwig, newemr.Anaya]
+cluster 4[newemr.Tapia, newemr.Tapia, newemr.Tapia, newemr.Tapia]
+cluster 5[newemr.Mia Tapia, newemr.Mia Tapia, newemr.Mia Tapia, newemr.Mia Tapia]
+cluster 6[newemr.DU]
+cluster 7[newemr.Diane Ullah]
+cluster 8[newemr.Mia E. Tapia]
+cluster 9[newemr.Mia Tapia, newemr.Mia Tapia]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 105
+cluster 0[newemr.Villagomez, newemr.Stanly Lang, newemr.T. Villagomez, newemr.Landry, newemr.Bodnari]
+cluster 1[newemr.Mabel Duvall, newemr.Duvall, newemr.Duvall, newemr.Duvall, newemr.Duvall, newemr.Virgil Gregory, newemr.Bobby U. Spears, newemr.Nesmith]
+cluster 2[newemr.Goldberg, newemr.Ivy Whitaker, newemr.Mildred Gustafson]
+cluster 3[newemr.Lauren Lopes, newemr.Lauren  Lopes, newemr.Lauren Lopes, newemr.Lauren  Lopes]
+cluster 4[newemr.Lauren Lopes, newemr.Lauren  Lopes]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 106
+cluster 0[newemr.Ida Xayachack, newemr.Ida Xayachack, newemr.Ida Xayachack, newemr.Ida Xayachack, newemr.Ida Xayachack, newemr.Ida Xayachack, newemr.Ida Xayachack, newemr.Ida Xayachack, newemr.Ida Xayachack, newemr.Ida Xayachack, newemr.bishop, newemr.bishop, newemr.Ida Xayachack, newemr.Ida Xayachack, newemr.Ida Xayachack, newemr.Ida Xayachack, newemr.Ida Xayachack, newemr.bishop, newemr.bishop, newemr.Ida Xayachack, newemr.Ida Xayachack, newemr.Ida Xayachack, newemr.Ida Xayachack, newemr.Ida Xayachack, newemr.Ida Xayachack, newemr.Ida Xayachack, newemr.Ida Xayachack, newemr.Ida Xayachack, newemr.Ida Xayachack]
+cluster 1[newemr.delarosa, newemr.delarosa, newemr.delarosa, newemr.delarosa, newemr.delarosa, newemr.delarosa, newemr.delarosa, newemr.delarosa, newemr.delarosa, newemr.Xayachack, Ida]
+cluster 2[newemr.IX, newemr.IX, newemr.IX, newemr.austin, newemr.IX, newemr.IX, newemr.IX, newemr.IX, newemr.IX, newemr.IX]
+cluster 3[newemr.North, newemr.North, newemr.North, newemr.North]
+cluster 4[newemr.Xai-Micah Church]
+cluster 5[newemr.Yeager]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 107
+cluster 0[newemr.CARR, RACHEL, newemr.CARR, RACHEL, newemr.CARR, RACHEL, newemr.CARR, RACHEL, newemr.CARR, RACHEL, newemr.CARR, RACHEL, newemr.CARR, RACHEL, newemr.CARR, RACHEL, newemr.CARR, RACHEL]
+cluster 1[newemr.JUSTUS, ELLIS, newemr.JUSTUS, ELLIS, newemr.JUSTUS, ELLIS, newemr.JUSTUS, ELLIS, newemr.JUSTUS, ELLIS, newemr.JUSTUS, ELLIS, newemr.JUSTUS, ELLIS, newemr.JUSTUS, ELLIS, newemr.JUSTUS, ELLIS, newemr.Regan]
+cluster 2[newemr.Ross, newemr.Ross, newemr.Ross, newemr.Ross]
+cluster 3[newemr.Xavier Ross]
+cluster 4[newemr.Victor Meadows]
+cluster 5[newemr.Queen Pickett]
+cluster 6[newemr.Anderson]
+cluster 7[newemr.Ross, newemr.Ross]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 108
+cluster 0[newemr.Quincy Rucker, newemr.Rucker, Quincy, newemr.Xenakis, newemr.Xenakis, newemr.Xenakis, newemr.Xenakis, newemr.Whitlock, newemr.Xenakis, newemr.Xenakis, newemr.Xenakis, newemr.Xenakis, newemr.Xenakis, Gregory, newemr.Quincy Rucker, newemr.Rucker, Quincy, newemr.Xenakis, newemr.Xenakis, newemr.Xenakis, newemr.Xenakis, newemr.Xenakis, newemr.Xenakis, newemr.Xenakis, newemr.Xenakis]
+cluster 1[newemr.Quatisha Long, newemr.Linda Urbanek, newemr.Linda Urbanek, newemr.Linda Urbanek, newemr.Linda Urbanek, newemr.Linda Urbanek, newemr.Linda Urbanek, newemr.Linda Urbanek, newemr.Linda Urbanek, newemr.Linda Urbanek, newemr.Linda Urbanek, newemr.Linda Urbanek, newemr.Linda Urbanek, newemr.Linda Urbanek, newemr.Linda Urbanek, newemr.Linda Urbanek, newemr.Linda Urbanek]
+cluster 2[newemr.Rucker, newemr.Tiffin Whitlock, newemr.Whitlock, Tiffin, newemr.Tiffin Whitlock, newemr.Whitlock, Tiffin]
+cluster 3[newemr.Joshua U. Jett]
+cluster 4[newemr.Sebastian Dang]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 109
+cluster 0[newemr.Whitney Short, newemr.Wendy Tapia, newemr.Wendy  Tapia, newemr.Wendy Tapia, newemr.Wendy  Tapia, newemr.Trujillo, newemr.Chavez]
+cluster 1[newemr.Eric A. Morgan, newemr.Morgan]
+cluster 2[newemr.Earnest Vanwinkle]
+cluster 3[newemr.Matthew Vieira]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 121
+cluster 0[newemr.Jac, newemr.Jac, newemr.Jac, newemr.Jac, newemr.Jac, newemr.Jac, newemr.Jac, newemr.Jac, newemr.Jac, newemr.farrar, newemr.Valle, newemr.Umali, newemr.Jacob V Ure]
+cluster 1[newemr.Jacob Bautista, newemr.Jacob Bautista, newemr.Jacob Bautista, newemr.Jacob Bautista, newemr.Jacob Bautista, newemr.Jacob Bautista, newemr.Jacob Bautista, newemr.Jacob Bautista, newemr.MOL, newemr.MOL, newemr.troutman, newemr.Jacob Bautista, newemr.Jacob Bautista, newemr.Jacob Bautista, newemr.Jacob Bautista, newemr.donovan, newemr.Jacob Bautista, newemr.Jacob Bautista, newemr.Jacob Bautista, newemr.Jacob Bautista, newemr.MOL, newemr.MOL]
+cluster 2[newemr.Vernon Toth, newemr.Vernon Toth, newemr.Vernon Toth, newemr.Vernon Toth]
+cluster 3[newemr.Marshall O. Lehman, newemr.Marshall O. Lehman, newemr.Marshall O. Lehman, newemr.Marshall O. Lehman, newemr.Marshall O. Lehman, newemr.Marshall O. Lehman, newemr.Marshall O. Lehman, newemr.Marshall O. Lehman, newemr.Marshall O. Lehman]
+cluster 4[newemr.Marshall O. Lehman, newemr.Marshall O. Lehman, newemr.Marshall O. Lehman]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 120
+cluster 0[newemr.Thorpe, newemr.Thorpe, newemr.Thorpe, newemr.Thorpe, newemr.Thorpe, newemr.Thorpe, newemr.Thorpe, newemr.Thorpe, newemr.Thorpe, newemr.Yong, newemr.HARRIET XIA, newemr.HARRIET XIA, newemr.HARRIET XIA, newemr.HARRIET XIA, newemr.Jeter, newemr.Urbach, newemr.Urbach, newemr.Urbach, newemr.Urbach]
+cluster 1[newemr.EVANS,NELSON MAC, newemr.EVANS,NELSON MAC, newemr.EVANS,NELSON MAC, newemr.EVANS,NELSON MAC]
+cluster 2[newemr.LATRISHA ERVIN, newemr.LATRISHA ERVIN, newemr.LATRISHA ERVIN, newemr.LATRISHA ERVIN]
+cluster 3[newemr.Yolanda Heather Lanier]
+cluster 4[newemr.Nelson Sims]
+cluster 5[newemr.LATRISHA ERVIN, newemr.LATRISHA ERVIN]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 122
+cluster 0[newemr.Nicholas A. Gomes, newemr.Ken, newemr.Todd Banks, newemr.Nicholas Gomes, newemr.Nicholas Gomes, newemr.Nicholas Gomes, newemr.Nicholas Gomes]
+cluster 1[newemr.Ken Sylvester, newemr.Ken Sylvester, newemr.Ken Sylvester, newemr.Ken Sylvester]
+cluster 2[newemr.Kenneth X. Sylvester, newemr.Kenneth X. Sylvester, newemr.Kenneth X. Sylvester, newemr.Kenneth X. Sylvester, newemr.Kenneth X. Sylvester, newemr.Kenneth X. Sylvester, newemr.Kenneth X. Sylvester, newemr.Kenneth X. Sylvester, newemr.Kenneth X. Sylvester]
+cluster 3[newemr.Kenneth X. Sylvester, Jr.]
+cluster 4[newemr.Kenneth X. Sylvester, newemr.Kenneth X. Sylvester, newemr.Kenneth X. Sylvester]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 124
+cluster 0[newemr.Kenyon, newemr.Nicodemus  Paz, newemr.Nicodemus Paz, newemr.Nicodemus Paz, newemr.Nicodemus  Paz, newemr.Nicodemus Paz, newemr.Nicodemus Paz, newemr.Kevin Kenyon, newemr.Nicodemus  Paz, newemr.Nicodemus Paz, newemr.Nicodemus Paz, newemr.ismail]
+cluster 1[newemr.RACHAEL G. OBRYAN, newemr.RACHAEL G. OBRYAN, newemr.RACHAEL G. OBRYAN, newemr.RACHAEL G. OBRYAN, newemr.Quentin Fitzpatrick, newemr.RACHAEL G. OBRYAN, newemr.RACHAEL G. OBRYAN, newemr.RACHAEL G. OBRYAN, newemr.RACHAEL G. OBRYAN, newemr.RACHAEL G. OBRYAN, newemr.RACHAEL G. OBRYAN, newemr.RACHAEL G. OBRYAN, newemr.RACHAEL G. OBRYAN, newemr.RACHAEL G. OBRYAN, newemr.RACHAEL G. OBRYAN, newemr.RACHAEL G. OBRYAN, newemr.RACHAEL G. OBRYAN, newemr.Edwin Foss]
+cluster 2[newemr.Paz, newemr.Paz, newemr.Paz, newemr.Nicodemus S. Paz, newemr.Paz, newemr.Paz, newemr.Paz, newemr.ingalls, newemr.Paz, newemr.Paz, newemr.Paz, newemr.Henry Norris]
+cluster 3[newemr.Elmer Ure, newemr.Elmer Ure, newemr.Elmer Ure, newemr.Elmer Ure]
+cluster 4[newemr.Elmer Knott, newemr.Elmer Knott, newemr.Elmer Knott, newemr.Elmer Knott]
+cluster 5[newemr.Rachael Obryan]
+cluster 6[newemr.Elmer Knott, newemr.Elmer Knott]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 123
+cluster 0[newemr.WCS, newemr.bradshaw]
+cluster 1[newemr.Becker, newemr.Becker, newemr.Becker, newemr.Becker, newemr.vann]
+cluster 2[newemr.Wil, newemr.Trevino]
+cluster 3[newemr.William C. Sargent]
+cluster 4[newemr.Yahya Yoo]
+cluster 5[newemr.Wilma Field]
+cluster 6[newemr.Hodge]
+cluster 7[newemr.Sargent]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 125
+cluster 0[newemr.Xavier Embry, newemr.OMO, newemr.vaught, newemr.Liam Mcmahon, newemr.Liam Mcmahon, newemr.Liam Mcmahon, newemr.Florence Mildred Yuan, newemr.Florence Mildred Yuan, newemr.Florence Mildred Yuan, newemr.Florence Mildred Yuan, newemr.Florence Mildred Yuan, newemr.Florence Mildred Yuan, newemr.Florence Mildred Yuan, newemr.Florence Mildred Yuan, newemr.Florence Mildred Yuan, newemr.Liam Mcmahon, newemr.Liam Mcmahon, newemr.Liam Mcmahon, newemr.Liam Mcmahon, newemr.Liam Mcmahon, newemr.Liam Mcmahon, newemr.ferreira]
+cluster 1[newemr.Oates, newemr.Oates, newemr.Oates, newemr.Oates, newemr.Oates, newemr.Oates, newemr.Oliver M. Oates, newemr.Oliver M. Oates, newemr.Oliver M. Oates, newemr.Oliver M. Oates, newemr.Oliver Oates, newemr.Oliver Oates, newemr.Oates, newemr.Oates, newemr.Oates, newemr.Oliver Oates, newemr.Oliver Oates]
+cluster 2[newemr.Yuan, newemr.Liam K. Mcmahon, newemr.Mcmahon, newemr.Uriel Lim]
+cluster 3[newemr.Keys, newemr.Keys, newemr.Keys, newemr.Keys, newemr.Xuereb, newemr.Rodger Lester, newemr.RL]
+cluster 4[newemr.Elizabeth Keys, newemr.Elizabeth Keys, newemr.Elizabeth Keys, newemr.Elizabeth Keys]
+cluster 5[newemr.Elizabeth M Keys]
+cluster 6[newemr.Elizabeth Keys, newemr.Elizabeth Keys]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 126
+cluster 0[newemr.Patrick Yeates, newemr.Patrick I Yeates, newemr.Yeates, Patrick I, newemr.Yeates, newemr.Iliff, newemr.Patrick I Yeates, newemr.Yeates, Patrick I]
+cluster 1[newemr.Carroll Nolan, newemr.Jeffers, newemr.Urzua]
+cluster 2[newemr.Udo O. Zeitler]
+cluster 3[newemr.Patricia Keating]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 127
+cluster 0[newemr.Victor Tolbert, newemr.Orellana, newemr.Arthur Tisdale]
+cluster 1[newemr.MURRAY, MARION OSCAR, newemr.MURRAY, MARION OSCAR, newemr.MURRAY, MARION OSCAR, newemr.MURRAY, MARION OSCAR, newemr.MURRAY, MARION OSCAR, newemr.MURRAY, MARION OSCAR, newemr.MURRAY, MARION OSCAR, newemr.MURRAY, MARION OSCAR, newemr.MURRAY, MARION OSCAR, newemr.Upshur, newemr.Vera Winn]
+cluster 2[newemr.HECTOR V. OBRYAN, newemr.HECTOR V. OBRYAN, newemr.HECTOR V. OBRYAN, newemr.HECTOR V. OBRYAN, newemr.Rivers, newemr.Taylor Otero]
+cluster 3[newemr.Xavier Rivers, newemr.Rivers, Xavier, newemr.Xavier Rivers, newemr.Rivers, Xavier]
+cluster 4[newemr.Virginia Roman]
+cluster 5[newemr.Xavier Rivers, newemr.Rivers, Xavier]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 128
+cluster 0[newemr.BRANDON VICENTE, newemr.Brandon Vicente, newemr.Michael, newemr.BRANDON VICENTE, newemr.Brandon Vicente, newemr.Dustin T. Michael, newemr.Dana  Michael, newemr.Michael, Dana, newemr.Michael, Dana, newemr.Dana  Michael, newemr.Michael, Dana, newemr.Michael, Dana, newemr.Dana  Michael, newemr.Michael, Dana, newemr.Michael, Dana]
+cluster 1[newemr.YOEL NEWCOMB, newemr.Yoel Newcomb, newemr.YOEL NEWCOMB, newemr.Yoel Newcomb]
+cluster 2[newemr.Oconnell, Philip D, newemr.Oconnell, Philip D, newemr.Oconnell, Philip D, newemr.Oconnell, Philip D]
+cluster 3[newemr.Oconnell, Philip D, newemr.Oconnell, Philip D]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 140
+cluster 0[newemr.Quanterius L. Sorensen, newemr.renteria, newemr.Susan Donaldson, newemr.Vuong, newemr.Vuong, newemr.Vuong, newemr.Vuong, newemr.Susan A. Donaldson, newemr.Quin, newemr.Valdez, newemr.Emma S. Crane]
+cluster 1[newemr.Vicki Klein, newemr.Vicki Klein, newemr.Vicki Klein, newemr.Vicki Klein]
+cluster 2[newemr.QUINTON COLON, newemr.QUINTON COLON, newemr.QUINTON COLON, newemr.QUINTON COLON]
+cluster 3[newemr.Landon Neville]
+cluster 4[newemr.Quinton Sparks]
+cluster 5[newemr.Stanley V Stanley]
+cluster 6[newemr.Uriah Aranda]
+cluster 7[newemr.QUINTON COLON, newemr.QUINTON COLON]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 129
+cluster 0[newemr.Hatfield, Orvin L., newemr.Herman]
+cluster 1[newemr.PATRICIA DRAKE, newemr.Patricia Drake, newemr.PATRICIA DRAKE, newemr.Patricia Drake, newemr.Lehman]
+cluster 2[newemr.Frederick Archer, newemr.Archer, newemr.Archer, newemr.Saunders, newemr.Archer, newemr.Archer, newemr.Keith H. Neville]
+cluster 3[newemr.Eddie Clark]
+cluster 4[newemr.Jimenez]
+cluster 5[newemr.Eddie Love]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 141
+cluster 0[newemr.Dang, newemr.Landers]
+cluster 1[newemr.Julian I. Judkins, newemr.Law]
+cluster 2[newemr.Xiomara Barbara Xanthos, newemr.Xiomara B Xanthos, newemr.Xanthos]
+cluster 3[newemr.Nathan Whitley, newemr.Issa]
+cluster 4[newemr.Dominic Issa, newemr.Dominic Issa, newemr.Dominic Issa, newemr.Dominic Issa]
+cluster 5[newemr.Frederick, Uriah C.]
+cluster 6[newemr.Dominic Issa, newemr.Dominic Issa]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 144
+cluster 0[newemr.Simmons, newemr.COOKE, FREDI, newemr.COOKE, FREDI, newemr.COOKE, FREDI, newemr.COOKE, FREDI, newemr.COOKE, FREDI, newemr.COOKE, FREDI, newemr.COOKE, FREDI, newemr.COOKE, FREDI, newemr.COOKE, FREDI, newemr.Sonja Bauer]
+cluster 1[newemr.Person, newemr.Black]
+cluster 2[newemr.ULICES ZAMUDIO, newemr.ULICES ZAMUDIO, newemr.ULICES ZAMUDIO, newemr.ULICES ZAMUDIO]
+cluster 3[newemr.ULICES ELLIOT, newemr.ULICES ELLIOT, newemr.ULICES ELLIOT, newemr.ULICES ELLIOT]
+cluster 4[newemr.Davison]
+cluster 5[newemr.ULICES ELLIOT, newemr.ULICES ELLIOT]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 142
+cluster 0[newemr.Nina Uresti, newemr.Ivers, newemr.Ivers, newemr.Ivers, newemr.Ivers, newemr.Ivers, newemr.Ivers, newemr.Ivers, newemr.Ivers, newemr.Ivers]
+cluster 1[newemr.Roger Easterling, newemr.Roger Easterling, newemr.Roger Easterling, newemr.Easterling, newemr.Easterling, newemr.Easterling, newemr.Roger Easterling, newemr.Roger Easterling, newemr.Roger Easterling, newemr.Easterling, newemr.Easterling, newemr.Easterling, newemr.Roger Easterling, newemr.Roger Easterling, newemr.Roger Easterling, newemr.Easterling, newemr.Easterling, newemr.Easterling, newemr.Nagle]
+cluster 2[newemr.Vonda T. Ulloa, newemr.Vonda T. Ulloa, newemr.Vonda T. Ulloa, newemr.Vonda T. Ulloa, newemr.Vonda T. Ulloa, newemr.Vonda T. Ulloa, newemr.Vonda T. Ulloa, newemr.Vonda T. Ulloa, newemr.Vonda T. Ulloa, newemr.Vonda T. Ulloa, newemr.Vonda T. Ulloa, newemr.Vonda T. Ulloa, newemr.Vonda T. Ulloa, newemr.Vonda T. Ulloa, newemr.Vonda T. Ulloa, newemr.Vonda T. Ulloa]
+cluster 3[newemr.Inglis, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Norman C. Ivers, newemr.Victoria Xing, newemr.Victoria Xing, newemr.Victoria Xing, newemr.Victoria Xing, newemr.Victoria Xing, newemr.Victoria Xing, newemr.Victoria Xing, newemr.Victoria Xing, newemr.Victoria Xing, newemr.Victoria Xing, newemr.Victoria Xing, newemr.Victoria Xing, newemr.Victoria Xing, newemr.Victoria Xing, newemr.Victoria Xing, newemr.Victoria Xing]
+cluster 4[newemr.Vonda Tara Ulloa, newemr.Vonda Tara Ulloa, newemr.Vonda Tara Ulloa, newemr.Vonda Tara Ulloa]
+cluster 5[newemr.V. Ulloa]
+cluster 6[newemr.Vonda Tara Ulloa, newemr.Vonda Tara Ulloa]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 145
+cluster 0[newemr.Faithe W. Flynn, newemr.Reynolds, newemr.Patricia Nunn, newemr.Patricia Nunn, newemr.Patricia Nunn, newemr.Patricia Nunn, newemr.Aldrich]
+cluster 1[newemr.William Uecker, newemr.William Uecker, newemr.William Uecker, newemr.William Uecker, newemr.Zehr, newemr.Zehr, newemr.Zehr, newemr.Zehr, newemr.Zehr, newemr.Zehr, newemr.Zehr, newemr.Zehr, newemr.Zehr, newemr.Zehr, newemr.Zehr, newemr.Zehr, newemr.Zehr, newemr.Zehr, newemr.Zehr, newemr.Zehr]
+cluster 2[newemr.Reema N. Imler, newemr.Reema N. Imler, newemr.Reema N. Imler, newemr.Reema N. Imler]
+cluster 3[newemr.Christopher Sharp, newemr.Christopher Sharp, newemr.Christopher Sharp, newemr.Christopher Sharp]
+cluster 4[newemr.Lauren Fontenot]
+cluster 5[newemr.Christopher Sharp, newemr.Christopher Sharp]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 146
+cluster 0[newemr.Yonathan Turk, newemr.Yonathan Turk, newemr.Yonathan Turk, newemr.Yonathan Turk, newemr.Turk, newemr.YONATHAN OLIVER TURK, newemr.YONATHAN OLIVER TURK, newemr.YONATHAN OLIVER TURK, newemr.YONATHAN OLIVER TURK]
+cluster 1[newemr.Yonathan Orth, newemr.Yonathan Orth, newemr.Yonathan Orth, newemr.Yonathan Orth, newemr.Orth]
+cluster 2[newemr.Gonzalez, newemr.Ulysses Gonzalez, newemr.Reyes]
+cluster 3[newemr.Vernell Fournier, newemr.Vernell Fournier, newemr.Vernell Fournier, newemr.Vernell Fournier]
+cluster 4[newemr.Younce]
+cluster 5[newemr.Vernell Fournier, newemr.Vernell Fournier]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 147
+cluster 0[newemr.Paul N. Tam, newemr.Paul N. Tam, newemr.PNT, newemr.PNT, newemr.ivester, newemr.ivester, newemr.yanez, newemr.yanez, newemr.Paul N. Tam, newemr.Paul N. Tam, newemr.PNT, newemr.PNT, newemr.ivester, newemr.ivester, newemr.yanez, newemr.yanez, newemr.Ione Jean, newemr.Ione Jean, newemr.Ione Jean, newemr.Ione Jean, newemr.Ione Jean, newemr.Ione Jean, newemr.Ione Jean, newemr.Ione Jean, newemr.Ione Jean]
+cluster 1[newemr.Givens, newemr.Givens, newemr.Harry Yerger, newemr.Givens, newemr.Givens, newemr.Nicholas Q. Vasquez, newemr.Yerger, newemr.Patterson, newemr.Valerio]
+cluster 2[newemr.Billie Givens, newemr.Billie Givens, newemr.Billie Givens, newemr.Billie Givens]
+cluster 3[newemr.Nicholas Lange]
+cluster 4[newemr.Billie Givens, newemr.Billie Givens]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 148
+cluster 0[newemr.QUIANA N. BULLOCK, newemr.Quiana N.   Bullock, newemr.Quiana N. Bullock, newemr.Oscar G. Gregory, newemr.Oscar G. Gregory, newemr.QUIANA N. BULLOCK, newemr.Quiana N.   Bullock, newemr.Quiana N. Bullock, newemr.QUIANA N. BULLOCK, newemr.Quiana N.   Bullock, newemr.Quiana N. Bullock, newemr.Oscar G. Gregory, newemr.Oscar G. Gregory, newemr.QB, newemr.umberger, newemr.Gregory, newemr.Gregory, newemr.Trotter, newemr.Trotter, newemr.Li, newemr.Gregory, newemr.Gregory, newemr.Trotter, newemr.Trotter, newemr.LX]
+cluster 1[newemr.Travis, newemr.Omar B. Kern, newemr.Tyson]
+cluster 2[newemr.Quentin Casey, newemr.Quentin Casey, newemr.Quentin Casey, newemr.Quentin Casey]
+cluster 3[newemr.Frankie Echols]
+cluster 4[newemr.Quintin A. Conway]
+cluster 5[newemr.Layton]
+cluster 6[newemr.Quentin Carlson]
+cluster 7[newemr.Quentin Casey, newemr.Quentin Casey]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 149
+cluster 0[newemr.Scott Phipps, newemr.Scott Phipps, newemr.irons, newemr.irons, newemr.Scott Phipps, newemr.Scott Phipps, newemr.irons, newemr.irons]
+cluster 1[newemr.SP, newemr.SP, newemr.quang, newemr.quang, newemr.SP, newemr.SP, newemr.quang, newemr.quang, newemr.Patricia N. Vallejo, newemr.Patricia N Vallejo, newemr.Patricia N. Vallejo, newemr.Patricia N Vallejo]
+cluster 2[newemr.Cochran, newemr.Cochran, newemr.Cochran, newemr.Cochran]
+cluster 3[newemr.Curtis Cochran]
+cluster 4[newemr.Yousif]
+cluster 5[newemr.Orland Peralta]
+cluster 6[newemr.Edward Benitez]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 331
+cluster 0[newemr.Arias, newemr.Arias, newemr.Arias, newemr.Arias, newemr.SORENSEN, SAUL, newemr.SORENSEN, SAUL, newemr.SORENSEN, SAUL, newemr.Leach, newemr.SORENSEN, SAUL, newemr.SORENSEN, SAUL, newemr.SORENSEN, SAUL, newemr.SORENSEN, SAUL, newemr.SORENSEN, SAUL, newemr.SORENSEN, SAUL, newemr.Pao Arias]
+cluster 1[newemr.Yamaguchi, newemr.Amar Jacoby]
+cluster 2[newemr.Yuna K. Tripp, newemr.Harold K. Crosby]
+cluster 3[newemr.Harold Crosby]
+cluster 4[newemr.Jimmy Nelms]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 332
+cluster 0[newemr.Ruba  Neil, newemr.Ruba Neil, newemr.Ruba Neil, newemr.Ruba Neil, newemr.Camp, newemr.Camp, newemr.Camp, newemr.Camp, newemr.Ruba  Neil, newemr.Ruba Neil, newemr.Ruba Neil, newemr.Ruba Neil, newemr.Ruba  Neil, newemr.Ruba Neil, newemr.Ruba Neil, newemr.Ruba Neil, newemr.Ruba  Neil, newemr.Ruba Neil, newemr.Ruba Neil, newemr.Ruba Neil, newemr.Fred Allen]
+cluster 1[newemr.Armstrong, newemr.Victoria Keene, newemr.Victoria Keene, newemr.Victoria Keene, newemr.Victoria Keene, newemr.William Aquino, newemr.Brandon Hale]
+cluster 2[newemr.Neil, Ruba]
+cluster 3[newemr.Ruba M  Neil]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 333
+cluster 0[newemr.Baby Le, newemr.Baby Le, newemr.Baby Le, newemr.Arthur Qin, newemr.Arthur Qin, newemr.Arthur Qin, newemr.Arthur Qin, newemr.Baby Le, newemr.Baby Le, newemr.Baby Le, newemr.Quant, newemr.Arthur Qin, newemr.Arthur Qin, newemr.Arthur Qin, newemr.Arthur Qin, newemr.Baby Le, newemr.Baby Le, newemr.Baby Le, newemr.Brenda Youmans, newemr.Arthur Qin, newemr.Arthur Qin, newemr.Arthur Qin, newemr.Arthur Qin, newemr.Uy, newemr.Arthur Qin, newemr.Arthur Qin, newemr.Arthur Qin, newemr.Arthur Qin]
+cluster 1[newemr.Xion Eubanks, newemr.Xion Eubanks, newemr.Xion Eubanks, newemr.Xion Eubanks, newemr.Xin Iliff, newemr.Xin Iliff, newemr.Lacey, newemr.Lacey, newemr.Lacey, newemr.Lacey, newemr.Lacey, newemr.Lacey, newemr.Lacey, newemr.Lacey, newemr.Lacey, newemr.Lacey, newemr.Lacey, newemr.Lacey, newemr.Lacey, newemr.Lacey, newemr.Lacey, newemr.Lacey, newemr.Lacey, newemr.Lacey, newemr.Lacey, newemr.Lacey, newemr.Lacey, newemr.Lacey, newemr.Lacey, newemr.Lacey, newemr.Lacey, newemr.Lacey, newemr.Lacey, newemr.Lacey, newemr.Lacey, newemr.Lacey, newemr.Xin Iliff, newemr.Xin Iliff, newemr.Quentin Lacey, newemr.Quentin Lacey, newemr.Quentin Lacey, newemr.Quentin Lacey, newemr.Lacey, newemr.Lacey, newemr.Lacey, newemr.Lacey, newemr.Lacey, newemr.Lacey, newemr.Delbert Lyles]
+cluster 2[newemr.Vincent Fournier, newemr.Vincent Fournier, newemr.Vincent Fournier, newemr.Vincent Fournier]
+cluster 3[newemr.Yale Dickerson, newemr.Yale Dickerson, newemr.Yale Dickerson, newemr.Yale Dickerson]
+cluster 4[newemr.Louis Conrad]
+cluster 5[newemr.Yale Dickerson, newemr.Yale Dickerson]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 334
+cluster 0[newemr.Joshi, newemr.Neal Joshi]
+cluster 1[newemr.Oren S. Ip, newemr.Brandi Xayasane, newemr.Brandi Xayasane, newemr.Brandi Xayasane, newemr.Ray-Gallegos, newemr.Brandi Xayasane, newemr.Brandi Xayasane, newemr.Brandi Xayasane, newemr.Brandi Xayasane, newemr.Brandi Xayasane, newemr.Brandi Xayasane]
+cluster 2[newemr.Osiel M. Colon, newemr.Colon]
+cluster 3[newemr.xayasane, newemr.Uselton, newemr.Uselton, newemr.Uselton, newemr.Uselton, newemr.Uselton, newemr.Uselton, newemr.Uselton, newemr.Uselton, newemr.Uselton, newemr.Uselton, newemr.Nicholas Uselton, newemr.Uselton, newemr.Uselton, newemr.Uselton, newemr.Uselton, newemr.Uselton, newemr.Xayachack, newemr.Uselton, newemr.Uselton, newemr.Uselton, newemr.Uselton, newemr.Uselton, newemr.Uselton, newemr.Uselton, newemr.Uselton, newemr.Uselton, newemr.Uselton, newemr.V Uselton]
+cluster 4[newemr.USELTON, QUINCY]
+cluster 5[newemr.QU]
+cluster 6[newemr.Gonzales]
+cluster 7[newemr.Quincy T. Uselton]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 335
+cluster 0[newemr.Villalpando, newemr.Villalpando, newemr.Villalpando, newemr.Villalpando, newemr.Villalpando, newemr.Villalpando, newemr.Villalpando, newemr.Villalpando, newemr.Layton, newemr.Hayden Lawrence, newemr.Odessia Kay, newemr.Kay, newemr.Villalpando, newemr.Villalpando, newemr.Villalpando, newemr.Villalpando, newemr.Villalpando, newemr.Villalpando, newemr.Villalpando, newemr.Villalpando, newemr.Odessia Q Kay]
+cluster 1[newemr.Keondre Viera, newemr.Keondre Viera, newemr.Keondre Viera, newemr.Keondre Viera]
+cluster 2[newemr.Bobby S. Galvan]
+cluster 3[newemr.Keondre Viera, newemr.Keondre Viera]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 336
+cluster 0[newemr.Ray Downing, newemr.Vernon, newemr.Vernon, newemr.Vernon, newemr.Vernon]
+cluster 1[newemr.DUNN, VINCENT, newemr.DUNN, VINCENT, newemr.DUNN, VINCENT, newemr.DUNN, VINCENT, newemr.DUNN, VINCENT, newemr.DUNN, VINCENT, newemr.DUNN, VINCENT, newemr.DUNN, VINCENT, newemr.DUNN, VINCENT, newemr.Ohara]
+cluster 2[newemr.Vines]
+cluster 3[newemr.Opal Lanier]
+cluster 4[newemr.Iman Lutz]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 337
+cluster 0[newemr.Veleria Blackwell, newemr.Hollis B Hughes, newemr.Vicente Noel, newemr.GUEVARA, ELIZABETH, newemr.GUEVARA, ELIZABETH, newemr.GUEVARA, ELIZABETH, newemr.Izaguirre, newemr.GUEVARA, ELIZABETH, newemr.GUEVARA, ELIZABETH, newemr.GUEVARA, ELIZABETH, newemr.GUEVARA, ELIZABETH, newemr.GUEVARA, ELIZABETH, newemr.GUEVARA, ELIZABETH, newemr.Mercado]
+cluster 1[newemr.Ines Estep, newemr.Estep, newemr.Bobby Elston Braun]
+cluster 2[newemr.Brock, newemr.Bates, newemr.Dalton Edwards, newemr.Dalton Edwards, newemr.Dalton Edwards, newemr.Dalton Edwards]
+cluster 3[newemr.Victor Q. Qiu]
+cluster 4[newemr.Michael John Boyle]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 338
+cluster 0[newemr.Xaiden Roberson, newemr.Xaiden Roberson, newemr.Xaiden Roberson, newemr.Xaiden Roberson, newemr.roberson, newemr.roberson, newemr.kruse, newemr.kruse, newemr.kruse, newemr.kruse, newemr.XIE, LORI, newemr.XIE, LORI, newemr.XIE, LORI, newemr.XIE, LORI, newemr.XIE, LORI, newemr.XIE, LORI, newemr.XIE, LORI, newemr.XIE, LORI, newemr.XIE, LORI, newemr.oliveira, newemr.oliveira, newemr.oliveira, newemr.oliveira, newemr.oliveira, newemr.oliveira, newemr.kenny, newemr.kenny, newemr.oliveira, newemr.oliveira, newemr.oliveira, newemr.kenny, newemr.kenny, newemr.roberson, newemr.roberson]
+cluster 1[newemr.WX, newemr.WX, newemr.kp, newemr.WX, newemr.WX, newemr.Xian, Marlene Xaniyah]
+cluster 2[newemr.Kari Marlene Pryor, newemr.Kari Marlene Pryor, newemr.Kari Marlene Pryor, newemr.Kari Marlene Pryor]
+cluster 3[newemr.Makenzie Kim]
+cluster 4[newemr.PZ]
+cluster 5[newemr.Kari Marlene Pryor, newemr.Kari Marlene Pryor]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 339
+cluster 0[newemr.Person, newemr.English, newemr.J. Joseph Moreno]
+cluster 1[newemr.Xavier, newemr.Len Wayne-Gregory, newemr.Len Wayne-Gregory, newemr.Len Wayne-Gregory, newemr.Len Wayne-Gregory]
+cluster 2[newemr.P. Ponce, newemr.Hunter, Nebrasska, newemr.Zajac, newemr.Hunter]
+cluster 3[newemr.Nebraska Hunter]
+cluster 4[newemr.Jeffrey]
+cluster 5[newemr.Nebraska G. Hunter]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 350
+cluster 0[newemr.Yash Quaglia, newemr.GILMORE, RACHEL, newemr.GILMORE, RACHEL, newemr.GILMORE, RACHEL, newemr.Xiang, newemr.GILMORE, RACHEL, newemr.GILMORE, RACHEL, newemr.GILMORE, RACHEL, newemr.GILMORE, RACHEL, newemr.GILMORE, RACHEL, newemr.GILMORE, RACHEL, newemr.Isaac Ferraro, newemr.Isaac Ferraro, newemr.Isaac Ferraro, newemr.Isaac Ferraro]
+cluster 1[newemr.Yasmine Florence-Gagnon, newemr.Yasmine Florence-Gagnon, newemr.Yasmine Florence-Gagnon, newemr.Yasmine Florence-Gagnon, newemr.Rivas, newemr.Rivas, newemr.Yuhas, newemr.Yasmine Florence-Gagnon, newemr.Yasmine Florence-Gagnon, newemr.Yasmine Florence-Gagnon, newemr.Yasmine Florence-Gagnon, newemr.Yasmine Florence-Gagnon, newemr.Yasmine Florence-Gagnon, newemr.Yasmine Florence-Gagnon, newemr.Yasmine Florence-Gagnon, newemr.Rivas, newemr.Rivas, newemr.Yasmine Florence-Gagnon, newemr.Yasmine Florence-Gagnon, newemr.Yasmine Florence-Gagnon, newemr.Yasmine Florence-Gagnon]
+cluster 2[newemr.Franklin Feliciano, newemr.Franklin Feliciano, newemr.Franklin Feliciano, newemr.Franklin Feliciano]
+cluster 3[newemr.Xenia Rivas, newemr.Xenia Rivas, newemr.Xenia Rivas, newemr.Xenia Rivas]
+cluster 4[newemr.Gertrude Fulton]
+cluster 5[newemr.Xenia Rivas, newemr.Xenia Rivas]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 351
+cluster 0[newemr.URIBE, HAROLD, newemr.URIBE, HAROLD, newemr.URIBE, HAROLD, newemr.URIBE, HAROLD, newemr.URIBE, HAROLD, newemr.URIBE, HAROLD, newemr.URIBE, HAROLD, newemr.URIBE, HAROLD, newemr.URIBE, HAROLD]
+cluster 1[newemr.WOODRUFF, FERNE, newemr.WOODRUFF, FERNE, newemr.WOODRUFF, FERNE, newemr.WOODRUFF, FERNE, newemr.WOODRUFF, FERNE, newemr.WOODRUFF, FERNE, newemr.WOODRUFF, FERNE, newemr.WOODRUFF, FERNE, newemr.WOODRUFF, FERNE]
+cluster 2[newemr.Infant Brewer, newemr.Infant Brewer, newemr.Infant Brewer, newemr.Infant Brewer, newemr.Infant Brewer, newemr.Infant Brewer, newemr.Infant Brewer, newemr.Infant Brewer, newemr.Infant Brewer, newemr.Infant Brewer, newemr.Infant Brewer, newemr.Infant Brewer, newemr.Infant Brewer, newemr.Infant Brewer, newemr.Infant Brewer, newemr.Infant Brewer]
+cluster 3[newemr.Oglesby, newemr.Oglesby, newemr.Oglesby, newemr.Oglesby]
+cluster 4[newemr.Forrest]
+cluster 5[newemr.Leyva]
+cluster 6[newemr.Jarvis]
+cluster 7[newemr.Oglesby, newemr.Oglesby]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 353
+cluster 0[newemr.Norma Umali, newemr.Umali]
+cluster 1[newemr.Xan Dunn, newemr.Xan Dunn, newemr.Xan Dunn, newemr.Xan Dunn, newemr.Dunn, newemr.Dunn, newemr.Dunn, newemr.Dunn, newemr.Dunn, newemr.Dunn, newemr.Dunn, newemr.Dunn, newemr.Dunn, newemr.Dunn, newemr.Dunn, newemr.Dunn, newemr.Dunn, newemr.Dunn, newemr.Dunn, newemr.Dunn, newemr.Altman]
+cluster 2[newemr.Aguilera, newemr.Aguilera, newemr.Aguilera, newemr.Aguilera, newemr.David Aguilera]
+cluster 3[newemr.U. Needham]
+cluster 4[newemr.ullmann]
+cluster 5[newemr.Barbara Ely]
+cluster 6[newemr.Herbert Nunez]
+cluster 7[newemr.XD]
+cluster 8[newemr.U. Natalyn Gold]
+cluster 9[newemr.Needham]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 352
+cluster 0[newemr.Thrasher, newemr.Freddie Eric, newemr.Freddie Eric, newemr.Freddie Eric, newemr.Freddie Eric]
+cluster 1[newemr.VOLLMER, NATHAN, newemr.VOLLMER, NATHAN, newemr.VOLLMER, NATHAN, newemr.VOLLMER, NATHAN, newemr.VOLLMER, NATHAN, newemr.VOLLMER, NATHAN, newemr.VOLLMER, NATHAN, newemr.VOLLMER, NATHAN, newemr.VOLLMER, NATHAN, newemr.Kimball Lukas Abraham, newemr.Kimball Lukas Abraham, newemr.Kimball Lukas Abraham, newemr.Kimball Lukas Abraham]
+cluster 2[newemr.Winnie Palacios, newemr.Mercado]
+cluster 3[newemr.MIGUEL LARSON, newemr.MIGUEL LARSON, newemr.MIGUEL LARSON, newemr.MIGUEL LARSON]
+cluster 4[newemr.Glynn Freddie Eric Kinney]
+cluster 5[newemr.MIGUEL LARSON, newemr.MIGUEL LARSON]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 354
+cluster 0[newemr.Dye, newemr.Dye, newemr.Dye, newemr.Dye, newemr.Dye, newemr.Dye, newemr.Dye, newemr.Dye, newemr.Dye, newemr.Terry Iyer]
+cluster 1[newemr.Vanburen, newemr.Tellez]
+cluster 2[newemr.XAYSANA, YUSEF, newemr.XAYSANA, YUSEF, newemr.XAYSANA, YUSEF, newemr.XAYSANA, YUSEF, newemr.XAYSANA, YUSEF, newemr.XAYSANA, YUSEF, newemr.XAYSANA, YUSEF, newemr.XAYSANA, YUSEF, newemr.XAYSANA, YUSEF]
+cluster 3[newemr.Paul Gardner]
+cluster 4[newemr.Lonnie Leroy George Zuniga]
+cluster 5[newemr.Iyer]
+cluster 6[newemr.Winston]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 355
+cluster 0[newemr.Brandon Vanburen, newemr.Alan D. Xavier, newemr.Xavier, newemr.Xavier, newemr.Xavier, newemr.xavier, newemr.Alan xavier, newemr.Alan Xavier, newemr.Alan xavier, newemr.Alan Xavier, newemr.Xavier, newemr.Xavier, newemr.Xavier, newemr.xavier, newemr.Xavier, newemr.Xavier, newemr.Xavier, newemr.xavier, newemr.Xavier, newemr.Xavier, newemr.Xavier, newemr.xavier, newemr.Jonnie Vue]
+cluster 1[newemr.Estes, newemr.Romero, newemr.Valverde]
+cluster 2[newemr.XUAN, newemr.Marsh, newemr.Flora Cole]
+cluster 3[newemr.Vasquez, newemr.Vasquez, newemr.Vasquez, newemr.Vasquez]
+cluster 4[newemr.Patricia Najera, newemr.Patricia Najera, newemr.Patricia Najera, newemr.Patricia Najera]
+cluster 5[newemr.Rodolfo B. Ingham]
+cluster 6[newemr.Paz]
+cluster 7[newemr.Gomes]
+cluster 8[newemr.Patricia Najera, newemr.Patricia Najera]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 357
+cluster 0[newemr.Mcgee, newemr.Mcgee, newemr.Mcgee, newemr.Mcgee, newemr.Hayes, newemr.Andersen, newemr.Andersen, newemr.Andersen, newemr.Andersen, newemr.Andersen, newemr.Andersen, newemr.Andersen, newemr.Andersen, newemr.Andersen, newemr.Gabrielle Valdez]
+cluster 1[newemr.KEELER, ELIOT, newemr.KEELER, ELIOT, newemr.KEELER, ELIOT, newemr.KEELER, ELIOT, newemr.KEELER, ELIOT, newemr.KEELER, ELIOT, newemr.KEELER, ELIOT, newemr.KEELER, ELIOT, newemr.KEELER, ELIOT, newemr.Sean Ferreira, newemr.Putnam, newemr.Volpe]
+cluster 2[newemr.H. SHAWN HOWELL, newemr.H. SHAWN HOWELL, newemr.H. SHAWN HOWELL, newemr.H. SHAWN HOWELL]
+cluster 3[newemr.Lois Ochs]
+cluster 4[newemr.Ellington]
+cluster 5[newemr.H. SHAWN HOWELL, newemr.H. SHAWN HOWELL]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 356
+cluster 0[newemr.NICHOLAS  EDGE, newemr.NICHOLAS  EDGE, newemr.NICHOLAS  EDGE, newemr.NICHOLAS  EDGE, newemr.NICHOLAS  EDGE, newemr.NICHOLAS  EDGE, newemr.NICHOLAS  EDGE, newemr.NICHOLAS  EDGE, newemr.NICHOLAS  EDGE, newemr.UNA  BIRD]
+cluster 1[newemr.Johnsen, newemr.Edgar]
+cluster 2[newemr.Simon, Willie, newemr.Simon, Willie, newemr.Simon, Willie, newemr.Simon, Willie]
+cluster 3[newemr.Victor Webb, newemr.Victor Webb, newemr.Victor Webb, newemr.Victor Webb]
+cluster 4[newemr.Norman X. Jewett]
+cluster 5[newemr.William Yates]
+cluster 6[newemr.Andrew Ludwig]
+cluster 7[newemr.Norman Jewett]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 358
+cluster 0[newemr.Byron Pham, newemr.Byron Pham, newemr.Byron Pham, newemr.Byron Pham, newemr.Iyer, newemr.Iyer, newemr.Iyer, newemr.Iyer, newemr.Xian]
+cluster 1[newemr.Marshall, newemr.Marshall, newemr.Crowley, newemr.Otha Rush, newemr.Marshall, newemr.Marshall, newemr.Gina Kevin Irons, newemr.Gina Kevin Irons, newemr.Gina Kevin Irons, newemr.Gina Kevin Irons]
+cluster 2[newemr.Ula Lovett]
+cluster 3[newemr.Brandy F. Tate]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 359
+cluster 0[newemr.Hayes, newemr.Hayes, newemr.Hayes, newemr.Hayes, newemr.Hayes, newemr.Hayes, newemr.Hayes, newemr.Hayes, newemr.Hayes]
+cluster 1[newemr.Aniyah B. Alford]
+cluster 2[newemr.X. Hayes]
+cluster 3[newemr.Hayes, newemr.Hayes, newemr.Hayes]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 360
+cluster 0[newemr.Mueller, newemr.Mueller, newemr.Mueller, newemr.Mueller, newemr.NW, newemr.burns]
+cluster 1[newemr.OLIVIA PATTY HOPKINS, newemr.Whaley, newemr.Whaley, newemr.Olivia P. Hopkins, newemr.Whaley, newemr.Whaley, newemr.Nicholas Whaley, newemr.BS]
+cluster 2[newemr.Nathan Whaley, newemr.NATHAN WHALEY, newemr.Nathan Whaley, newemr.NATHAN WHALEY]
+cluster 3[newemr.Helen Morris]
+cluster 4[newemr.Nathan Whaley, newemr.NATHAN WHALEY]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 361
+cluster 0[newemr.TOMLIN, THEODORE, newemr.TOMLIN, THEODORE, newemr.TOMLIN, THEODORE, newemr.TOMLIN, THEODORE, newemr.TOMLIN, THEODORE, newemr.TOMLIN, THEODORE, newemr.TOMLIN, THEODORE, newemr.TOMLIN, THEODORE, newemr.TOMLIN, THEODORE, newemr.Oliver Napier, newemr.Napier, newemr.Wise, newemr.Leonard, newemr.N Leonard, newemr.Howard Wise]
+cluster 1[newemr.Barbara Hickman]
+cluster 2[newemr.Olivia France]
+cluster 3[newemr.Foy]
+cluster 4[newemr.Nicole Ostrowski]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 363
+cluster 0[newemr.OAKLEY, ALBERT, newemr.OAKLEY, ALBERT, newemr.OAKLEY, ALBERT, newemr.OAKLEY, ALBERT, newemr.OAKLEY, ALBERT, newemr.OAKLEY, ALBERT, newemr.OAKLEY, ALBERT, newemr.OAKLEY, ALBERT, newemr.OAKLEY, ALBERT]
+cluster 1[newemr.NOE, NATALEY KINSLEE, newemr.NOE, NATALEY KINSLEE, newemr.NOE, NATALEY KINSLEE, newemr.NOE, NATALEY KINSLEE, newemr.NOE, NATALEY KINSLEE, newemr.NOE, NATALEY KINSLEE, newemr.NOE, NATALEY KINSLEE, newemr.NOE, NATALEY KINSLEE, newemr.NOE, NATALEY KINSLEE, newemr.Barnes]
+cluster 2[newemr.Whitman, newemr.Whitman, newemr.Whitman, newemr.Whitman, newemr.Whitman, newemr.Whitman, newemr.Whitman, newemr.Whitman, newemr.Whitman]
+cluster 3[newemr.Nicholas Curtis Judd]
+cluster 4[newemr.Cantrell]
+cluster 5[newemr.Whitman, newemr.Whitman, newemr.Whitman]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 362
+cluster 0[newemr.Echols, newemr.RICHARD ZAHN, newemr.RICHARD ZAHN, newemr.RICHARD ZAHN, newemr.RICHARD ZAHN, newemr.Roger S Conrad]
+cluster 1[newemr.URIEL XING, newemr.URIEL XING, newemr.URIEL XING, newemr.URIEL XING]
+cluster 2[newemr.Scott Fink]
+cluster 3[newemr.Paul B. Stokes]
+cluster 4[newemr.URIEL XING, newemr.URIEL XING]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 364
+cluster 0[newemr.Thomas Wyatt, newemr.Ulisses Xuan, newemr.Matthew Jackman, newemr.Joshua Morgan, newemr.MR, newemr.William Dugan]
+cluster 1[newemr.Michael D. Roe, newemr.Roe]
+cluster 2[newemr.Irvin S. Joshua Morgan, newemr.martin, newemr.Irvin Joshua Morgan, newemr.Sandra Woody]
+cluster 3[newemr.CATHY TURK]
+cluster 4[newemr.Cathy T. Turk]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 365
+cluster 0[newemr.Phillip Isaac Crosby, newemr.Phillip Isaac Crosby, newemr.Gilmore, newemr.Gilmore, newemr.Phillip Isaac Crosby, newemr.Phillip Isaac Crosby, newemr.Gilmore, newemr.Gilmore, newemr.Ollie Kern]
+cluster 1[newemr.Michael, newemr.Michael, newemr.Michael, newemr.Michael, newemr.Michael, newemr.Michael, newemr.Michael, newemr.Michael, newemr.Michael, newemr.Kenneth Sweet, newemr.Gabriel Michael, newemr.Katie W Fitzgerald]
+cluster 2[newemr.XAVIER ODONNELL, newemr.XAVIER ODONNELL, newemr.XAVIER ODONNELL, newemr.XAVIER ODONNELL]
+cluster 3[newemr.Julia Gillis]
+cluster 4[newemr.Gillis]
+cluster 5[newemr.XAVIER ODONNELL, newemr.XAVIER ODONNELL]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 366
+cluster 0[newemr.Jordon, newemr.Jaclyn Jordon]
+cluster 1[newemr.Tejeda, newemr.Ricardo Jacob Updyke, newemr.Ricardo Jacob Updyke, newemr.Robin U. Tejeda, newemr.Ricardo Jacob Updyke, newemr.Ricardo Jacob Updyke]
+cluster 2[newemr.LOGAN COLEMAN, newemr.LOGAN COLEMAN, newemr.LOGAN COLEMAN, newemr.LOGAN COLEMAN, newemr.Pagan]
+cluster 3[newemr.Joanne Elyssia Pagan]
+cluster 4[newemr.Pamela Falk]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 367
+cluster 0[newemr.Lawson, newemr.Lawson, newemr.Lawson, newemr.Lawson, newemr.Lawson, newemr.Lawson, newemr.Lawson, newemr.Lawson, newemr.Lawson, newemr.Lawson, newemr.Lawson, newemr.Lawson, newemr.Lawson, newemr.Lawson, newemr.Lawson, newemr.Lawson, newemr.Lawson, newemr.Lawson, newemr.Lawson, newemr.Lawson, newemr.Lawson, newemr.Lawson, newemr.Lawson, newemr.Lawson, newemr.Lawson]
+cluster 1[newemr.Tatyana A. Morris, newemr.Tatyana Butler, newemr.Buckley]
+cluster 2[newemr.Patricia Lund, newemr.Patricia Lund, newemr.Patricia Lund, newemr.Patricia Lund]
+cluster 3[newemr.Xander H. Leonard]
+cluster 4[newemr.Patricia Lund, newemr.Patricia Lund]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 369
+cluster 0[newemr.ESPOSITO, newemr.Esposito, newemr.Esposito, newemr.Esposito, newemr.ESPOSITO, newemr.Esposito, newemr.Esposito, newemr.Esposito, newemr.William Seth Potter, newemr.William Seth Potter, newemr.ESPOSITO, newemr.Esposito, newemr.Esposito, newemr.Esposito, newemr.ESPOSITO, newemr.Esposito, newemr.Esposito, newemr.Esposito, newemr.William Seth Potter, newemr.William Seth Potter]
+cluster 1[newemr.Rawan Pineda, newemr.Rawan Pineda, newemr.Rawan Pineda, newemr.Rawan Pineda]
+cluster 2[newemr.Potter]
+cluster 3[newemr.Potter's]
+cluster 4[newemr.Rawan Pineda, newemr.Rawan Pineda]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 368
+cluster 0[newemr.Moses, newemr.Moses, newemr.Larry Kowalski, newemr.Moses, newemr.Moses, newemr.Ursula Delgado, newemr.Umberto Gibbons, newemr.Pagan, newemr.Pagan, newemr.Pagan, newemr.Pagan, newemr.Ursula Victoria Delgado]
+cluster 1[newemr.Ito, newemr.Ito, newemr.Ito, newemr.Ito, newemr.Ito, newemr.Ito, newemr.Ito, newemr.Ito, newemr.Ito, newemr.Ito, newemr.Ito, newemr.Ito, newemr.Kelsey Ito, newemr.Nicholas Hood, newemr.Hood, newemr.Ito, newemr.Ito, newemr.Ito, newemr.Ito]
+cluster 2[newemr.Espinosa, newemr.Espinosa, newemr.Espinosa, newemr.Espinosa, newemr.UD, newemr.reece, newemr.locke, newemr.Umberto Xuan, newemr.Umberto Xuan, newemr.Umberto Xuan, newemr.Umberto Xuan, newemr.Umberto Xuan, newemr.Umberto Xuan, newemr.Umberto Xuan, newemr.Umberto Xuan, newemr.Umberto Xuan]
+cluster 3[newemr.Page, michael, newemr.Page, michael, newemr.Page, michael, newemr.Page, michael]
+cluster 4[newemr.Dunn]
+cluster 5[newemr.Page, michael, newemr.Page, michael]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 391
+cluster 0[newemr.Goldberg,M, newemr.Michael Goldberg, newemr.Michael Goldberg, newemr.Michael Goldberg, newemr.Michael Goldberg, newemr.Barajas, newemr.Yao's]
+cluster 1[newemr.Quesenberry, newemr.Richard Quesenberry, newemr.Sampson, newemr.Sampson, newemr.Sampson, newemr.Sampson, newemr.Xavier M. Sampson]
+cluster 2[newemr.Edward M. Yao]
+cluster 3[newemr.Samuel Vinson]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 392
+cluster 0[newemr.Vance U. Arias, newemr.Chandler]
+cluster 1[newemr.Salgado, newemr.Salgado, newemr.Salgado, newemr.Salgado, newemr.Salgado, newemr.Salgado, newemr.Salgado, newemr.Salgado, newemr.Salgado, newemr.Salgado, newemr.Salgado, newemr.Salgado, newemr.Salgado, newemr.Salgado, newemr.Salgado, newemr.Salgado, newemr.SALGADO, BRUCE, newemr.SALGADO, BRUCE, newemr.SALGADO, BRUCE, newemr.SALGADO, BRUCE]
+cluster 2[newemr.Grace C. Valerie-Yun, newemr.Grace C. Valerie-Yun, newemr.Grace C. Valerie-Yun, newemr.Grace C. Valerie-Yun]
+cluster 3[newemr.Cross]
+cluster 4[newemr.Owen Franklin]
+cluster 5[newemr.Kennedy]
+cluster 6[newemr.Grace C. Valerie-Yun, newemr.Grace C. Valerie-Yun]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 393
+cluster 0[newemr.Otis Aguilera, newemr.Mark Kenney, newemr.UGALDE, JAZZLYNN, newemr.Yee, newemr.Narvaez]
+cluster 1[newemr.Mildred D. Yunker, newemr.Mildred D. Yunker, newemr.SHEEHAN, XIMENA, newemr.Mildred D. Yunker, newemr.Mildred D. Yunker]
+cluster 2[newemr.FARLEY, ERIC]
+cluster 3[newemr.Janssen]
+cluster 4[newemr.Regina Dorsey]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 394
+cluster 0[newemr.Xuereb, newemr.Xuereb, newemr.Xuereb, newemr.Xuereb, newemr.Xuereb, newemr.Xuereb, newemr.Xuereb, newemr.Xuereb, newemr.Xuereb, newemr.Xuereb, newemr.Xuereb, newemr.Xuereb, newemr.Ramsey, newemr.Ramsey, newemr.Ramsey, newemr.Ramsey, newemr.Xuereb, newemr.Xuereb, newemr.Xuereb, newemr.Xuereb, newemr.Ledford]
+cluster 1[newemr.Lisa Inge, newemr.Inge, newemr.Inge, newemr.Inge, newemr.Jankowski, newemr.Inge, newemr.Inge, newemr.Inge, newemr.Inge, newemr.Inge, newemr.Inge]
+cluster 2[newemr.Faith G. Ice, newemr.Faith G Ice, newemr.Faith G. Ice, newemr.Faith G Ice]
+cluster 3[newemr.Regina Reeves]
+cluster 4[newemr.Emmerson F. Carpenter]
+cluster 5[newemr.Naima Zavaleta]
+cluster 6[newemr.Faith Ice]
+cluster 7[newemr.Faith G. Ice, newemr.Faith G Ice]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 151
+cluster 0[newemr.Quinton H. Welch, newemr.Quinton H. Welch, newemr.Ziemba, newemr.Alaniz, newemr.Quinton H. Welch, newemr.Quinton H. Welch]
+cluster 1[newemr.Leblanc, newemr.Eddie Zajac, newemr.Eddie Zajac, newemr.Eddie Zajac, newemr.Eddie Zajac]
+cluster 2[newemr.Quanita Ziemer]
+cluster 3[newemr.Quenton Zacharie Odell]
+cluster 4[newemr.Freddie-Verne  Urie]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 150
+cluster 0[newemr.Quinton Lovett, newemr.Quinton Lovett, newemr.Quinton Lovett, newemr.Quinton Lovett, newemr.Quilla Uehara, newemr.Uehara, newemr.Uehara, newemr.Uehara, newemr.Uehara, newemr.Uehara, newemr.Uehara, newemr.Uehara, newemr.Uehara, newemr.Uehara, newemr.Uehara, newemr.Uehara, newemr.Uehara, newemr.Uehara, newemr.Uehara, newemr.Uehara, newemr.Uehara, newemr.Spencer O. Wilhelm, newemr.keys]
+cluster 1[newemr.STEPHEN X. PIKE, newemr.STEPHEN X. PIKE, newemr.STEPHEN X. PIKE, newemr.STEPHEN X. PIKE]
+cluster 2[newemr.STEPHEN X. PIKE, newemr.STEPHEN X. PIKE]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 153
+cluster 0[newemr.Lee, newemr.Amy  Jenkins]
+cluster 1[newemr.W. Ronnie  Le, newemr.Ronnie Le, newemr.Le]
+cluster 2[newemr.Oswald M Jeffers]
+cluster 3[newemr.Rico]
+cluster 4[newemr.Jeffers, Oswald]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 152
+cluster 0[newemr.Quy Cherry, newemr.Quy Cherry, newemr.Quy Cherry, newemr.Quy Cherry]
+cluster 1[newemr.Geary A. Camacho]
+cluster 2[newemr.Jewett]
+cluster 3[newemr.Vernon Voorhees]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 154
+cluster 0[newemr.H. U. HEBERT, newemr.H. U. HEBERT, newemr.H. U. HEBERT, newemr.H. U. HEBERT, newemr.Collins, newemr.Collins, newemr.Collins, newemr.Collins, newemr.UMANA, BRUCE, newemr.UMANA, BRUCE, newemr.UMANA, BRUCE, newemr.UMANA, BRUCE, newemr.UMANA, BRUCE, newemr.UMANA, BRUCE, newemr.UMANA, BRUCE, newemr.UMANA, BRUCE, newemr.UMANA, BRUCE]
+cluster 1[newemr.URIEL ERVIN, newemr.URIEL ERVIN, newemr.URIEL ERVIN, newemr.URIEL ERVIN, newemr.Abbott, newemr.Abbott, newemr.Abbott, newemr.Abbott, newemr.Abbott, newemr.Abbott, newemr.Abbott, newemr.Abbott, newemr.Abbott]
+cluster 2[newemr.OWEN URE, newemr.OWEN URE, newemr.OWEN URE, newemr.OWEN URE]
+cluster 3[newemr.OWEN URE, newemr.OWEN URE]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 155
+cluster 0[newemr.Hayden Richard, newemr.Hayden Richard, newemr.black, newemr.Hayden Richard, newemr.Hayden Richard, newemr.Richard, newemr.Nesbitt, newemr.Nesbitt, newemr.Nesbitt, newemr.Nesbitt, newemr.Osvaldo Lilly]
+cluster 1[newemr.edwards, newemr.Margaret Norris]
+cluster 2[newemr.K. Guzman]
+cluster 3[newemr.HR]
+cluster 4[newemr.Deborah N. Hooper]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 156
+cluster 0[newemr.Eric Olds, newemr.Eric Olds, newemr.Eric Olds, newemr.Eric Olds, newemr.Olds, newemr.Olivia Jiang, newemr.Olivia Orosco, newemr.Key, newemr.WALLACE, VELMA, newemr.WALLACE, VELMA, newemr.WALLACE, VELMA, newemr.Echols, newemr.WALLACE, VELMA, newemr.WALLACE, VELMA, newemr.WALLACE, VELMA, newemr.WALLACE, VELMA, newemr.WALLACE, VELMA, newemr.WALLACE, VELMA]
+cluster 1[newemr.BRODY OHARA, newemr.BRODY OHARA, newemr.BRODY OHARA, newemr.BRODY OHARA]
+cluster 2[newemr.Peggy Chaya Quebedeaux]
+cluster 3[newemr.Patricia Quebedeaux]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 157
+cluster 0[newemr.Fry, newemr.Fry, newemr.Fry, newemr.Fry, newemr.Xiang, newemr.Yeater]
+cluster 1[newemr.Giselle Ulysses-Lyon]
+cluster 2[newemr.Dennis Donnelly]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 158
+cluster 0[newemr.Ordonez, newemr.Trenton Pena, newemr.Patricia Pack]
+cluster 1[newemr.Urwin Orosco, newemr.Orosco]
+cluster 2[newemr.Tara Phipps, newemr.Tara Phipps, newemr.Tara Phipps, newemr.Tara Phipps, newemr.Upham]
+cluster 3[newemr.Larry T. Jansen, newemr.Larry T. Jansen, newemr.Larry T. Jansen, newemr.Larry T. Jansen, newemr.Larry T. Jansen, newemr.Larry T. Jansen, newemr.Larry T. Jansen, newemr.Larry T. Jansen, newemr.Larry T. Jansen]
+cluster 4[newemr.Ochoa]
+cluster 5[newemr.lowery]
+cluster 6[newemr.LTJ]
+cluster 7[newemr.Larry T. Jansen, newemr.Larry T. Jansen, newemr.Larry T. Jansen]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 159
+cluster 0[newemr.Nabor Jacoby, newemr.Jacoby, newemr.Jacoby, newemr.Jacoby, newemr.Jacoby, newemr.Xitlali Crane, newemr.Xitlali Crane, newemr.Xitlali Crane, newemr.Xitlali Crane, newemr.Xitlali Crane, newemr.Xitlali Crane, newemr.Xitlali Crane, newemr.Xitlali Crane, newemr.Xitlali Crane, newemr.Jacoby, newemr.Jacoby, newemr.Jacoby, newemr.Jacoby, newemr.Crane, newemr.Crane, newemr.Jacoby, newemr.Jacoby, newemr.Jacoby, newemr.Jacoby, newemr.Crane, newemr.Crane, newemr.Jacoby, newemr.Jacoby, newemr.Jacoby, newemr.Jacoby, newemr.Jeffrey Koehler, newemr.Jeffrey Koehler, newemr.Koehler, newemr.Koehler, newemr.Jeffrey Koehler, newemr.Jeffrey Koehler, newemr.JK, newemr.Koehler, newemr.Koehler]
+cluster 1[newemr.Xitlali Xia, newemr.Lehman]
+cluster 2[newemr.Rahasia Pauline Vuong]
+cluster 3[newemr.YOCOM,GARY ZACHARY]
+cluster 4[newemr.Raymond Castaneda]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 170
+cluster 0[newemr.Robert Rich, newemr.Mae S. Naylor, newemr.Nesmith, newemr.Warda Graham]
+cluster 1[newemr.V. A. Nunes]
+cluster 2[newemr.Talbert, Nicholas]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 171
+cluster 0[newemr.Xenia Jaramillo, newemr.Jaramillo, newemr.Jaramillo, newemr.Jaramillo, newemr.Jaramillo, newemr.Jaramillo, newemr.Jaramillo, newemr.Jaramillo, newemr.Jaramillo, newemr.Jaramillo, newemr.Quesnel, newemr.Rhodes]
+cluster 1[newemr.XJ, newemr.Acuna, newemr.Acuna, newemr.Acuna, newemr.Acuna, newemr.Acuna, newemr.Acuna, newemr.Acuna, newemr.Acuna, newemr.Acuna, newemr.quevedo, newemr.Quesenberry, newemr.Xena Acuna, newemr.Ordean Quintal]
+cluster 2[newemr.williams, newemr.Uddin, newemr.Uddin, newemr.Nutter, newemr.Uddin, newemr.Uddin]
+cluster 3[newemr.camp, newemr.camp, newemr.camp, newemr.camp]
+cluster 4[newemr.DAR, newemr.DAR, newemr.DAR, newemr.DAR, newemr.Quinton Quintela]
+cluster 5[newemr.Debra A. Rosenberg, newemr.Debra A. Rosenberg, newemr.Debra A. Rosenberg, newemr.Debra A. Rosenberg, newemr.Debra A. Rosenberg, newemr.Debra A. Rosenberg, newemr.Debra A. Rosenberg, newemr.Debra A. Rosenberg, newemr.Debra A. Rosenberg]
+cluster 6[newemr.Debra A. Rosenberg, newemr.Debra A. Rosenberg, newemr.Debra A. Rosenberg]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 172
+cluster 0[newemr.turpin, newemr.turpin, newemr.turpin, newemr.turpin, newemr.Vidal, newemr.vidal, newemr.Rose Anaya, newemr.Vidal, newemr.vidal]
+cluster 1[newemr.Richard F. Vidal, newemr.Richard F. Vidal, newemr.Richard F. Vidal, newemr.Richard F. Vidal, newemr.Richard F. Vidal, newemr.Richard F. Vidal, newemr.Richard F. Vidal, newemr.Richard F. Vidal, newemr.Richard F. Vidal, newemr.Richard F. Vidal, newemr.Richard F. Vidal, newemr.Richard F. Vidal, newemr.Richard F. Vidal, newemr.Richard F. Vidal, newemr.Richard F. Vidal, newemr.Richard F. Vidal, newemr.Abernathy, newemr.Debra Y Xin]
+cluster 2[newemr.Olszewski, newemr.Olszewski, newemr.Olszewski, newemr.Olszewski, newemr.Olszewski, newemr.Olszewski, newemr.Olszewski, newemr.Olszewski, newemr.Olszewski, newemr.Olszewski, newemr.Olszewski, newemr.Olszewski, newemr.Olszewski, newemr.Olszewski, newemr.Olszewski, newemr.Olszewski, newemr.Olszewski, newemr.Olszewski, newemr.Olszewski, newemr.Olszewski, newemr.Olszewski, newemr.Olszewski, newemr.Olszewski, newemr.Olszewski, newemr.Olszewski, newemr.K. Ivan Olszewski]
+cluster 3[newemr.Frank Ito, newemr.Frank Ito, newemr.Frank Ito, newemr.Frank Ito]
+cluster 4[newemr.Valdivia]
+cluster 5[newemr.Ito]
+cluster 6[newemr.Frank Ito, newemr.Frank Ito]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 173
+cluster 0[newemr.HOLLAND KELLER, newemr.Holland Keller, newemr.HOLLAND KELLER, newemr.Holland Keller, newemr.Ulanda B. Huynh, newemr.Huynh, newemr.Urijah Whaley, newemr.Uddin, newemr.Yaziel Kraft, newemr.THORNE, OLIVER, newemr.THORNE, OLIVER, newemr.THORNE, OLIVER, newemr.Bender, newemr.THORNE, OLIVER, newemr.THORNE, OLIVER, newemr.THORNE, OLIVER, newemr.THORNE, OLIVER, newemr.THORNE, OLIVER, newemr.THORNE, OLIVER]
+cluster 1[newemr.Hayden Avery, newemr.BRIAN YOCKEY, newemr.BRIAN YOCKEY, newemr.BRIAN YOCKEY, newemr.BRIAN YOCKEY, newemr.huff]
+cluster 2[newemr.Kevin Y. Kirkpatrick, newemr.Kirkpatrick,Kevin, newemr.Kenneth Z. Sellers, newemr.Kenneth Z. Sellers, newemr.Kenneth Z. Sellers, newemr.Kenneth Z. Sellers]
+cluster 3[newemr.Charlene B. Bates]
+cluster 4[newemr.Ulysses Harding]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 174
+cluster 0[newemr.XCW, newemr.Tam]
+cluster 1[newemr.ignacio, newemr.felder, newemr.Short, newemr.Short, newemr.Short, newemr.Short, newemr.Farris Short]
+cluster 2[newemr.Farrar, newemr.Thomas Iyer]
+cluster 3[newemr.Xzavior Welch, newemr.Xzavior, newemr.Welch, Xzavior Charles, newemr.Welch, Xzavior Charles, newemr.Welch, Xzavior Charles, newemr.Welch, Xzavior Charles]
+cluster 4[newemr.Xzavior C. Welch, newemr.Xzavior C. Welch, newemr.Xzavior C. Welch, newemr.Xzavior C. Welch]
+cluster 5[newemr.erwin]
+cluster 6[newemr.Xzavior C. Welch, newemr.Xzavior C. Welch]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 175
+cluster 0[newemr.WKJ, newemr.WKJ, newemr.Samantha Noland, newemr.WKJ, newemr.WKJ, newemr.Zyan Conrad]
+cluster 1[newemr.William K. Joslin, newemr.William K. Joslin, newemr.William K. Joslin, newemr.William K. Joslin]
+cluster 2[newemr.edge]
+cluster 3[newemr.William Joslin]
+cluster 4[newemr.Samantha G Noland]
+cluster 5[newemr.William K. Joslin, newemr.William K. Joslin]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 176
+cluster 0[newemr.Justus, newemr.Ivory Barron, newemr.Castro]
+cluster 1[newemr.OXENDINE, LAWRENCE, newemr.OXENDINE, LAWRENCE, newemr.OXENDINE, LAWRENCE, newemr.OXENDINE, LAWRENCE, newemr.OXENDINE, LAWRENCE, newemr.OXENDINE, LAWRENCE, newemr.OXENDINE, LAWRENCE, newemr.OXENDINE, LAWRENCE, newemr.OXENDINE, LAWRENCE]
+cluster 2[newemr.Leroy X. Oshea, newemr.Leroy X. Oshea, newemr.Leroy X. Oshea, newemr.Leroy X. Oshea]
+cluster 3[newemr.Barron]
+cluster 4[newemr.Leroy X. Oshea, newemr.Leroy X. Oshea]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 177
+cluster 0[newemr.Mitchell, newemr.Mitchell, newemr.XI, KATHERINE I, newemr.XI, KATHERINE I, newemr.XI, KATHERINE I, newemr.XI, KATHERINE I, newemr.Mitchell, newemr.Mitchell, newemr.Gerry Baldwin, newemr.Grace Jewell, newemr.Jocelyn T Issa, newemr.Leonard Uranga]
+cluster 1[newemr.Vernell-Paul, newemr.Vernell-Paul, newemr.Vernell-Paul, newemr.Vernell-Paul]
+cluster 2[newemr.Noah K. Quintin-Malone, newemr.Noah K. Quintin-Malone, newemr.Noah K. Quintin-Malone, newemr.Noah K. Quintin-Malone]
+cluster 3[newemr.NEWTON, QUEEN, newemr.Queen Newton, newemr.NEWTON, QUEEN, newemr.Queen Newton]
+cluster 4[newemr.Paul T. Quinby]
+cluster 5[newemr.George Fletcher]
+cluster 6[newemr.Michael Glenn]
+cluster 7[newemr.Noah Quintin-Mcclure]
+cluster 8[newemr.NEWTON, QUEEN, newemr.Queen Newton]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 179
+cluster 0[newemr.GARY J. HUGHES, newemr.GARY J. HUGHES, newemr.Levine, newemr.GARY J. HUGHES, newemr.GARY J. HUGHES, newemr.HUNTUR IVERSON, newemr.Isaac Ortega, newemr.Calvin Null, newemr.Null, newemr.Null, newemr.Null, newemr.Null, newemr.Null, newemr.Null, newemr.Null, newemr.Null, newemr.Null, newemr.Null, newemr.Null, newemr.Null, newemr.Null, newemr.Null, newemr.Null, newemr.Null, newemr.Null, newemr.Null, newemr.Null, newemr.Null, newemr.Null, newemr.Null, newemr.Null, newemr.Null, newemr.Null, newemr.Null, newemr.Null, newemr.Null, newemr.Null, newemr.Null, newemr.Null, newemr.Null, newemr.Null, newemr.Null, newemr.Null, newemr.Null, newemr.Benjamin Shepherd]
+cluster 1[newemr.Sweet, newemr.IZEYAH SWEET]
+cluster 2[newemr.THOMAS EARL, newemr.Choi, newemr.Terry Choi, newemr.Opal Larson]
+cluster 3[newemr.Kyle Eads, newemr.Eads, Kyle, newemr.Kyle Eads, newemr.Eads, Kyle]
+cluster 4[newemr.KYLE LEVINE]
+cluster 5[newemr.Kyle Eads, newemr.Eads, Kyle]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 178
+cluster 0[newemr.Olney Francis Ong, newemr.Ong, newemr.Harper, newemr.Kumar]
+cluster 1[newemr.Nathan O. Duncan, newemr.Nathan O. Duncan, newemr.Nathan O. Duncan, newemr.Nathan O. Duncan]
+cluster 2[newemr.Nathan O. Duncan, newemr.Nathan O. Duncan]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 180
+cluster 0[newemr.Vincent Ventura, newemr.Vincent Ventura, newemr.Vincent Ventura, newemr.Vincent Ventura, newemr.Vincent Ventura, newemr.Vincent Ventura, newemr.Vincent Ventura, newemr.Vincent Ventura, newemr.Vincent Ventura, newemr.Vincent Ventura, newemr.Vincent Ventura, newemr.Vincent Ventura, newemr.Vincent Ventura, newemr.Vincent Ventura, newemr.Vincent Ventura, newemr.Vincent Ventura, newemr.Keith Quant, newemr.Ivan Tomlinson, newemr.Bill X. Stafford, newemr.Stafford, newemr.Robert Villasenor, newemr.Villasenor, newemr.Villasenor, newemr.Villasenor, newemr.Villasenor, newemr.Villasenor, newemr.Villasenor, newemr.Villasenor, newemr.Villasenor, newemr.Villasenor, newemr.Villasenor, newemr.Villasenor, newemr.Villasenor, newemr.Villasenor, newemr.Villasenor, newemr.Villasenor, newemr.Villasenor, newemr.SARINA BOOTH, newemr.SARINA BOOTH, newemr.SARINA BOOTH, newemr.SARINA BOOTH, newemr.Singleton, newemr.Singleton, newemr.Singleton, newemr.Singleton, newemr.Singleton, newemr.Singleton, newemr.Singleton, newemr.Singleton, newemr.Singleton, newemr.Singleton, newemr.Singleton, newemr.Singleton, newemr.Singleton, newemr.Singleton, newemr.Singleton, newemr.Singleton, newemr.Singleton, newemr.Singleton, newemr.Singleton, newemr.Singleton, newemr.Singleton, newemr.Singleton, newemr.Singleton, newemr.Singleton, newemr.Singleton, newemr.Singleton, newemr.Singleton, newemr.Singleton, newemr.Singleton, newemr.Singleton, newemr.Singleton, newemr.Singleton, newemr.Singleton, newemr.Singleton, newemr.Singleton, newemr.Singleton, newemr.Singleton, newemr.Singleton, newemr.Singleton, newemr.Singleton, newemr.Singleton, newemr.Singleton, newemr.Singleton, newemr.Singleton, newemr.Singleton, newemr.Singleton, newemr.Singleton, newemr.Singleton, newemr.Singleton]
+cluster 1[newemr.Ventura, newemr.Ventura, newemr.bradford, newemr.Uriel Palmer, newemr.Ventura, newemr.Ventura, newemr.Quentin U. Johnson, newemr.Quentin U. Johnson, newemr.Quentin U. Johnson, newemr.Quentin U. Johnson, newemr.Verlon Ventura, newemr.Archie Oreilly, newemr.Bill R. Joe]
+cluster 2[newemr.Isaac Upson, newemr.Upson, newemr.jarrell, newemr.Ivan Upson]
+cluster 3[newemr.Y. Quinton Xanders, newemr.Y. Quinton Xanders, newemr.Y. Quinton Xanders, newemr.Y. Quinton Xanders]
+cluster 4[newemr.UNKNOWN Y. PARRA]
+cluster 5[newemr.QUJ]
+cluster 6[newemr.Martin Y. Pruitt]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 181
+cluster 0[newemr.Quinn Ivey, newemr.aponte]
+cluster 1[newemr.D. EMON DUBOIS, newemr.D. EMON DUBOIS, newemr.D. EMON DUBOIS, newemr.D. EMON DUBOIS, newemr.Lance Camacho, newemr.Camacho, newemr.J. Needham]
+cluster 2[newemr.Clyde Roe, newemr.Clyde Roe, newemr.Clyde Roe, newemr.Clyde Roe]
+cluster 3[newemr.Clyde Roe, newemr.Clyde Roe]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 182
+cluster 0[newemr.jorgenson, newemr.jorgenson, newemr.camp, newemr.jorgenson, newemr.jorgenson, newemr.Robert Bailey, newemr.Albright, newemr.IANNONE, newemr.FISCHER, newemr.Ulysess Dodge]
+cluster 1[newemr.RDB, newemr.RDB, newemr.RDB, newemr.RDB, newemr.cline, newemr.Echeverria, newemr.Thomas Cotton, newemr.Cotton]
+cluster 2[newemr.Robert D. Briggs, newemr.Robert D. Briggs, newemr.Robert D. Briggs, newemr.Robert D. Briggs]
+cluster 3[newemr.Trahan]
+cluster 4[newemr.Raul Quilici]
+cluster 5[newemr.Robert D. Briggs, newemr.Robert D. Briggs]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 183
+cluster 0[newemr.Stuart J. Long, newemr.Long, newemr.Helen Uren, newemr.Xanthos, newemr.Elias  Mercado, newemr.DEXTER N. JOHNSON, newemr.DEXTER N. JOHNSON, newemr.DEXTER N. JOHNSON, newemr.DEXTER N. JOHNSON, newemr.DEXTER N. JOHNSON, newemr.DEXTER N. JOHNSON, newemr.DEXTER N. JOHNSON, newemr.DEXTER N. JOHNSON, newemr.DEXTER N. JOHNSON, newemr.DEXTER N. JOHNSON, newemr.DEXTER N. JOHNSON, newemr.DEXTER N. JOHNSON, newemr.DEXTER N. JOHNSON, newemr.DEXTER N. JOHNSON, newemr.DEXTER N. JOHNSON, newemr.DEXTER N. JOHNSON, newemr.Ulises Collier, newemr.Collier]
+cluster 1[newemr.S. Quenton Jolley, newemr.S. Quenton Jolley, newemr.Edward Xanthos, newemr.Edward Xanthos, newemr.Edward Xanthos, newemr.Edward Xanthos, newemr.Edward Xanthos, newemr.Edward Xanthos, newemr.Edward Xanthos, newemr.Edward Xanthos, newemr.Edward Xanthos, newemr.S. Quenton Jolley, newemr.S. Quenton Jolley, newemr.knox, newemr.STEVE NUTT, newemr.STEVE NUTT, newemr.STEVE NUTT, newemr.STEVE NUTT]
+cluster 2[newemr.Elias Q. Mercado, newemr.Elias Q. Mercado, newemr.Elias Q. Mercado, newemr.Elias Q. Mercado]
+cluster 3[newemr.joshi]
+cluster 4[newemr.Elias Q. Mercado, newemr.Elias Q. Mercado]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 184
+cluster 0[newemr.Aguilar, newemr.Michael Uecker, newemr.Michael Uecker, newemr.Michael Uecker, newemr.Michael Uecker, newemr.Carroll, newemr.Carroll, newemr.Carroll, newemr.Smith, newemr.Carroll, newemr.Carroll, newemr.Carroll, newemr.Carroll, newemr.Carroll, newemr.Carroll, newemr.Adam Mcclure]
+cluster 1[newemr.NAPOLITANO, URSULA, newemr.NAPOLITANO, URSULA, newemr.NAPOLITANO, URSULA, newemr.NAPOLITANO, URSULA, newemr.NAPOLITANO, URSULA, newemr.NAPOLITANO, URSULA, newemr.NAPOLITANO, URSULA, newemr.NAPOLITANO, URSULA, newemr.NAPOLITANO, URSULA]
+cluster 2[newemr.HINES,ALEXANDER SAMMY, newemr.HINES,ALEXANDER SAMMY, newemr.HINES,ALEXANDER SAMMY, newemr.HINES,ALEXANDER SAMMY]
+cluster 3[newemr.Uecker]
+cluster 4[newemr.Cadence Barton]
+cluster 5[newemr.Alexander Hines]
+cluster 6[newemr.HINES,ALEXANDER SAMMY, newemr.HINES,ALEXANDER SAMMY]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 185
+cluster 0[newemr.TERESA  LAMB, newemr.TERESA  LAMB, newemr.TERESA  LAMB, newemr.TERESA  LAMB, newemr.TERESA  LAMB, newemr.TERESA  LAMB, newemr.TERESA  LAMB, newemr.TERESA  LAMB, newemr.TERESA  LAMB, newemr.Benjaman Y. Macias, newemr.Macias, newemr.Macias, B., newemr.Erickson, F., newemr.Hendrickson, D.]
+cluster 1[newemr.WILKES, newemr.WILKES, newemr.WILKES, newemr.WILKES, newemr.WILKES, newemr.WILKES, newemr.WILKES, newemr.WILKES, newemr.WILKES, newemr.Teresa Law, newemr.BRIANNA  WILKES, newemr.Angeline Barajas, newemr.Angeline Barajas, newemr.Angeline Barajas, newemr.Angeline Barajas, newemr.Vera, A.]
+cluster 2[newemr.VETRA  MOON, newemr.Freda Erickson, newemr.Quan]
+cluster 3[newemr.frances cramer, newemr.frances cramer, newemr.frances cramer, newemr.frances cramer]
+cluster 4[newemr.Quan, J.]
+cluster 5[newemr.frances cramer, newemr.frances cramer]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 186
+cluster 0[newemr.Greg Overman, newemr.Overman, newemr.MARQUEZ, RONALD, newemr.MARQUEZ, RONALD, newemr.MARQUEZ, RONALD, newemr.Ure, newemr.Ure, newemr.Ure, newemr.Ure, newemr.MARQUEZ, RONALD, newemr.MARQUEZ, RONALD, newemr.MARQUEZ, RONALD, newemr.MARQUEZ, RONALD, newemr.MARQUEZ, RONALD, newemr.MARQUEZ, RONALD]
+cluster 1[newemr.Ubaldo R. Daugherty, newemr.Ubaldo Daugherty, newemr.Ubaldo Daugherty, newemr.Ubaldo Daugherty, newemr.Ubaldo Daugherty, newemr.Maxwell]
+cluster 2[newemr.Patton, Chong]
+cluster 3[newemr.Tawn Johanson]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 187
+cluster 0[newemr.Nunes, newemr.Nunes, newemr.Nunes, newemr.Nunes, newemr.Nunes, newemr.Nunes, newemr.Nunes, newemr.Nunes, newemr.Parker  Xian, newemr.Arce, newemr.Hoffman, newemr.Nunes, newemr.Nunes, newemr.Nunes, newemr.Nunes, newemr.Nunes, newemr.Nunes, newemr.Nunes, newemr.Nunes, newemr.Brice Short, newemr.Brice Short, newemr.Brice Short, newemr.Taliyah Hoffman, newemr.Brice Short, newemr.Brice Short, newemr.Brice Short, newemr.Brice Short, newemr.Brice Short, newemr.Brice Short, newemr.Xavier Hobbs, newemr.Xavier Hobbs, newemr.Xavier Hobbs, newemr.Xavier Hobbs, newemr.Thomas Hoffman, newemr.Thomas Hoffman, newemr.Parker Quinby, newemr.Parker Quinby, newemr.Xavier Hobbs, newemr.Xavier Hobbs, newemr.Xavier Hobbs, newemr.Xavier Hobbs, newemr.Xavier Hobbs, newemr.Xavier Hobbs, newemr.Xavier Hobbs, newemr.Xavier Hobbs, newemr.Thomas Hoffman, newemr.Thomas Hoffman, newemr.Parker Quinby, newemr.Parker Quinby, newemr.Xavier Hobbs, newemr.Xavier Hobbs, newemr.Xavier Hobbs, newemr.Xavier Hobbs, newemr.Tom Tejeda]
+cluster 1[newemr.Short, newemr.Clarence K. Hart, newemr.Juan Yun, newemr.Juan Yun, newemr.Juan Yun, newemr.Juan Yun, newemr.Paul Edwards, newemr.Paul Edwards, newemr.Allison Ng, newemr.Allison Ng, newemr.Juan Yun, newemr.Juan Yun, newemr.Juan Yun, newemr.Juan Yun, newemr.Juan Yun, newemr.Juan Yun, newemr.Juan Yun, newemr.Juan Yun, newemr.Paul Edwards, newemr.Paul Edwards, newemr.Allison Ng, newemr.Allison Ng, newemr.Juan Yun, newemr.Juan Yun, newemr.Juan Yun, newemr.Juan Yun]
+cluster 2[newemr.Richard Aviles]
+cluster 3[newemr.Robert Neil]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 188
+cluster 0[newemr.Lacey Frost, newemr.Miranda, James R, newemr.Florene Kim, newemr.Florene Kim, newemr.Florene Kim, newemr.Florene Kim, newemr.Florene Kim, newemr.Florene Kim, newemr.Florene Kim, newemr.Florene Kim, newemr.Florene Kim]
+cluster 1[newemr.Navarro, newemr.Thomson, newemr.Thomson, newemr.Elon  Levine, newemr.Thomson, newemr.Thomson, newemr.Levine]
+cluster 2[newemr.Steven  Thomson, newemr.Thomson, Steven, newemr.Steven  Thomson, newemr.Thomson, Steven]
+cluster 3[newemr.Steven  Thomson, newemr.Thomson, Steven]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 189
+cluster 0[newemr.Quon, newemr.Vanpelt, newemr.Vanpelt, newemr.Vanpelt, newemr.Vanpelt, newemr.Troyer, Timothy, newemr.Troyer, newemr.Troyer, newemr.Troyer, newemr.Troyer]
+cluster 1[newemr.Hardin, newemr.Hardin, newemr.Hardin, newemr.Hardin, newemr.Helen T. Hattie Simms, newemr.Helen T. Hattie Simms, newemr.Helen T. Hattie Simms, newemr.Helen T. Hattie Simms, newemr.Hattie]
+cluster 2[newemr.Robert I. Harmon, newemr.Robert I Harmon, newemr.Robert I. Harmon, newemr.Robert I Harmon]
+cluster 3[newemr.Yelton, Ora-jordan, newemr.Ora-Jordan Yelton, newemr.Ora-Jordan Yelton, newemr.Yelton, Ora-jordan, newemr.Ora-Jordan Yelton, newemr.Ora-Jordan Yelton, newemr.Yelton, Ora-jordan, newemr.Ora-Jordan Yelton, newemr.Ora-Jordan Yelton]
+cluster 4[newemr.Mitchell Jaynes]
+cluster 5[newemr.Yelton, Ora-jordan, newemr.Ora-Jordan Yelton, newemr.Ora-Jordan Yelton]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 220
+cluster 0[newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley, newemr.Oakley]
+cluster 1[newemr.Dolan, newemr.Dolan, newemr.Dolan, newemr.Dolan, newemr.Dolan, newemr.Dolan, newemr.Dolan, newemr.Dolan, newemr.Dolan, newemr.Dolan, newemr.Dolan, newemr.Dolan, newemr.Dolan, newemr.Dolan, newemr.Dolan, newemr.Dolan, newemr.Dolan, newemr.Dolan, newemr.Dolan, newemr.Dolan, newemr.Dolan, newemr.Dolan, newemr.Dolan, newemr.Dolan, newemr.Dolan, newemr.Dolan, newemr.Dolan, newemr.Dolan, newemr.Dolan, newemr.Dolan, newemr.Dolan, newemr.Dolan, newemr.Dolan, newemr.Dolan, newemr.Dolan, newemr.Dolan]
+cluster 2[newemr.Beverly Thiel, newemr.Beverly Thiel, newemr.Beverly Thiel, newemr.Beverly Thiel, newemr.Beverly Thiel, newemr.Beverly Thiel, newemr.Beverly Thiel, newemr.Beverly Thiel, newemr.Beverly Thiel, newemr.Beverly Thiel, newemr.Beverly Thiel, newemr.Beverly Thiel, newemr.Beverly Thiel, newemr.Beverly Thiel, newemr.Beverly Thiel, newemr.Beverly Thiel]
+cluster 3[newemr.Foust, newemr.Foust, newemr.Foust, newemr.Foust, newemr.Foust, newemr.Foust, newemr.Foust, newemr.Foust, newemr.Foust]
+cluster 4[newemr.Koch, newemr.Koch, newemr.Koch, newemr.Koch]
+cluster 5[newemr.Koch, newemr.Koch]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 221
+cluster 0[newemr.Ullrich, newemr.Ullrich, newemr.Ullrich, newemr.Ullrich, newemr.Yosef Ullrich, newemr.Yosef Q Ullrich]
+cluster 1[newemr.Y. Ullrich, newemr.Y Ullrich, newemr.Y Ullrich, newemr.Y. Ullrich, newemr.Y Ullrich, newemr.Y Ullrich, newemr.Y. Ullrich, newemr.Y Ullrich, newemr.Y Ullrich, newemr.Queen F. Hodge, newemr.Queen F Hodge, newemr.Queen F. Hodge, newemr.Queen F. Hodge, newemr.Queen F Hodge, newemr.Queen F. Hodge, newemr.Queen F. Hodge, newemr.Queen F Hodge, newemr.Queen F. Hodge]
+cluster 2[newemr.Betty Kaitlin Wood, newemr.Villa]
+cluster 3[newemr.Donovan, newemr.Donovan, newemr.Donovan, newemr.Donovan, newemr.Herman N. Weller]
+cluster 4[newemr.Ulysses B. Gilbert]
+cluster 5[newemr.Gilbert]
+cluster 6[newemr.Ulysses Gilbert]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 223
+cluster 0[newemr.Gage Yingling, newemr.Yingling, newemr.WG, newemr.anderson]
+cluster 1[newemr.David Delgado, newemr.David Delgado, newemr.David Delgado, newemr.David Delgado, newemr.David Delgado, newemr.David Delgado, newemr.David Delgado, newemr.David Delgado, newemr.David Delgado]
+cluster 2[newemr.William Gomes]
+cluster 3[newemr.Wright]
+cluster 4[newemr.David Delgado, newemr.David Delgado, newemr.David Delgado]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 222
+cluster 0[newemr.Corona, newemr.Corona, newemr.Corona, newemr.Corona, newemr.FRANK EMMONS, newemr.FRANK EMMONS, newemr.FRANK EMMONS, newemr.FRANK EMMONS, newemr.Dennis Cannon]
+cluster 1[newemr.Denny, newemr.elizondo]
+cluster 2[newemr.U. L. Dana, Jr., newemr.U. L. Dana, newemr.paris]
+cluster 3[newemr.IKECHUKWU SPEARS, newemr.IKECHUKWU SPEARS, newemr.IKECHUKWU SPEARS, newemr.IKECHUKWU SPEARS, newemr.Patricia]
+cluster 4[newemr.Patricia Islam, newemr.Patricia Islam, newemr.Patricia Islam, newemr.Patricia Islam]
+cluster 5[newemr.Patricia Islam, newemr.Patricia Islam]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 224
+cluster 0[newemr.Quinten B. Prado, newemr.Quinten B. Prado, newemr.Quinten B. Prado, newemr.Quinten B. Prado, newemr.Quinten B. Prado, newemr.Quinten B. Prado, newemr.Quinten B. Prado, newemr.Quinten B. Prado, newemr.Quinten B. Prado, newemr.Quinten B. Prado, newemr.Quinten B. Prado, newemr.Quinten B. Prado, newemr.Quinten B. Prado, newemr.Quinten B. Prado, newemr.Quinten B. Prado, newemr.Quinten B. Prado, newemr.Quinten B. Prado, newemr.Quinten B. Prado, newemr.Quinten B. Prado, newemr.Quinten B. Prado, newemr.Quinten B. Prado, newemr.Quinten B. Prado, newemr.Quinten B. Prado, newemr.Quinten B. Prado, newemr.Quinten B. Prado, newemr.Quinten B. Prado, newemr.Quinten B. Prado, newemr.Quinten B. Prado, newemr.Quinten B. Prado, newemr.Quinten B. Prado, newemr.Quinten B. Prado, newemr.Quinten B. Prado, newemr.Quinten B. Prado, newemr.Quinten B. Prado, newemr.Quinten B. Prado, newemr.Quinten B. Prado]
+cluster 1[newemr.L. Hunter Hayden]
+cluster 2[newemr.Ezra Tovar]
+cluster 3[newemr.Quinten Prado]
+cluster 4[newemr.Hunter Hayden]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 277
+cluster 0[newemr.Ayala, newemr.Ayala, newemr.Ayala, newemr.Ayala, newemr.Ayala, newemr.Ayala, newemr.Ayala, newemr.Ayala, newemr.Ayala]
+cluster 1[newemr.Christopher Leslie, newemr.Christopher Leslie, newemr.Christopher Leslie, newemr.Christopher Leslie, newemr.Christopher Leslie, newemr.Christopher Leslie, newemr.Christopher Leslie, newemr.Christopher Leslie, newemr.Christopher Leslie, newemr.Christopher Leslie, newemr.Christopher Leslie, newemr.Christopher Leslie, newemr.Christopher Leslie, newemr.Christopher Leslie, newemr.Christopher Leslie, newemr.Christopher Leslie]
+cluster 2[newemr.MEDINA, LUTHER, newemr.MEDINA, LUTHER, newemr.MEDINA, LUTHER, newemr.MEDINA, LUTHER, newemr.MEDINA, LUTHER, newemr.MEDINA, LUTHER, newemr.MEDINA, LUTHER, newemr.MEDINA, LUTHER, newemr.MEDINA, LUTHER]
+cluster 3[newemr.Bonilla, newemr.Bonilla, newemr.Bonilla, newemr.Bonilla, newemr.Bonilla, newemr.Bonilla, newemr.Bonilla, newemr.Bonilla, newemr.Bonilla, newemr.Bonilla, newemr.Bonilla, newemr.Bonilla, newemr.Bonilla, newemr.Bonilla, newemr.Bonilla, newemr.Bonilla]
+cluster 4[newemr.Delaney]
+cluster 5[newemr.Paige Quadirah Hooper]
+cluster 6[newemr.Bonilla, newemr.Bonilla, newemr.Bonilla, newemr.Bonilla]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 278
+cluster 0[newemr.Dunham, newemr.Eva Pearson]
+cluster 1[newemr.I. Ellsworth, newemr.Dailey]
+cluster 2[newemr.Espinosa, newemr.Espinosa, newemr.Espinosa, newemr.Espinosa, newemr.Whitney Bullock, newemr.Duarte]
+cluster 3[newemr.Fagan, Kory, newemr.Kory Fagan, newemr.Fagan, Kory, newemr.Kory Fagan]
+cluster 4[newemr.Upton]
+cluster 5[newemr.Jessup]
+cluster 6[newemr.Virgie Giuliana Quintanar]
+cluster 7[newemr.Arushi Emerson]
+cluster 8[newemr.Fagan, Kory, newemr.Kory Fagan]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 279
+cluster 0[newemr.Quezada, newemr.Quezada, newemr.Quezada, newemr.Quezada]
+cluster 1[newemr.echols, newemr.Oliveira, Keith]
+cluster 2[newemr.Mary Isham, newemr.ussery]
+cluster 3[newemr.Ida Oquinn, newemr.Ida, newemr.MI]
+cluster 4[newemr.Garner]
+cluster 5[newemr.EVELYN HOLCOMB]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 280
+cluster 0[newemr.CONNER, VICKIE, newemr.CONNER, VICKIE, newemr.CONNER, VICKIE, newemr.CONNER, VICKIE, newemr.CONNER, VICKIE, newemr.CONNER, VICKIE, newemr.CONNER, VICKIE, newemr.CONNER, VICKIE, newemr.CONNER, VICKIE, newemr.Victor Z. Qazi, newemr.Victor Z. Qazi, newemr.Victor Z. Qazi, newemr.Victor Z. Qazi, newemr.Varney]
+cluster 1[newemr.Iva P Hall]
+cluster 2[newemr.Iva]
+cluster 3[newemr.Iva Hall]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 281
+cluster 0[newemr.Diamond, newemr.Diamond, newemr.Diamond, newemr.Diamond, newemr.Diamond, newemr.Diamond, newemr.Diamond, newemr.Diamond, newemr.Diamond, newemr.Adriana Buckley, newemr.Mark Diamond, newemr.Mark  Diamond, newemr.Mark Diamond, newemr.Mark  Diamond, newemr.K. Yash Ugarte, newemr.Yash Ugarte]
+cluster 1[newemr.Floyd R Shaw, newemr.Morgan Thayer, newemr.Youngman]
+cluster 2[newemr.Fitzgerald, newemr.Billy Ulysses Graves]
+cluster 3[newemr.Anders Sykes]
+cluster 4[newemr.Morgan F Thayer]
+cluster 5[newemr.F. Mcfarland]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 282
+cluster 0[newemr.Corrine James, newemr.Orlena Knowles, newemr.Knowles, newemr.Knowles, newemr.Knowles, newemr.Knowles, newemr.Corrine James-Wagner, newemr.Corrine James-Wagner, newemr.Corrine James-Wagner, newemr.Corrine James-Wagner, newemr.padgett, newemr.Corrine James-Wagner, newemr.Corrine James-Wagner, newemr.Corrine James-Wagner, newemr.Corrine James-Wagner, newemr.hartman, newemr.Corrine James-Wagner, newemr.Corrine James-Wagner, newemr.Corrine James-Wagner, newemr.Corrine James-Wagner, newemr.Corrine James-Wagner, newemr.Corrine James-Wagner, newemr.Corrine James-Wagner, newemr.Corrine James-Wagner]
+cluster 1[newemr.quandt, newemr.Heather Hodges, newemr.Hodges]
+cluster 2[newemr.Craft, newemr.Craft, newemr.Craft, newemr.John Riggs, newemr.Craft, newemr.Craft, newemr.Craft, newemr.Craft, newemr.Craft, newemr.Craft]
+cluster 3[newemr.Leon F. Craft, newemr.Leon F Craft, newemr.Leon F. Craft, newemr.Leon F Craft]
+cluster 4[newemr.Leon Craft]
+cluster 5[newemr.Leon F. Craft, newemr.Leon F Craft]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 283
+cluster 0[newemr.Robert Lincoln, newemr.Robert Lincoln, newemr.Robert Lincoln, newemr.Robert Lincoln]
+cluster 1[newemr.KATHLEEN IRELAND, newemr.KATHLEEN IRELAND, newemr.KATHLEEN IRELAND, newemr.KATHLEEN IRELAND]
+cluster 2[newemr.Petty]
+cluster 3[newemr.Isaac Ulibarri]
+cluster 4[newemr.Evelyn Maxwell-Johnston]
+cluster 5[newemr.KATHLEEN IRELAND, newemr.KATHLEEN IRELAND]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 284
+cluster 0[newemr.Kay K. Edge, newemr.Carrie, newemr.carrie, newemr.Carrie, newemr.carrie, newemr.Trevor H. Vaughan, newemr.Opal Carrie-Guerrero, newemr.Opal Carrie-Guerrero, newemr.Opal Carrie-Guerrero, newemr.Opal Carrie-Guerrero]
+cluster 1[newemr.Ursula Toth, newemr.Ursula Toth, newemr.Ursula Toth, newemr.Ursula Toth]
+cluster 2[newemr.olivas]
+cluster 3[newemr.Yuri Poole]
+cluster 4[newemr.Ursula Toth, newemr.Ursula Toth]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 285
+cluster 0[newemr.Herman Patton, newemr.Patton, newemr.Patton, newemr.Patton, newemr.Hoover, newemr.Patton, newemr.Patton, newemr.Patton, newemr.Mckee, newemr.Patton, newemr.Patton, newemr.Patton]
+cluster 1[newemr.Yvette S. Anaya, newemr.OCASIO, GEORGE OJAS, newemr.OCASIO, GEORGE OJAS, newemr.OCASIO, GEORGE OJAS, newemr.OCASIO, GEORGE OJAS, newemr.OCASIO, GEORGE OJAS, newemr.OCASIO, GEORGE OJAS, newemr.OCASIO, GEORGE OJAS, newemr.OCASIO, GEORGE OJAS, newemr.OCASIO, GEORGE OJAS]
+cluster 2[newemr.Yehuda   Landers, newemr.Landers]
+cluster 3[newemr.Yan, newemr.Yan, newemr.Yan, newemr.Yan, newemr.Yan, newemr.Yan, newemr.Yan, newemr.Yan, newemr.Yan, newemr.Sawyer, newemr.AVILA, KRISTOPHER, newemr.AVILA, KRISTOPHER, newemr.AVILA, KRISTOPHER, newemr.AVILA, KRISTOPHER, newemr.AVILA, KRISTOPHER, newemr.AVILA, KRISTOPHER, newemr.AVILA, KRISTOPHER, newemr.AVILA, KRISTOPHER, newemr.AVILA, KRISTOPHER]
+cluster 4[newemr.Scott Koontz, newemr.Scott Koontz, newemr.Scott Koontz, newemr.Scott Koontz]
+cluster 5[newemr.Susan Ximena Elias]
+cluster 6[newemr.Elijah Parker]
+cluster 7[newemr.alvarado]
+cluster 8[newemr.Scott Koontz, newemr.Scott Koontz]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 287
+cluster 0[newemr.Salas, newemr.Salas, newemr.Salas, newemr.Salas, newemr.Jones, newemr.Jones, newemr.Floyd Fong, newemr.Floyd Fong, newemr.Floyd Fong, newemr.Floyd Fong, newemr.Clara D Quilici, newemr.Floyd Fong, newemr.Floyd Fong, newemr.Floyd Fong, newemr.Floyd Fong, newemr.Yelton, newemr.Jones, newemr.Jones, newemr.Floyd Fong, newemr.Floyd Fong, newemr.Floyd Fong, newemr.Floyd Fong, newemr.Clara D Decker, newemr.Floyd Fong, newemr.Floyd Fong, newemr.Floyd Fong, newemr.Floyd Fong]
+cluster 1[newemr.Paulette Yancy, newemr.Paulette Yancy, newemr.Yancy, newemr.Paulette Yancy, newemr.Paulette Yancy]
+cluster 2[newemr.Pablo Y. Mendez, newemr.Pablo Y. Mendez, newemr.Pablo Y. Mendez, newemr.Pablo Y. Mendez]
+cluster 3[newemr.Pablo Mendez]
+cluster 4[newemr.Pablo Y. Mendez, newemr.Pablo Y. Mendez]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 286
+cluster 0[newemr.Ulises J. Kelley, newemr.Ulises J. Kelley, newemr.Ulises J. Kelley, newemr.Ulises J. Kelley, newemr.Ulises J. Kelley, newemr.Ulises J. Kelley, newemr.Ulises J. Kelley, newemr.Ulises J. Kelley, newemr.Ulises J. Kelley]
+cluster 1[newemr.dalton, newemr.UJ]
+cluster 2[newemr.W. TAMAR WHITEHEAD, newemr.W. TAMAR WHITEHEAD, newemr.W. TAMAR WHITEHEAD, newemr.W. TAMAR WHITEHEAD]
+cluster 3[newemr.kuhn]
+cluster 4[newemr.W. TAMAR WHITEHEAD, newemr.W. TAMAR WHITEHEAD]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 288
+cluster 0[newemr.Steve George, newemr.Steve George, newemr.Steve George, newemr.Steve George, newemr.Steve George, newemr.Steve George, newemr.Gwendolyn Irvine, newemr.Irvine, newemr.Steve George, newemr.Steve George, newemr.Steve George, newemr.Hale, newemr.Hale, newemr.Hale, newemr.Hale]
+cluster 1[newemr.RUBEN ZACARIAS]
+cluster 2[newemr.Al S. Everhart]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 289
+cluster 0[newemr.Kilian Middleton, newemr.Kilian Middleton, newemr.Kilian Middleton, newemr.Kilian Middleton, newemr.DSN, newemr.yarnell, newemr.Middleton, newemr.Middleton, newemr.Middleton, newemr.Middleton]
+cluster 1[newemr.Dean S. Nye, newemr.Nye, newemr.Nye, newemr.Nye, newemr.Nye]
+cluster 2[newemr.kr, newemr.Galvan, Floyd, newemr.Galvan, Floyd, newemr.Galvan, Floyd, newemr.Galvan, Floyd, newemr.Galvan, Floyd, newemr.Galvan, Floyd, newemr.Galvan, Floyd, newemr.Galvan, Floyd, newemr.Galvan, Floyd]
+cluster 3[newemr.Galvan, newemr.Galvan, newemr.Galvan, newemr.Galvan]
+cluster 4[newemr.Ximena Mays]
+cluster 5[newemr.Tyson]
+cluster 6[newemr.Ximena A Mays]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 290
+cluster 0[newemr.Judge, newemr.Judge, newemr.Judge, newemr.Judge, newemr.Xi, newemr.Xi, newemr.Xi, newemr.Xi, newemr.X. R. Xi, newemr.XIN Xi]
+cluster 1[newemr.Edward L Echevarria, newemr.Ehlers, newemr.Ehlers, newemr.Turk, Elvis, newemr.Turk, newemr.Turk, newemr.Turk, newemr.Turk, newemr.DONNIE YOUNGMAN, newemr.Youngman, newemr.Ehlers, newemr.Ehlers]
+cluster 2[newemr.Quilici, newemr.Quilici, newemr.Quilici, newemr.Quilici, newemr.Uriah Judge]
+cluster 3[newemr.Joyce R. Barton]
+cluster 4[newemr.Noah E. Galvan]
+cluster 5[newemr.Richard L. Mckenzie]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 291
+cluster 0[newemr.Diane Younce, newemr.Noah Blanchard, newemr.Blanchard, newemr.Winters, newemr.Earl N. Morrow, newemr.Nathanael Guidry, newemr.Nathanael Guidry, newemr.Nathanael Guidry, newemr.Nathanael Guidry]
+cluster 1[newemr.Willean Gabriella Yamamoto, newemr.Willean Gabriella Yamamoto, newemr.Idamae Elliot, newemr.Lisa Carter, newemr.Willean Gabriella Yamamoto, newemr.Willean Gabriella Yamamoto, newemr.Youssef M. Noe, newemr.Regan, newemr.Peter Floyd]
+cluster 2[newemr.Karen V. Barajas]
+cluster 3[newemr.Michael Voorhees]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 292
+cluster 0[newemr.Nick Golden, newemr.Nick Golden, newemr.PENN, GINO, newemr.PENN, GINO, newemr.PENN, GINO, newemr.Gomez, newemr.PENN, GINO, newemr.PENN, GINO, newemr.PENN, GINO, newemr.PENN, GINO, newemr.PENN, GINO, newemr.PENN, GINO, newemr.Nick Golden, newemr.Nick Golden, newemr.Turner, newemr.Turner, newemr.Turner, newemr.Turner, newemr.Paul Turner]
+cluster 1[newemr.Youssef Null, newemr.Youssef Null, newemr.Null, newemr.Null, newemr.Youssef Null, newemr.Youssef Null, newemr.Null, newemr.Null, newemr.Yisroel F Cooley, newemr.Yisroel F Cooley, newemr.Yisroel F Cooley, newemr.Yisroel F Cooley]
+cluster 2[newemr.Florence Heather Gil, newemr.Florence Heather Gil, newemr.Gil, newemr.Florence Heather Gil, newemr.Florence Heather Gil]
+cluster 3[newemr.Youssef Nall, newemr.Youssef Nall, newemr.Nall, newemr.Nall, newemr.Youssef Nall, newemr.Youssef Nall, newemr.Nall, newemr.Nall]
+cluster 4[newemr.Paul Reilly, newemr.Paul Reilly, newemr.Paul Reilly, newemr.Paul Reilly]
+cluster 5[newemr.Neale Xiao]
+cluster 6[newemr.Ibarra]
+cluster 7[newemr.Paul Reilly, newemr.Paul Reilly]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 293
+cluster 0[newemr.CHRISTOPHER QUINTOS, newemr.CHRISTOPHER QUINTOS, newemr.CHRISTOPHER QUINTOS, newemr.CHRISTOPHER QUINTOS, newemr.varner, newemr.Opal Feldman, newemr.Feldman, newemr.O. Feldman]
+cluster 1[newemr.Zapien, newemr.Vasilios C. Osborne, newemr.Queen Frank-Newman]
+cluster 2[newemr.Uriel Patrick Zapien, newemr.Uriel Patrick Zapien, newemr.Uriel Patrick Zapien, newemr.Uriel Patrick Zapien]
+cluster 3[newemr.Uriel Zapien]
+cluster 4[newemr.Uriel Patrick Zapien, newemr.Uriel Patrick Zapien]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 294
+cluster 0[newemr.Benjamin, newemr.Benjamin, newemr.U. Howard Benjamin, newemr.U. Howard Benjamin, newemr.Benjamin, newemr.Benjamin, newemr.U. Howard Benjamin, newemr.U. Howard Benjamin, newemr.Eastman]
+cluster 1[newemr.Nobles, newemr.Nobles, newemr.Nobles, newemr.Nobles, newemr.Nobles, newemr.Nobles, newemr.Nobles, newemr.Nobles, newemr.Nobles, newemr.Nobles, newemr.Nobles, newemr.Nobles, newemr.Nobles, newemr.Nobles, newemr.Nobles, newemr.Lugo, newemr.Nobles, newemr.Nobles, newemr.Nobles, newemr.Nobles, newemr.Nobles, newemr.Nobles, newemr.Nobles, newemr.Nobles, newemr.Nobles, newemr.Nobles]
+cluster 2[newemr.Frances Talley, newemr.Uecker, newemr.Uecker, newemr.Yusuf Lugo, newemr.Yusuf Lugo, newemr.Yusuf Lugo, newemr.Nuvia Nadeau, newemr.Nuvia Nadeau, newemr.Nuvia Nadeau, newemr.Nuvia Nadeau, newemr.Nuvia Nadeau, newemr.Nuvia Nadeau, newemr.Yusuf Lugo, newemr.Yusuf Lugo, newemr.Yusuf Lugo, newemr.Nuvia Nadeau, newemr.Nuvia Nadeau, newemr.Nuvia Nadeau, newemr.Noah Joseph, newemr.Uecker, newemr.Uecker, newemr.Yusuf Lugo, newemr.Yusuf Lugo, newemr.Yusuf Lugo]
+cluster 3[newemr.Small, newemr.Small, newemr.Small, newemr.Small, newemr.Small, newemr.Small, newemr.Small, newemr.Small, newemr.Small, newemr.Potts]
+cluster 4[newemr.Davidson, newemr.Davidson, newemr.Davidson, newemr.Davidson]
+cluster 5[newemr.Nikki Devine]
+cluster 6[newemr.Judge]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 295
+cluster 0[newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Henry Atwood, newemr.Vernon Barrera, newemr.Deborah Ash, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Sanders, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Henry C. Atwood, newemr.Donovan J. Betty Barber, newemr.Donovan J. Betty Barber, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Gregory, newemr.Donovan J. Betty Barber, newemr.Donovan J. Betty Barber, newemr.Orosco, Vincent I., newemr.Vincent I. Orosco, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Atwood, newemr.Orosco, Vincent I., newemr.Vincent I. Orosco, newemr.Anthony Giles]
+cluster 1[newemr.Godfrey, newemr.Godfrey, newemr.Godfrey, Kelley, newemr.Godfrey, Stanley, newemr.Stanley Godfrey, newemr.Godfrey, Stanley, newemr.Stanley Godfrey, newemr.Godfrey, newemr.Godfrey]
+cluster 2[newemr.Alford, newemr.Tessa Alford, newemr.Dawn Julian, newemr.Oneida Norwood, newemr.Oneida Norwood, newemr.Oneida Norwood, newemr.Oneida Norwood]
+cluster 3[newemr.Queen Olivares, newemr.Queen Olivares, newemr.Queen Olivares, newemr.Queen Olivares]
+cluster 4[newemr.Vincent Gregory]
+cluster 5[newemr.Queen Olivares, newemr.Queen Olivares]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 296
+cluster 0[newemr.Pamela Ybarra, newemr.Nancy Xayarath, newemr.Nancy Xayarath, newemr.Nancy Xayarath, newemr.Nancy Xayarath, newemr.Nancy Xayarath, newemr.Nancy Xayarath, newemr.Nancy Xayarath, newemr.Nancy Xayarath, newemr.Nancy Xayarath, newemr.conley, newemr.MF, newemr.Xiques, newemr.Caldwell, newemr.Carter, newemr.Sanders, newemr.Arndt, newemr.Nicole Arndt, newemr.Ophelia Sanders, newemr.Xanthos, Priscilla, newemr.Sanders, Olivia]
+cluster 1[newemr.Townsend, newemr.Townsend, newemr.Lawrence Townsend, newemr.Townsend, Lawrence, newemr.Townsend, Lawrence, newemr.Townsend, newemr.Townsend, newemr.Samantha Albright, newemr.FLC, newemr.Wilhelm, newemr.Wilhelm, newemr.Wilhelm, newemr.Wilhelm, newemr.Wilhelm, newemr.Wilhelm, newemr.New, newemr.New, newemr.New, newemr.New, newemr.New, newemr.New, newemr.Wilhelm, newemr.Wilhelm, newemr.Wilhelm, newemr.New, newemr.New, newemr.New, newemr.Lawrence Wilhelm, newemr.Nicholas New, newemr.Lawrence K. Townsend, newemr.Lawrence Townsend, newemr.Townsend, Lawrence, newemr.Townsend, Lawrence, newemr.Lawrence Townsend, newemr.Townsend, Lawrence, newemr.Townsend, Lawrence]
+cluster 2[newemr.Fredrich van Butler]
+cluster 3[newemr.Barry R. Lockhart]
+cluster 4[newemr.Fredrich L. van Butler]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 297
+cluster 0[newemr.Nixon, newemr.Nixon, newemr.Nixon, newemr.Nixon, newemr.Miles Echeverria, newemr.Miles Echeverria, newemr.Miles Echeverria, newemr.Miles Echeverria, newemr.Miles, newemr.Gwen K. Xique, newemr.Echeverria, newemr.Echeverria, newemr.Echeverria, newemr.Echeverria]
+cluster 1[newemr.STEPHEN HENDERSON, newemr.STEPHEN HENDERSON, newemr.STEPHEN HENDERSON, newemr.STEPHEN HENDERSON]
+cluster 2[newemr.Stephen A.N. Xayachack, newemr.Stephen A.N. Xayachack, newemr.Stephen A.N. Xayachack, newemr.Stephen A.N. Xayachack, newemr.Stephen A.N. Xayachack, newemr.Stephen A.N. Xayachack, newemr.Stephen A.N. Xayachack, newemr.Stephen A.N. Xayachack, newemr.Stephen A.N. Xayachack, newemr.Stephen A.N. Xayachack, newemr.Stephen A.N. Xayachack, newemr.Stephen A.N. Xayachack, newemr.Stephen A.N. Xayachack, newemr.Stephen A.N. Xayachack, newemr.Stephen A.N. Xayachack, newemr.Stephen A.N. Xayachack, newemr.Stephen A.N. Xayachack, newemr.Stephen A.N. Xayachack, newemr.Stephen A.N. Xayachack, newemr.Stephen A.N. Xayachack, newemr.Stephen A.N. Xayachack, newemr.Stephen A.N. Xayachack, newemr.Stephen A.N. Xayachack, newemr.Stephen A.N. Xayachack, newemr.Stephen A.N. Xayachack, newemr.Stephen A.N. Xayachack, newemr.Stephen A.N. Xayachack, newemr.Stephen A.N. Xayachack, newemr.Stephen A.N. Xayachack, newemr.Stephen A.N. Xayachack, newemr.Stephen A.N. Xayachack, newemr.Stephen A.N. Xayachack, newemr.Stephen A.N. Xayachack, newemr.Stephen A.N. Xayachack, newemr.Stephen A.N. Xayachack, newemr.Stephen A.N. Xayachack]
+cluster 3[newemr.jackman]
+cluster 4[newemr.Stephen A.N. Xayachack, newemr.Stephen A.N. Xayachack, newemr.Stephen A.N. Xayachack, newemr.Stephen A.N. Xayachack, newemr.Stephen A.N. Xayachack, newemr.Stephen A.N. Xayachack]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 298
+cluster 0[newemr.quiggle, newemr.quiggle, newemr.nielsen, newemr.quiggle, newemr.quiggle]
+cluster 1[newemr.Kang, newemr.Odessa Kang]
+cluster 2[newemr.DH, newemr.quijada]
+cluster 3[newemr.hoover, newemr.hoover, newemr.hoover, newemr.hoover, newemr.Hoover, newemr.hoover, newemr.hoover, newemr.hoover, newemr.hoover, newemr.Hoover, newemr.hoover, newemr.hoover, newemr.hoover, newemr.hoover, newemr.Hoover, newemr.hoover, newemr.hoover, newemr.hoover, newemr.hoover, newemr.Hoover, newemr.hoover, newemr.hoover, newemr.hoover, newemr.hoover, newemr.Hoover]
+cluster 4[newemr.Hale, newemr.Hale, newemr.Hale, newemr.Hale, newemr.Hale, newemr.Hale, newemr.Hale, newemr.Hale, newemr.Hale]
+cluster 5[newemr.David S. Hale, newemr.David S. Hale, newemr.David S. Hale, newemr.David S. Hale]
+cluster 6[newemr.Ottilie Kang]
+cluster 7[newemr.OK]
+cluster 8[newemr.urie]
+cluster 9[newemr.David Hale]
+cluster 10[newemr.David S. Hale, newemr.David S. Hale]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 299
+cluster 0[newemr.NATHAN PLATT, newemr.NATHAN PLATT, newemr.NATHAN PLATT, newemr.NATHAN PLATT, newemr.Wanda Yeomans, newemr.Wanda Yeomans, newemr.Yeomans, newemr.Yeomans, newemr.Yeomans, newemr.Yeomans, newemr.Wanda Yeomans, newemr.Wanda Yeomans]
+cluster 1[newemr.Aponte, newemr.Aponte, newemr.Aponte, newemr.Aponte, newemr.Aponte, newemr.Aponte, newemr.Aponte, newemr.Aponte, newemr.Aponte, newemr.OWEN R. APONTE, newemr.Filomena Xia, newemr.Xia, newemr.Kyle, newemr.Nunzio Manning]
+cluster 2[newemr.Qu, newemr.Qu, newemr.Qu, newemr.Qu, newemr.Qu, newemr.Qu, newemr.Qu, newemr.Qu, newemr.Qu, newemr.Xaysana, newemr.Edward Qu, newemr.Xzavior Casey, newemr.Otis Xayasane]
+cluster 3[newemr.Aragon, newemr.Aragon, newemr.Aragon, newemr.Aragon, newemr.Xander Xie, newemr.Xie, newemr.Xie, newemr.Xie, newemr.Xie, newemr.Nunzio Kyle Aragon, newemr.Nunzio Yockey]
+cluster 4[newemr.Najee Yuan]
+cluster 5[newemr.Wanda]
+cluster 6[newemr.Rusty Vincent]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 300
+cluster 0[newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.ostrowski, newemr.Henderson Xin]
+cluster 1[newemr.willis, newemr.Willis, newemr.willis, newemr.Willis, newemr.Suzanne, Otto, newemr.Otto Suzanne, newemr.OTTO, SUZANNE, newemr.Suzanne, Otto, newemr.Otto Suzanne, newemr.OTTO, SUZANNE, newemr.Suzanne, Otto, newemr.Otto Suzanne, newemr.OTTO, SUZANNE]
+cluster 2[newemr.Narvaez, Guy, newemr.Narvaez, newemr.WEISS]
+cluster 3[newemr.Kaur, Xan G, newemr.Kaur, Xan G, newemr.Kaur, Xan G, newemr.Kaur, Xan G]
+cluster 4[newemr.David Napolitano, newemr.David Napolitano, newemr.David Napolitano, newemr.David Napolitano]
+cluster 5[newemr.Xan Kaur]
+cluster 6[newemr.David Napolitano, newemr.David Napolitano]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 301
+cluster 0[newemr.Earnest, newemr.Earnest, newemr.Earnest, newemr.Earnest]
+cluster 1[newemr.Reilly, newemr.Reilly, newemr.Reilly, newemr.Reilly]
+cluster 2[newemr.Benjamin Earnest, newemr.Benjamin Earnest, newemr.Benjamin Earnest, newemr.Benjamin Earnest, newemr.Benjamin Earnest, newemr.Benjamin Earnest, newemr.Benjamin Earnest, newemr.Benjamin Earnest, newemr.Benjamin Earnest, newemr.Benjamin Earnest, newemr.Benjamin Earnest, newemr.Benjamin Earnest, newemr.Benjamin Earnest, newemr.Benjamin Earnest, newemr.Benjamin Earnest, newemr.Benjamin Earnest]
+cluster 3[newemr.Atkinson, newemr.Atkinson, newemr.ATKINSON, newemr.Atkinson, newemr.Atkinson, newemr.ATKINSON, newemr.Atkinson, newemr.Atkinson, newemr.ATKINSON]
+cluster 4[newemr.Oscar B. Stanley]
+cluster 5[newemr.Yousef Pugh]
+cluster 6[newemr.Craig Adams]
+cluster 7[newemr.Alexander Petersen]
+cluster 8[newemr.Thomas Yockey]
+cluster 9[newemr.Yobany Aviles]
+cluster 10[newemr.Garrett Albert]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 302
+cluster 0[newemr.Herring, newemr.Brett F. Rutherford, newemr.Brett F. Rutherford, newemr.Brett F. Rutherford, newemr.Brett F. Rutherford, newemr.Brett F. Rutherford, newemr.Brett F. Rutherford, newemr.Brett F. Rutherford, newemr.Brett F. Rutherford, newemr.Brett F. Rutherford, newemr.Brett F. Rutherford, newemr.Brett F. Rutherford, newemr.Brett F. Rutherford, newemr.Brett F. Rutherford, newemr.Brett F. Rutherford, newemr.Brett F. Rutherford, newemr.Brett F. Rutherford]
+cluster 1[newemr.Bruce Godfrey, newemr.Godfrey, newemr.Horne]
+cluster 2[newemr.Giles]
+cluster 3[newemr.Oscar Riggs]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 303
+cluster 0[newemr.Whitt, Qiana, newemr.Ho, newemr.Hudsen Parsons, newemr.Gary Aragon, newemr.Gary Aragon, newemr.Gary Aragon, newemr.Gary Aragon, newemr.Ulysses Xiao, newemr.Urquidez, newemr.Z. Newell]
+cluster 1[newemr.Thomas Ho]
+cluster 2[newemr.Unique Meyers]
+cluster 3[newemr.Ursula Marshall]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 304
+cluster 0[newemr.James Tyler, newemr.Cole Morgan, newemr.Cole Morgan, newemr.James B. Tyler, newemr.Inge Logan, newemr.Cole Morgan, newemr.Cole Morgan, newemr.Xing, newemr.Morgan, newemr.Morgan, newemr.Morgan, newemr.Inge J. Logan, newemr.Ali, Felicia, newemr.Felicia Ali, newemr.Ali, Felicia, newemr.Felicia Ali, newemr.Morgan, newemr.Morgan, newemr.Morgan, newemr.Morgan, newemr.Morgan, newemr.Morgan]
+cluster 1[newemr.Addison Keefe, newemr.Addison Keefe, newemr.Addison Keefe, newemr.Addison Keefe]
+cluster 2[newemr.Infant Ledford]
+cluster 3[newemr.Angel Vail]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 306
+cluster 0[newemr.Richard Verlin-Urbina, newemr.Hue Calhoun, newemr.Richard A. Verlin-Urbina, newemr.Richard A. Verlin-Urbina, newemr.Richard A. Verlin-Urbina, newemr.Richard A. Verlin-Urbina, newemr.NICHOLAS SINGH, newemr.NICHOLAS SINGH, newemr.NICHOLAS SINGH, newemr.NICHOLAS SINGH, newemr.NICHOLAS SINGH, newemr.NICHOLAS SINGH, newemr.NICHOLAS SINGH, newemr.NICHOLAS SINGH, newemr.NICHOLAS SINGH]
+cluster 1[newemr.Thomas Javier, newemr.Thomas Javier, newemr.Thomas Javier, newemr.Thomas Javier]
+cluster 2[newemr.HEATHER HERNANDEZ]
+cluster 3[newemr.Thomas Javier, newemr.Thomas Javier]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 305
+cluster 0[newemr.Savage, newemr.Wilcox]
+cluster 1[newemr.Grace Knapp]
+cluster 2[newemr.G. Kevin Yawn]
+cluster 3[newemr.Wesley Snow]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 225
+cluster 0[newemr.Paulson, newemr.Paulson, newemr.Paulson, newemr.Paulson, newemr.Paulson, newemr.Paulson, newemr.Paulson, newemr.Paulson, newemr.Paulson, newemr.Paulson, newemr.Paulson, newemr.Paulson, newemr.Paulson, newemr.Paulson, newemr.Paulson, newemr.Paulson, newemr.Paulson, newemr.Paulson, newemr.Weber, newemr.Paulson, newemr.Paulson, newemr.Paulson, newemr.Paulson, newemr.Paulson, newemr.Paulson, newemr.Paulson, newemr.Paulson, newemr.Paulson, newemr.Paulson, newemr.Paulson, newemr.Paulson, newemr.Tonya Adamson, newemr.Paulson, newemr.Paulson, newemr.Paulson, newemr.Paulson, newemr.Paulson, newemr.Paulson, newemr.Catherine L. Uresti, newemr.Catherine L Uresti, newemr.Catherine L. Uresti, newemr.Catherine L. Uresti, newemr.Catherine L Uresti, newemr.Catherine L. Uresti, newemr.Catherine L. Uresti, newemr.Catherine L Uresti, newemr.Catherine L. Uresti]
+cluster 1[newemr.Dessie Frantz, newemr.Dessie Frantz, newemr.Dessie Frantz, newemr.Dessie Frantz]
+cluster 2[newemr.Yehuda Quijas]
+cluster 3[newemr.Dessie Frantz, newemr.Dessie Frantz]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 226
+cluster 0[newemr.Uphoff, newemr.Uphoff, newemr.uphoff, newemr.Uphoff, newemr.Uphoff, newemr.Uphoff, newemr.Uphoff, newemr.Uphoff, newemr.Gabriella Yockey, newemr.Gabriella Yockey, newemr.Uphoff, newemr.Uphoff, newemr.uphoff, newemr.Uphoff, newemr.Uphoff, newemr.Uphoff, newemr.Uphoff, newemr.Uphoff, newemr.Uphoff, newemr.Uphoff, newemr.uphoff, newemr.Uphoff, newemr.Uphoff, newemr.Uphoff, newemr.Uphoff, newemr.Uphoff, newemr.USSERY, VINCENT Q., newemr.USSERY, VINCENT Q., newemr.UPHOFF, ANTHONY, newemr.Anthony Uphoff, newemr.USSERY, VINCENT Q., newemr.USSERY, VINCENT Q., newemr.Gabriella Yockey, newemr.Gabriella Yockey, newemr.UPHOFF, ANTHONY, newemr.Anthony Uphoff, newemr.Uphoff, newemr.Uphoff, newemr.uphoff, newemr.Uphoff, newemr.Uphoff, newemr.Uphoff, newemr.Uphoff, newemr.Uphoff, newemr.Uphoff, newemr.Uphoff, newemr.uphoff, newemr.Uphoff, newemr.Uphoff, newemr.Uphoff, newemr.Uphoff, newemr.Uphoff, newemr.Uphoff, newemr.Uphoff, newemr.uphoff, newemr.Uphoff, newemr.Uphoff, newemr.Uphoff, newemr.Uphoff, newemr.Uphoff, newemr.Uphoff, newemr.Uphoff, newemr.uphoff, newemr.Uphoff, newemr.Uphoff, newemr.Uphoff, newemr.Uphoff, newemr.Uphoff, newemr.Uphoff, newemr.Uphoff, newemr.uphoff, newemr.Uphoff, newemr.Uphoff, newemr.Uphoff, newemr.Uphoff, newemr.Uphoff]
+cluster 1[newemr.arias, newemr.arias, newemr.Arias, newemr.Arias, newemr.Urie, newemr.urie, newemr.Urie, newemr.urie, newemr.arias, newemr.arias, newemr.Arias, newemr.Arias, newemr.arias, newemr.arias, newemr.Arias, newemr.Arias, newemr.arias, newemr.arias, newemr.Arias, newemr.Arias, newemr.Alvarez, newemr.Alvarez, newemr.Alvarez, newemr.Alvarez, newemr.Alvarez, newemr.Alvarez, newemr.Alvarez, newemr.Alvarez, newemr.Alvarez]
+cluster 2[newemr.Cleveland, newemr.Cleveland, newemr.Cleveland, newemr.Cleveland, newemr.Cleveland, newemr.Cleveland, newemr.Cleveland, newemr.Cleveland, newemr.Cleveland, newemr.Cleveland, newemr.Cleveland, newemr.Cleveland, newemr.Cleveland, newemr.Cleveland, newemr.Cleveland, newemr.Cleveland]
+cluster 3[newemr.Margaret Alvarez]
+cluster 4[newemr.Guerrero]
+cluster 5[newemr.ULLOA, MISTY]
+cluster 6[newemr.Margaret Aria]
+cluster 7[newemr.Margaret]
+cluster 8[newemr.Margaret Erik Alvarez]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 227
+cluster 0[newemr.Tyler Quinonez, newemr.Barbara  Chavez, newemr.Barbara Chavez, newemr.Barbara Chavez, newemr.Barbara  Chavez, newemr.Barbara Chavez, newemr.Barbara Chavez, newemr.Barbara  Chavez, newemr.Barbara Chavez, newemr.Barbara Chavez, newemr.Riley L Overby]
+cluster 1[newemr.Chavez, newemr.Echeverria]
+cluster 2[newemr.Charles Tisdale]
+cluster 3[newemr.WILSON RUCKER]
+cluster 4[newemr.Morton]
+cluster 5[newemr.Chavez, Barbara]
+cluster 6[newemr.Orton]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 228
+cluster 0[newemr.GI, newemr.sanchez]
+cluster 1[newemr.Usha Gibbons, newemr.Usha Gibbons, newemr.Usha Gibbons, newemr.Usha Gibbons, newemr.Usha Gibbons, newemr.Usha Gibbons, newemr.Usha Gibbons, newemr.Usha Gibbons, newemr.Usha Gibbons, newemr.Usha Gibbons, newemr.Usha Gibbons, newemr.Usha Gibbons, newemr.Usha Gibbons, newemr.Usha Gibbons, newemr.Usha Gibbons, newemr.Usha Gibbons, newemr.Thomas Waller, newemr.TW]
+cluster 2[newemr.Gordon Q. Iniguez, newemr.Gordon Q. Iniguez, newemr.Gordon Q. Iniguez, newemr.Gordon Q. Iniguez, newemr.Gordon Q. Iniguez, newemr.Gordon Q. Iniguez, newemr.goldstein, newemr.Gordon Q. Iniguez, newemr.Gordon Q. Iniguez, newemr.Gordon Q. Iniguez]
+cluster 3[newemr.Usha, newemr.Usha, newemr.Usha, newemr.Usha, newemr.Usha, newemr.Usha, newemr.Usha, newemr.Usha, newemr.Usha, newemr.Usha, newemr.Usha, newemr.Usha, newemr.Usha, newemr.Usha, newemr.Usha, newemr.Usha]
+cluster 4[newemr.Iniguez, newemr.Iniguez, newemr.Iniguez, newemr.Iniguez]
+cluster 5[newemr.Gibbons]
+cluster 6[newemr.Terry W. Neel]
+cluster 7[newemr.JZ]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 229
+cluster 0[newemr.Brent Cameron, newemr.Brent  Cameron, newemr.Brent Cameron, newemr.Brent  Cameron, newemr.Brent Cameron, newemr.Brent  Cameron, newemr.Brent Cameron, newemr.Brent  Cameron, newemr.Brent Cameron, newemr.Brent  Cameron, newemr.Brent Cameron, newemr.Brent  Cameron, newemr.Brent Cameron, newemr.Brent  Cameron, newemr.Brent Cameron, newemr.Brent  Cameron]
+cluster 1[newemr.Nicholas Osuna, newemr.Nicholas Osuna, newemr.Nicholas Osuna, newemr.Nicholas Osuna, newemr.Osuna, newemr.Osuna, newemr.Nicholas M Osuna, newemr.Osuna, newemr.Osuna]
+cluster 2[newemr.Opal Garner]
+cluster 3[newemr.Opal P Garner]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 240
+cluster 0[newemr.Hall, newemr.Hall, newemr.Hall, newemr.Hall, newemr.Hall, newemr.Hall, newemr.Hall, newemr.Hall, newemr.Hall, newemr.Hall, newemr.Hall, newemr.Hall, newemr.Hall, newemr.Hall, newemr.Hall, newemr.Hall, newemr.Hall, newemr.Hall, newemr.Hall, newemr.Hall, newemr.Hall, newemr.Hall, newemr.Hall, newemr.Hall, newemr.Hall, newemr.Hall, newemr.Hall, newemr.Hall, newemr.Hall, newemr.Hall, newemr.Hall, newemr.Hall, newemr.Hall, newemr.Hall, newemr.Hall, newemr.Hall]
+cluster 1[newemr.Overby, Fred, newemr.Erin f. Aquino, newemr.Erin f Aquino, newemr.Erin f. Aquino, newemr.Erin f. Aquino, newemr.Erin f Aquino, newemr.Erin f. Aquino, newemr.Erin f. Aquino, newemr.Erin f Aquino, newemr.Erin f. Aquino]
+cluster 2[newemr.Noel, Eddie, newemr.Yamashita]
+cluster 3[newemr.Fatema B. Wilkins, newemr.Fatema B. Wilkins, newemr.Fatema B. Wilkins, newemr.Fatema B. Wilkins]
+cluster 4[newemr.Fatema B. Wilkins, newemr.Fatema B. Wilkins]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 241
+cluster 0[newemr.Paul Arteaga, newemr.Paul Arteaga, newemr.Paul Arteaga, newemr.Paul Arteaga, newemr.Arteaga, newemr.Arteaga, newemr.Arteaga, newemr.outlaw, newemr.outlaw, newemr.Paul Arteaga, newemr.Paul Arteaga, newemr.Paul Arteaga, newemr.Paul Arteaga, newemr.Arteaga, newemr.Arteaga, newemr.Arteaga, newemr.outlaw, newemr.outlaw, newemr.RONNIE PALMER, newemr.RONNIE PALMER, newemr.RONNIE PALMER, newemr.RONNIE PALMER, newemr.Paul Arteaga, newemr.Paul Arteaga, newemr.Paul Arteaga, newemr.Paul Arteaga, newemr.Arteaga, newemr.Arteaga, newemr.Arteaga, newemr.Paul Arteaga, newemr.Paul Arteaga, newemr.Paul Arteaga, newemr.Paul Arteaga]
+cluster 1[newemr.Irineo Tovar, newemr.Irineo Tovar, newemr.Irineo Tovar, newemr.Irineo Tovar, newemr.Irineo Tovar, newemr.Irineo Tovar, newemr.Irineo Tovar, newemr.Irineo Tovar, newemr.Irineo Tovar]
+cluster 2[newemr.vuong]
+cluster 3[newemr.Irineo Tovar, newemr.Irineo Tovar, newemr.Irineo Tovar]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 242
+cluster 0[newemr.E. Bird, newemr.Everson, newemr.Kylee Compton, newemr.HANEY, ULYSSES, newemr.HANEY, ULYSSES, newemr.HANEY, ULYSSES, newemr.HANEY, ULYSSES, newemr.HANEY, ULYSSES, newemr.HANEY, ULYSSES, newemr.HANEY, ULYSSES, newemr.HANEY, ULYSSES, newemr.HANEY, ULYSSES]
+cluster 1[newemr.Bailey Bray, newemr.Bailey Bray, newemr.Bailey Bray, newemr.Bailey Bray, newemr.Bailey Bray, newemr.Bailey Bray, newemr.Ferraro, newemr.Ferraro, newemr.Ferraro, newemr.Ferraro, newemr.Bailey Bray, newemr.Bailey Bray, newemr.Bailey Bray, newemr.Burton]
+cluster 2[newemr.WILLIAM YARGER, newemr.WILLIAM YARGER, newemr.WILLIAM YARGER, newemr.WILLIAM YARGER]
+cluster 3[newemr.Kitchen, Willie]
+cluster 4[newemr.Brock]
+cluster 5[newemr.WILLIAM YARGER, newemr.WILLIAM YARGER]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 243
+cluster 0[newemr.Oscar Nall, newemr.ON]
+cluster 1[newemr.Anderson, newemr.Forrest T. Anderson]
+cluster 2[newemr.Willie Knapp, newemr.Willie Knapp, newemr.Willie Knapp, newemr.Willie Knapp]
+cluster 3[newemr.N. levine]
+cluster 4[newemr.Ursula Michael Troyer]
+cluster 5[newemr.fairchild]
+cluster 6[newemr.Knapp]
+cluster 7[newemr.Willie Knapp, newemr.Willie Knapp]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 244
+cluster 0[newemr.Xavier Israel kenneth Xenos, newemr.Valladares, newemr.John Hood, newemr.Raymond Xie, newemr.Olivia H. Grant, newemr.Olivia H. Grant, newemr.YARBROUGH, newemr.Xie, newemr.Xie, newemr.Xie, newemr.Olivia H. Grant, newemr.Olivia H. Grant, newemr.Xie, newemr.Xie, newemr.Xie, newemr.Xie, newemr.Xie, newemr.Xie, newemr.John V. Hood, newemr.John V. Hood, newemr.Hood, newemr.Hood, newemr.John V. Hood, newemr.John V. Hood, newemr.Hood, newemr.Hood]
+cluster 1[newemr.Frederick Q. Valladares, newemr.Younker, newemr.Hoffman, newemr.Hoffman, newemr.Hoffman, newemr.Hoffman]
+cluster 2[newemr.Jenna Corona, newemr.Jenna Q. Corona]
+cluster 3[newemr.T. Quintela]
+cluster 4[newemr.Yvonne Easton]
+cluster 5[newemr.Xochitl Narvaez]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 246
+cluster 0[newemr.URIEL  ILES, newemr.URIEL  ILES, newemr.URIEL  ILES, newemr.URIEL  ILES, newemr.URIEL  ILES, newemr.URIEL  ILES, newemr.URIEL  ILES, newemr.URIEL  ILES, newemr.URIEL  ILES, newemr.CODY  NEILSON, newemr.Ulbrich, George-Brian N., newemr.Ulbrich, George-Brian N., newemr.Ulbrich, George-Brian N., newemr.Ulbrich, George-Brian N., newemr.Ulises Y. Hobbs, newemr.Ulises Y. Hobbs, newemr.Ulises Y. Hobbs, newemr.Ulises Y. Hobbs]
+cluster 1[newemr.ELLEN HUNTER, newemr.ELLEN HUNTER, newemr.ELLEN HUNTER, newemr.ELLEN HUNTER, newemr.ELLEN HUNTER, newemr.ELLEN HUNTER, newemr.ELLEN HUNTER, newemr.ELLEN HUNTER, newemr.ELLEN HUNTER, newemr.Geneva Franklin, newemr.Geneva Franklin, newemr.Geneva Franklin, newemr.Geneva Franklin]
+cluster 2[newemr.Frances Jester, newemr.Frances Jester, newemr.Frances Jester, newemr.Frances Jester]
+cluster 3[newemr.Quinten James, newemr.Quinten James, newemr.Quinten James, newemr.Quinten James]
+cluster 4[newemr.TALLEY, KEITH W]
+cluster 5[newemr.Quinten James, newemr.Quinten James]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 247
+cluster 0[newemr.Micheal Leyva, newemr.werner, newemr.Kitchen]
+cluster 1[newemr.Charles Uher, newemr.Charles Uher, newemr.Charles Uher, newemr.Charles Uher, newemr.Uher, newemr.Uher, newemr.IKI, newemr.Uher, newemr.Uher, newemr.Frankie Frey]
+cluster 2[newemr.Willie Calhoun, newemr.Ian K. Ignacio, newemr.Ian  Ignacio]
+cluster 3[newemr.Uriel A. Xavier]
+cluster 4[newemr.Julian Quintela]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 248
+cluster 0[newemr.Ulises Lopez, newemr.Ulises Lopez, newemr.Ulises Lopez, newemr.Lopez, newemr.Lopez, newemr.Lopez, newemr.Lopez, newemr.Victor Ashley, newemr.NV, newemr.whalen, newemr.whalen, newemr.whalen, newemr.whalen, newemr.Rodgers, newemr.Rian Vicente, newemr.Nicolas Etheridge, newemr.Ulises Lopez, newemr.Ulises Lopez, newemr.Ulises Lopez, newemr.EQ, newemr.Ulises Lopez, newemr.Ulises Lopez, newemr.Ulises Lopez]
+cluster 1[newemr.Square Turk, newemr.Gene Quadri, newemr.Gene Quadri, newemr.GQ, newemr.Gene Quadri, newemr.Gene Quadri, newemr.Ulises Noel, newemr.Quadri, newemr.Quadri, newemr.sharpe, newemr.Quadri, newemr.Quadri, newemr.Ulyssa Neff, newemr.Ulyssa Neff, newemr.Ulyssa Neff, newemr.Ulyssa Neff]
+cluster 2[newemr.Edward Quiambao, newemr.Edward Quiambao, newemr.Edward Quiambao, newemr.Edward Quiambao]
+cluster 3[newemr.Edward Quiambao, newemr.Edward Quiambao]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 249
+cluster 0[newemr.ANDRE-ISRAEL SANTIAGO, newemr.Andre-Israel Santiago, newemr.Santiago, newemr.ANDRE-ISRAEL SANTIAGO, newemr.Andre-Israel Santiago, newemr.Delarosa, newemr.Delarosa, newemr.Delarosa, newemr.Vitale, newemr.Delarosa, newemr.Delarosa, newemr.Delarosa, newemr.Delarosa, newemr.Delarosa, newemr.Delarosa, newemr.Villalobos, newemr.Michael  Delarosa]
+cluster 1[newemr.Stephen Mccullough, newemr.Stephen  Mccullough, newemr.Stephen Mccullough, newemr.Stephen  Mccullough]
+cluster 2[newemr.Mccullough, Stephen N, newemr.Stephen N Mccullough, newemr.Mccullough, Stephen N, newemr.Stephen N Mccullough]
+cluster 3[newemr.Land]
+cluster 4[newemr.Mccullough]
+cluster 5[newemr.Mccullough, Stephen N, newemr.Stephen N Mccullough]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 250
+cluster 0[newemr.Xan Dillon, newemr.Xan Dillon, newemr.Xan Dillon, newemr.Susan Abreu, newemr.Abreu, newemr.Xan Dillon, newemr.Xan Dillon, newemr.Xan Dillon, newemr.Xan Dillon, newemr.Xan Dillon, newemr.Xan Dillon, newemr.Felton, newemr.Felton, newemr.Felton, newemr.Felton, newemr.Ulysses Xayasane, newemr.Rosa Molina]
+cluster 1[newemr.voigt, newemr.uhl]
+cluster 2[newemr.Dillon, newemr.Dillon, newemr.Dillon, newemr.Dillon, newemr.Dillon, newemr.Dillon, newemr.Dillon, newemr.Dillon, newemr.Dillon]
+cluster 3[newemr.Vaughn A. Xander, newemr.Vaughn A. Xander, newemr.Vaughn A. Xander, newemr.Vaughn A. Xander, newemr.Vaughn A. Xander, newemr.Vaughn A. Xander, newemr.Vaughn A. Xander, newemr.Vaughn A. Xander, newemr.Vaughn A. Xander, newemr.Vaughn A. Xander, newemr.Vaughn A. Xander, newemr.Vaughn A. Xander, newemr.Vaughn A. Xander, newemr.Vaughn A. Xander, newemr.Vaughn A. Xander, newemr.Vaughn A. Xander]
+cluster 4[newemr.Vaughn A. Xander, newemr.Vaughn A. Xander, newemr.Vaughn A. Xander, newemr.Vaughn A. Xander]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 251
+cluster 0[newemr.Xavier Otero, newemr.Xavier Otero, newemr.Xavier Otero, newemr.Geno Guidry, newemr.Geno Guidry, newemr.Geno Guidry, newemr.Xiang, newemr.Jayda Una Xiang, newemr.Geno Guidry, newemr.Geno Guidry, newemr.Geno Guidry, newemr.Xavier Otero, newemr.Xavier Otero, newemr.Xavier Otero, newemr.Geno Guidry, newemr.Geno Guidry, newemr.Geno Guidry, newemr.Otero, newemr.Nathan Altman, newemr.Kramer, newemr.Gerald Echols, newemr.Uriel Hendricks, newemr.Xavier Otero, newemr.Xavier Otero, newemr.Xavier Otero]
+cluster 1[newemr.Gregory Mcguire, newemr.Gregory Mcguire, newemr.Gregory Mcguire, newemr.Gregory Mcguire]
+cluster 2[newemr.Gregory Mcguire, newemr.Gregory Mcguire]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 252
+cluster 0[newemr.Benjamin Taylor, newemr.Benjamin Taylor, newemr.Taylor, newemr.Taylor, newemr.Taylor, newemr.wise, newemr.Benjamin Taylor, newemr.Benjamin Taylor, newemr.Taylor, newemr.Taylor, newemr.Taylor, newemr.Hayden Nutter, newemr.KATZ, LAURA, newemr.KATZ, LAURA, newemr.KATZ, LAURA, newemr.KATZ, LAURA, newemr.KATZ, LAURA, newemr.KATZ, LAURA, newemr.KATZ, LAURA, newemr.KATZ, LAURA, newemr.KATZ, LAURA, newemr.Benjamin W. Taylor, newemr.Taylor, newemr.Taylor, newemr.Taylor]
+cluster 1[newemr.Brandon Neilson, newemr.Brandon Neilson, newemr.Brandon Neilson, newemr.Brandon Neilson]
+cluster 2[newemr.Brandon W. Neilson, newemr.Brandon W Neilson, newemr.Brandon W. Neilson, newemr.Brandon W Neilson]
+cluster 3[newemr.F. JORDAN FUCHS, newemr.F. JORDAN FUCHS, newemr.F. JORDAN FUCHS, newemr.F. JORDAN FUCHS]
+cluster 4[newemr.James Nolen]
+cluster 5[newemr.F. JORDAN FUCHS, newemr.F. JORDAN FUCHS]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 254
+cluster 0[newemr.ROSE R. WALSH, newemr.ROSE R. WALSH, newemr.ROSE R. WALSH, newemr.ROSE R. WALSH, newemr.ELROD, RYLEY, newemr.ELROD, RYLEY, newemr.ELROD, RYLEY, newemr.ELROD, RYLEY, newemr.ELROD, RYLEY, newemr.ELROD, RYLEY, newemr.ELROD, RYLEY, newemr.ELROD, RYLEY, newemr.ELROD, RYLEY, newemr.ELROD, RYLEY, newemr.ELROD, RYLEY, newemr.ELROD, RYLEY, newemr.ELROD, RYLEY, newemr.ELROD, RYLEY, newemr.ELROD, RYLEY, newemr.ELROD, RYLEY, newemr.ELROD, RYLEY, newemr.ELROD, RYLEY, newemr.ELROD, RYLEY, newemr.ELROD, RYLEY, newemr.ELROD, RYLEY, newemr.ELROD, RYLEY, newemr.ELROD, RYLEY, newemr.ELROD, RYLEY, newemr.Ussery, newemr.ELROD, RYLEY, newemr.ELROD, RYLEY, newemr.ELROD, RYLEY, newemr.ELROD, RYLEY, newemr.ELROD, RYLEY, newemr.ELROD, RYLEY, newemr.ELROD, RYLEY, newemr.ELROD, RYLEY, newemr.ELROD, RYLEY, newemr.ELROD, RYLEY, newemr.ELROD, RYLEY, newemr.ELROD, RYLEY]
+cluster 1[newemr.Jacob, newemr.Woods, newemr.Ball]
+cluster 2[newemr.Welsh]
+cluster 3[newemr.DANNY WOODY]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 253
+cluster 0[newemr.BW, newemr.BW, newemr.Cook, newemr.Cook, newemr.BW, newemr.BW, newemr.Xavier V Cook, newemr.Cook, newemr.Cook]
+cluster 1[newemr.yamamoto, newemr.Winn, newemr.yen, newemr.Quintana, newemr.Bob D Kirkpatrick]
+cluster 2[newemr.Brandon Walls, newemr.Brandon Walls, newemr.Brandon Walls, newemr.Brandon Walls]
+cluster 3[newemr.Brandon Walls, newemr.Brandon Walls]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 256
+cluster 0[newemr.T. William, newemr.Whitney, newemr.Tony Wilkinson, newemr.Tony Wilkinson, newemr.Tony Wilkinson, newemr.Tony Wilkinson, newemr.Tony Wilkinson, newemr.Tony Wilkinson, newemr.Tony Wilkinson, newemr.Tony Wilkinson, newemr.Tony Wilkinson, newemr.Tony Wilkinson, newemr.Tony Wilkinson, newemr.Tony Wilkinson, newemr.Tony Wilkinson, newemr.Tony Wilkinson, newemr.Tony Wilkinson, newemr.Tony Wilkinson]
+cluster 1[newemr.Whitney Keller, newemr.Whitney Keller, newemr.Whitney Keller, newemr.Whitney Keller, newemr.Keller, newemr.Whitney V Keller]
+cluster 2[newemr.Olen X. Laughlin, newemr.Laughlin]
+cluster 3[newemr.Eva  Newby, newemr.Newby]
+cluster 4[newemr.Remigio Allison]
+cluster 5[newemr.Remigio L. Allison]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 255
+cluster 0[newemr.Ione Kerr, newemr.Ione Kerr, newemr.Kerr, newemr.Kerr, newemr.Ione Kerr, newemr.Ione Kerr, newemr.Kerr, newemr.Kerr, newemr.Hope Roberts, newemr.Roberts]
+cluster 1[newemr.Bridget Jamieson, newemr.B. Jamieson, newemr.Blanchard, newemr.Blanchard, newemr.Blanchard, newemr.Blanchard]
+cluster 2[newemr.Ursula Olivia Oconnell]
+cluster 3[newemr.Diane Rhonda Welsh]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 257
+cluster 0[newemr.Lucille Jackson, newemr.Lucille Jackson, newemr.Lucille Jackson, newemr.Lucille Jackson, newemr.Lucille Jackson, newemr.Lucille Jackson, newemr.Lucille Jackson, newemr.Lucille Jackson, newemr.Lucille Jackson, newemr.Lucille Jackson, newemr.Triplett, Jackson, newemr.Lucille Jackson, newemr.Lucille Jackson, newemr.Lucille Jackson, newemr.Lucille Jackson, newemr.Lucille Jackson, newemr.Olympia Jett, newemr.Jackson X. Triplett, newemr.Julie L Cobb, newemr.Lucille Jackson, newemr.Lucille Jackson, newemr.Lucille Jackson, newemr.Lucille Jackson, newemr.Lucille Jackson, newemr.Lucille Jackson, newemr.Lucille Jackson, newemr.Lucille Jackson, newemr.Lucille Jackson, newemr.Lucille Jackson, newemr.Jackson, Lucille]
+cluster 1[newemr.Levon Nichols, newemr.Nichols, newemr.Nichols, newemr.Nichols, newemr.Gonzalez, Norma, newemr.Norma Gonzalez, newemr.Gonzalez, newemr.Gonzalez, newemr.Gonzalez, newemr.Gonzalez, newemr.Nichols, newemr.Nichols, newemr.Nichols, newemr.Gonzalez, newemr.Gonzalez, newemr.Gonzalez, newemr.Gonzalez, newemr.Gonzalez, newemr.Gonzalez, newemr.Gonzalez, newemr.Gonzalez, newemr.Gonzalez, newemr.Gonzalez, newemr.Gonzalez, newemr.Gonzalez, newemr.Gonzalez, Norma, newemr.Norma Gonzalez, newemr.Norma C. Gonzalez, newemr.Nichols, newemr.Nichols, newemr.Nichols]
+cluster 2[newemr.Vanover, newemr.Vanover, newemr.Vanover, newemr.Vanover, newemr.Vanover, newemr.Vanover, newemr.Vanover, newemr.Vanover, newemr.Vanover]
+cluster 3[newemr.Lutz, John Gregory, newemr.Lutz, John Gregory, newemr.Lutz, John Gregory, newemr.Lutz, John Gregory]
+cluster 4[newemr.Avalos, Holly]
+cluster 5[newemr.Holly Xavia Avalos]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 258
+cluster 0[newemr.Jaimes, newemr.Jaimes, newemr.Jaimes, newemr.Jaimes, newemr.Jaimes, newemr.Jaimes, newemr.Jaimes, newemr.Jaimes, newemr.Jaimes, newemr.Itzel Jaimes]
+cluster 1[newemr.Estrella, newemr.Bridges, newemr.Bridges, newemr.Bridges, newemr.Bridges, newemr.Bridges, newemr.Bridges, newemr.Bridges, newemr.Bridges, newemr.Bridges, newemr.Bridges, newemr.Bridges, newemr.Bridges, newemr.Bridges, newemr.Bridges, newemr.Bridges, newemr.Bridges, newemr.Xenia Bridges, newemr.Xenia Bridges, newemr.Xenia Bridges, newemr.Xenia Bridges]
+cluster 2[newemr.Emmons, newemr.NOLAN, N. YANCY, newemr.NOLAN, N. YANCY, newemr.NOLAN, N. YANCY, newemr.NOLAN, N. YANCY, newemr.NOLAN, N. YANCY, newemr.NOLAN, N. YANCY, newemr.NOLAN, N. YANCY, newemr.NOLAN, N. YANCY, newemr.NOLAN, N. YANCY]
+cluster 3[newemr.Jacobson, Isaiah Peter, newemr.Jacobson, Isaiah Peter, newemr.Jacobson, Isaiah Peter, newemr.Jacobson, Isaiah Peter]
+cluster 4[newemr.FRANK J. XI]
+cluster 5[newemr.Jacobson, Isaiah Peter, newemr.Jacobson, Isaiah Peter]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 270
+cluster 0[newemr.Noor Uyeda, newemr.TRAN, FREDDY, newemr.TRAN, FREDDY, newemr.TRAN, FREDDY, newemr.TRAN, FREDDY, newemr.TRAN, FREDDY, newemr.TRAN, FREDDY, newemr.TRAN, FREDDY, newemr.TRAN, FREDDY, newemr.TRAN, FREDDY, newemr.Kevin Vest, newemr.Vest, newemr.Frank Marquez]
+cluster 1[newemr.Nancy Gipson, newemr.Nancy N. Gipson, newemr.Chen]
+cluster 2[newemr.Heidi Gunn, newemr.Gunn, newemr.Izaguirre]
+cluster 3[newemr.Flossie William, newemr.Flossie William, newemr.Flossie William, newemr.Flossie William]
+cluster 4[newemr.Nieto]
+cluster 5[newemr.Travis X. Vogel]
+cluster 6[newemr.Flossie William, newemr.Flossie William]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 259
+cluster 0[newemr.Quintrell Ferreira, newemr.Phoebe Abreu, newemr.Ferreira, newemr.Ferreira, newemr.Ferreira, newemr.Ferreira, newemr.Ferreira, newemr.Ferreira, newemr.Ferreira, newemr.Wright, newemr.Wright, newemr.Wright, newemr.Wright, newemr.Ferreira, newemr.Ferreira, newemr.Ferreira, newemr.Ferreira, newemr.Ferreira, newemr.Ferreira, newemr.Ferreira, newemr.Ferreira, newemr.Ferreira, newemr.Ferreira, newemr.Ferreira, newemr.Ferreira, newemr.Ferreira, newemr.Ferreira, newemr.Wright, newemr.Wright, newemr.Wright, newemr.Wright, newemr.Wright, newemr.Wright, newemr.Wright, newemr.Wright, newemr.Ferreira, newemr.Ferreira, newemr.Ferreira, newemr.Ferreira, newemr.Ferreira, newemr.Ferreira, newemr.Ferreira, newemr.Ferreira, newemr.Ferreira, newemr.Ferreira, newemr.Ferreira, newemr.Ferreira, newemr.Ferreira, newemr.Ferreira, newemr.Ferreira, newemr.Ferreira, newemr.Ferreira, newemr.Ferreira, newemr.Ferreira, newemr.Ferreira, newemr.Ferreira, newemr.Wright, newemr.Wright, newemr.Wright, newemr.Wright, newemr.Ferreira, newemr.Ferreira, newemr.Ferreira, newemr.Ferreira, newemr.Ferreira, newemr.Ferreira, newemr.Ferreira, newemr.Leo Villalobos]
+cluster 1[newemr.Jarman, newemr.Umberto Varney]
+cluster 2[newemr.ANDREW TANG, newemr.ANDREW TANG, newemr.ANDREW TANG, newemr.ANDREW TANG]
+cluster 3[newemr.Leo Richard Edward, III]
+cluster 4[newemr.ANDREW TANG, newemr.ANDREW TANG]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 271
+cluster 0[newemr.Caldwell, newemr.Caldwell, newemr.Caldwell, newemr.Caldwell]
+cluster 1[newemr.Hamilton, newemr.V. Hamilton]
+cluster 2[newemr.Ximenez, newemr.Jerry F. Addison]
+cluster 3[newemr.Martha Tharp]
+cluster 4[newemr.Francis Pratt]
+cluster 5[newemr.Kenneth Felton]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 272
+cluster 0[newemr.CG, newemr.Noah Escobar]
+cluster 1[newemr.Kevin Patterson, newemr.Kevin Patterson, newemr.Kevin Patterson, newemr.olivo, newemr.Kevin Patterson, newemr.Kevin Patterson, newemr.Kevin Patterson, newemr.Kevin Patterson, newemr.Kevin Patterson, newemr.Kevin Patterson]
+cluster 2[newemr.Willie Nix, newemr.Willie Nix, newemr.Willie Nix, newemr.Willie Nix]
+cluster 3[newemr.Ciara J. Goldberg]
+cluster 4[newemr.Patterson]
+cluster 5[newemr.nation]
+cluster 6[newemr.Willie Nix, newemr.Willie Nix]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 273
+cluster 0[newemr.Aragon, newemr.Aragon, newemr.Aragon, newemr.Aragon, newemr.Aragon, newemr.Xavier Dotson, newemr.Xavier Dotson, newemr.Xavier Dotson, newemr.Xavier Dotson, newemr.Xavier Dotson, newemr.Yacob T. Kane, newemr.Yacob T. Kane, newemr.Yacob T. Kane, newemr.Yacob T. Kane, newemr.Yacob T. Kane, newemr.Aragon, newemr.Aragon, newemr.Aragon, newemr.Aragon, newemr.Aragon, newemr.Dotson, newemr.Dotson, newemr.Dotson, newemr.Dotson, newemr.Dotson, newemr.Xavier Dotson, newemr.Xavier Dotson, newemr.Xavier Dotson, newemr.Xavier Dotson, newemr.Xavier Dotson, newemr.Yacob T. Kane, newemr.Yacob T. Kane, newemr.Yacob T. Kane, newemr.Yacob T. Kane, newemr.Yacob T. Kane, newemr.Dotson, newemr.Dotson, newemr.Dotson, newemr.Dotson, newemr.Dotson, newemr.Xavier Dotson, newemr.Xavier Dotson, newemr.Xavier Dotson, newemr.Xavier Dotson, newemr.Xavier Dotson, newemr.Yacob T. Kane, newemr.Yacob T. Kane, newemr.Yacob T. Kane, newemr.Yacob T. Kane, newemr.Yacob T. Kane, newemr.Aragon, newemr.Aragon, newemr.Aragon, newemr.Aragon, newemr.Aragon, newemr.Dotson, newemr.Dotson, newemr.Dotson, newemr.Dotson, newemr.Dotson, newemr.Xayachack, newemr.Dotson, newemr.Dotson, newemr.Dotson, newemr.Dotson, newemr.Dotson, newemr.Aragon, newemr.Aragon, newemr.Aragon, newemr.Aragon, newemr.Aragon, newemr.Xavier Dotson, newemr.Xavier Dotson, newemr.Xavier Dotson, newemr.Xavier Dotson, newemr.Xavier Dotson, newemr.Yacob T. Kane, newemr.Yacob T. Kane, newemr.Yacob T. Kane, newemr.Yacob T. Kane, newemr.Yacob T. Kane, newemr.Aragon, newemr.Aragon, newemr.Aragon, newemr.Aragon, newemr.Aragon, newemr.Dotson, newemr.Dotson, newemr.Dotson, newemr.Dotson, newemr.Dotson, newemr.Xavier Dotson, newemr.Xavier Dotson, newemr.Xavier Dotson, newemr.Xavier Dotson, newemr.Xavier Dotson, newemr.Yacob T. Kane, newemr.Yacob T. Kane, newemr.Yacob T. Kane, newemr.Yacob T. Kane, newemr.Yacob T. Kane]
+cluster 1[newemr.Bruce, newemr.xia, newemr.Ysidro Xia, newemr.Baird, newemr.Colin Keane]
+cluster 2[newemr.Hayes, newemr.Hayes, newemr.Quam, newemr.Hayes, newemr.Hayes, newemr.Henry Hayes]
+cluster 3[newemr.Xie, newemr.Xie, newemr.Xie, newemr.Xie]
+cluster 4[newemr.Keeler, newemr.Keeler, newemr.Yael Keeler, newemr.Keeler, newemr.Keeler]
+cluster 5[newemr.Yareli Kilgore, newemr.Yareli Kilgore, newemr.Yareli Kilgore, newemr.Yareli Kilgore]
+cluster 6[newemr.Yareli Holcomb, newemr.Yareli Holcomb, newemr.Yareli Holcomb, newemr.Yareli Holcomb]
+cluster 7[newemr.Ibarra]
+cluster 8[newemr.Yareli Holcomb, newemr.Yareli Holcomb]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 274
+cluster 0[newemr.Frantz, newemr.Frantz, newemr.Frantz, newemr.Frantz, newemr.Frantz, newemr.Frantz, newemr.Frantz, newemr.Frantz, newemr.Frantz, newemr.Wanda Lucero, newemr.Olga, newemr.Larry Frantz, newemr.Caldwell]
+cluster 1[newemr.WL, newemr.LF, newemr.JERICO WILLS, newemr.JERICO WILLS, newemr.JERICO WILLS, newemr.JERICO WILLS]
+cluster 2[newemr.PAUL VALENTINE, newemr.PAUL VALENTINE, newemr.PAUL VALENTINE, newemr.PAUL VALENTINE]
+cluster 3[newemr.jessup]
+cluster 4[newemr.mata]
+cluster 5[newemr.PAUL VALENTINE, newemr.PAUL VALENTINE]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 275
+cluster 0[newemr.William Sawyer, newemr.Natashia Rosa, newemr.Natashia Rosa, newemr.Natashia Rosa, newemr.Natashia Rosa, newemr.Natashia Rosa, newemr.Natashia Rosa, newemr.Natashia Rosa, newemr.Natashia Rosa, newemr.Natashia Rosa, newemr.Natashia Rosa, newemr.Natashia Rosa, newemr.Natashia Rosa, newemr.Natashia Rosa, newemr.Natashia Rosa, newemr.Natashia Rosa, newemr.Natashia Rosa, newemr.Jerome, newemr.Jerome, newemr.Jerome, newemr.Jerome]
+cluster 1[newemr.Jay Wallace, newemr.Frank Oden, newemr.Frank Oden, newemr.Frank Oden, newemr.Frank Oden]
+cluster 2[newemr.Jason Santana]
+cluster 3[newemr.Richard Oden]
+
+
+
+
+
+result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 276
+cluster 0[newemr.Hardin, newemr.Ulysses Peralta, newemr.Peralta]
+cluster 1[newemr.YERGER, DESEAN, newemr.YERGER, DESEAN, newemr.YERGER, DESEAN, newemr.Godfrey, newemr.YERGER, DESEAN, newemr.YERGER, DESEAN, newemr.YERGER, DESEAN, newemr.YERGER, DESEAN, newemr.YERGER, DESEAN, newemr.YERGER, DESEAN, newemr.VELASQUEZ, WALTER, newemr.VELASQUEZ, WALTER, newemr.VELASQUEZ, WALTER, newemr.VELASQUEZ, WALTER, newemr.VELASQUEZ, WALTER, newemr.VELASQUEZ, WALTER, newemr.VELASQUEZ, WALTER, newemr.VELASQUEZ, WALTER, newemr.VELASQUEZ, WALTER]
+cluster 2[newemr.Vernon, newemr.Victor Quijano]
+cluster 3[newemr.Vernon Lozano]
+cluster 4[newemr.Otero]
+cluster 5[newemr.Vernon A Lozano]
+
+
+
+
+
