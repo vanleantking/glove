@@ -89,7 +89,8 @@ class HierachicalClustering(Clustering):
 
 
 
-def constructioncluster(hc, doctorsmaxlength, professionsmaxlength, citysmaxlength, statesmaxlength, streetsmaxlength, countrysmaxlength, hospitalsmaxlength, organizationsmaxlength, usernamesmaxlength, is_abbrv = False):
+def constructioncluster(hc, patientsmaxlength, doctorsmaxlength, professionsmaxlength, citysmaxlength, statesmaxlength, streetsmaxlength, countrysmaxlength, hospitalsmaxlength, organizationsmaxlength, usernamesmaxlength, is_abbrv = False):
+    patientslogclustering = open(patientclusterpath,"w")
     docslogclustering = open(doctorclusterpath,"w")
     professionlogclustering = open(professionclusterpath,"w")
     citylogclustering = open(cityclusterpath,"w")
@@ -115,20 +116,22 @@ def constructioncluster(hc, doctorsmaxlength, professionsmaxlength, citysmaxleng
     usernames = []
     usernameIndex = []
     is_abbrv = False
-    for patientRecord in onto.PatientRecord.instances():
+    for patientRecords in onto.PatientRecord.instances():
         #data per patient
         patients = []
+        patientIndex = []
         doctors = []
         doctorIndex = []       
         hospitalIndex = []
         hospitals = []
         
-        #patient name in each patients record
-        for patient in patientRecord.hasName:
-            patients.append(patient)
+        if len(patientRecords.have_collect_patients) > 1:
+            patientRecord = [hc.getword2vectabb(patient.hasName[0], patientsmaxlength, is_abbrv) for patient in patientRecords.have_collect_patients if np.isnan(hc.get_model().embeded_phrases(patient.hasName[0])).any() == False]
+            patientIndex.extend([{"name": patient, "value": hc.getword2vectabb(patient.hasName[0], patientsmaxlength, is_abbrv)} for patient in patientRecords.have_collect_patients if np.isnan(hc.get_model().embeded_phrases(patient.hasName[0])).any() == False])
+            patients.extend(patientRecord)
 
         #get data for each medical record
-        for medicalRecord in patientRecord.was_recorded_at:
+        for medicalRecord in patientRecords.was_recorded_at:
             doctorRecord = []
             professionRecord = []
             cityRecord = []
@@ -186,16 +189,29 @@ def constructioncluster(hc, doctorsmaxlength, professionsmaxlength, citysmaxleng
 
         
         #post processing for doctors
-        docslogclustering.write("result patienttttttttttttttttttttttttttttttttttttttttttttttttt: " + str(patientRecord.hasRecordName[0]))
+        docslogclustering.write("result patienttttttttttttttttttttttttttttttttttttttttttttttttt: " + str(patientRecords.hasRecordName[0]))
         pncp = PostNameClusterProcessing()
         docscluster = hc.postclustering(docscluster, clusters_number, pncp)
         hc.logdocsfile(docslogclustering, docscluster)
 
+
+        #post procressing for patients
+        if len(patients) > 1:
+            patientscluster, clusters_patient_number = hc.hierarchical(patients, patientIndex, 0.55)
+            patientslogclustering.write("result patienttttttttttttttttttttttttttttttttttttttttttttttttt: " + str(patientRecords.hasRecordName[0]))
+            pnpcp = PostNameClusterProcessing()
+            patientscluster = hc.postclustering(patientscluster, clusters_patient_number, pnpcp)
+        elif len(patients) == 1:
+            patientscluster = {1: []}
+            patientscluster[1].append(patientIndex[0]['name'])
+        hc.logdocsfile(patientslogclustering, patientscluster)
+
+        #post procressing for hospital
         if len(hospitals) > 1:
             hospitalscluster, clusters_hospital_number = hc.hierarchical(hospitals, hospitalIndex, 0.5)
             phcp = PostHospitalClusterProcessing()
             hospitalscluster = hc.postclustering(hospitalscluster, clusters_hospital_number, phcp)
-        else:
+        elif len(hospitals) == 1:
             hospitalscluster = {1 : []}
             hospitalscluster[1].append(hospitalIndex[0]['name'])
         hc.logdocsfile(hospitallogclustering, hospitalscluster)
@@ -227,12 +243,8 @@ if __name__ == '__main__':
     
     onto = get_ontology("file:///media/vanle/Studying/python/readOntology/newemr.owl").load()
     # print(onto.Doctor)
-    
-    # for doctor in onto.Doctor.instances():
-    #     print(doctor.name)
-    #     break
-    patientsName = [patient for patientRecord in onto.PatientRecord.instances() for patient in patientRecord.have_collect_patients]
-    # print(patientsName)
+
+    patientsName = [patient.name for patientRecords in onto.PatientRecord.instances() for patient in patientRecords.have_collect_patients]
     doctorsName = [doctor.name for doctor in onto.Doctor.instances()]
     professionsName = [profession.name for profession in onto.Profession.instances()]
     citysName = [city.name for city in onto.City.instances()]
@@ -244,7 +256,11 @@ if __name__ == '__main__':
     usernamesName = [username.name for username in onto.Username.instances()]
 
     hc = HierachicalClustering()
+    # hc = HierachicalClustering()
+    # pnpcp = PostNameClusterProcessing()
+    # print(pnpcp.check_equal('Amelia Travis', 'Travis, Peggy'))
 
+    patientsmaxlength = hc.getmaxlengthabb(patientsName, is_username = False)
     doctorsmaxlength = hc.getmaxlengthabb(doctorsName, is_username = False)
     professionsmaxlength = hc.getmaxlengthabb(professionsName, is_username = False)
     citysmaxlength = hc.getmaxlengthabb(citysName, is_username = False)
@@ -256,7 +272,7 @@ if __name__ == '__main__':
     usernamesmaxlength = hc.getmaxlengthabb(usernamesName, is_username = True)
 
 
-    constructioncluster(hc, doctorsmaxlength, professionsmaxlength, citysmaxlength, statesmaxlength, streetsmaxlength, countrysmaxlength, hospitalsmaxlength, organizationsmaxlength, usernamesmaxlength, is_abbrv=True)
+    constructioncluster(hc, patientsmaxlength, doctorsmaxlength, professionsmaxlength, citysmaxlength, statesmaxlength, streetsmaxlength, countrysmaxlength, hospitalsmaxlength, organizationsmaxlength, usernamesmaxlength, is_abbrv=True)
 
     # devices = []
     # dates = []

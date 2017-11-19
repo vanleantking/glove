@@ -34,7 +34,8 @@ class PreProcessingText:
         if is_username:
             return phrases
 
-        phrases = "".join(c for c in name if c not in self._special_symbols)
+        phrases = re.findall(r"[\w']+|[.,!?;\/+]", phrases.lower())
+        phrases = " ".join(c for c in phrases if c not in self._special_symbols)
         phrases = "".join(c for c in phrases if not re.search(r'^/[/]?', c))
 
         # # # #remove ________ in text
@@ -47,7 +48,7 @@ class PreProcessingText:
         phrases = "".join(c for c in phrases if not re.search(r'^mg', c))
         
         phrases = re.sub(' +',' ',phrases)
-        return phrases.lower().strip()
+        return phrases.strip()
 
 class PostProcessing:
 
@@ -82,7 +83,7 @@ class PostProcessing:
         abb_name2, is_abb2 = self._pre.abbreviation(name2)
 
         if is_abb1 == False and is_abb2 == False:
-            if set(name1_processed.split(' ')).issubset(name2_processed.split(' ')) or set(name2_processed.split(' ')).issubset(name1_processed.split(' ')):
+            if set(name1_processed.split()).issubset(name2_processed.split()) or set(name2_processed.split()).issubset(name1_processed.split()):
                 return True
             return False
 
@@ -114,7 +115,11 @@ class PostNameClusterProcessing(PostProcessing):
         return any(self.check_equal(element1.hasName[0], element2.hasName[0]) for element1 in cluster1 for element2 in cluster2)
 
     def splitcluster(self, clusters):
-        return clusters, len(clusters)
+        lenrsl = len(clusters)
+        results = {i: [] for i in range(lenrsl)}
+        for i in range(lenrsl):
+            results[i].extend(clusters[i+1])
+        return results, lenrsl
 
 #post clustering for professions
 class PostProfessionClusterProcessing(PostProcessing):
@@ -145,7 +150,6 @@ class PostHospitalClusterProcessing(PostProcessing):
         return any(self.check_equal(element1.name, element2.name) for element1 in cluster1 for element2 in cluster2)
 
     def splitcluster(self, clusters):
-        print(clusters)
         result = []
         for index, cluster in clusters.items():
             lencls = len(cluster)
