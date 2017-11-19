@@ -16,15 +16,16 @@ class PreProcessingText:
         isconsonant = all(char not in self._vowels for c in name_processed for char in c)
         len_name = name.strip().split()       
 
+        #len is large than 1 mean name is not abbreviation, or name with length = 1 (example: Xue, Freddy)
+        if (len(len_name) == 1 and (name.strip() != name.strip().upper()) or isconsonant == False) or len(len_name) > 1:
+            abb = [c[0] for c in name_processed.split(' ') if c != ' ' and c[0].strip() != '']
+
+
         #all consonant mean name is abbreviation or process for name with length = 1 with all upper (for both name = 1(XUE, FREDDY..) and name is abbreviation ready)
         if isconsonant == True or (len(len_name) == 1 and name.strip() == name.strip().upper()):
             abb = [c for c in name_processed for char in c if c.strip() != '']
 
 
-        #len is large than 1 mean name is not abbreviation, or name with length = 1 (example: Xue, Freddy)
-        elif (len(len_name) == 1 and name.strip() != name.strip().upper()) or len(len_name) > 1:
-            abb = [c[0] for c in name_processed.split(' ') if c != ' ' and c[0].strip() != '']
-            isconsonant = False
 
         return abb, isconsonant
 
@@ -114,6 +115,8 @@ class PostNameClusterProcessing(PostProcessing):
     def mergecluster(self, cluster1, cluster2):
         return any(self.check_equal(element1.hasName[0], element2.hasName[0]) for element1 in cluster1 for element2 in cluster2)
 
+    def splitcluster(self, clusters):
+        return clusters, len(clusters)
 
 #post clustering for professions
 class PostProfessionClusterProcessing(PostProcessing):
@@ -143,4 +146,29 @@ class PostHospitalClusterProcessing(PostProcessing):
 
     def mergecluster(self, cluster1, cluster2):
         return any(self.check_equal(element1.name, element2.name) for element1 in cluster1 for element2 in cluster2)
+
+    def splitcluster(self, clusters):
+        result = []
+        for index, cluster in clusters.items():
+            lencls = len(cluster)
+            if lencls > 1:
+                for i in range(lencls):
+                    try:
+                        if (all(self.check_equal(cluster[i].name, cluster[j].name) == False for j in range(lencls) if cluster[i] and cluster[j] and i != j)):
+                            result.append(cluster[i])
+                            del cluster[i]
+                    except:
+                        pass
+        result.extend(clusters.values())
+        results = {i: [] for i in range(len(result))}
+        lenrsl = len(result)
+        for i in range(lenrsl):
+            if type(result[i]) is list:
+                results[i].extend(result[i])
+            else:
+                results[i].append(result[i])
+        return results, lenrsl
+
+
+
 

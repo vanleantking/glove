@@ -74,8 +74,9 @@ class HierachicalClustering(Clustering):
         return docscluster, clusters_number
 
     def postclustering(self, clusters, clusters_number, processing_type):
-        for i in range(1, clusters_number+1):
-            for j in range (i+1, clusters_number+1):
+        clusters, clusters_number = processing_type.splitcluster(clusters)
+        for i in range(clusters_number):
+            for j in range (i+1, clusters_number):
                 if i in clusters.keys() and j in clusters.keys():
                     merged = processing_type.mergecluster(clusters[i], clusters[j])
                     if merged:
@@ -114,7 +115,7 @@ def constructioncluster(hc, doctorsmaxlength, professionsmaxlength, citysmaxleng
     usernames = []
     usernameIndex = []
     is_abbrv = False
-    for patientRecord in onto.Patient.instances():
+    for patientRecord in onto.PatientRecord.instances():
         #data per patient
         patients = []
         doctors = []
@@ -230,7 +231,8 @@ if __name__ == '__main__':
     # for doctor in onto.Doctor.instances():
     #     print(doctor.name)
     #     break
-    patientsName = [patient for patientRecord in onto.Patient.instances() for patient in patientRecord.hasName]
+    patientsName = [patient for patientRecord in onto.PatientRecord.instances() for patient in patientRecord.have_collect_patients]
+    # print(patientsName)
     doctorsName = [doctor.name for doctor in onto.Doctor.instances()]
     professionsName = [profession.name for profession in onto.Profession.instances()]
     citysName = [city.name for city in onto.City.instances()]
