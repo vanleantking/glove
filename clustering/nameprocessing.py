@@ -18,7 +18,7 @@ class PreProcessingText:
 
         #len is large than 1 mean name is not abbreviation, or name with length = 1 (example: Xue, Freddy)
         if (len(len_name) == 1 and (name.strip() != name.strip().upper()) or isconsonant == False) or len(len_name) > 1:
-            abb = [c[0] for c in name_processed.split(' ') if c != ' ' and c[0].strip() != '']
+            abb = [c[0] for c in name_processed.split() if c != ' ' and c[0].strip() != '']
 
 
         #all consonant mean name is abbreviation or process for name with length = 1 with all upper (for both name = 1(XUE, FREDDY..) and name is abbreviation ready)
@@ -35,17 +35,19 @@ class PreProcessingText:
             return phrases
 
         phrases = re.findall(r"[\w']+|[.,!?;\/+]", phrases.lower())
-        phrases = " ".join(c for c in phrases if c not in self._special_symbols)
-        phrases = "".join(c for c in phrases if not re.search(r'^/[/]?', c))
+        phrases = [c for word in phrases for c in re.split(r'\'s', word) if c]
+        phrases = [c for c in phrases if c not in self._special_symbols]
+        phrases = [c for c in phrases if not re.search(r'^/[/]?', c)]
 
         # # # #remove ________ in text
-        phrases = "".join(c for c in phrases if not re.search(r'_+', c))
+        phrases = [c for c in phrases if not re.search(r'_+', c)]
 
         # # # #split string 123tert to 123 tert
-        phrases = "".join(c for word in phrases for c in re.split(r'([0-9]*)([a-zA-Z\'0-9]+)', word) if c)
+        phrases = [c for word in phrases for c in re.split(r'([0-9]*)([a-zA-Z\'0-9]+)', word) if c]
         # # #phrases #remove measure weight/digits in sentence
-        phrases = "".join(word for word in phrases if not re.search(r'^\d+\.*\s?\d*\s?[mg]*$', word))
-        phrases = "".join(c for c in phrases if not re.search(r'^mg', c))
+        phrases = [word for word in phrases if not re.search(r'^\d+\.*\s?\d*\s?[mg]*$', word)]
+        phrases = [c for c in phrases if not re.search(r'^mg', c)]
+        phrases = " ".join(phrases)
         
         phrases = re.sub(' +',' ',phrases)
         return phrases.strip()
@@ -88,7 +90,7 @@ class PostProcessing:
             return False
 
         if len(abb_name2) > 1 and len(abb_name1) > 1:
-            if set(abb_name2).issubset(abb_name1) or set(abb_name1).issubset(abb_name2):
+            if abb_name1 == abb_name2:
                 return True
 
         return False
@@ -108,24 +110,43 @@ class PostProcessing:
 
         return self.check_equal_name(name1, name2)
 
+    def splitcluster(self, clusters):
+        result = []
+        for index, cluster in clusters.items():
+            lencls = len(cluster)
+            if lencls > 1:
+                for i in range(lencls):
+                    try:
+                        if (all(self.check_equal(cluster[i].name, cluster[j].name) == False for j in range(lencls) if cluster[i] and cluster[j] and i != j)):
+                            result.append([cluster[i]])
+                            del cluster[i]
+                    except:
+                        pass
+        result.extend(clusters.values())
+        lenrsl = len(result)
+        results = {i: [] for i in range(lenrsl)}
+        for i in range(lenrsl):
+            results[i].extend(result[i])
+        return results, lenrsl
+
 #post clustering for docstor name
 class PostNameClusterProcessing(PostProcessing):
 
     def mergecluster(self, cluster1, cluster2):
         return any(self.check_equal(element1.hasName[0], element2.hasName[0]) for element1 in cluster1 for element2 in cluster2)
 
-    def splitcluster(self, clusters):
-        lenrsl = len(clusters)
-        results = {i: [] for i in range(lenrsl)}
-        for i in range(lenrsl):
-            results[i].extend(clusters[i+1])
-        return results, lenrsl
+    # def splitcluster(self, clusters):
+    #     lenrsl = len(clusters)
+    #     results = {i: [] for i in range(lenrsl)}
+    #     for i in range(lenrsl):
+    #         results[i].extend(clusters[i+1])
+    #     return results, lenrsl
 
 #post clustering for professions
 class PostProfessionClusterProcessing(PostProcessing):
 
     def mergecluster(self, cluster1, cluster2):
-        return any(self.check_equal_name(element1.jobName[0], element2.jobName[0]) for element1 in cluster1 for element2 in cluster2)
+        return any(self.check_equal(element1.jobName[0], element2.jobName[0]) for element1 in cluster1 for element2 in cluster2)
 
 #post clustering for hospital
 class PostHospitalClusterProcessing(PostProcessing):
@@ -148,25 +169,6 @@ class PostHospitalClusterProcessing(PostProcessing):
 
     def mergecluster(self, cluster1, cluster2):
         return any(self.check_equal(element1.name, element2.name) for element1 in cluster1 for element2 in cluster2)
-
-    def splitcluster(self, clusters):
-        result = []
-        for index, cluster in clusters.items():
-            lencls = len(cluster)
-            if lencls > 1:
-                for i in range(lencls):
-                    try:
-                        if (all(self.check_equal(cluster[i].name, cluster[j].name) == False for j in range(lencls) if cluster[i] and cluster[j] and i != j)):
-                            result.append([cluster[i]])
-                            del cluster[i]
-                    except:
-                        pass
-        result.extend(clusters.values())
-        lenrsl = len(result)
-        results = {i: [] for i in range(lenrsl)}
-        for i in range(lenrsl):
-            results[i].extend(result[i])
-        return results, lenrsl
 
 
 

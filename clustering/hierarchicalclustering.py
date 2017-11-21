@@ -185,7 +185,7 @@ def constructioncluster(hc, patientsmaxlength, doctorsmaxlength, professionsmaxl
                 usernameIndex.extend([{"name": username, "value": hc.getword2vectabb(username.hasName[0], usernamesmaxlength, is_abbrv)} for username in medicalRecord.has_username if np.isnan(hc.get_model().embeded_phrases(username.hasName[0])).any() == False])
                 usernames.extend(usernameRecord)
 
-        docscluster, clusters_number = hc.hierarchical(doctors, doctorIndex, 0.55)
+        docscluster, clusters_number = hc.hierarchical(doctors, doctorIndex, 0.6)
 
         
         #post processing for doctors

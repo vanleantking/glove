@@ -6,7 +6,7 @@ cluster 0[newemr.Rhodes, Yajaira, newemr.Rhodes, Yajaira, newemr.Rhodes, Yajaira
 
 
 result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 303
-cluster 0[newemr.Lindsay, newemr.Lindsay, newemr.Lindsay, newemr.Lindsay, newemr.Lindsay, newemr.Lindsay, newemr.LINDSAY, Anastasha, newemr.Lindsay, Anastasha, newemr.Anastasha]
+cluster 0[newemr.LINDSAY, Anastasha, newemr.Lindsay, Anastasha, newemr.Lindsay, newemr.Lindsay, newemr.Lindsay, newemr.Lindsay, newemr.Lindsay, newemr.Lindsay, newemr.Anastasha]
 
 
 
@@ -34,16 +34,17 @@ cluster 0[newemr.Kimbrough, Amelia, newemr.KIMBROUGH, AMELIA, newemr.KIMBROUGH, 
 
 
 result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 306
-cluster 0[newemr.Travis, Peggy, newemr.Peggy, newemr.Amelia Travis, newemr.Amelia Travis, newemr.TRAVIS, PEGGY]
+cluster 0[newemr.Amelia Travis, newemr.Amelia Travis]
+cluster 1[newemr.Travis, Peggy, newemr.Peggy, newemr.TRAVIS, PEGGY]
 
 
 
 
 
 result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 308
-cluster 0[newemr.Mills, newemr.Mills, newemr.Mills]
-cluster 1[newemr.Percy Carrillo, newemr.Carrillo, Percy]
-cluster 2[newemr.Urquiza, newemr.Urquiza, newemr.Urquiza, newemr.Urquiza]
+cluster 0[newemr.Percy Carrillo, newemr.Carrillo, Percy]
+cluster 1[newemr.Urquiza, newemr.Urquiza, newemr.Urquiza, newemr.Urquiza]
+cluster 2[newemr.Mills, newemr.Mills, newemr.Mills]
 
 
 
@@ -124,7 +125,7 @@ cluster 0[newemr.Ordonez, Yamilex, newemr.Yamilex, newemr.Ordonez, newemr.Ordone
 
 result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 392
 cluster 0[newemr.Adair, Helen, newemr.Adair, Helen, newemr.ADAIR, HELEN, newemr.ADAIR, HELEN V]
-cluster 1[newemr.Trudy]
+cluster 2[newemr.Trudy]
 
 
 
@@ -138,8 +139,9 @@ cluster 0[newemr.Frantz, Nicole, newemr.Nicole Frantz, newemr.Nicole Frantz, new
 
 
 result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 394
-cluster 0[newemr.Franchesca Justice, newemr.Franchesca, newemr.Victoria Justice]
-cluster 1[newemr.Villatoro]
+cluster 0[newemr.Victoria Justice]
+cluster 1[newemr.Franchesca Justice, newemr.Franchesca]
+cluster 2[newemr.Villatoro]
 
 
 
@@ -147,7 +149,7 @@ cluster 1[newemr.Villatoro]
 
 result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 395
 cluster 0[newemr.DO,TANYA V, newemr.DO,TANYA V, newemr.DO, TANYA V., newemr.Tanya Do, newemr.Tanya Do, newemr.Do, newemr.Tanya V. Do, newemr.Do, newemr.Do, newemr.Do, newemr.Do, newemr.Do, newemr.Tanya V. Do, newemr.Do, Tanya]
-cluster 3[newemr.Theresa  Kraft]
+cluster 2[newemr.Theresa  Kraft]
 
 
 
@@ -191,7 +193,7 @@ cluster 0[newemr.Ostrander, Pamela, newemr.Pamela Ostrander, newemr.Ostrander, n
 
 
 result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 100
-cluster 0[newemr.VALDEZ, Harlan, newemr.Valdez, Harlan, newemr.VALDEZ, Harlan, newemr.Valdez, Harlan Jr., newemr.VALDEZ,HARLAN,JR., newemr.Harlan B. Valdez, newemr.Valdez, newemr.Valdez, newemr.Valdez, newemr.Harlan Valdez]
+cluster 0[newemr.Valdez, Harlan Jr., newemr.VALDEZ,HARLAN,JR., newemr.Harlan B. Valdez, newemr.Valdez, newemr.Valdez, newemr.Valdez, newemr.Harlan Valdez, newemr.VALDEZ, Harlan, newemr.Valdez, Harlan, newemr.VALDEZ, Harlan]
 cluster 2[newemr.Har]
 
 
@@ -270,14 +272,14 @@ cluster 0[newemr.HARDY,TERESA, newemr.HARDY,TERESA, newemr.HARDY,TERESA, newemr.
 
 
 result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 121
-cluster 0[newemr.Umstead, newemr.Umstead, newemr.Umstead, newemr.Umstead, newemr.Valeria Umstead, newemr.Umstead, newemr.Umstead, newemr.Umstead, newemr.Umstead, Kenneth, newemr.Umstead, Kenneth, newemr.Umstead, Kenneth, newemr.Kenneth Umstead, newemr.Kenneth Umstead, newemr.Kenneth Umstead, newemr.Kenneth Umstead, newemr.Kenneth Umstead, newemr.Kenneth Umstead, newemr.Kenneth Umstead]
+cluster 0[newemr.Kenneth Umstead, newemr.Kenneth Umstead, newemr.Kenneth Umstead, newemr.Kenneth Umstead, newemr.Kenneth Umstead, newemr.Kenneth Umstead, newemr.Kenneth Umstead, newemr.Umstead, Kenneth, newemr.Umstead, Kenneth, newemr.Umstead, Kenneth, newemr.Umstead, newemr.Umstead, newemr.Umstead, newemr.Umstead, newemr.Valeria Umstead, newemr.Umstead, newemr.Umstead, newemr.Umstead]
 
 
 
 
 
 result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 122
-cluster 0[newemr.Ocampo, Nathan-Oliver, newemr.Ocampo, Nathan-Oliver, newemr.Ocampo, Nathan-Oliver, newemr.OCAMPO, NATHAN-OLIVER, newemr.Ocampo, newemr.Ocampo, newemr.Ocampo, newemr.Nathan-Oliver OCAMPO, newemr.Ocampo, newemr.Ocampo]
+cluster 0[newemr.Ocampo, newemr.Ocampo, newemr.Ocampo, newemr.Nathan-Oliver OCAMPO, newemr.Ocampo, newemr.Ocampo, newemr.Ocampo, Nathan-Oliver, newemr.Ocampo, Nathan-Oliver, newemr.Ocampo, Nathan-Oliver, newemr.OCAMPO, NATHAN-OLIVER]
 cluster 2[newemr.Urbina]
 
 
@@ -292,14 +294,14 @@ cluster 0[newemr.ULIBARRI,YVETTE, newemr.Ulibarri, newemr.Ulibarri]
 
 
 result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 124
-cluster 0[newemr.Workman, newemr.Workman, newemr.Workman, newemr.Workman, newemr.Workman, newemr.Edwin Workman, newemr.Edwin Workman, newemr.Edwin Workman, newemr.Workman, Edwin, newemr.Workman, Edwin, newemr.Workman, Edwin, newemr.Workman, Edwin, newemr.Workman, Edwin]
+cluster 0[newemr.Edwin Workman, newemr.Edwin Workman, newemr.Edwin Workman, newemr.Workman, Edwin, newemr.Workman, Edwin, newemr.Workman, Edwin, newemr.Workman, Edwin, newemr.Workman, Edwin, newemr.Workman, newemr.Workman, newemr.Workman, newemr.Workman, newemr.Workman]
 
 
 
 
 
 result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 125
-cluster 0[newemr.Bill Fair, newemr.Bill Fair, newemr.Bill FAIR, newemr.Fair, Bill, newemr.FAIR, BILL, newemr.FAIR, BILL, newemr.Fair, newemr.Fair, newemr.Fair, newemr.Fair, newemr.Fair]
+cluster 0[newemr.Fair, newemr.Fair, newemr.Fair, newemr.Fair, newemr.Fair, newemr.Fair, Bill, newemr.FAIR, BILL, newemr.FAIR, BILL, newemr.Bill Fair, newemr.Bill Fair, newemr.Bill FAIR]
 
 
 
@@ -356,7 +358,7 @@ cluster 1[newemr.Carlson, Rebecca, newemr.Kurtis Carlson, newemr.Kurtis Carlson,
 
 
 result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 329
-cluster 0[newemr.Ursula, newemr.ursula, newemr.Ursula, newemr.Ursula Jacks, newemr.Ursula Jacks, newemr.Ursula Jacks, newemr.JACKS, YASSEEN, newemr.JACKS, Yasseen, newemr.Jacks, newemr.Yasseen Jacks, newemr.Jacks, newemr.Jacks]
+cluster 0[newemr.JACKS, YASSEEN, newemr.JACKS, Yasseen, newemr.Jacks, newemr.Yasseen Jacks, newemr.Jacks, newemr.Jacks, newemr.Ursula Jacks, newemr.Ursula Jacks, newemr.Ursula Jacks, newemr.Ursula, newemr.ursula, newemr.Ursula]
 
 
 
@@ -385,8 +387,8 @@ cluster 1[newemr.Claire Ortega]
 
 
 result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 333
-cluster 0[newemr.Veda Edgar, newemr.Edgar, newemr.Edgar, Veda F, newemr.Veda Edgar, newemr.Edgar, newemr.Edgar, Veda, newemr.Edgar, Veda]
-cluster 2[newemr.Xiang, newemr.Xiang]
+cluster 0[newemr.Xiang, newemr.Xiang]
+cluster 1[newemr.Edgar, Veda, newemr.Edgar, Veda, newemr.Veda Edgar, newemr.Edgar, newemr.Edgar, Veda F, newemr.Veda Edgar, newemr.Edgar]
 
 
 
@@ -400,7 +402,7 @@ cluster 0[newemr.Jain, Oliver, newemr.Jain, Oliver, newemr.Jain, Oliver, newemr.
 
 
 result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 335
-cluster 0[newemr.Dalila Haynes, newemr.Dalila Haynes, newemr.Dalila Haynes, newemr.Dalila Haynes, newemr.Haynes, newemr.Haynes, newemr.Haynes, newemr.Haynes, newemr.Inez Haynes, newemr.HAYNES, DALILA, newemr.Haynes]
+cluster 0[newemr.Haynes, newemr.Haynes, newemr.Haynes, newemr.Haynes, newemr.Inez Haynes, newemr.HAYNES, DALILA, newemr.Haynes, newemr.Dalila Haynes, newemr.Dalila Haynes, newemr.Dalila Haynes, newemr.Dalila Haynes]
 cluster 2[newemr.Beltran]
 
 
@@ -415,7 +417,7 @@ cluster 0[newemr.RAY, PATRICIA, newemr.RAY, PATRICIA, newemr.Ray, Patricia L]
 
 
 result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 337
-cluster 0[newemr.Betty Gillis, newemr.Betty Gillis, newemr.Betty Gillis, newemr.Betty Gillis, newemr.Betty Gillis, newemr.GILLIS, BETTY, newemr.GILLIS, BETTY, newemr.Gillis, Betty, newemr.Gillis, Betty]
+cluster 0[newemr.GILLIS, BETTY, newemr.GILLIS, BETTY, newemr.Gillis, Betty, newemr.Gillis, Betty, newemr.Betty Gillis, newemr.Betty Gillis, newemr.Betty Gillis, newemr.Betty Gillis, newemr.Betty Gillis]
 
 
 
@@ -465,22 +467,22 @@ cluster 0[newemr.RILEY,MARY, newemr.RILEY, MARY, newemr.Riley, newemr.Riley, new
 
 
 result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 354
-cluster 0[newemr.FAY, BROOK, newemr.Fay, Brook, newemr.FAY,BROOK, newemr.Fay, newemr.Fay, newemr.Fay]
+cluster 0[newemr.Fay, newemr.Fay, newemr.Fay, newemr.FAY, BROOK, newemr.Fay, Brook, newemr.FAY,BROOK]
 
 
 
 
 
 result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 355
-cluster 0[newemr.DALEY,WADE, newemr.DALEY,WADE, newemr.Wade Daley]
-cluster 1[newemr.Dalley, Wade]
+cluster 0[newemr.Dalley, Wade]
+cluster 1[newemr.DALEY,WADE, newemr.DALEY,WADE, newemr.Wade Daley]
 
 
 
 
 
 result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 356
-cluster 0[newemr.ISHIDA, NATHAN F, newemr.ISHIDA, NATHAN F, newemr.ISHIDA, NATHAN F, newemr.ISHIDA, NATHAN F, newemr.ISHIDA, NATHAN F, newemr.ISHIDA, NATHAN F, newemr.Nathan Ishida, newemr.Ishida, newemr.Ishida, newemr.Ishida, newemr.Ishida, newemr.Ishida, newemr.Ishida, newemr.Ishida, newemr.Ishida, newemr.Ishida, newemr.Ishida, newemr.Ishida, newemr.Ishida, newemr.Ishida, newemr.Ishida, newemr.Ishida, newemr.ISHIDA, NATHAN, newemr.Ishida, Nathan, newemr.Ishida, Nathan]
+cluster 0[newemr.ISHIDA, NATHAN, newemr.Ishida, Nathan, newemr.Ishida, Nathan, newemr.ISHIDA, NATHAN F, newemr.ISHIDA, NATHAN F, newemr.ISHIDA, NATHAN F, newemr.ISHIDA, NATHAN F, newemr.ISHIDA, NATHAN F, newemr.ISHIDA, NATHAN F, newemr.Nathan Ishida, newemr.Ishida, newemr.Ishida, newemr.Ishida, newemr.Ishida, newemr.Ishida, newemr.Ishida, newemr.Ishida, newemr.Ishida, newemr.Ishida, newemr.Ishida, newemr.Ishida, newemr.Ishida, newemr.Ishida, newemr.Ishida, newemr.Ishida]
 cluster 3[newemr.Alice Zacharias]
 
 
@@ -510,8 +512,7 @@ cluster 0[newemr.GREENWOOD, NORA, newemr.Greenwood, newemr.Nora Greenwood, newem
 
 
 result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 360
-cluster 0[newemr.Geiger's, newemr.Geiger's, newemr.Geiger's, newemr.Geiger's]
-cluster 1[newemr.Xander Geiger, newemr.Geiger, Xian, newemr.Geiger, newemr.Geiger, newemr.Geiger, Xian, newemr.Geiger, Xander, newemr.Geiger, newemr.Geiger, newemr.GEIGER, XANDER]
+cluster 0[newemr.Geiger's, newemr.Geiger's, newemr.Geiger's, newemr.Geiger's, newemr.Xander Geiger, newemr.Geiger, Xian, newemr.Geiger, newemr.Geiger, newemr.Geiger, Xian, newemr.Geiger, Xander, newemr.Geiger, newemr.Geiger, newemr.GEIGER, XANDER]
 
 
 
@@ -581,7 +582,7 @@ cluster 0[newemr.HORNE,MILTON, newemr.Horne, Milton, newemr.HORNE,MILTON M, newe
 
 
 result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 142
-cluster 0[newemr.Martin, newemr.Martin, newemr.Martin, newemr.Martin, newemr.Brian Martin, newemr.Brian Martin, newemr.Brian Martin]
+cluster 0[newemr.Brian Martin, newemr.Brian Martin, newemr.Brian Martin, newemr.Martin, newemr.Martin, newemr.Martin, newemr.Martin]
 
 
 
@@ -630,7 +631,8 @@ cluster 0[newemr.Vines, Stephen, newemr.Vines, newemr.Vines, Stephen, newemr.Ste
 
 
 result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 150
-cluster 0[newemr.Westyn-Nuel, Kelli, newemr.WESTYN-NUEL,KELLI, newemr.Westyn-Nuel, Kelli, newemr.William-Nuel, Kelli, newemr.William-Nuel, newemr.Kelli Westyn-Nuel, newemr.Westyn-Nuel]
+cluster 0[newemr.Kelli Westyn-Nuel, newemr.Westyn-Nuel, Kelli, newemr.WESTYN-NUEL,KELLI, newemr.Westyn-Nuel, Kelli, newemr.Westyn-Nuel]
+cluster 2[newemr.William-Nuel, Kelli, newemr.William-Nuel]
 
 
 
@@ -697,7 +699,7 @@ cluster 1[newemr.Fredrick, newemr.Fredrick, newemr.Fredrick, newemr.Fredrick, ne
 
 
 result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 159
-cluster 0[newemr.Youngman, Cody, newemr.Youngman, Cody, newemr.Youngman, Cody, newemr.Youngman, Cody, newemr.Youngman, Cody, newemr.Youngman, Cody, newemr.Youngman, newemr.Youngman, newemr.Youngman, newemr.Youngman, newemr.Youngman, newemr.Youngman, newemr.Youngman, Codi, newemr.Youngman, Codi, newemr.Youngman, Codi]
+cluster 0[newemr.Youngman, newemr.Youngman, newemr.Youngman, newemr.Youngman, newemr.Youngman, newemr.Youngman, newemr.Youngman, Cody, newemr.Youngman, Cody, newemr.Youngman, Cody, newemr.Youngman, Cody, newemr.Youngman, Cody, newemr.Youngman, Cody, newemr.Youngman, Codi, newemr.Youngman, Codi, newemr.Youngman, Codi]
 
 
 
@@ -711,22 +713,23 @@ cluster 0[newemr.Eubanks, Larry, newemr.Eubanks, newemr.Eubanks, newemr.Eubanks,
 
 
 result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 171
-cluster 0[newemr.Usrey, John, newemr.Usrey, John, newemr.John Usry]
-cluster 1[newemr.Quinn]
+cluster 0[newemr.John Usry]
+cluster 1[newemr.Usrey, John, newemr.Usrey, John]
+cluster 2[newemr.Quinn]
 
 
 
 
 
 result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 172
-cluster 0[newemr.Rivers, newemr.Rivers, newemr.Rivers, newemr.Rivers, Ida, newemr.Rivers, Ida, newemr.Rivers, Ida, newemr.Rivers, Ida, newemr.Rivers, Ida, newemr.Ida]
+cluster 0[newemr.Rivers, Ida, newemr.Rivers, Ida, newemr.Rivers, Ida, newemr.Rivers, Ida, newemr.Rivers, Ida, newemr.Rivers, newemr.Rivers, newemr.Rivers, newemr.Ida]
 
 
 
 
 
 result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 173
-cluster 0[newemr.NARVAEZ, OTIS, newemr.NARVAEZ,OTIS, newemr.NARVAEZ, OTIS, newemr.Otis Narvaez, newemr.Otis Narvaez, newemr.Otis Narvaez, newemr.Otis Narvaez, newemr.Otis Narvaez, newemr.Otis Narvaez, newemr.Oscar Narvaez, newemr.Narvaez, newemr.Narvaez]
+cluster 0[newemr.Otis Narvaez, newemr.Otis Narvaez, newemr.Otis Narvaez, newemr.Otis Narvaez, newemr.Otis Narvaez, newemr.Otis Narvaez, newemr.NARVAEZ, OTIS, newemr.NARVAEZ,OTIS, newemr.NARVAEZ, OTIS, newemr.Oscar Narvaez, newemr.Narvaez, newemr.Narvaez]
 cluster 3[newemr.Santiago]
 
 
@@ -734,10 +737,10 @@ cluster 3[newemr.Santiago]
 
 
 result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 174
-cluster 0[newemr.Xiao, newemr.Xiao, newemr.Xiao]
-cluster 1[newemr.Emily Ippolito]
-cluster 2[newemr.Gregg, newemr.Gregg, Lloyd, newemr.Gregg, Lloyd, newemr.Gregg, Lloyd, newemr.Lloyd Gregg, newemr.Lloyd Gregg, newemr.Lloyd Gregg, newemr.Lloyd Gregg]
-cluster 3[newemr.Shields, newemr.Shields]
+cluster 0[newemr.Shields, newemr.Shields]
+cluster 1[newemr.Gregg, Lloyd, newemr.Gregg, Lloyd, newemr.Gregg, Lloyd, newemr.Lloyd Gregg, newemr.Lloyd Gregg, newemr.Lloyd Gregg, newemr.Lloyd Gregg, newemr.Gregg]
+cluster 3[newemr.Xiao, newemr.Xiao, newemr.Xiao]
+cluster 4[newemr.Emily Ippolito]
 
 
 
@@ -759,8 +762,8 @@ cluster 0[newemr.Ostrander, newemr.Ostrander, newemr.OSTRANDER, BILL]
 
 result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 177
 cluster 0[newemr.Ito, newemr.ITO, WENDY, newemr.Verner Ito, newemr.Gilberto Ito, newemr.Ito, newemr.Ito]
-cluster 1[newemr.Iot]
-cluster 2[newemr.George]
+cluster 1[newemr.George]
+cluster 2[newemr.Iot]
 
 
 
@@ -782,7 +785,7 @@ cluster 0[newemr.NANCY K GUSTAFSON, newemr.Gustafson]
 
 
 result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 180
-cluster 0[newemr.Peggy Tinsley, newemr.Peggy Tinsley, newemr.Peggy Tinsley, newemr.Peggy Tinsley, newemr.Peggy Tinsley, newemr.Peggy Tinsley, newemr.Peggy Tinsley, newemr.Tinsley, newemr.Tinsley, newemr.Peggy, newemr.Tinsley, newemr.Tinsley, newemr.TINSLEY,PEGGY R, newemr.TINSLEY,PEGGY R]
+cluster 0[newemr.Peggy Tinsley, newemr.Peggy Tinsley, newemr.Peggy Tinsley, newemr.Peggy Tinsley, newemr.Peggy Tinsley, newemr.Peggy Tinsley, newemr.Peggy Tinsley, newemr.Tinsley, newemr.Tinsley, newemr.Tinsley, newemr.Tinsley, newemr.TINSLEY,PEGGY R, newemr.TINSLEY,PEGGY R, newemr.Peggy]
 
 
 
@@ -797,14 +800,14 @@ cluster 1[newemr.LEVINE,LYDIA, newemr.Lydia Levine, newemr.Levine, newemr.Levine
 
 
 result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 182
-cluster 0[newemr.Daniel Doherty, newemr.Daniel Doherty, newemr.Daniel Doherty, newemr.Doherty, Daniel, newemr.DOHERTY, DANIEL]
+cluster 0[newemr.Doherty, Daniel, newemr.DOHERTY, DANIEL, newemr.Daniel Doherty, newemr.Daniel Doherty, newemr.Daniel Doherty]
 
 
 
 
 
 result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 183
-cluster 0[newemr.Roberta Vincent, newemr.Roberta Vincent, newemr.Roberta Vincent, newemr.Roberta Vincent, newemr.Roberta Vincent, newemr.Roberta Vincent, newemr.VINCENT,ROBERTA J., newemr.VINCENT,ROBERTA J., newemr.VINCENT,ROBERTA J., newemr.Vincent, newemr.Vincent, newemr.Vincent, newemr.Vincent, newemr.Vincent, newemr.Vincent, newemr.Vincent]
+cluster 0[newemr.VINCENT,ROBERTA J., newemr.VINCENT,ROBERTA J., newemr.VINCENT,ROBERTA J., newemr.Roberta Vincent, newemr.Roberta Vincent, newemr.Roberta Vincent, newemr.Roberta Vincent, newemr.Roberta Vincent, newemr.Roberta Vincent, newemr.Vincent, newemr.Vincent, newemr.Vincent, newemr.Vincent, newemr.Vincent, newemr.Vincent, newemr.Vincent]
 
 
 
@@ -833,40 +836,40 @@ cluster 0[newemr.URQUHART, WENDELL Y, newemr.Wendell Urquhart, newemr.URQUHART, 
 
 
 result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 187
-cluster 0[newemr.Craft, Lloyd, newemr.Craft, newemr.Craft, Lloyd, newemr.Craft, Lloyd, newemr.Craft, Lloyd, newemr.Craft, newemr.Craft, Lloyd, newemr.Craft, Lloyd, newemr.Lloyd Craft, newemr.Craft]
-cluster 1[newemr.Lloyd Coleman]
-cluster 2[newemr.Xayarath]
-cluster 3[newemr.Golden]
+cluster 0[newemr.Lloyd Coleman]
+cluster 1[newemr.Craft, Lloyd, newemr.Craft, newemr.Craft, Lloyd, newemr.Craft, Lloyd, newemr.Craft, Lloyd, newemr.Craft, newemr.Craft, Lloyd, newemr.Craft, Lloyd, newemr.Lloyd Craft, newemr.Craft]
+cluster 2[newemr.Golden]
+cluster 3[newemr.Xayarath]
 
 
 
 
 
 
-cluster 0[newemr.Craft, Lloyd, newemr.Craft, newemr.Craft, Lloyd, newemr.Craft, Lloyd, newemr.Craft, Lloyd, newemr.Craft, newemr.Craft, Lloyd, newemr.Craft, Lloyd, newemr.Lloyd Craft, newemr.Craft]
-cluster 1[newemr.Lloyd Coleman]
-cluster 2[newemr.Xayarath]
-cluster 3[newemr.Golden]
+cluster 0[newemr.Lloyd Coleman]
+cluster 1[newemr.Craft, Lloyd, newemr.Craft, newemr.Craft, Lloyd, newemr.Craft, Lloyd, newemr.Craft, Lloyd, newemr.Craft, newemr.Craft, Lloyd, newemr.Craft, Lloyd, newemr.Lloyd Craft, newemr.Craft]
+cluster 2[newemr.Golden]
+cluster 3[newemr.Xayarath]
 
 
 
 
 
 
-cluster 0[newemr.Craft, Lloyd, newemr.Craft, newemr.Craft, Lloyd, newemr.Craft, Lloyd, newemr.Craft, Lloyd, newemr.Craft, newemr.Craft, Lloyd, newemr.Craft, Lloyd, newemr.Lloyd Craft, newemr.Craft]
-cluster 1[newemr.Lloyd Coleman]
-cluster 2[newemr.Xayarath]
-cluster 3[newemr.Golden]
+cluster 0[newemr.Lloyd Coleman]
+cluster 1[newemr.Craft, Lloyd, newemr.Craft, newemr.Craft, Lloyd, newemr.Craft, Lloyd, newemr.Craft, Lloyd, newemr.Craft, newemr.Craft, Lloyd, newemr.Craft, Lloyd, newemr.Lloyd Craft, newemr.Craft]
+cluster 2[newemr.Golden]
+cluster 3[newemr.Xayarath]
 
 
 
 
 
 
-cluster 0[newemr.Craft, Lloyd, newemr.Craft, newemr.Craft, Lloyd, newemr.Craft, Lloyd, newemr.Craft, Lloyd, newemr.Craft, newemr.Craft, Lloyd, newemr.Craft, Lloyd, newemr.Lloyd Craft, newemr.Craft]
-cluster 1[newemr.Lloyd Coleman]
-cluster 2[newemr.Xayarath]
-cluster 3[newemr.Golden]
+cluster 0[newemr.Lloyd Coleman]
+cluster 1[newemr.Craft, Lloyd, newemr.Craft, newemr.Craft, Lloyd, newemr.Craft, Lloyd, newemr.Craft, Lloyd, newemr.Craft, newemr.Craft, Lloyd, newemr.Craft, Lloyd, newemr.Lloyd Craft, newemr.Craft]
+cluster 2[newemr.Golden]
+cluster 3[newemr.Xayarath]
 
 
 
@@ -939,7 +942,7 @@ cluster 0[newemr.Hendrickson, Ora, newemr.Hendrickson, newemr.Hendrickson, Ora]
 
 
 result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 280
-cluster 0[newemr.Irene Zastrow, newemr.Irene Zastrow, newemr.Irene Zastrow, newemr.Zastrow, newemr.Zastrow, newemr.ZASTROW, IRENE, newemr.ZASTROW, IRENE, newemr.ZASTROW, IRENE, newemr.ZASTROW, IRENE]
+cluster 0[newemr.ZASTROW, IRENE, newemr.ZASTROW, IRENE, newemr.ZASTROW, IRENE, newemr.ZASTROW, IRENE, newemr.Zastrow, newemr.Zastrow, newemr.Irene Zastrow, newemr.Irene Zastrow, newemr.Irene Zastrow]
 
 
 
@@ -969,8 +972,8 @@ cluster 0[newemr.HOLCOMB,DENNIS, newemr.HOLCOMB, DENNIS, newemr.HOLCOMB, DENNIS,
 
 result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 284
 cluster 0[newemr.castro, newemr.castro]
-cluster 1[newemr.alaniz]
-cluster 2[newemr.Carpenter]
+cluster 1[newemr.Carpenter]
+cluster 2[newemr.alaniz]
 
 
 
@@ -979,7 +982,7 @@ cluster 2[newemr.Carpenter]
 result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 285
 cluster 0[newemr.Eunice, newemr.Eunice]
 cluster 1[newemr.Michael Ogrady, newemr.Michael Ogrady, newemr.Michael Ogrady, newemr.Michael   Ogrady, newemr.OGRADY, MICHAEL, newemr.OGRADY, MICHAEL, newemr.OGRADY, MICHAEL, newemr.Ogrady, newemr.Ogrady, newemr.Ogrady, newemr.Ogrady, newemr.Ogrady, newemr.Ogrady, newemr.Ogrady]
-cluster 2[newemr.Urbach]
+cluster 4[newemr.Urbach]
 
 
 
@@ -994,8 +997,8 @@ cluster 2[newemr.Rhodes]
 
 
 result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 287
-cluster 0[newemr.Xian, newemr.Xian]
-cluster 1[newemr.Xuereb, newemr.Xuereb, newemr.Xuereb]
+cluster 0[newemr.Xuereb, newemr.Xuereb, newemr.Xuereb]
+cluster 1[newemr.Xian, newemr.Xian]
 
 
 
@@ -1024,15 +1027,15 @@ cluster 0[newemr.EHLERS, ULYSSES, newemr.Ehlers, newemr.Ehlers, newemr.Ulysses E
 
 
 result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 291
-cluster 0[newemr.KEATING,FRANK, newemr.Keating, Frank, newemr.Keating,Frank D, newemr.Keating]
-cluster 2[newemr.Frank Keatering]
+cluster 0[newemr.Frank Keatering]
+cluster 1[newemr.KEATING,FRANK, newemr.Keating, Frank, newemr.Keating,Frank D, newemr.Keating]
 
 
 
 
 
 result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 292
-cluster 0[newemr.Nick Hall, newemr.Nick Hall, newemr.Nick Hall, newemr.HALL, NICK, newemr.HALL, NICK, newemr.HALL, NICK, newemr.Nick, newemr.Nick, newemr.Nick, newemr.Nick, newemr.Nick, newemr.Nick, newemr.Nick, newemr.Nick, newemr.Nick, newemr.Nick, newemr.Hall, newemr.Hall]
+cluster 0[newemr.HALL, NICK, newemr.HALL, NICK, newemr.HALL, NICK, newemr.Nick, newemr.Nick, newemr.Nick, newemr.Nick, newemr.Nick, newemr.Nick, newemr.Nick, newemr.Nick, newemr.Nick, newemr.Nick, newemr.Nick Hall, newemr.Nick Hall, newemr.Nick Hall, newemr.Hall, newemr.Hall]
 
 
 
@@ -1046,8 +1049,8 @@ cluster 0[newemr.QUINLEY,CORA, newemr.Cora Quinley, newemr.QUINLEY, CORA, newemr
 
 
 result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 294
-cluster 0[newemr.Teresa Berry, newemr.Teresa Berry, newemr.Teresa Berry]
-cluster 1[newemr.Ernestine, newemr.Ernestine, newemr.Ernestine]
+cluster 0[newemr.Ernestine, newemr.Ernestine, newemr.Ernestine]
+cluster 1[newemr.Teresa Berry, newemr.Teresa Berry, newemr.Teresa Berry]
 cluster 2[newemr.Shepherd, newemr.Shepherd, newemr.SHEPHERD,AARON W]
 
 
@@ -1111,8 +1114,8 @@ cluster 0[newemr.Christopher Powell, newemr.Powell]
 
 
 result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 226
-cluster 0[newemr.Law,Ellen, newemr.LAW, ELLEN, newemr.LAW, ELLEN, newemr.Law, newemr.Ellen, newemr.Ellen Law, newemr.Ellen Law, newemr.Ellen Law]
-cluster 2[newemr.Friedman, newemr.Friedman, newemr.Friedman]
+cluster 0[newemr.Friedman, newemr.Friedman, newemr.Friedman]
+cluster 1[newemr.Ellen Law, newemr.Ellen Law, newemr.Ellen Law, newemr.Law,Ellen, newemr.LAW, ELLEN, newemr.LAW, ELLEN, newemr.Law, newemr.Ellen]
 
 
 
@@ -1169,7 +1172,8 @@ cluster 0[newemr.Osborne, Mattison, newemr.OSBORNE, MATTISON, newemr.OSBORNE, MA
 
 
 result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 244
-cluster 0[newemr.Francisco, Xue, newemr.French, Xue]
+cluster 0[newemr.Francisco, Xue]
+cluster 1[newemr.French, Xue]
 
 
 
@@ -1183,7 +1187,7 @@ cluster 0[newemr.YEO, AUSTIN, newemr.YEO, AUSTIN, newemr.Yeo, Austin, newemr.Yeo
 
 
 result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 247
-cluster 0[newemr.Michael Isenberg, newemr.Michael Isenberg, newemr.Isenberg, newemr.Isenberg, newemr.Isenberg, newemr.Isenberg, newemr.Isenberg, newemr.Isenberg, newemr.Isenberg, Michael, newemr.Isenberg, Michael, newemr.ISENBERG,MICHAEL]
+cluster 0[newemr.Isenberg, Michael, newemr.Isenberg, Michael, newemr.ISENBERG,MICHAEL, newemr.Michael Isenberg, newemr.Michael Isenberg, newemr.Isenberg, newemr.Isenberg, newemr.Isenberg, newemr.Isenberg, newemr.Isenberg, newemr.Isenberg]
 cluster 2[newemr.Gregory]
 
 
@@ -1279,7 +1283,7 @@ cluster 1[newemr.Yin]
 
 
 result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 270
-cluster 0[newemr.WHITAKER, VINCENT, newemr.Whitaker, Vincent, newemr.WHITAKER, VINCENT, newemr.Whitaker, newemr.Whitaker, newemr.Whitaker, newemr.Whitaker, newemr.Whitaker]
+cluster 0[newemr.Whitaker, newemr.Whitaker, newemr.Whitaker, newemr.Whitaker, newemr.Whitaker, newemr.WHITAKER, VINCENT, newemr.Whitaker, Vincent, newemr.WHITAKER, VINCENT]
 cluster 2[newemr.Nguyen]
 
 
@@ -1294,18 +1298,19 @@ cluster 0[newemr.Jorgenson, Andrew, newemr.Jorgenson, Andrew C.]
 
 
 result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 272
-cluster 0[newemr.Uriah Oliver, newemr.Oliver, Uriah, newemr.Oliver, newemr.Uriah Oliver, newemr.Oreilly, Uriah]
+cluster 0[newemr.Oreilly, Uriah]
+cluster 1[newemr.Uriah Oliver, newemr.Oliver, Uriah, newemr.Oliver, newemr.Uriah Oliver]
 
 
 
 
 
 result patienttttttttttttttttttttttttttttttttttttttttttttttttt: 273
-cluster 0[newemr.Jake, newemr.Jake]
-cluster 1[newemr.Wendee]
-cluster 2[newemr.Xuan, Wendy, newemr.Xuan, Wendy, newemr.Xuan, Wendy, newemr.Xuan, Wendy, newemr.Xuan, Wendy]
-cluster 3[newemr.Ivory]
-cluster 4[newemr.Jack]
+cluster 0[newemr.Xuan, Wendy, newemr.Xuan, Wendy, newemr.Xuan, Wendy, newemr.Xuan, Wendy, newemr.Xuan, Wendy]
+cluster 1[newemr.Jake, newemr.Jake]
+cluster 2[newemr.Jack]
+cluster 3[newemr.Wendee]
+cluster 4[newemr.Ivory]
 
 
 
