@@ -6,7 +6,6 @@ from faker import Faker
 from datetime import datetime
 from calendar import monthrange
 
-
 VOWELS = "aeiou"
 CONSONANTS = "".join(set(string.ascii_lowercase) - set(VOWELS))
 
@@ -19,12 +18,14 @@ class FakerInfo:
                     "%d %b %Y", "%d %B %Y", "%B %d %Y", "%m %Y", "%b %d", "%B %d", "%b %y", "%b %Y", "%B %Y", "%B %y", "%d %B",
                     "%b %d, %Y", "%B %d, %Y", "%A, %B %d, %Y", "%b, %Y", "%A, %B %d", "%B, %Y", "%b, %Y", 
                     "%a", "%A", "%b", "%B", "%m", "%d", "%y", "%Y"]
-    date_decade = ['\'s', '\d+\s*s']
+    date_decade = '\d+\s*\'*s'
     seasons = ['spring', 'summer', 'autumn', 'winter']
     weekday = ["mon", "tue", "wed", "thu", "fri", "sat", "sun"]
     normalize_weekdays = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
     holidays = {"thanksgiving": "15 August", "ramada": "15 May", "easter": "1 April"}
     symbol = ['\'', 'of']
+    ages_word = ['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine']
+    ages_number = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
     day_shift = 3
     date_shift = 3
     month_shift = 3
@@ -43,8 +44,8 @@ class FakerInfo:
     def generate_username(self):
         return self._faker.name()
 
-    def generate_age(self, ages):
-        return self._faker.name()
+    # def generate_age(self, ages):
+    #     return self._faker.name()
 
     def generate_phone(self):
         return self._faker.phone_number()
@@ -92,9 +93,8 @@ class FakerInfo:
 
         date_process = strdate.strip().lower()
         #check date is decade
-        for decade in self.date_decade:
-            if re.match(decade, date_process):
-                return strdate
+        if re.match(self.date_decade, date_process):
+            return strdate
 
         #check date is day:
         week_day = date_process.split()
@@ -165,23 +165,65 @@ class FakerInfo:
         return datetime.strptime(str(f_m) + '/' + str(f_d) + '/' + str(f_y), '%m/%d/%Y').strftime(p), f_y
 
 
+    def generate_age(self, age):
+        if re.match(self.date_decade, age):
+            return age
+        age_process = re.findall(r"[\d]+|[\w]+|[,.]", age)
+        if len(age_process) == 1:
+            try:
+                if int(age) > 10:
+                    return age[0] + str(self.get_random(int(age[1]), 9, 0))
+                else:
+                    return str(self.get_random(int(age), 9, 0))
+            except:
+                return age
+        else:
+            try:
+                if int(age_process[0]) > 10:
+                    age_process[0] = str(int(age_process[0][0] + str(self.get_random(int(age_process[0][1]), 9, 0))))
+                else:
+                    age_process[0] = str(self.get_random(int(age_process[0]), 9))
+            except:
+                age_process[-1] = random.choice(self.ages_word)
+            
+        return " ".join(age_process)
 
+
+    def get_random(self, n, end, start = 1):
+        return random.choice(list(range(start, n)) + list(range(n+1, end)))
 
 if __name__ == "__main__":
+    fake = FakerInfo()
 
-    fake = Faker()
+    print(fake.generate_age('13 month'))
+    print(fake.generate_age('15\'s'))
+    print(fake.generate_age('15      \'s'))
+    print(fake.generate_age('25s'))
+    print(fake.generate_age('13y7.7m'))
+    print(fake.generate_age('6 weeks'))
+    print(fake.generate_age('6weeks'))
+    print(fake.generate_age('6mos'))
+    print(fake.generate_age('6 mos'))
+    print(fake.generate_age('45'))
+    print(fake.generate_age('5'))
+    print(fake.generate_age('twenty four'))
+    print(fake.generate_age('twenty-four'))
+    print(fake.generate_age('twenty'))
+    print(isinstance('45', int))
+
+    # fake = Faker()
 
     # print(fake.name())
     # print(fake.street_address())
     # print(fake.street_name())
     
-    for pattern in FakerInfo.date_patterns:
-        try:
-            print(datetime.strptime('13/2/2132', pattern).date())
-            print(pattern)
-            break
-        except:
-            pass
+    # for pattern in FakerInfo.date_patterns:
+    #     try:
+    #         print(datetime.strptime('13/2/2132', pattern).date())
+    #         print(pattern)
+    #         break
+    #     except:
+    #         pass
     # print(d_obj.year)
 
     # n = '2013'
