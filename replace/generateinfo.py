@@ -14,9 +14,9 @@ CONSONANTS = "".join(set(string.ascii_lowercase) - set(VOWELS))
 class FakerInfo:
 
     date_patterns = ["%m-%d-%y", "%Y-%m-%d", "%d-%b-%y", "%d-%b-%Y", "%m-%d", "%m-%y", "%b-%Y",
-                    "%m/%d/%y", "%m/%d/%Y", "%Y/%m/%d", "%m/%d", "%m/%y", "%m/%Y",
-                    "%m.%d.%y", "%b. %y", "%b. %Y",
-                    "%d %b %Y", "%m %Y", "%b %d", "%B %d", "%b %y", "%b %Y", "%B %Y", "%B %y",
+                    "%m/%d/%y", "%m/%d/%Y", "%d/%m/%Y", "%Y/%m/%d", "%m/%d", "%m/%y", "%m/%Y",
+                    "%m.%d.%y", "%d.%m.%y", "%b. %d", "%B. %d", "%b. %y", "%b. %Y", "%B. %y", "%B. %Y",
+                    "%d %b %Y", "%d %B %Y", "%B %d %Y", "%m %Y", "%b %d", "%B %d", "%b %y", "%b %Y", "%B %Y", "%B %y", "%d %B",
                     "%b %d, %Y", "%B %d, %Y", "%A, %B %d, %Y", "%b, %Y", "%A, %B %d", "%B, %Y", "%b, %Y", 
                     "%a", "%A", "%b", "%B", "%m", "%d", "%y", "%Y"]
     date_decade = ['\'s', '\d+\s*s']
@@ -113,16 +113,29 @@ class FakerInfo:
         for index, season in enumerate(self.seasons):
             for idx, word in enumerate(season_year):
                 if word == season:
-                    word = self.seasons[idx + self.season_shif - len(self.seasons)] if idx + self.season_shif >= len(self.seasons) else self.seasons[idx + self.season_shif]
+                    season_year[idx] = self.seasons[idx + self.season_shif - len(self.seasons)] if idx + self.season_shif >= len(self.seasons) else self.seasons[idx + self.season_shif]
                     season_year[-1] = str(int(season_year[-1]) + self.year_shift)
                     return " ".join(season_year)
 
 
 
         d_obj = None
-        if date_process in self.holidays:
-            reg_date = self.holidays[date_process]
 
+        #check holidays and year
+        h_flag = False
+        index_flag = 0
+        holiday_year = re.findall(r"[\w']+|[.,!?;\/+]", date_process)
+        for index, word in enumerate(holiday_year):
+            if word in self.holidays:
+                h_flag = True
+                break
+
+        #convert holiday to a specific day
+        if h_flag == True:
+            holiday_year[index] =  self.holidays[word]
+            reg_date = " ".join(holiday_year)
+        
+        #remove special symbols in date string 
         else:
             for sym in self.symbol:
                 date_process = date_process.replace(sym, "")
@@ -145,7 +158,7 @@ class FakerInfo:
         min_day, max_day = monthrange(f_y, f_m)
         if (d_obj.day + self.day_shift) > max_day:
             f_d = d_obj.day + self.day_shift - max_day
-            f_m += 1
+            f_m = f_m + 1 - 12 if (f_m + 1) > 12 else f_m + 1
         else:
             f_d = d_obj.day + self.day_shift
 
@@ -162,11 +175,14 @@ if __name__ == "__main__":
     # print(fake.street_address())
     # print(fake.street_name())
     
-    # for pattern in FakerInfo.date_patterns:
-    #     try:
-            # print(datetime.strptime('29-03-78', pattern).date())
-    d_obj = datetime.strptime('September 14, 2109', "%B %d, %Y").date()
-    print(d_obj.year)
+    for pattern in FakerInfo.date_patterns:
+        try:
+            print(datetime.strptime('13/2/2132', pattern).date())
+            print(pattern)
+            break
+        except:
+            pass
+    # print(d_obj.year)
 
     # n = '2013'
     # print(n[2:])
