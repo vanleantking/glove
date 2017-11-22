@@ -14,7 +14,7 @@ CONSONANTS = "".join(set(string.ascii_lowercase) - set(VOWELS))
 class FakerInfo:
 
     date_patterns = ["%m-%d-%y", "%Y-%m-%d", "%d-%b-%y", "%d-%b-%Y", "%m-%d", "%m-%y", "%b-%Y",
-                    "%m/%d/%y", "%m/%d/%Y", "%Y/%m/%d", "%m/%d", "%m/%y",
+                    "%m/%d/%y", "%m/%d/%Y", "%Y/%m/%d", "%m/%d", "%m/%y", "%m/%Y",
                     "%m.%d.%y", "%b. %y", "%b. %Y",
                     "%d %b %Y", "%m %Y", "%b %d", "%B %d", "%b %y", "%b %Y", "%B %Y", "%B %y",
                     "%b %d, %Y", "%B %d, %Y", "%A, %B %d, %Y", "%b, %Y", "%A, %B %d", "%B, %Y", "%b, %Y", 
@@ -22,6 +22,7 @@ class FakerInfo:
     date_decade = ['\'s', '\d+\s*s']
     seasons = ['spring', 'summer', 'autumn', 'winter']
     weekday = ["mon", "tue", "wed", "thu", "fri", "sat", "sun"]
+    normalize_weekdays = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
     holidays = {"thanksgiving": "15 August", "ramada": "15 May", "easter": "1 April"}
     symbol = ['\'', 'of']
     day_shift = 3
@@ -100,19 +101,19 @@ class FakerInfo:
         if len(week_day) == 1:
             for index, day in enumerate(self.weekday):
                 if re.match(day, date_process):
-                    return self.weekday[index + self.day_shift - len(self.weekday)] if index + self.day_shift > len(self.weekday) else self.weekday[index + self.day_shift]
+                    return self.normalize_weekdays[index + self.day_shift - len(self.weekday)] if index + self.day_shift >= len(self.weekday) else self.weekday[index + self.day_shift]
 
         #check for season only
         for index, season in enumerate(self.seasons):
             if season == date_process:
-                return self.seasons[index + self.season_shif - len(self.seasons)] if index + self.season_shif > len(self.seasons) else self.seasons[index + self.season_shif]
+                return self.seasons[index + self.season_shif - len(self.seasons)] if index + self.season_shif >= len(self.seasons) else self.seasons[index + self.season_shif]
 
         #check for season and year:
         season_year = re.findall(r"[\w']+|[.,!?;\/+]", date_process)
         for index, season in enumerate(self.seasons):
             for idx, word in enumerate(season_year):
                 if word == season:
-                    word = self.seasons[idx + self.season_shif - len(self.seasons)] if idx + self.season_shif > len(self.seasons) else self.seasons[idx + self.season_shif]
+                    word = self.seasons[idx + self.season_shif - len(self.seasons)] if idx + self.season_shif >= len(self.seasons) else self.seasons[idx + self.season_shif]
                     season_year[-1] = str(int(season_year[-1]) + self.year_shift)
                     return " ".join(season_year)
 
@@ -142,7 +143,11 @@ class FakerInfo:
         f_y = int('20' + str(d_obj.year + self.year_shift)[2:]) + 100 if (d_obj.year - 2000) >= 100 else 2000 + int(str(d_obj.year)[2:]) + self.year_shift
         
         min_day, max_day = monthrange(f_y, f_m)
-        f_d = d_obj.day + self.day_shift - max_day if (d_obj.day + self.day_shift) > max_day else d_obj.day + self.day_shift
+        if (d_obj.day + self.day_shift) > max_day:
+            f_d = d_obj.day + self.day_shift - max_day
+            f_m += 1
+        else:
+            f_d = d_obj.day + self.day_shift
 
         return datetime.strptime(str(f_m) + '/' + str(f_d) + '/' + str(f_y), '%m/%d/%Y').strftime(p), f_y
 
