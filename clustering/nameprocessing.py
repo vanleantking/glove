@@ -129,18 +129,13 @@ class PostProcessing:
             results[i].extend(result[i])
         return results, lenrsl
 
-#post clustering for docstor name
+#post clustering for doctors and patients name
 class PostNameClusterProcessing(PostProcessing):
 
     def mergecluster(self, cluster1, cluster2):
         return any(self.check_equal(element1.hasName[0], element2.hasName[0]) for element1 in cluster1 for element2 in cluster2)
 
-    # def splitcluster(self, clusters):
-    #     lenrsl = len(clusters)
-    #     results = {i: [] for i in range(lenrsl)}
-    #     for i in range(lenrsl):
-    #         results[i].extend(clusters[i+1])
-    #     return results, lenrsl
+
 
 #post clustering for professions
 class PostProfessionClusterProcessing(PostProcessing):

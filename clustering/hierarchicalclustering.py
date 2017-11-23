@@ -21,6 +21,7 @@ sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 from corpus.tf_glove import GloVeModel
 from corpus.read_data_tf import load_corpus, learning_phrase
 from clustering import Clustering
+from replace.generateinfo import FakerInfo
 from owlready2 import *
 
 
@@ -89,7 +90,7 @@ class HierachicalClustering(Clustering):
 
 
 
-def constructioncluster(hc, patientsmaxlength, doctorsmaxlength, professionsmaxlength, citysmaxlength, statesmaxlength, streetsmaxlength, countrysmaxlength, hospitalsmaxlength, organizationsmaxlength, usernamesmaxlength, is_abbrv = False):
+def constructioncluster(hc, onto, patientsmaxlength, doctorsmaxlength, professionsmaxlength, citysmaxlength, statesmaxlength, streetsmaxlength, countrysmaxlength, hospitalsmaxlength, organizationsmaxlength, usernamesmaxlength, is_abbrv = False):
     patientslogclustering = open(patientclusterpath,"w")
     docslogclustering = open(doctorclusterpath,"w")
     professionlogclustering = open(professionclusterpath,"w")
@@ -101,22 +102,10 @@ def constructioncluster(hc, patientsmaxlength, doctorsmaxlength, professionsmaxl
     organizationlogclustering = open(organizationclusterpath,"w")
     usernamelogclustering = open(usernameclusterpath,"w")
 
-    professions = []
-    professionIndex = []
-    cities = []
-    cityIndex = []
-    stateIndex = []
-    states = []
-    countries = []
-    countryIndex = []
-    streetIndex = []
-    streets = []
-    organizationIndex = []
-    organizations = []
-    usernames = []
-    usernameIndex = []
     is_abbrv = False
+    faker = FakerInfo()
     for patientRecords in onto.PatientRecord.instances():
+
         #data per patient
         patients = []
         patientIndex = []
@@ -124,6 +113,20 @@ def constructioncluster(hc, patientsmaxlength, doctorsmaxlength, professionsmaxl
         doctorIndex = []       
         hospitalIndex = []
         hospitals = []
+        professions = []
+        professionIndex = []
+        cities = []
+        cityIndex = []
+        stateIndex = []
+        states = []
+        countries = []
+        countryIndex = []
+        streetIndex = []
+        streets = []
+        organizationIndex = []
+        organizations = []
+        usernames = []
+        usernameIndex = []
         
         if len(patientRecords.have_collect_patients) > 1:
             patientRecord = [hc.getword2vectabb(patient.hasName[0], patientsmaxlength, is_abbrv) for patient in patientRecords.have_collect_patients if np.isnan(hc.get_model().embeded_phrases(patient.hasName[0])).any() == False]
@@ -185,28 +188,60 @@ def constructioncluster(hc, patientsmaxlength, doctorsmaxlength, professionsmaxl
                 usernameIndex.extend([{"name": username, "value": hc.getword2vectabb(username.hasName[0], usernamesmaxlength, is_abbrv)} for username in medicalRecord.has_username if np.isnan(hc.get_model().embeded_phrases(username.hasName[0])).any() == False])
                 usernames.extend(usernameRecord)
 
-        docscluster, clusters_number = hc.hierarchical(doctors, doctorIndex, 0.6)
 
+        ###DOCTORS###
+        # docscluster, clusters_number = hc.hierarchical(doctors, doctorIndex, 0.45)
         
         #post processing for doctors
         docslogclustering.write("result patienttttttttttttttttttttttttttttttttttttttttttttttttt: " + str(patientRecords.hasRecordName[0]))
-        pncp = PostNameClusterProcessing()
-        docscluster = hc.postclustering(docscluster, clusters_number, pncp)
-        hc.logdocsfile(docslogclustering, docscluster)
+
+        if len(doctors) > 1:
+            docscluster, clusters_number = hc.hierarchical(doctors, doctorIndex, 0.35)
+            pncp = PostNameClusterProcessing()
+            docscluster = hc.postclustering(docscluster, clusters_number, pncp)
+        elif len(doctors) == 1:
+            docscluster = {1: []}
+            docscluster[1].append(doctorIndex[0]['name'])
+        
+        #generate fake infor for doctor phi instances
+        if len(doctors) > 0:
+            for cluster, docsinstances in docscluster.items():
+                fake_doctor = faker.generate_name()
+                for doc in docsinstances:
+                    doc.hasCloneInfo.append(fake_doctor)
+
+            hc.logdocsfile(docslogclustering, docscluster)
 
 
-        #post procressing for patients
+
+
+
+        ###PATIENTS###
+
+        # post procressing for patients
+        patientslogclustering.write("result patienttttttttttttttttttttttttttttttttttttttttttttttttt: " + str(patientRecords.hasRecordName[0]))
         if len(patients) > 1:
-            patientscluster, clusters_patient_number = hc.hierarchical(patients, patientIndex, 0.55)
-            patientslogclustering.write("result patienttttttttttttttttttttttttttttttttttttttttttttttttt: " + str(patientRecords.hasRecordName[0]))
+            patientscluster, clusters_patient_number = hc.hierarchical(patients, patientIndex, 0.35)
             pnpcp = PostNameClusterProcessing()
             patientscluster = hc.postclustering(patientscluster, clusters_patient_number, pnpcp)
         elif len(patients) == 1:
             patientscluster = {1: []}
             patientscluster[1].append(patientIndex[0]['name'])
-        hc.logdocsfile(patientslogclustering, patientscluster)
 
+
+        #generate fake infor for patient phi instances
+        if len(patients) > 0:
+            for cluster, patientsinstances in patientscluster.items():
+                fake_patient = faker.generate_name()
+                for patientinstance in patientsinstances:
+                    patientinstance.hasCloneInfo.append(fake_patient)
+            hc.logdocsfile(patientslogclustering, patientscluster)
+
+
+
+        ###HOSPITALS###
         #post procressing for hospital
+        hospitallogclustering.write("result patienttttttttttttttttttttttttttttttttttttttttttttttttt: " + str(patientRecords.hasRecordName[0]))
         if len(hospitals) > 1:
             hospitalscluster, clusters_hospital_number = hc.hierarchical(hospitals, hospitalIndex, 0.5)
             phcp = PostHospitalClusterProcessing()
@@ -214,27 +249,177 @@ def constructioncluster(hc, patientsmaxlength, doctorsmaxlength, professionsmaxl
         elif len(hospitals) == 1:
             hospitalscluster = {1 : []}
             hospitalscluster[1].append(hospitalIndex[0]['name'])
-        hc.logdocsfile(hospitallogclustering, hospitalscluster)
 
-    professionscluster, clusters_profession_number = hc.hierarchical(professions, professionIndex, 0.15)
-    citiescluster, clusters_city_number = hc.hierarchical(cities, cityIndex, 0.15)
-    statescluster, clusters_state_number = hc.hierarchical(states, stateIndex, 0.15)
-    countriescluster, clusters_country_number = hc.hierarchical(countries, countryIndex, 0.15)
-    streetscluster, clusters_street_number = hc.hierarchical(streets, streetIndex, 0.15)
-    organizationscluster, clusters_organization_number = hc.hierarchical(organizations, organizationIndex, 0.15)
-    usernamescluster, clusters_username_number = hc.hierarchical(usernames, usernameIndex, 0.15)
+        #generate fake infor for hospital phi instances
+        if len(hospitals) > 0:
+            for cluster, hospitalsinstances in hospitalscluster.items():
+                fake_hospital = faker.generate_hospital()
+                for hospitalinstance in hospitalsinstances:
+                    hospitalinstance.hasCloneInfo.append(fake_hospital)
+            hc.logdocsfile(hospitallogclustering, hospitalscluster)
+
+
+
+        ###PROFESSIONS###
+        #post procressing for profession
+        professionlogclustering.write("result patienttttttttttttttttttttttttttttttttttttttttttttttttt: " + str(patientRecords.hasRecordName[0]))
+        if len(professions) > 1:
+            professionscluster, clusters_profession_number = hc.hierarchical(professions, professionIndex, 0.5)
+        elif len(professions) == 1:
+            professionscluster = {1 : []}
+            professionscluster[1].append(professionIndex[0]['name'])
+
+
+        if len(professions) > 0:
+            #generate fake infor for profession phi instances
+            for cluster, professionsinstances in professionscluster.items():
+                fake_profession = faker.generate_profession()
+                for professioninstance in professionsinstances:
+                    professioninstance.hasCloneInfo.append(fake_profession)
+            hc.logdocsfile(professionlogclustering, professionscluster)
+
+
+
+        
+        ###CITIES###
+        #post procressing for city
+        citylogclustering.write("result patienttttttttttttttttttttttttttttttttttttttttttttttttt: " + str(patientRecords.hasRecordName[0]))
+        if len(cities) > 1:
+            citiescluster, clusters_city_number = hc.hierarchical(cities, cityIndex, 0.5)
+        elif len(cities) == 1:
+            citiescluster = {1 : []}
+            citiescluster[1].append(cityIndex[0]['name'])
+
+        #generate fake infor for city phi instances
+        if len(cities) > 0:
+            for cluster, citiesinstances in citiescluster.items():
+                fake_city = faker.generate_city()
+                for cityinstance in citiesinstances:
+                    cityinstance.hasCloneInfo.append(fake_city)
+            hc.logdocsfile(citylogclustering, citiescluster)
+
+
+
+
+        ###STATES###
+        #post procressing for state
+        statelogclustering.write("result patienttttttttttttttttttttttttttttttttttttttttttttttttt: " + str(patientRecords.hasRecordName[0]))
+        if len(states) > 1:
+            statescluster, clusters_state_number = hc.hierarchical(states, stateIndex, 0.5)
+        elif len(states) == 1:
+            statescluster = {1 : []}
+            statescluster[1].append(stateIndex[0]['name'])
+
+        #generate fake infor for state phi instances
+        if len(states) > 0:
+            for cluster, statesinstances in statescluster.items():
+                fake_state = faker.generate_state()
+                for stateinstance in statesinstances:
+                    stateinstance.hasCloneInfo.append(fake_state)
+            hc.logdocsfile(statelogclustering, statescluster)
+
+
+
+
+        ###COUNTRIES###
+        #post procressing for country instance
+        countrylogclustering.write("result patienttttttttttttttttttttttttttttttttttttttttttttttttt: " + str(patientRecords.hasRecordName[0]))
+        if len(countries) > 1:
+            countriescluster, clusters_country_number = hc.hierarchical(countries, countryIndex, 0.5)
+        elif len(countries) == 1:
+            countriescluster = {1 : []}
+            countriescluster[1].append(countryIndex[0]['name'])
+
+        #generate fake infor for country phi instances
+        if len(countries) > 0:
+            for cluster, countriesinstances in countriescluster.items():
+                fake_country = faker.generate_country()
+                for countryinstance in countriesinstances:
+                    countryinstance.hasCloneInfo.append(fake_country)
+            hc.logdocsfile(countrylogclustering, countriescluster)
+
+
+
+
+        ###STREETS###
+        #post procressing for street instance
+        streetlogclustering.write("result patienttttttttttttttttttttttttttttttttttttttttttttttttt: " + str(patientRecords.hasRecordName[0]))
+        if len(streets) > 1:
+            streetscluster, clusters_street_number = hc.hierarchical(streets, streetIndex, 0.5)
+        elif len(streets) == 1:
+            streetscluster = {1 : []}
+            streetscluster[1].append(streetIndex[0]['name'])
+
+        #generate fake infor for street phi instances
+        fake_streets = []
+        if len(streets) > 0:
+            for cluster, streetsinstances in streetscluster.items():
+                fake_streets = faker.generate_street(streetsinstances)
+                print("origin: ", len(streetsinstances), streetsinstances)
+                print("faker: ", len(fake_streets), fake_streets)
+                for i in range(len(streetsinstances)):
+                    streetsinstances[i].hasCloneInfo.append(fake_streets[i])
+            hc.logdocsfile(streetlogclustering, streetscluster)
+        # break
+
+
+
+
+
+        ###ORGANIZATIONS###
+        #post procressing for organization instance
+        organizationlogclustering.write("result patienttttttttttttttttttttttttttttttttttttttttttttttttt: " + str(patientRecords.hasRecordName[0]))
+        if len(organizations) > 1:
+            organizationscluster, clusters_organization_number = hc.hierarchical(organizations, organizationIndex, 0.5)
+        elif len(organizations) == 1:
+            organizationscluster = {1 : []}
+            organizationscluster[1].append(organizationIndex[0]['name'])
+
+        #generate fake infor for organization phi instances
+        if len(organizations) > 0:
+            for cluster, organizationsinstances in organizationscluster.items():
+                fake_organization = faker.generate_company()
+                for organizationinstance in organizationsinstances:
+                    organizationinstance.hasCloneInfo.append(fake_organization)
+            hc.logdocsfile(organizationlogclustering, organizationscluster)
+
+
+
+
+
+        ###USERNAMES###
+        #post procressing for username instance
+        usernamelogclustering.write("result patienttttttttttttttttttttttttttttttttttttttttttttttttt: " + str(patientRecords.hasRecordName[0]))
+        if len(usernames) > 1:
+            usernamescluster, clusters_username_number = hc.hierarchical(usernames, usernameIndex, 0.5)
+        elif len(usernames) == 1:
+            usernamescluster = {1 : []}
+            usernamescluster[1].append(usernameIndex[0]['name'])
+
+        #generate fake infor for username phi instances
+        if len(usernames) > 0:
+            for cluster, usernamesinstances in usernamescluster.items():
+                fake_username = faker.generate_username()
+                for usernameinstance in usernamesinstances:
+                    usernameinstance.hasCloneInfo.append(fake_username)
+            hc.logdocsfile(usernamelogclustering, usernamescluster) 
     
-    #post processing for profession
     
-    hc.logfile(professionlogclustering, professionscluster)
-    hc.logfile(citylogclustering, citiescluster)
-    hc.logfile(statelogclustering, statescluster)
-    hc.logfile(countrylogclustering, countriescluster)
-    hc.logfile(streetlogclustering, streetscluster)
-    hc.logfile(organizationlogclustering, organizationscluster)
-    hc.logfile(usernamelogclustering, usernamescluster)
+    
+    
+    
+    
     docslogclustering.close()
     hospitallogclustering.close()
+    patientslogclustering.close()
+    professionlogclustering.close()
+    citylogclustering.close()
+    statelogclustering.close()
+    streetlogclustering.close()
+    countrylogclustering.close()
+    organizationlogclustering.close()
+    usernamelogclustering.close()
+    onto.save(file="newemr.owl", format = "rdfxml")
     
 
     print('log cluster success')
@@ -244,16 +429,30 @@ if __name__ == '__main__':
     onto = get_ontology("file:///media/vanle/Studying/python/readOntology/newemr.owl").load()
     # print(onto.Doctor)
 
+    datesName = [date.name for date in onto.Date.instances()]
     patientsName = [patient.name for patientRecords in onto.PatientRecord.instances() for patient in patientRecords.have_collect_patients]
     doctorsName = [doctor.name for doctor in onto.Doctor.instances()]
-    professionsName = [profession.name for profession in onto.Profession.instances()]
+    usernamesName = [username.name for username in onto.Username.instances()]
+    agesName = [age.name for age in onto.Age.instances()]
+    phonesName = [phone.name for phone in onto.Phone.instances()]
+    faxsName = [fax.name for fax in onto.Fax.instances()]
+    emailsName = [email.name for email in onto.Email.instances()]
+    urlsName = [url.name for url in onto.URL.instances()]
+    medicalRecordsName = [medicalRecord.hasMedicalRecordID[0] for medicalRecord in onto.MedicalRecord.instances() if len(medicalRecord.hasMedicalRecordID) > 0]
+    IDNumsName = [idNum.name for idNum in onto.IDNum.instances()]
+    devicesName = [device.name for device in onto.Device.instances()]
+    bioIDsName = [bioID.name for bioID in onto.BioID.instances()]
+    healthPlansName = [healthPlan.name for healthPlan in onto.HealthPlan.instances()]
+    hospitalsName = [hospital.name for hospital in onto.Hospital.instances()]
     citysName = [city.name for city in onto.City.instances()]
     statesName = [state.name for state in onto.State.instances()]
     streetsName = [street.name for street in onto.Street.instances()]
-    countrysName = [country.name for country in onto.Country.instances()]
-    hospitalsName = [hospital.name for hospital in onto.Hospital.instances()]
+    zipsName = [zips.name for zips in onto.Zip.instances()]
     organizationsName = [organization.name for organization in onto.Organization.instances()]
-    usernamesName = [username.name for username in onto.Username.instances()]
+    countrysName = [country.name for country in onto.Country.instances()]
+    locationOthersName = [locationOther.name for locationOther in onto.LocationOther.instances()]
+    professionsName = [profession.name for profession in onto.Profession.instances()]
+
 
     hc = HierachicalClustering()
     # hc = HierachicalClustering()
@@ -272,7 +471,7 @@ if __name__ == '__main__':
     usernamesmaxlength = hc.getmaxlengthabb(usernamesName, is_username = True)
 
 
-    constructioncluster(hc, patientsmaxlength, doctorsmaxlength, professionsmaxlength, citysmaxlength, statesmaxlength, streetsmaxlength, countrysmaxlength, hospitalsmaxlength, organizationsmaxlength, usernamesmaxlength, is_abbrv=True)
+    constructioncluster(hc, onto, patientsmaxlength, doctorsmaxlength, professionsmaxlength, citysmaxlength, statesmaxlength, streetsmaxlength, countrysmaxlength, hospitalsmaxlength, organizationsmaxlength, usernamesmaxlength, is_abbrv=True)
 
     # devices = []
     # dates = []

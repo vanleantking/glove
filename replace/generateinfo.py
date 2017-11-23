@@ -41,11 +41,8 @@ class FakerInfo:
     def generate_name(self):
         return self._faker.name()
 
-    def generate_username(self):
-        return self._faker.name()
-
-    # def generate_age(self, ages):
-    #     return self._faker.name()
+    def generate_username(self, size=6, chars=string.ascii_uppercase + string.digits):
+        return ''.join(random.SystemRandom().choice(chars) for _ in range(size))
 
     def generate_phone(self):
         return self._faker.phone_number()
@@ -63,7 +60,7 @@ class FakerInfo:
         return self._faker.name()
 
     def generate_hospital(self):
-        return self._faker.name()
+        return self._faker.company()
 
     def generate_city(self):
         return self._faker.city()
@@ -72,8 +69,15 @@ class FakerInfo:
         return self._faker.state()
 
     def generate_street(self, streets):
+        street_number = []
         faker_street = self._faker.street_name()
-        street_number = [number for street in streets for number in re.split(r'(\d+)', street.name) if number]
+        for street in streets:
+            tmp = re.findall(r'(\d+)', street.name)
+            if len(tmp) > 0:
+                for number in tmp:
+                    street_number.append(number)
+            else:
+                street_number.append("")
         return [number + ' ' + faker_street for number in street_number]
 
 
