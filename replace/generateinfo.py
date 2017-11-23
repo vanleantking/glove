@@ -31,6 +31,8 @@ class FakerInfo:
     month_shift = 3
     year_shift = 5
     season_shif = 1
+    health_plan = ['Medicare Cost Plans', 'Demonstrations/Pilot Programs', "Programs of All-inclusive Care for the Elderly (PACE)", 
+            "Medication Therapy Management (MTM) programs for complex health needs"]
 
     def __init__(self):
         self._faker = Faker()
@@ -48,16 +50,28 @@ class FakerInfo:
         return self._faker.phone_number()
 
     def generate_fax(self):
-        return self._faker.name()
+        piece1 = self.generate_username(3, chars = string.digits)
+        piece2 = self.generate_username(3, chars = string.digits)
+        piece3 = self.generate_username(4, chars = string.digits)
+        return piece1 + '-' + piece2 + '-' + piece3
 
     def generate_email(self):
-        return self._faker.name()
+        return self._faker.ascii_company_email()
 
     def generate_URL(self):
-        return self._faker.name()
+        return self._faker.url()
 
-    def generate_ID(self):
-        return self._faker.name()
+    def generate_IDNum(self):
+        return self._faker.isbn10(separator="-")
+
+    def generate_BioID(self):
+        return self.generate_username(size = 7)
+
+    def generate_device(self):
+        return self._faker.isbn10(separator="-")
+
+    def generate_medicalrecord(self):
+        return self._faker.isbn13(separator="-")
 
     def generate_hospital(self):
         return self._faker.company()
@@ -166,7 +180,7 @@ class FakerInfo:
         else:
             f_d = d_obj.day + self.day_shift
 
-        return datetime.strptime(str(f_m) + '/' + str(f_d) + '/' + str(f_y), '%m/%d/%Y').strftime(p), f_y
+        return datetime.strptime(str(f_m) + '/' + str(f_d) + '/' + str(f_y), '%m/%d/%Y').strftime(p)
 
 
     def generate_age(self, age):
@@ -193,27 +207,32 @@ class FakerInfo:
         return " ".join(age_process)
 
 
+    def generate_healthplan(self):
+        return random.choice(self.health_plan)
+
     def get_random(self, n, end, start = 1):
         return random.choice(list(range(start, n)) + list(range(n+1, end)))
 
 if __name__ == "__main__":
     fake = FakerInfo()
 
-    print(fake.generate_age('13 month'))
-    print(fake.generate_age('15\'s'))
-    print(fake.generate_age('15      \'s'))
-    print(fake.generate_age('25s'))
-    print(fake.generate_age('13y7.7m'))
-    print(fake.generate_age('6 weeks'))
-    print(fake.generate_age('6weeks'))
-    print(fake.generate_age('6mos'))
-    print(fake.generate_age('6 mos'))
-    print(fake.generate_age('45'))
-    print(fake.generate_age('5'))
-    print(fake.generate_age('twenty four'))
-    print(fake.generate_age('twenty-four'))
-    print(fake.generate_age('twenty'))
-    print(isinstance('45', int))
+    print(fake.generate_email())
+
+    # print(fake.generate_age('13 month'))
+    # print(fake.generate_age('15\'s'))
+    # print(fake.generate_age('15      \'s'))
+    # print(fake.generate_age('25s'))
+    # print(fake.generate_age('13y7.7m'))
+    # print(fake.generate_age('6 weeks'))
+    # print(fake.generate_age('6weeks'))
+    # print(fake.generate_age('6mos'))
+    # print(fake.generate_age('6 mos'))
+    # print(fake.generate_age('45'))
+    # print(fake.generate_age('5'))
+    # print(fake.generate_age('twenty four'))
+    # print(fake.generate_age('twenty-four'))
+    # print(fake.generate_age('twenty'))
+    # print(isinstance('45', int))
 
     # fake = Faker()
 

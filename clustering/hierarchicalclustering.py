@@ -103,7 +103,6 @@ def constructioncluster(hc, onto, patientsmaxlength, doctorsmaxlength, professio
     usernamelogclustering = open(usernameclusterpath,"w")
 
     is_abbrv = False
-    faker = FakerInfo()
     for patientRecords in onto.PatientRecord.instances():
 
         #data per patient
@@ -355,8 +354,6 @@ def constructioncluster(hc, onto, patientsmaxlength, doctorsmaxlength, professio
         if len(streets) > 0:
             for cluster, streetsinstances in streetscluster.items():
                 fake_streets = faker.generate_street(streetsinstances)
-                print("origin: ", len(streetsinstances), streetsinstances)
-                print("faker: ", len(fake_streets), fake_streets)
                 for i in range(len(streetsinstances)):
                     streetsinstances[i].hasCloneInfo.append(fake_streets[i])
             hc.logdocsfile(streetlogclustering, streetscluster)
@@ -419,7 +416,6 @@ def constructioncluster(hc, onto, patientsmaxlength, doctorsmaxlength, professio
     countrylogclustering.close()
     organizationlogclustering.close()
     usernamelogclustering.close()
-    onto.save(file="newemr.owl", format = "rdfxml")
     
 
     print('log cluster success')
@@ -427,22 +423,22 @@ def constructioncluster(hc, onto, patientsmaxlength, doctorsmaxlength, professio
 if __name__ == '__main__':
     
     onto = get_ontology("file:///media/vanle/Studying/python/readOntology/newemr.owl").load()
-    # print(onto.Doctor)
+    faker = FakerInfo()
 
-    datesName = [date.name for date in onto.Date.instances()]
+    datesName = [date for date in onto.Date.instances()]
+    agesName = [age for age in onto.Age.instances()]
+    phonesName = [phone for phone in onto.Phone.instances()]
+    faxsName = [fax for fax in onto.Fax.instances()]
+    emailsName = [email for email in onto.Email.instances()]
+    urlsName = [url for url in onto.URL.instances()]
+    medicalRecordsName = [medicalRecord for medicalRecord in onto.MedicalRecord.instances() if len(medicalRecord.hasMedicalRecordID) > 0]
+    IDNumsName = [idNum for idNum in onto.IDNum.instances()]
+    devicesName = [device for device in onto.Device.instances()]
+    bioIDsName = [bioID for bioID in onto.BioID.instances()]
+    healthPlansName = [healthPlan for healthPlan in onto.HealthPlan.instances()]
     patientsName = [patient.name for patientRecords in onto.PatientRecord.instances() for patient in patientRecords.have_collect_patients]
     doctorsName = [doctor.name for doctor in onto.Doctor.instances()]
     usernamesName = [username.name for username in onto.Username.instances()]
-    agesName = [age.name for age in onto.Age.instances()]
-    phonesName = [phone.name for phone in onto.Phone.instances()]
-    faxsName = [fax.name for fax in onto.Fax.instances()]
-    emailsName = [email.name for email in onto.Email.instances()]
-    urlsName = [url.name for url in onto.URL.instances()]
-    medicalRecordsName = [medicalRecord.hasMedicalRecordID[0] for medicalRecord in onto.MedicalRecord.instances() if len(medicalRecord.hasMedicalRecordID) > 0]
-    IDNumsName = [idNum.name for idNum in onto.IDNum.instances()]
-    devicesName = [device.name for device in onto.Device.instances()]
-    bioIDsName = [bioID.name for bioID in onto.BioID.instances()]
-    healthPlansName = [healthPlan.name for healthPlan in onto.HealthPlan.instances()]
     hospitalsName = [hospital.name for hospital in onto.Hospital.instances()]
     citysName = [city.name for city in onto.City.instances()]
     statesName = [state.name for state in onto.State.instances()]
@@ -453,11 +449,171 @@ if __name__ == '__main__':
     locationOthersName = [locationOther.name for locationOther in onto.LocationOther.instances()]
     professionsName = [profession.name for profession in onto.Profession.instances()]
 
+    
+
+    # save fake infor for date
+    for date in datesName:
+        fk_date = faker.generate_date(date.name)
+        print(fk_date)
+        date.hasCloneInfo.append(fk_date)
+
+
+    # save fake infor for date
+    dictAges = dict.fromkeys(agesName)
+    for k in dictAges.keys():
+        dictAges[k] = []    
+
+    for age in agesName:
+        dictAges[age].append(age)
+
+    for k, ages in dictAges.items():
+        fk_age = faker.generate_age(k.name)
+        for age in ages:
+            age.hasCloneInfo.append(fk_age)
+
+
+
+    # save fake infor for phone
+    dictPhones = dict.fromkeys(phonesName)
+    for k in dictPhones.keys():
+        dictPhones[k] = []    
+
+    for phone in phonesName:
+        dictPhones[phone].append(phone)
+
+    for k, phones in dictPhones.items():
+        fk_phone = faker.generate_phone()
+        for phone in phones:
+            phone.hasCloneInfo.append(fk_phone)
+
+
+    #save fake infor for phone
+    dictFaxs = dict.fromkeys(faxsName)
+    for k in dictFaxs.keys():
+        dictFaxs[k] = []    
+
+    for fax in faxsName:
+        dictFaxs[fax].append(fax)
+
+    for k, faxes in dictFaxs.items():
+        fk_fax = faker.generate_fax()
+        for fax in faxes:
+            fax.hasCloneInfo.append(fk_fax)
+
+
+
+    #save fake infor for phone
+    dictEmails = dict.fromkeys(emailsName)
+    for k in dictEmails.keys():
+        dictEmails[k] = []    
+
+    for email in emailsName:
+        dictEmails[email].append(email)
+
+    for k, faxes in dictEmails.items():
+        fk_email = faker.generate_email()
+        for email in faxes:
+            email.hasCloneInfo.append(fk_email)
+
+
+
+    #save fake infor for phone
+    dictURLs = dict.fromkeys(urlsName)
+    for k in dictURLs.keys():
+        dictURLs[k] = []
+
+    for url in urlsName:
+        dictURLs[url].append(url)
+
+    for k, urls in dictURLs.items():
+        fk_url = faker.generate_URL()
+        for url in urls:
+            url.hasCloneInfo.append(fk_url)
+
+    
+
+
+
+    #save fake infor for phone
+    dictIDNums = dict.fromkeys(IDNumsName)
+    for k in dictIDNums.keys():
+        dictIDNums[k] = []
+
+    for idNum in IDNumsName:
+        dictIDNums[idNum].append(idNum)
+
+    for k, IDNums in dictIDNums.items():
+        fk_idNum = faker.generate_IDNum()
+        for idNum in IDNums:
+            idNum.hasCloneInfo.append(fk_idNum)
+
+
+
+    #save fake infor for phone
+    dictdevicesName = dict.fromkeys(devicesName)
+    for k in dictdevicesName.keys():
+        dictdevicesName[k] = []
+
+    for device in devicesName:
+        dictdevicesName[device].append(device)
+
+    for k, devices in dictdevicesName.items():
+        fk_device = faker.generate_device()
+        for device in devices:
+            device.hasCloneInfo.append(fk_device)
+
+    
+
+    #save fake infor for phone
+    dictBioIDsName = dict.fromkeys(bioIDsName)
+    for k in dictBioIDsName.keys():
+        dictBioIDsName[k] = []
+
+    for bio in bioIDsName:
+        dictBioIDsName[bio].append(bio)
+
+    for k, bioIDs in dictBioIDsName.items():
+        fk_bio = faker.generate_BioID()
+        for bio in bioIDs:
+            bio.hasCloneInfo.append(fk_bio)
+
+    
+
+
+    #save fake infor for phone
+    dictHealthPlansName = dict.fromkeys(healthPlansName)
+    for k in dictHealthPlansName.keys():
+        dictHealthPlansName[k] = []
+
+    for healthPlan in healthPlansName:
+        dictHealthPlansName[healthPlan].append(healthPlan)
+
+    for k, healthPlans in dictHealthPlansName.items():
+        fk_healthPlan = faker.generate_healthplan()
+        for healthPlan in healthPlans:
+            healthPlan.hasCloneInfo.append(fk_healthPlan)
+
+    
+
+    #save fake infor for phone
+    dictMedicalRecordsName = dict.fromkeys(medicalRecordsName)
+    for k in dictMedicalRecordsName.keys():
+        dictMedicalRecordsName[k] = []
+
+    for medicalRecord in medicalRecordsName:
+        if len(medicalRecord.hasMedicalRecordID[0]) > 0:
+            dictMedicalRecordsName[medicalRecord].append(medicalRecord)
+
+    for k, medicalRecords in dictMedicalRecordsName.items():
+        fk_medicalRecord = faker.generate_medicalrecord()
+        for medicalRecord in medicalRecords:
+            medicalRecord.hasCloneInfo.append(fk_medicalRecord)
+
+    
+
+
 
     hc = HierachicalClustering()
-    # hc = HierachicalClustering()
-    # pnpcp = PostNameClusterProcessing()
-    # print(pnpcp.check_equal('Amelia Travis', 'Travis, Peggy'))
 
     patientsmaxlength = hc.getmaxlengthabb(patientsName, is_username = False)
     doctorsmaxlength = hc.getmaxlengthabb(doctorsName, is_username = False)
@@ -473,19 +629,8 @@ if __name__ == '__main__':
 
     constructioncluster(hc, onto, patientsmaxlength, doctorsmaxlength, professionsmaxlength, citysmaxlength, statesmaxlength, streetsmaxlength, countrysmaxlength, hospitalsmaxlength, organizationsmaxlength, usernamesmaxlength, is_abbrv=True)
 
-    # devices = []
-    # dates = []
-    # ages = []
-    # phones = []
-    # emails = []
-    # Faxes = []
-    # urls = []
-    # devices = []
-    # ids = []
-    # zips = []
-    # locationothers = []
     
-    
+    onto.save(file="newemr.owl", format = "rdfxml")
     # model.generate_tsne(path='log/tsne')
 
 
