@@ -158,8 +158,8 @@ def constructioncluster(hc, onto, patientsmaxlength, doctorsmaxlength, professio
                 cities.extend(cityRecord)
 
             if len(medicalRecord.has_state) > 0:
-                stateRecord = [hc.getword2vectabb(state.name, statesmaxlength, is_abbrv) for state in medicalRecord.has_state if np.isnan(hc.get_model().embeded_phrases(state.name)).any() == False]
-                stateIndex.extend([{"name": state, "value": hc.getword2vectabb(state.name, statesmaxlength, is_abbrv)} for state in medicalRecord.has_state if np.isnan(hc.get_model().embeded_phrases(state.name)).any() == False])
+                stateRecord = [hc.getword2vectabb(state.hasLocation[0], statesmaxlength, is_abbrv) for state in medicalRecord.has_state if np.isnan(hc.get_model().embeded_phrases(state.hasLocation[0])).any() == False]
+                stateIndex.extend([{"name": state, "value": hc.getword2vectabb(state.hasLocation[0], statesmaxlength, is_abbrv)} for state in medicalRecord.has_state if np.isnan(hc.get_model().embeded_phrases(state.hasLocation[0])).any() == False])
                 states.extend(stateRecord)
 
             if len(medicalRecord.has_country) > 0:
@@ -168,8 +168,8 @@ def constructioncluster(hc, onto, patientsmaxlength, doctorsmaxlength, professio
                 countries.extend(countryRecord)
 
             if len(medicalRecord.has_organization) > 0:
-                organizationRecord = [hc.getword2vectabb(organization.name, organizationsmaxlength, is_abbrv) for organization in medicalRecord.has_organization if np.isnan(hc.get_model().embeded_phrases(organization.name)).any() == False]
-                organizationIndex.extend([{"name": organization, "value": hc.getword2vectabb(organization.name, organizationsmaxlength, is_abbrv)} for organization in medicalRecord.has_organization if np.isnan(hc.get_model().embeded_phrases(organization.name)).any() == False])
+                organizationRecord = [hc.getword2vectabb(organization.hasLocation[0], organizationsmaxlength, is_abbrv) for organization in medicalRecord.has_organization if np.isnan(hc.get_model().embeded_phrases(organization.hasLocation[0])).any() == False]
+                organizationIndex.extend([{"name": organization, "value": hc.getword2vectabb(organization.hasLocation[0], organizationsmaxlength, is_abbrv)} for organization in medicalRecord.has_organization if np.isnan(hc.get_model().embeded_phrases(organization.hasLocation[0])).any() == False])
                 organizations.extend(organizationRecord)
 
             if len(medicalRecord.has_street) > 0:
@@ -178,8 +178,8 @@ def constructioncluster(hc, onto, patientsmaxlength, doctorsmaxlength, professio
                 streets.extend(streetRecord)
 
             if len(medicalRecord.record_from_hospital) > 0:
-                hospitalRecord = [hc.getword2vectabb(hospital.name, hospitalsmaxlength, is_abbrv) for hospital in medicalRecord.record_from_hospital if np.isnan(hc.get_model().embeded_phrases(hospital.name)).any() == False]
-                hospitalIndex.extend([{"name": hospital, "value": hc.getword2vectabb(hospital.name, hospitalsmaxlength, is_abbrv)} for hospital in medicalRecord.record_from_hospital if np.isnan(hc.get_model().embeded_phrases(hospital.name)).any() == False])
+                hospitalRecord = [hc.getword2vectabb(hospital.hasName[0], hospitalsmaxlength, is_abbrv) for hospital in medicalRecord.record_from_hospital if np.isnan(hc.get_model().embeded_phrases(hospital.hasName[0])).any() == False]
+                hospitalIndex.extend([{"name": hospital, "value": hc.getword2vectabb(hospital.hasName[0], hospitalsmaxlength, is_abbrv)} for hospital in medicalRecord.record_from_hospital if np.isnan(hc.get_model().embeded_phrases(hospital.hasName[0])).any() == False])
                 hospitals.extend(hospitalRecord)
 
             if len(medicalRecord.has_username) > 0:
@@ -436,25 +436,24 @@ if __name__ == '__main__':
     devicesName = [device for device in onto.Device.instances()]
     bioIDsName = [bioID for bioID in onto.BioID.instances()]
     healthPlansName = [healthPlan for healthPlan in onto.HealthPlan.instances()]
-    patientsName = [patient.name for patientRecords in onto.PatientRecord.instances() for patient in patientRecords.have_collect_patients]
-    doctorsName = [doctor.name for doctor in onto.Doctor.instances()]
-    usernamesName = [username.name for username in onto.Username.instances()]
-    hospitalsName = [hospital.name for hospital in onto.Hospital.instances()]
-    citysName = [city.name for city in onto.City.instances()]
-    statesName = [state.name for state in onto.State.instances()]
-    streetsName = [street.name for street in onto.Street.instances()]
-    zipsName = [zips.name for zips in onto.Zip.instances()]
-    organizationsName = [organization.name for organization in onto.Organization.instances()]
-    countrysName = [country.name for country in onto.Country.instances()]
-    locationOthersName = [locationOther.name for locationOther in onto.LocationOther.instances()]
-    professionsName = [profession.name for profession in onto.Profession.instances()]
+    zipsName = [zips for zips in onto.Zip.instances()]
+    patientsName = [patient.hasName[0] for patientRecords in onto.PatientRecord.instances() for patient in patientRecords.have_collect_patients]
+    doctorsName = [doctor.hasName[0] for doctor in onto.Doctor.instances()]
+    usernamesName = [username.hasName[0] for username in onto.Username.instances()]
+    hospitalsName = [hospital.hasName[0] for hospital in onto.Hospital.instances()]
+    citysName = [city.hasLocation[0] for city in onto.City.instances()]
+    statesName = [state.hasLocation[0] for state in onto.State.instances()]
+    streetsName = [street.hasLocation[0] for street in onto.Street.instances()]
+    organizationsName = [organization.hasLocation[0] for organization in onto.Organization.instances()]
+    countrysName = [country.hasLocation[0] for country in onto.Country.instances()]
+    locationOthersName = [locationOther.has_state[0] for locationOther in onto.LocationOther.instances()]
+    professionsName = [profession.jobName[0] for profession in onto.Profession.instances()]
 
     
 
     # save fake infor for date
     for date in datesName:
-        fk_date = faker.generate_date(date.name)
-        print(fk_date)
+        fk_date = faker.generate_date(date.hasDate[0])
         date.hasCloneInfo.append(fk_date)
 
 
@@ -467,7 +466,7 @@ if __name__ == '__main__':
         dictAges[age].append(age)
 
     for k, ages in dictAges.items():
-        fk_age = faker.generate_age(k.name)
+        fk_age = faker.generate_age(k.hasAge[0])
         for age in ages:
             age.hasCloneInfo.append(fk_age)
 
@@ -608,6 +607,20 @@ if __name__ == '__main__':
         fk_medicalRecord = faker.generate_medicalrecord()
         for medicalRecord in medicalRecords:
             medicalRecord.hasCloneInfo.append(fk_medicalRecord)
+
+
+    #save fake infor for phone
+    dictZipsNames = dict.fromkeys(zipsName)
+    for k in dictZipsNames.keys():
+        dictZipsNames[k] = []
+
+    for zipNumber in zipsName:
+        dictZipsNames[zipNumber].append(zipNumber)
+
+    for k, zipNumbers in dictZipsNames.items():
+        fk_zip = faker.generate_zip()
+        for zipNumber in zipNumbers:
+            zipNumber.hasCloneInfo.append(fk_zip)
 
     
 

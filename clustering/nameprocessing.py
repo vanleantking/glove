@@ -117,7 +117,7 @@ class PostProcessing:
             if lencls > 1:
                 for i in range(lencls):
                     try:
-                        if (all(self.check_equal(cluster[i].name, cluster[j].name) == False for j in range(lencls) if cluster[i] and cluster[j] and i != j)):
+                        if (all(self.check_equal(cluster[i].hasName[0], cluster[j].hasName[0]) == False for j in range(lencls) if cluster[i] and cluster[j] and i != j)):
                             result.append([cluster[i]])
                             del cluster[i]
                     except:
