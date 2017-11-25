@@ -166,4 +166,46 @@ class PostHospitalClusterProcessing(PostProcessing):
         return any(self.check_equal(element1.hasName[0], element2.hasName[0]) for element1 in cluster1 for element2 in cluster2)
 
 
+class PostCountryClusteringProcessing(PostProcessing):
+    def splitcluster(self, clusters):
+        result = []
+        for index, cluster in clusters.items():
+            lencls = len(cluster)
+            if lencls > 1:
+                for i in range(lencls):
+                    try:
+                        if (all(self.check_equal(cluster[i].hasLocation[0], cluster[j].hasLocation[0]) == False for j in range(lencls) if cluster[i] and cluster[j] and i != j)):
+                            result.append([cluster[i]])
+                            del cluster[i]
+                    except:
+                        pass
+        result.extend(clusters.values())
+        lenrsl = len(result)
+        results = {i: [] for i in range(lenrsl)}
+        for i in range(lenrsl):
+            results[i].extend(result[i])
+        return results, lenrsl
+
+    def mergecluster(self, cluster1, cluster2):
+        return any(self.check_equal(element1.hasLocation[0], element2.hasLocation[0]) for element1 in cluster1 for element2 in cluster2)
+
+
+    # check abbrev is abbreviation of text
+    def is_abbrev(self, abbrev, text):
+        abbrev = abbrev.lower()
+        text = text.lower()
+        words = text.split()
+
+        if not abbrev:
+            return True
+
+        if abbrev and not text:
+            return False
+
+        if abbrev[0]!=text[0]:
+            return False
+        else:
+            return (self.is_abbrev(abbrev[1:],' '.join(words[1:])) or
+                    any(self.is_abbrev(abbrev[1:],text[i+1:])
+                        for i in range(len(words[0]))))
 

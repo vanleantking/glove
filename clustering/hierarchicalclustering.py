@@ -14,7 +14,8 @@ from scipy.cluster.hierarchy import dendrogram, linkage
 from scipy.spatial.distance import cdist
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.metrics.pairwise import pairwise_distances
-from nameprocessing import PreProcessingText, PostProcessing, PostHospitalClusterProcessing, PostNameClusterProcessing
+from nameprocessing import PreProcessingText, PostProcessing, PostHospitalClusterProcessing, PostNameClusterProcessing, \
+PostCountryClusteringProcessing
 import sys
 import os.path
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
@@ -324,7 +325,9 @@ def constructioncluster(hc, onto, patientsmaxlength, doctorsmaxlength, professio
         #post procressing for country instance
         countrylogclustering.write("result patienttttttttttttttttttttttttttttttttttttttttttttttttt: " + str(patientRecords.hasRecordName[0]))
         if len(countries) > 1:
-            countriescluster, clusters_country_number = hc.hierarchical(countries, countryIndex, 0.5)
+            countriescluster, clusters_country_number = hc.hierarchical(countries, countryIndex, 0.75)
+            pccp = PostCountryClusteringProcessing()
+            countriescluster = hc.postclustering(countriescluster, clusters_country_number, pccp)
         elif len(countries) == 1:
             countriescluster = {1 : []}
             countriescluster[1].append(countryIndex[0]['name'])
