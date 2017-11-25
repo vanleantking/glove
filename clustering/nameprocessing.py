@@ -166,7 +166,7 @@ class PostHospitalClusterProcessing(PostProcessing):
         return any(self.check_equal(element1.hasName[0], element2.hasName[0]) for element1 in cluster1 for element2 in cluster2)
 
 
-class PostCountryClusteringProcessing(PostProcessing):
+class PostLocationClusteringProcessing(PostProcessing):
     def splitcluster(self, clusters):
         result = []
         for index, cluster in clusters.items():

@@ -15,7 +15,8 @@ from scipy.spatial.distance import cdist
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.metrics.pairwise import pairwise_distances
 from nameprocessing import PreProcessingText, PostProcessing, PostHospitalClusterProcessing, PostNameClusterProcessing, \
-PostCountryClusteringProcessing
+PostLocationClusteringProcessing
+
 import sys
 import os.path
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
@@ -64,7 +65,15 @@ class HierachicalClustering(Clustering):
     def hierarchical(self, datas, dataIndex, distance):
         Zdocs = linkage(datas, 'single', 'cosine')
 
-        clustersdocs = fcluster(Zdocs, distance, criterion='distance')
+        distance = 0
+
+        for Z in Zdocs:
+            distance += Z[2]
+
+        weighted_distance = distance / len(Zdocs)
+
+        clustersdocs = fcluster(Zdocs, weighted_distance, criterion='distance')
+
         clusters_number =  len(np.unique(clustersdocs))
 
         docscluster = {i : [] for i in range(1, clusters_number+1)}
@@ -279,13 +288,15 @@ def constructioncluster(hc, onto, patientsmaxlength, doctorsmaxlength, professio
             hc.logdocsfile(professionlogclustering, professionscluster)
 
 
-
+        pccp = PostLocationClusteringProcessing()
         
         ###CITIES###
         #post procressing for city
         citylogclustering.write("result patienttttttttttttttttttttttttttttttttttttttttttttttttt: " + str(patientRecords.hasRecordName[0]))
         if len(cities) > 1:
             citiescluster, clusters_city_number = hc.hierarchical(cities, cityIndex, 0.5)
+            
+            citiescluster = hc.postclustering(citiescluster, clusters_city_number, pccp)
         elif len(cities) == 1:
             citiescluster = {1 : []}
             citiescluster[1].append(cityIndex[0]['name'])
@@ -306,6 +317,8 @@ def constructioncluster(hc, onto, patientsmaxlength, doctorsmaxlength, professio
         statelogclustering.write("result patienttttttttttttttttttttttttttttttttttttttttttttttttt: " + str(patientRecords.hasRecordName[0]))
         if len(states) > 1:
             statescluster, clusters_state_number = hc.hierarchical(states, stateIndex, 0.5)
+            
+            statescluster = hc.postclustering(statescluster, clusters_state_number, pccp)
         elif len(states) == 1:
             statescluster = {1 : []}
             statescluster[1].append(stateIndex[0]['name'])
@@ -326,7 +339,7 @@ def constructioncluster(hc, onto, patientsmaxlength, doctorsmaxlength, professio
         countrylogclustering.write("result patienttttttttttttttttttttttttttttttttttttttttttttttttt: " + str(patientRecords.hasRecordName[0]))
         if len(countries) > 1:
             countriescluster, clusters_country_number = hc.hierarchical(countries, countryIndex, 0.75)
-            pccp = PostCountryClusteringProcessing()
+            
             countriescluster = hc.postclustering(countriescluster, clusters_country_number, pccp)
         elif len(countries) == 1:
             countriescluster = {1 : []}
@@ -348,6 +361,8 @@ def constructioncluster(hc, onto, patientsmaxlength, doctorsmaxlength, professio
         streetlogclustering.write("result patienttttttttttttttttttttttttttttttttttttttttttttttttt: " + str(patientRecords.hasRecordName[0]))
         if len(streets) > 1:
             streetscluster, clusters_street_number = hc.hierarchical(streets, streetIndex, 0.5)
+            
+            streetscluster = hc.postclustering(streetscluster, clusters_street_number, pccp)
         elif len(streets) == 1:
             streetscluster = {1 : []}
             streetscluster[1].append(streetIndex[0]['name'])
@@ -360,7 +375,6 @@ def constructioncluster(hc, onto, patientsmaxlength, doctorsmaxlength, professio
                 for i in range(len(streetsinstances)):
                     streetsinstances[i].hasCloneInfo.append(fake_streets[i])
             hc.logdocsfile(streetlogclustering, streetscluster)
-        # break
 
 
 
@@ -371,6 +385,8 @@ def constructioncluster(hc, onto, patientsmaxlength, doctorsmaxlength, professio
         organizationlogclustering.write("result patienttttttttttttttttttttttttttttttttttttttttttttttttt: " + str(patientRecords.hasRecordName[0]))
         if len(organizations) > 1:
             organizationscluster, clusters_organization_number = hc.hierarchical(organizations, organizationIndex, 0.5)
+
+            organizationscluster = hc.postclustering(organizationscluster, clusters_organization_number, pccp)
         elif len(organizations) == 1:
             organizationscluster = {1 : []}
             organizationscluster[1].append(organizationIndex[0]['name'])
