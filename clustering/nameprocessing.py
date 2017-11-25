@@ -163,8 +163,7 @@ class PostHospitalClusterProcessing(PostProcessing):
         return False
 
     def mergecluster(self, cluster1, cluster2):
-        return any(self.check_equal(element1.name, element2.name) for element1 in cluster1 for element2 in cluster2)
-
+        return any(self.check_equal(element1.hasName[0], element2.hasName[0]) for element1 in cluster1 for element2 in cluster2)
 
 
 
