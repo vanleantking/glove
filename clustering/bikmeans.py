@@ -11,7 +11,7 @@ except ImportError: # will be 3.x series
   pass
 
 class KMeans:
-    def __init__(self, k = 2, delta=.001, maxiter=300, metric='euclidean'):
+    def __init__(self, k = 2, delta=.001, maxiter=300, metric='cosine'):
         self.k = k
         self.delta = delta
         self.maxiter = maxiter

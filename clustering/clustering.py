@@ -14,6 +14,7 @@ from scipy.cluster.hierarchy import dendrogram, linkage
 from scipy.spatial.distance import cdist
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.metrics.pairwise import pairwise_distances
+from sklearn.metrics import silhouette_samples, silhouette_score
 from nameprocessing import PreProcessingText, PostProcessing, PostHospitalClusterProcessing, PostNameClusterProcessing
 import sys
 import os.path
@@ -102,10 +103,38 @@ class Clustering:
         file.write('\n\n\n\n\n')
         file.close()
 
-    def logdocsfile(self, file, data):
+    def logdocsfile(self, file, data, dataIndex):
         file.write('\n')
+        sample_labels = []
+        data_embeded = []
+        indexs = []
         for k, v in data.items():
             file.write('cluster ' + str(k))
             file.write(''.join(str(v)))
             file.write('\n')
-        file.write('\n\n\n\n\n')
+        file.write('\n\n')
+        file.write('Evaluate Sihoutetters')
+        file.write('\n')
+
+        for index, docIndex in enumerate(dataIndex):
+            for key, values in data.items():
+                if docIndex['name'] in values:
+                    indexs.append(docIndex['name'])
+                    sample_labels.append(key)
+                    data_embeded.append(docIndex['value'])
+
+        
+        clusters_number =  len(np.unique(sample_labels))
+        cal_silhouette_score = 1
+        sample_silhouette_values = 1
+        if clusters_number > 1 and len(indexs) > clusters_number:
+            cal_silhouette_score = silhouette_score(data_embeded, sample_labels, metric='cosine')
+            sample_silhouette_values = silhouette_samples(data_embeded, sample_labels)
+        file.write('silhoutte score: ' + str(cal_silhouette_score))
+        file.write('\n')
+        file.write('silhoutte values: ' + str(sample_silhouette_values))
+        file.write('\n')
+        file.write('data: ' + str(indexs))
+        file.write('\n')
+        file.write('------------------------------End log this patient record----------------------------')
+        file.write('\n\n\n\n\n\n\n')

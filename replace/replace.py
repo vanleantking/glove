@@ -10,7 +10,7 @@ BASE_DIR_DATA = '/media/vanle/Studying/python/word2vec/glove/data'
 FAKE_DIR_DATA = '/media/vanle/Studying/python/word2vec/glove/thesis/result'
 
 
-onto = get_ontology("file:///media/vanle/Studying/python/word2vec/glove/thesis/clustering/newemr.owl").load()
+onto = get_ontology("file:///media/vanle/Studying/python/word2vec/glove/thesis/newemr.owl").load()
 def read_file():
 
     for name in sorted(os.listdir(BASE_DIR_DATA)):
