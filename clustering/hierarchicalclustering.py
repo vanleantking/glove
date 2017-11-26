@@ -14,8 +14,8 @@ from scipy.cluster.hierarchy import dendrogram, linkage
 from scipy.spatial.distance import cdist
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.metrics.pairwise import pairwise_distances
-from nameprocessing import PreProcessingText, PostProcessing, PostHospitalClusterProcessing, PostNameClusterProcessing, \
-PostLocationClusteringProcessing
+from nameprocessing import PreProcessingText, PostProcessing, PostHospitalClusterProcessing, \
+PostNameClusterProcessing, PostLocationClusteringProcessing
 
 import sys
 import os.path

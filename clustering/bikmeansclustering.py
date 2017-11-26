@@ -14,7 +14,8 @@ from scipy.cluster.hierarchy import dendrogram, linkage
 from scipy.spatial.distance import cdist
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.metrics.pairwise import pairwise_distances
-from nameprocessing import PreProcessingText, PostProcessing, PostHospitalClusterProcessing, PostNameClusterProcessing
+from nameprocessing import PreProcessingText, PostProcessing, PostHospitalClusterProcessing, \
+PostNameClusterProcessing, PostLocationClusteringProcessing
 import sys
 import os.path
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
@@ -29,11 +30,10 @@ from owlready2 import *
 CORPUS_DIR_DATA = '/media/vanle/Studying/python/word2vec/glove/thesis/corpus'
 RESULT_DIR_DATA = '/media/vanle/Studying/python/word2vec/glove/thesis/clustering/result/bikmeansclustering/'
 
+#location clustering log path
 doctorclusterpath = os.path.join(RESULT_DIR_DATA, 'doctorcluster.txt')
 patientclusterpath = os.path.join(RESULT_DIR_DATA, 'patientcluster.txt')
 professionclusterpath = os.path.join(RESULT_DIR_DATA, 'professioncluster.txt')
-
-#location clustering log path
 cityclusterpath = os.path.join(RESULT_DIR_DATA, 'citycluster.txt')
 stateclusterpath = os.path.join(RESULT_DIR_DATA, 'statecluster.txt')
 streetclusterpath = os.path.join(RESULT_DIR_DATA, 'streetcluster.txt')
@@ -41,6 +41,18 @@ organizationclusterpath = os.path.join(RESULT_DIR_DATA, 'organizationcluster.txt
 hospitalclusterpath = os.path.join(RESULT_DIR_DATA, 'hospitalcluster.txt')
 countryclusterpath = os.path.join(RESULT_DIR_DATA, 'countrycluster.txt')
 usernameclusterpath = os.path.join(RESULT_DIR_DATA, 'usernamecluster.txt')
+
+#location clustering log path for  hierarchy
+aa_not_postdoctorclusterpath = os.path.join(RESULT_DIR_DATA, 'aa_not_postdoctorcluster.txt')
+aa_not_postpatientclusterpath = os.path.join(RESULT_DIR_DATA, 'aa_not_postpatientcluster.txt')
+aa_not_postprofessionclusterpath = os.path.join(RESULT_DIR_DATA, 'aa_not_postprofessioncluster.txt')
+aa_not_postcityclusterpath = os.path.join(RESULT_DIR_DATA, 'aa_not_postcitycluster.txt')
+aa_not_poststateclusterpath = os.path.join(RESULT_DIR_DATA, 'aa_not_poststatecluster.txt')
+aa_not_poststreetclusterpath = os.path.join(RESULT_DIR_DATA, 'aa_not_poststreetcluster.txt')
+aa_not_postorganizationclusterpath = os.path.join(RESULT_DIR_DATA, 'aa_not_postorganizationcluster.txt')
+aa_not_posthospitalclusterpath = os.path.join(RESULT_DIR_DATA, 'aa_not_posthospitalcluster.txt')
+aa_not_postcountryclusterpath = os.path.join(RESULT_DIR_DATA, 'aa_not_postcountrycluster.txt')
+aa_not_postusernameclusterpath = os.path.join(RESULT_DIR_DATA, 'aa_not_postusernamecluster.txt')
 
 class BiKmeanClustering(Clustering):
 
@@ -58,7 +70,21 @@ class BiKmeanClustering(Clustering):
                     if np.array_equal(v['value'],doc):
                         docscluster[index].append(v['name'] )
 
-        return docscluster
+        return docscluster, len(clusters)
+
+    def postclustering(self, clusters, clusters_number, processing_type):
+        clusters, clusters_number = processing_type.splitcluster(clusters)
+        for i in range(clusters_number):
+            for j in range (i+1, clusters_number):
+                if i in clusters.keys() and j in clusters.keys():
+                    merged = processing_type.mergecluster(clusters[i], clusters[j])
+                    if merged:
+                        try:
+                            clusters[i].extend(clusters[j])
+                            del clusters[j]
+                        except:
+                            pass
+        return clusters
 
 
 
@@ -181,10 +207,10 @@ def constructioncluster(hc, onto, patientsmaxlength, doctorsmaxlength, professio
         docslogclustering.write("result patienttttttttttttttttttttttttttttttttttttttttttttttttt: " + str(patientRecords.hasRecordName[0]))
 
         if len(doctors) > 1:
-            docscluster = bi.get_cluster(doctors, doctorIndex)
-            # pncp = PostNameClusterProcessing()
-            # if is_post == True:
-            #     docscluster = hc.postclustering(docscluster, clusters_number, pncp)
+            docscluster, clusters_number = bi.get_cluster(doctors, doctorIndex)
+            pncp = PostNameClusterProcessing()
+            if is_post == True:
+                docscluster = hc.postclustering(docscluster, clusters_number, pncp)
         elif len(doctors) == 1:
             docscluster = {1: []}
             docscluster[1].append(doctorIndex[0]['name'])
@@ -206,11 +232,11 @@ def constructioncluster(hc, onto, patientsmaxlength, doctorsmaxlength, professio
         # post procressing for patients
         patientslogclustering.write("result patienttttttttttttttttttttttttttttttttttttttttttttttttt: " + str(patientRecords.hasRecordName[0]))
         if len(patients) > 1:
-            patientscluster = bi.get_cluster(patients, patientIndex)
+            patientscluster, clusters_patient_number = bi.get_cluster(patients, patientIndex)
             # patientscluster, clusters_patient_number = hc.hierarchical(patients, patientIndex, 0.35)
-            # pnpcp = PostNameClusterProcessing()
-            # if is_post == True:
-            #     patientscluster = hc.postclustering(patientscluster, clusters_patient_number, pnpcp)
+            pnpcp = PostNameClusterProcessing()
+            if is_post == True:
+                patientscluster = hc.postclustering(patientscluster, clusters_patient_number, pnpcp)
         elif len(patients) == 1:
             patientscluster = {1: []}
             patientscluster[1].append(patientIndex[0]['name'])
@@ -230,11 +256,10 @@ def constructioncluster(hc, onto, patientsmaxlength, doctorsmaxlength, professio
         #post procressing for hospital
         hospitallogclustering.write("result patienttttttttttttttttttttttttttttttttttttttttttttttttt: " + str(patientRecords.hasRecordName[0]))
         if len(hospitals) > 1:
-            # hospitalscluster, clusters_hospital_number = hc.hierarchical(hospitals, hospitalIndex, 0.5)
-            # phcp = PostHospitalClusterProcessing()
-            # if is_post == True:
-            #     hospitalscluster = hc.postclustering(hospitalscluster, clusters_hospital_number, phcp)
-            hospitalscluster = bi.get_cluster(hospitals, hospitalIndex)
+            hospitalscluster, clusters_hospital_number = bi.get_cluster(hospitals, hospitalIndex)
+            phcp = PostHospitalClusterProcessing()
+            if is_post == True:
+                hospitalscluster = hc.postclustering(hospitalscluster, clusters_hospital_number, phcp)
         elif len(hospitals) == 1:
             hospitalscluster = {1 : []}
             hospitalscluster[1].append(hospitalIndex[0]['name'])
@@ -254,7 +279,7 @@ def constructioncluster(hc, onto, patientsmaxlength, doctorsmaxlength, professio
         professionlogclustering.write("result patienttttttttttttttttttttttttttttttttttttttttttttttttt: " + str(patientRecords.hasRecordName[0]))
         if len(professions) > 1:
             # professionscluster, clusters_profession_number = hc.hierarchical(professions, professionIndex, 0.5)
-            professionscluster = bi.get_cluster(professions, professionIndex)
+            professionscluster, clusters_profession_number = bi.get_cluster(professions, professionIndex)
         elif len(professions) == 1:
             professionscluster = {1 : []}
             professionscluster[1].append(professionIndex[0]['name'])
@@ -269,16 +294,15 @@ def constructioncluster(hc, onto, patientsmaxlength, doctorsmaxlength, professio
             hc.logdocsfile(professionlogclustering, professionscluster, professionIndex)
 
 
-        # pccp = PostLocationClusteringProcessing()
+        pccp = PostLocationClusteringProcessing()
         
         ###CITIES###
         #post procressing for city
         citylogclustering.write("result patienttttttttttttttttttttttttttttttttttttttttttttttttt: " + str(patientRecords.hasRecordName[0]))
         if len(cities) > 1:
-            citiescluster = bi.get_cluster(cities, cityIndex)
-            # citiescluster, clusters_city_number = hc.hierarchical(cities, cityIndex, 0.5)
-            # if is_post == True:
-            #     citiescluster = hc.postclustering(citiescluster, clusters_city_number, pccp)
+            citiescluster, clusters_city_number = bi.get_cluster(cities, cityIndex)
+            if is_post == True:
+                citiescluster = hc.postclustering(citiescluster, clusters_city_number, pccp)
         elif len(cities) == 1:
             citiescluster = {1 : []}
             citiescluster[1].append(cityIndex[0]['name'])
@@ -298,10 +322,9 @@ def constructioncluster(hc, onto, patientsmaxlength, doctorsmaxlength, professio
         #post procressing for state
         statelogclustering.write("result patienttttttttttttttttttttttttttttttttttttttttttttttttt: " + str(patientRecords.hasRecordName[0]))
         if len(states) > 1:
-            statescluster = bi.get_cluster(states, stateIndex)
-            # statescluster, clusters_state_number = hc.hierarchical(states, stateIndex, 0.5)
-            # if is_post == True:
-            #     statescluster = hc.postclustering(statescluster, clusters_state_number, pccp)
+            statescluster, clusters_state_number = bi.get_cluster(states, stateIndex)
+            if is_post == True:
+                statescluster = hc.postclustering(statescluster, clusters_state_number, pccp)
         elif len(states) == 1:
             statescluster = {1 : []}
             statescluster[1].append(stateIndex[0]['name'])
@@ -321,10 +344,9 @@ def constructioncluster(hc, onto, patientsmaxlength, doctorsmaxlength, professio
         #post procressing for country instance
         countrylogclustering.write("result patienttttttttttttttttttttttttttttttttttttttttttttttttt: " + str(patientRecords.hasRecordName[0]))
         if len(countries) > 1:
-            countriescluster = bi.get_cluster(countries, countryIndex)
-            # countriescluster, clusters_country_number = hc.hierarchical(countries, countryIndex, 0.75)
-            # if is_post == True:
-            #     countriescluster = hc.postclustering(countriescluster, clusters_country_number, pccp)
+            countriescluster, clusters_country_number = bi.get_cluster(countries, countryIndex)
+            if is_post == True:
+                countriescluster = hc.postclustering(countriescluster, clusters_country_number, pccp)
         elif len(countries) == 1:
             countriescluster = {1 : []}
             countriescluster[1].append(countryIndex[0]['name'])
@@ -344,10 +366,9 @@ def constructioncluster(hc, onto, patientsmaxlength, doctorsmaxlength, professio
         #post procressing for street instance
         streetlogclustering.write("result patienttttttttttttttttttttttttttttttttttttttttttttttttt: " + str(patientRecords.hasRecordName[0]))
         if len(streets) > 1:
-            streetscluster = bi.get_cluster(streets, streetIndex)
-            # streetscluster, clusters_street_number = hc.hierarchical(streets, streetIndex, 0.5)
-            # if is_post == True:
-            #     streetscluster = hc.postclustering(streetscluster, clusters_street_number, pccp)
+            streetscluster, clusters_street_number = bi.get_cluster(streets, streetIndex)
+            if is_post == True:
+                streetscluster = hc.postclustering(streetscluster, clusters_street_number, pccp)
         elif len(streets) == 1:
             streetscluster = {1 : []}
             streetscluster[1].append(streetIndex[0]['name'])
@@ -369,10 +390,9 @@ def constructioncluster(hc, onto, patientsmaxlength, doctorsmaxlength, professio
         #post procressing for organization instance
         organizationlogclustering.write("result patienttttttttttttttttttttttttttttttttttttttttttttttttt: " + str(patientRecords.hasRecordName[0]))
         if len(organizations) > 1:
-            organizationscluster = bi.get_cluster(organizations, organizationIndex)
-            # organizationscluster, clusters_organization_number = hc.hierarchical(organizations, organizationIndex, 0.5)
-            # if is_post == True:
-            #     organizationscluster = hc.postclustering(organizationscluster, clusters_organization_number, pccp)
+            organizationscluster, clusters_organization_number = bi.get_cluster(organizations, organizationIndex)
+            if is_post == True:
+                organizationscluster = hc.postclustering(organizationscluster, clusters_organization_number, pccp)
         elif len(organizations) == 1:
             organizationscluster = {1 : []}
             organizationscluster[1].append(organizationIndex[0]['name'])
@@ -648,6 +668,7 @@ if __name__ == '__main__':
 
 
     constructioncluster(hc, onto, patientsmaxlength, doctorsmaxlength, professionsmaxlength, citysmaxlength, statesmaxlength, streetsmaxlength, countrysmaxlength, hospitalsmaxlength, organizationsmaxlength, usernamesmaxlength, is_abbrv=True)
+    constructioncluster(hc, onto, patientsmaxlength, doctorsmaxlength, professionsmaxlength, citysmaxlength, statesmaxlength, streetsmaxlength, countrysmaxlength, hospitalsmaxlength, organizationsmaxlength, usernamesmaxlength, is_abbrv=True, is_post = False)
 
     # devices = []
     # dates = []
