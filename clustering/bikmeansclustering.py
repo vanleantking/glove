@@ -62,7 +62,7 @@ class BiKmeanClustering(Clustering):
     def get_cluster(self, X, dataIndex):
         bikmeans = BiKMeans()
         clusters = bikmeans.execute(X)
-        docscluster = {i : [] for i in range(len(clusters))}
+        docscluster = {i : [] for i in range(len(clusters)) if clusters[i]['vectors'] is not None}
 
         for index, docIndex in enumerate(clusters):
             for doc in docIndex['vectors']:
@@ -70,7 +70,12 @@ class BiKmeanClustering(Clustering):
                     if np.array_equal(v['value'],doc):
                         docscluster[index].append(v['name'] )
 
-        return docscluster, len(clusters)
+        
+        for cluster in docscluster.keys():
+            if not docscluster[cluster]:
+                del docscluster[cluster]
+        
+        return docscluster, len(docscluster)
 
     def postclustering(self, clusters, clusters_number, processing_type):
         clusters, clusters_number = processing_type.splitcluster(clusters)
@@ -224,7 +229,7 @@ def constructioncluster(hc, onto, patientsmaxlength, doctorsmaxlength, professio
 
             hc.logdocsfile(docslogclustering, docscluster, doctorIndex)
 
-
+        
 
 
         ###PATIENTS###
@@ -413,14 +418,14 @@ def constructioncluster(hc, onto, patientsmaxlength, doctorsmaxlength, professio
         #post procressing for username instance
         usernamelogclustering.write("result patienttttttttttttttttttttttttttttttttttttttttttttttttt: " + str(patientRecords.hasRecordName[0]))
         if len(usernames) > 1:
-            usernamescluster = bi.get_cluster(usernames, usernameIndex)
-            # usernamescluster, clusters_username_number = hc.hierarchical(usernames, usernameIndex, 0.5)
+            usernamescluster, clusters_username_number = bi.get_cluster(usernames, usernameIndex)
         elif len(usernames) == 1:
             usernamescluster = {1 : []}
             usernamescluster[1].append(usernameIndex[0]['name'])
 
         #generate fake infor for username phi instances
         if len(usernames) > 0:
+            print(usernamescluster)
             for cluster, usernamesinstances in usernamescluster.items():
                 fake_username = faker.generate_username()
                 for usernameinstance in usernamesinstances:

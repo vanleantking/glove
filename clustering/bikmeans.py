@@ -24,7 +24,7 @@ class KMeans:
     def has_converged(self, iterations, new_centers, old_centers):
         if self.maxiter == iterations:
            return True
-        return (set([tuple(a) for a in old_centers]) == set([tuple(a) for a in new_centers]))
+        return (set([tuple(a) for a in old_centers if a is not None]) == set([tuple(a) for a in new_centers if a is not None]))
 
 
     def cosine_similitary(self, vector1, vector2):
@@ -43,18 +43,15 @@ class KMeans:
     def assign_point_to_clusters(self, X, centroids):
         clusters = {i : [] for i in range(self.k)}
         for x in X:
-            D = 1 - cdist([x], centroids, self.metric)
             mean_index = min([(m[0], self.cosine_similitary(x, centroids[m[0]])) for m in enumerate(centroids)], key=lambda t: t[1])[0]
 
             try: 
                 clusters[mean_index].append(x)
             except KeyError:
                 clusters[mean_index] = [x]
-
-        for key, cluster in clusters.items():
-            if not cluster:
-                cluster.append(X[np.random.randint(0, len(X), size=1)].flatten().tolist())
-        return clusters
+        
+        results = {k : v for k, v in clusters.items() if len(v) > 0}
+        return results
     
     def recalculate_centroids(self, clusters):
 
