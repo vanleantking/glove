@@ -52,7 +52,7 @@ def load_corpus():
                         #remove date in sentence
                         sentence = [word for word in words_arrays if not re.search(r'[0-9]{1,4}[\/,:,-][0-9]{1,3}([\/,:,-][0-9]{2,4})?([\/,:,-][0-9]{2,4})?', word)]
 
-                        # sentence = [word for word in sentence if not re.search(r'\'s', word)]
+                        sentence = [word for word in sentence if not re.search(r'\'s', word)]
 
                         #remove specials symbols
                         sentence = [c for c in sentence if c not in ('!','.',':', '-', '+', '_', '(', ')', '*', '&', '#', ';', '?', '>', '<', '%', '{', '}', '=', ',', ']', '[', '`', '\'')]

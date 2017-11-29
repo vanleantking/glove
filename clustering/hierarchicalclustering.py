@@ -137,29 +137,49 @@ def constructioncluster(hc, onto, patientsmaxlength, doctorsmaxlength, professio
         usernamelogclustering = open(aa_not_postusernameclusterpath,"w")
 
     is_abbrv = False
+    silhouette_patient = []
+    silhouette_doctor = []  
+    silhouette_hospital = []
+    silhouette_profession = []
+    silhouette_city = []
+    silhouette_state = []
+    silhouette_country = []
+    silhouette_street = []
+    silhouette_organization = []
+    silhouette_username = []
     for patientRecords in onto.PatientRecord.instances():
 
         #data per patient
         patients = []
         patientIndex = []
+        
         doctors = []
-        doctorIndex = []       
+        doctorIndex = []
+         
         hospitalIndex = []
         hospitals = []
+        
         professions = []
         professionIndex = []
+        
         cities = []
         cityIndex = []
+        
         stateIndex = []
         states = []
+        
         countries = []
         countryIndex = []
+        
         streetIndex = []
         streets = []
+        
         organizationIndex = []
         organizations = []
+        
         usernames = []
         usernameIndex = []
+        
         
         if len(patientRecords.have_collect_patients) > 1:
             patientRecord = [hc.getword2vectabb(patient.hasName[0], patientsmaxlength, is_abbrv) for patient in patientRecords.have_collect_patients if np.isnan(hc.get_model().embeded_phrases(patient.hasName[0])).any() == False]
@@ -244,7 +264,7 @@ def constructioncluster(hc, onto, patientsmaxlength, doctorsmaxlength, professio
                 for doc in docsinstances:
                     doc.hasCloneInfo.append(fake_doctor)
 
-            hc.logdocsfile(docslogclustering, docscluster, doctorIndex)
+            silhouette_doctor.append(hc.logdocsfile(docslogclustering, docscluster, doctorIndex))
 
 
 
@@ -269,7 +289,7 @@ def constructioncluster(hc, onto, patientsmaxlength, doctorsmaxlength, professio
                 fake_patient = faker.generate_name()
                 for patientinstance in patientsinstances:
                     patientinstance.hasCloneInfo.append(fake_patient)
-            hc.logdocsfile(patientslogclustering, patientscluster, patientIndex)
+            silhouette_patient.append(hc.logdocsfile(patientslogclustering, patientscluster, patientIndex))
 
 
 
@@ -291,7 +311,7 @@ def constructioncluster(hc, onto, patientsmaxlength, doctorsmaxlength, professio
                 fake_hospital = faker.generate_hospital()
                 for hospitalinstance in hospitalsinstances:
                     hospitalinstance.hasCloneInfo.append(fake_hospital)
-            hc.logdocsfile(hospitallogclustering, hospitalscluster, hospitalIndex)
+            silhouette_hospital.append(hc.logdocsfile(hospitallogclustering, hospitalscluster, hospitalIndex))
 
 
 
@@ -311,7 +331,7 @@ def constructioncluster(hc, onto, patientsmaxlength, doctorsmaxlength, professio
                 fake_profession = faker.generate_profession()
                 for professioninstance in professionsinstances:
                     professioninstance.hasCloneInfo.append(fake_profession)
-            hc.logdocsfile(professionlogclustering, professionscluster, professionIndex)
+            silhouette_profession.append(hc.logdocsfile(professionlogclustering, professionscluster, professionIndex))
 
 
         pccp = PostLocationClusteringProcessing()
@@ -333,7 +353,7 @@ def constructioncluster(hc, onto, patientsmaxlength, doctorsmaxlength, professio
                 fake_city = faker.generate_city()
                 for cityinstance in citiesinstances:
                     cityinstance.hasCloneInfo.append(fake_city)
-            hc.logdocsfile(citylogclustering, citiescluster, cityIndex)
+            silhouette_city.append(hc.logdocsfile(citylogclustering, citiescluster, cityIndex))
 
 
 
@@ -355,7 +375,7 @@ def constructioncluster(hc, onto, patientsmaxlength, doctorsmaxlength, professio
                 fake_state = faker.generate_state()
                 for stateinstance in statesinstances:
                     stateinstance.hasCloneInfo.append(fake_state)
-            hc.logdocsfile(statelogclustering, statescluster, stateIndex)
+            silhouette_state.append(hc.logdocsfile(statelogclustering, statescluster, stateIndex))
 
 
 
@@ -377,7 +397,7 @@ def constructioncluster(hc, onto, patientsmaxlength, doctorsmaxlength, professio
                 fake_country = faker.generate_country()
                 for countryinstance in countriesinstances:
                     countryinstance.hasCloneInfo.append(fake_country)
-            hc.logdocsfile(countrylogclustering, countriescluster, countryIndex)
+            silhouette_country.append(hc.logdocsfile(countrylogclustering, countriescluster, countryIndex))
 
 
 
@@ -400,7 +420,7 @@ def constructioncluster(hc, onto, patientsmaxlength, doctorsmaxlength, professio
                 fake_streets = faker.generate_street(streetsinstances)
                 for i in range(len(streetsinstances)):
                     streetsinstances[i].hasCloneInfo.append(fake_streets[i])
-            hc.logdocsfile(streetlogclustering, streetscluster, streetIndex)
+            silhouette_street.append(hc.logdocsfile(streetlogclustering, streetscluster, streetIndex))
 
 
 
@@ -423,7 +443,7 @@ def constructioncluster(hc, onto, patientsmaxlength, doctorsmaxlength, professio
                 fake_organization = faker.generate_company()
                 for organizationinstance in organizationsinstances:
                     organizationinstance.hasCloneInfo.append(fake_organization)
-            hc.logdocsfile(organizationlogclustering, organizationscluster, organizationIndex)
+            silhouette_organization.append(hc.logdocsfile(organizationlogclustering, organizationscluster, organizationIndex))
 
 
 
@@ -444,11 +464,49 @@ def constructioncluster(hc, onto, patientsmaxlength, doctorsmaxlength, professio
                 fake_username = faker.generate_username()
                 for usernameinstance in usernamesinstances:
                     usernameinstance.hasCloneInfo.append(fake_username)
-            hc.logdocsfile(usernamelogclustering, usernamescluster, usernameIndex) 
+            silhouette_username.append(hc.logdocsfile(usernamelogclustering, usernamescluster, usernameIndex))
     
     
-    
-    
+    #calculate average silhouette for each PHI type:
+    if len(silhouette_patient) > 0:
+        avg_sil_patient = sum(silhouette_patient) / len(silhouette_patient)
+        hc.logfile(patientslogclustering, avg_sil_patient)
+
+    if len(silhouette_doctor) > 0:
+        avg_sil_doctor = sum(silhouette_doctor) / len(silhouette_doctor)
+        hc.logfile(docslogclustering, avg_sil_doctor)
+
+    if len(silhouette_hospital) > 0:
+        avg_sil_hospital = sum(silhouette_hospital) / len(silhouette_hospital)
+        hc.logfile(hospitallogclustering, avg_sil_hospital)
+
+    if len(silhouette_profession) > 0:
+        avg_sil_profession = sum(silhouette_profession) / len(silhouette_profession)
+        hc.logfile(professionlogclustering, avg_sil_profession)
+
+    if len(silhouette_city) > 0:
+        avg_sil_city = sum(silhouette_city) / len(silhouette_city)
+        hc.logfile(citylogclustering, avg_sil_city)
+
+    if len(silhouette_state) > 0:
+        avg_sil_state = sum(silhouette_state) / len(silhouette_state)
+        hc.logfile(statelogclustering, avg_sil_state)
+
+    if len(silhouette_country) > 0:
+        avg_sil_profession = sum(silhouette_country) / len(silhouette_country)
+        hc.logfile(countrylogclustering, avg_sil_profession)
+
+    if len(silhouette_street) > 0:
+        avg_sil_street = sum(silhouette_street) / len(silhouette_street)
+        hc.logfile(streetlogclustering, avg_sil_street)
+
+    if len(silhouette_organization) > 0:
+        avg_sil_organization = sum(silhouette_organization) / len(silhouette_organization)
+        hc.logfile(organizationlogclustering, avg_sil_organization)
+
+    if len(silhouette_username) > 0:
+        avg_sil_username = sum(silhouette_username) / len(silhouette_username)
+        hc.logfile(usernamelogclustering, avg_sil_username)
     
     
     docslogclustering.close()

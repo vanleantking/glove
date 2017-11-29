@@ -96,12 +96,10 @@ class Clustering:
 
     def logfile(self, file, data):
         file.write('\n')
-        for k, v in data.items():
-            file.write('cluster ' + str(k))
-            file.write(''.join(str(v)))
-            file.write('\n')
-        file.write('\n\n\n\n\n')
-        file.close()
+        file.write('-------------------------------Average Silhouette for all------------------')
+        file.write('\n')
+        file.write('value: ' + str(data))
+        file.write('\n\n')
 
     def logdocsfile(self, file, data, dataIndex):
         file.write('\n')
@@ -138,3 +136,4 @@ class Clustering:
         file.write('\n')
         file.write('------------------------------End log this patient record----------------------------')
         file.write('\n\n\n\n\n\n\n')
+        return cal_silhouette_score

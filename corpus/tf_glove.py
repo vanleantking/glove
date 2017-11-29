@@ -180,7 +180,8 @@ class GloVeModel():
     def embeded_phrases(self, phrases):
         # phrases = "".join(c for c in phrases if c not in ('!','.',':', '-', '\'s', '+', '_', '(', ')', '*', '&', '#', ';', '?', '>', '<', '%'))
         phrases = re.findall(r"[\w']+|[.,!?;\/+]", phrases.strip().lower())
-        words = [c for c in phrases if c not in ('!','.',':', '-', '+', '_', '(', ')', '*', '&', '#', ';', '?', '>', '<', '%', '{', '}', '=', ',', ']', '[', '`', '\'')]
+        sentence = [word for word in phrases if not re.search(r'\'s', word)]
+        words = [c for c in sentence if c not in ('!','.',':', '-', '+', '_', '(', ')', '*', '&', '#', ';', '?', '>', '<', '%', '{', '}', '=', ',', ']', '[', '`', '\'')]
         # words = sentence.strip().lower().split()
         phrases = '_'.join(words)
         try:
@@ -207,7 +208,7 @@ class GloVeModel():
         if tf.train.latest_checkpoint(save_dir) is not None:
             with tf.Session() as session:
                 ckpt = tf.train.get_checkpoint_state(save_dir)
-                saver = tf.train.import_meta_graph(save_dir+'tf_glove.model-97200.meta')
+                saver = tf.train.import_meta_graph(save_dir+'tf_glove.model-96750.meta')
                 saver.restore(session, ckpt.model_checkpoint_path)
                 graph = tf.get_default_graph()
                 embedding_object = graph.get_tensor_by_name('combined_embeddings:0')
