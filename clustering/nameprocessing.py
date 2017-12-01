@@ -58,7 +58,7 @@ class PostProcessing:
         self._pre = PreProcessingText()
 
     def mergecluster(self, cluster1, cluster2):
-        return any(self.check_equal_name(element1.name, element2.name) for element1 in cluster1 for element2 in cluster2)
+        return all(self.check_equal_name(element1.name, element2.name) for element1 in cluster1 for element2 in cluster2)
         
 
     # check abbrev is abbreviation of text
@@ -117,9 +117,14 @@ class PostProcessing:
             if lencls > 1:
                 for i in range(lencls):
                     try:
-                        if (all(self.check_equal(cluster[i].hasName[0], cluster[j].hasName[0]) == False for j in range(lencls) if cluster[i] and cluster[j] and i != j)):
-                            result.append([cluster[i]])
-                            del cluster[i]
+                        if len(cluster[i].hasName[0]) > 1:
+                            if any(self.check_equal(cluster[i].hasName[0], cluster[j].hasName[0]) == False for j in range(lencls) if i != j):
+                                result.append([cluster[i]])
+                                del cluster[i]
+                        else:
+                            if all(self.check_equal(cluster[i].hasName[0], cluster[j].hasName[0]) == False for j in range(lencls) if i != j):
+                                result.append([cluster[i]])
+                                del cluster[i]
                     except:
                         pass
         result.extend(clusters.values())
@@ -133,15 +138,41 @@ class PostProcessing:
 class PostNameClusterProcessing(PostProcessing):
 
     def mergecluster(self, cluster1, cluster2):
-        return any(self.check_equal(element1.hasName[0], element2.hasName[0]) for element1 in cluster1 for element2 in cluster2)
+        if len(cluster2[0].hasName[0]) == 1:
+            is_merged = any(self.check_equal(element1.hasName[0], cluster2[0].hasName[0]) for element1 in cluster1)
+        else:
+            is_merged = all(self.check_equal(element1.hasName[0], cluster2[0].hasName[0]) for element1 in cluster1)
+        is_valid = all(self.check_equal(cluster1[0].hasName[0], element2.hasName[0]) == True for element2 in cluster2)
+
+            
+        return is_merged and is_valid
 
 
 
 #post clustering for professions
 class PostProfessionClusterProcessing(PostProcessing):
 
+    def splitcluster(self, clusters):
+        result = []
+        for index, cluster in clusters.items():
+            lencls = len(cluster)
+            if lencls > 1:
+                for i in range(lencls):
+                    try:
+                        if (any(self.check_equal(cluster[i].jobName[0], cluster[j].jobName[0]) == False for j in range(lencls) if cluster[i] and cluster[j] and i != j)):
+                            result.append([cluster[i]])
+                            del cluster[i]
+                    except:
+                        pass
+        result.extend(clusters.values())
+        lenrsl = len(result)
+        results = {i: [] for i in range(lenrsl)}
+        for i in range(lenrsl):
+            results[i].extend(result[i])
+        return results, lenrsl
+
     def mergecluster(self, cluster1, cluster2):
-        return any(self.check_equal(element1.jobName[0], element2.jobName[0]) for element1 in cluster1 for element2 in cluster2)
+        return all(self.check_equal(element1.jobName[0], element2.jobName[0]) for element1 in cluster1 for element2 in cluster2)
 
 #post clustering for hospital
 class PostHospitalClusterProcessing(PostProcessing):
@@ -163,7 +194,7 @@ class PostHospitalClusterProcessing(PostProcessing):
         return False
 
     def mergecluster(self, cluster1, cluster2):
-        return any(self.check_equal(element1.hasName[0], element2.hasName[0]) for element1 in cluster1 for element2 in cluster2)
+        return all(self.check_equal(element1.hasName[0], element2.hasName[0]) for element1 in cluster1 for element2 in cluster2)
 
 
 class PostLocationClusteringProcessing(PostProcessing):
@@ -174,7 +205,7 @@ class PostLocationClusteringProcessing(PostProcessing):
             if lencls > 1:
                 for i in range(lencls):
                     try:
-                        if (all(self.check_equal(cluster[i].hasLocation[0], cluster[j].hasLocation[0]) == False for j in range(lencls) if cluster[i] and cluster[j] and i != j)):
+                        if (any(self.check_equal(cluster[i].hasLocation[0], cluster[j].hasLocation[0]) == False for j in range(lencls) if cluster[i] and cluster[j] and i != j)):
                             result.append([cluster[i]])
                             del cluster[i]
                     except:
@@ -187,7 +218,7 @@ class PostLocationClusteringProcessing(PostProcessing):
         return results, lenrsl
 
     def mergecluster(self, cluster1, cluster2):
-        return any(self.check_equal(element1.hasLocation[0], element2.hasLocation[0]) for element1 in cluster1 for element2 in cluster2)
+        return all(self.check_equal(element1.hasLocation[0], element2.hasLocation[0]) for element1 in cluster1 for element2 in cluster2)
 
 
     # check abbrev is abbreviation of text
@@ -208,4 +239,8 @@ class PostLocationClusteringProcessing(PostProcessing):
             return (self.is_abbrev(abbrev[1:],' '.join(words[1:])) or
                     any(self.is_abbrev(abbrev[1:],text[i+1:])
                         for i in range(len(words[0]))))
+
+if __name__ == '__main__':
+    p = PostNameClusterProcessing()
+    print(p.check_equal('Quindarrius', 'Ervin, Quindarrius'))
 

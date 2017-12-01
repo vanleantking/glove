@@ -15,7 +15,7 @@ from scipy.spatial.distance import cdist
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.metrics.pairwise import pairwise_distances
 from nameprocessing import PreProcessingText, PostProcessing, PostHospitalClusterProcessing, \
-PostNameClusterProcessing, PostLocationClusteringProcessing
+PostNameClusterProcessing, PostLocationClusteringProcessing, PostProfessionClusterProcessing
 
 import sys
 import os.path
@@ -101,11 +101,11 @@ class HierachicalClustering(Clustering):
         for i in range(clusters_number):
             for j in range (i+1, clusters_number):
                 if i in clusters.keys() and j in clusters.keys():
-                    merged = processing_type.mergecluster(clusters[i], clusters[j])
-                    if merged:
+                    merged_ij = processing_type.mergecluster(clusters[i], clusters[j])
+                    if merged_ij:
                         try:
-                            clusters[i].extend(clusters[j])
-                            del clusters[j]
+                            clusters[j].extend(clusters[i])
+                            del clusters[i]
                         except:
                             pass
         return clusters
@@ -243,7 +243,6 @@ def constructioncluster(hc, onto, patientsmaxlength, doctorsmaxlength, professio
 
 
         ###DOCTORS###
-        # docscluster, clusters_number = hc.hierarchical(doctors, doctorIndex, 0.45)
         
         #post processing for doctors
         docslogclustering.write("result patienttttttttttttttttttttttttttttttttttttttttttttttttt: " + str(patientRecords.hasRecordName[0]))
@@ -320,6 +319,10 @@ def constructioncluster(hc, onto, patientsmaxlength, doctorsmaxlength, professio
         professionlogclustering.write("result patienttttttttttttttttttttttttttttttttttttttttttttttttt: " + str(patientRecords.hasRecordName[0]))
         if len(professions) > 1:
             professionscluster, clusters_profession_number = hc.hierarchical(professions, professionIndex, 0.5)
+            ppcp = PostProfessionClusterProcessing()
+            if is_post == True:
+                professioncluster = hc.postclustering(professionscluster, clusters_profession_number, ppcp)
+
         elif len(professions) == 1:
             professionscluster = {1 : []}
             professionscluster[1].append(professionIndex[0]['name'])
@@ -454,6 +457,9 @@ def constructioncluster(hc, onto, patientsmaxlength, doctorsmaxlength, professio
         usernamelogclustering.write("result patienttttttttttttttttttttttttttttttttttttttttttttttttt: " + str(patientRecords.hasRecordName[0]))
         if len(usernames) > 1:
             usernamescluster, clusters_username_number = hc.hierarchical(usernames, usernameIndex, 0.5)
+            pnpcp = PostNameClusterProcessing()
+            if is_post == True:
+                usernamescluster = hc.postclustering(usernamescluster, clusters_username_number, pnpcp)
         elif len(usernames) == 1:
             usernamescluster = {1 : []}
             usernamescluster[1].append(usernameIndex[0]['name'])

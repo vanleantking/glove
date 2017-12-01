@@ -94,7 +94,7 @@ def construct_ngrams(corpus, n):
     return ngrams
 
 
-def learning_phrase(corpus, corpus_size, word_phrases = 4, min_count = 2, threshold = 100):
+def learning_phrase(corpus, corpus_size, word_phrases = 4, min_count = 2, threshold = 200):
     phrase = 1
     ngram_counter = Counter()
     corpuses = []
@@ -102,22 +102,24 @@ def learning_phrase(corpus, corpus_size, word_phrases = 4, min_count = 2, thresh
     while (phrase <= word_phrases):
         ngram_counter += construct_ngrams(corpus, phrase)
         phrase += 1
-    for line in corpus:
-        text = line
-        i = 0
-        while (i < len(line) - 1):
-            if (ngram_counter[line[i]]) < min_count or (ngram_counter[line[i+1]]) < min_count :
-                i += 1
-            else:
-                word_score = (ngram_counter[line[i]+"_"+line[i+1]] - min_count) / float(ngram_counter[line[i]]) / float(ngram_counter[line[i+1]]) * corpus_size;
-                
-                if word_score > threshold:
-                    text.insert(i+2, line[i]+"_"+line[i+1])
-                    
+        if phrase > 2:
+            threshold = 100
+        for line in corpus:
+            text = line
+            i = 0
+            while (i < len(line) - 1):
+                if (ngram_counter[line[i]]) < min_count or (ngram_counter[line[i+1]]) < min_count :
+                    i += 1
                 else:
-                    del ngram_counter[line[i]+"_"+line[i+1]]
-                i = i + 1
-        corpuses.append(text)
+                    word_score = (ngram_counter[line[i]+"_"+line[i+1]] - min_count) / float(ngram_counter[line[i]]) / float(ngram_counter[line[i+1]]) * corpus_size;
+                    
+                    if word_score > threshold:
+                        text.insert(i+2, line[i]+"_"+line[i+1])
+                        
+                    else:
+                        del ngram_counter[line[i]+"_"+line[i+1]]
+                    i = i + 1
+            corpuses.append(text)
     corpus_dict['corpus'] = corpuses
     corpus_dict['corpus_size'] = corpus_size
     pickle.dump( corpus_dict, open( corpus_file, "wb" ) )

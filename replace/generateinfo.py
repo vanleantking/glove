@@ -19,17 +19,17 @@ class FakerInfo:
                     "%b %d, %Y", "%B %d, %Y", "%A, %B %d, %Y", "%b, %Y", "%A, %B %d", "%B, %Y", "%b, %Y", 
                     "%a", "%A", "%b", "%B", "%m", "%d", "%y", "%Y"]
     date_decade = '\d+\s*\'*s'
-    seasons = ['spring', 'summer', 'autumn', 'winter']
+    seasons = {'spring' : 'January 1', 'summer' : 'April 1', 'autumn' : 'August 1', 'winter' : 'October 1'}
     weekday = ["mon", "tue", "wed", "thu", "fri", "sat", "sun"]
     normalize_weekdays = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
     holidays = {"thanksgiving": "15 August", "ramada": "15 May", "easter": "1 April"}
     symbol = ['\'', 'of']
     ages_word = ['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine']
     ages_number = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
-    day_shift = 3
-    date_shift = 3
+    day_shift = 5
+    date_shift = 5
     month_shift = 3
-    year_shift = 5
+    year_shift = 10
     season_shif = 1
     health_plan = ['Medicare Cost Plans', 'Demonstrations/Pilot Programs', "Programs of All-inclusive Care for the Elderly (PACE)", 
             "Medication Therapy Management (MTM) programs for complex health needs"]
@@ -112,7 +112,9 @@ class FakerInfo:
         date_process = strdate.strip().lower()
         #check date is decade
         if re.match(self.date_decade, date_process):
-            return strdate
+            decade = re.split(r'(\d+)', date_process)
+            decade[1] = str(int(decade[1]) + 10)
+            return  "".join(decade)
 
         #check date is day:
         week_day = date_process.split()
@@ -121,36 +123,46 @@ class FakerInfo:
                 if re.match(day, date_process):
                     return self.normalize_weekdays[index + self.day_shift - len(self.weekday)] if index + self.day_shift >= len(self.weekday) else self.weekday[index + self.day_shift]
 
-        #check for season only
-        for index, season in enumerate(self.seasons):
-            if season == date_process:
-                return self.seasons[index + self.season_shif - len(self.seasons)] if index + self.season_shif >= len(self.seasons) else self.seasons[index + self.season_shif]
+        # #check for season only
+        # for index, season in enumerate(self.seasons):
+        #     if season == date_process:
+        #         return self.seasons[index + self.season_shif - len(self.seasons)] if index + self.season_shif >= len(self.seasons) else self.seasons[index + self.season_shif]
 
-        #check for season and year:
-        season_year = re.findall(r"[\w']+|[.,!?;\/+]", date_process)
-        for index, season in enumerate(self.seasons):
-            for idx, word in enumerate(season_year):
-                if word == season:
-                    season_year[idx] = self.seasons[idx + self.season_shif - len(self.seasons)] if idx + self.season_shif >= len(self.seasons) else self.seasons[idx + self.season_shif]
-                    season_year[-1] = str(int(season_year[-1]) + self.year_shift)
-                    return " ".join(season_year)
+        # #check for season and year:
+        # season_year = re.findall(r"[\w']+|[.,!?;\/+]", date_process)
+        # for index, season in enumerate(self.seasons):
+        #     for idx, word in enumerate(season_year):
+        #         if word == season:
+        #             season_year[idx] = self.seasons[idx + self.season_shif - len(self.seasons)] if idx + self.season_shif >= len(self.seasons) else self.seasons[idx + self.season_shif]
+        #             season_year[-1] = str(int(season_year[-1]) + self.year_shift)
+        #             return " ".join(season_year)
 
 
 
         d_obj = None
 
-        #check holidays and year
-        h_flag = False
+        h_flag = 'N'
         index_flag = 0
         holiday_year = re.findall(r"[\w']+|[.,!?;\/+]", date_process)
-        for index, word in enumerate(holiday_year):
-            if word in self.holidays:
-                h_flag = True
+        
+        #check holidays and year
+        for h_index, h_word in enumerate(holiday_year):
+            if h_word in self.holidays.keys():
+                h_flag = 'H'
+                break
+
+        for s_index, s_word in enumerate(holiday_year):
+            if s_word in self.seasons.keys():
+                h_flag = 'S'
                 break
 
         #convert holiday to a specific day
-        if h_flag == True:
-            holiday_year[index] =  self.holidays[word]
+        if h_flag == 'H':
+            holiday_year[h_index] =  self.holidays[h_word]
+            reg_date = " ".join(holiday_year)
+
+        elif h_flag == 'S':
+            holiday_year[s_index] = self.seasons[s_word]
             reg_date = " ".join(holiday_year)
         
         #remove special symbols in date string 
