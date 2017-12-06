@@ -94,6 +94,9 @@ class FakerInfo:
                 street_number.append("")
         return [number + ' ' + faker_street for number in street_number]
 
+    def generate_street_add(self):
+        return self._faker.street_address()
+
 
     def generate_zip(self):
         return self._faker.zipcode_plus4()
@@ -122,22 +125,6 @@ class FakerInfo:
             for index, day in enumerate(self.weekday):
                 if re.match(day, date_process):
                     return self.normalize_weekdays[index + self.day_shift - len(self.weekday)] if index + self.day_shift >= len(self.weekday) else self.weekday[index + self.day_shift]
-
-        # #check for season only
-        # for index, season in enumerate(self.seasons):
-        #     if season == date_process:
-        #         return self.seasons[index + self.season_shif - len(self.seasons)] if index + self.season_shif >= len(self.seasons) else self.seasons[index + self.season_shif]
-
-        # #check for season and year:
-        # season_year = re.findall(r"[\w']+|[.,!?;\/+]", date_process)
-        # for index, season in enumerate(self.seasons):
-        #     for idx, word in enumerate(season_year):
-        #         if word == season:
-        #             season_year[idx] = self.seasons[idx + self.season_shif - len(self.seasons)] if idx + self.season_shif >= len(self.seasons) else self.seasons[idx + self.season_shif]
-        #             season_year[-1] = str(int(season_year[-1]) + self.year_shift)
-        #             return " ".join(season_year)
-
-
 
         d_obj = None
 
@@ -196,8 +183,8 @@ class FakerInfo:
 
 
     def generate_age(self, age):
-        if re.match(self.date_decade, age):
-            return age
+        # if re.match(self.date_decade, age):
+        #     return age
         age_process = re.findall(r"[\d]+|[\w]+|[,.]", age)
         if len(age_process) == 1:
             try:

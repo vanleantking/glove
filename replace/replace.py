@@ -11,7 +11,7 @@ FAKE_DIR_DATA = '/media/vanle/Studying/python/word2vec/glove/thesis/result'
 
 
 onto = get_ontology("file:///media/vanle/Studying/python/word2vec/glove/thesis/newemr.owl").load()
-def read_file():
+def impl_replace():
 
     for name in sorted(os.listdir(BASE_DIR_DATA)):
         path = os.path.join(BASE_DIR_DATA, name)
@@ -143,9 +143,13 @@ def load_onto_data(fname):
         onto_datas.update({int(profession.hasStartPosition[0]) : [profession.hasStartPosition[0], profession.hasEndPosition[0], profession.hasCloneInfo[0]] \
         for profession in medicalRecord.job_position if len(profession.hasCloneInfo) > 0})
 
+    if len(medicalRecord.has_medical_record_id) > 0:
+        onto_datas.update({int(medicalRecordID.hasStartPosition[0]) : [medicalRecordID.hasStartPosition[0], medicalRecordID.hasEndPosition[0], medicalRecordID.hasCloneInfo[0]] \
+        for medicalRecordID in medicalRecord.has_medical_record_id if len(medicalRecordID.hasCloneInfo) > 0})
 
-    if len(medicalRecord.hasCloneInfo) > 0:
-        onto_datas.update({int(medicalRecord.hasStartPosition[0]) : [medicalRecord.hasStartPosition[0], medicalRecord.hasEndPosition[0], medicalRecord.hasCloneInfo[0]]})
+
+    # if len(medicalRecord.hasCloneInfo) > 0:
+    #     onto_datas.update({int(medicalRecord.hasStartPosition[0]) : [medicalRecord.hasStartPosition[0], medicalRecord.hasEndPosition[0], medicalRecord.hasCloneInfo[0]]})
 
     # sortkeys = sorted(onto_datas.keys())
     # for key in sortkeys:
@@ -160,7 +164,7 @@ def replacement(text, end, start = 0, dept = 0, replacement=''):
 
 
 if __name__ == '__main__':
-    read_file()
+    impl_replace()
     # print(load_onto_data('362-04.xml'))
 
             
