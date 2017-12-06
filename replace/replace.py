@@ -44,16 +44,13 @@ def impl_replace():
                 f_soup.append(f_soup.new_tag("TEXT"))
                 f_soup.TEXT.string = str(tmp)
                 f_soup.append(tags)
-                # print(tags)
-                # f_soup.TAGS.wrap(tags)
 
                 # write fake infor to file
                 file = open(f_file, "w", encoding='utf-8')
                 file.write(str(f_soup))
                 file.close()
                 
-            #     break
-            # break
+            
 
 
 def get_medial_record(fname):

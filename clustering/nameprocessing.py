@@ -138,15 +138,20 @@ class PostProcessing:
 class PostNameClusterProcessing(PostProcessing):
 
     def mergecluster(self, cluster1, cluster2):
-        is_valid = True
-        if len(cluster2[0].hasName[0]) == 1:
-            is_merged = any(self.check_equal(element1.hasName[0], cluster2[0].hasName[0]) for element1 in cluster1)
-        else:
-            is_merged = all(self.check_equal(element1.hasName[0], cluster2[0].hasName[0]) for element1 in cluster1)
-            is_valid = all(self.check_equal(cluster1[0].hasName[0], element2.hasName[0]) == True for element2 in cluster2)
+        is_valid = [True]
+        is_merged = []
+        for element2 in cluster2:
+            if len(element2.hasName[0].split()) == 1:
+                is_merged.append(any(self.check_equal(element1.hasName[0], element2.hasName[0]) for element1 in cluster1))
+            else:
+                merge_valid = all(self.check_equal(element1.hasName[0], element2.hasName[0]) for element1 in cluster1)
+                if not merge_valid:
+                    return False
+                is_merged.append(merge_valid)
+                # is_valid.append(any(self.check_equal(cluster1[0].hasName[0], element2.hasName[0]) == True for element2 in cluster2))
 
             
-        return is_merged and is_valid
+        return any(is_merged)
 
 
 

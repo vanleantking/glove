@@ -272,7 +272,6 @@ def constructioncluster(hc, onto, patientsmaxlength, doctorsmaxlength, professio
                 usernames.extend(usernameRecord)
 
             if len(medicalRecord.has_locationother) > 0:
-                print(medicalRecord.has_locationother)
                 locationotherRecord = [hc.getword2vectabb(locationother.hasLocation[0], locationothersmaxlength, is_abbrv) \
                 for locationother in medicalRecord.has_locationother if np.isnan(hc.get_model().embeded_phrases(locationother.hasLocation[0])).any() == False]
                 locationothersIndex.extend([{"name": locationother, "value": hc.getword2vectabb(locationother.hasLocation[0], locationothersmaxlength, is_abbrv)}  \
