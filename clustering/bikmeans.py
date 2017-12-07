@@ -38,7 +38,7 @@ class KMeans:
             mag1 += vector1[index] * vector1[index]
             mag2 += vector2[index] * vector2[index]
         
-        return prod / (math.sqrt(mag1) * math.sqrt(mag2))
+        return 1 - (prod / (math.sqrt(mag1) * math.sqrt(mag2)))
 
     def assign_point_to_clusters(self, X, centroids):
         clusters = {i : [] for i in range(self.k)}
@@ -49,16 +49,17 @@ class KMeans:
                 clusters[mean_index].append(x)
             except KeyError:
                 clusters[mean_index] = [x]
-        
-        results = {k : v for k, v in clusters.items() if len(v) > 0}
-        return results
+
+        return clusters
     
     def recalculate_centroids(self, clusters):
 
         centroids = []
         keys = sorted(clusters.keys())
         for k in keys:
-            centroids.append(np.mean(clusters[k], axis = 0))
+            if len(clusters[k]) > 0:
+                centroids.append(np.mean(clusters[k], axis = 0))
+        
         return centroids
     
     def kmeans(self, X, k):
@@ -145,6 +146,7 @@ class BiKMeans(KMeans):
             if (self.bi_convegence(clusters, old_clusters)):
                 clusters.extend(results)
                 break
+            
         return clusters
 
 

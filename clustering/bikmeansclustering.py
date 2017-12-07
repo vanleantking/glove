@@ -6,6 +6,7 @@ import math
 import os
 import sys
 import pickle
+
 from matplotlib import pyplot as plt
 from scipy.cluster.hierarchy import cophenet
 from scipy.cluster.hierarchy import fcluster, fclusterdata
@@ -41,6 +42,7 @@ organizationclusterpath = os.path.join(RESULT_DIR_DATA, 'organizationcluster.txt
 hospitalclusterpath = os.path.join(RESULT_DIR_DATA, 'hospitalcluster.txt')
 countryclusterpath = os.path.join(RESULT_DIR_DATA, 'countrycluster.txt')
 usernameclusterpath = os.path.join(RESULT_DIR_DATA, 'usernamecluster.txt')
+locationotherclusterpath = os.path.join(RESULT_DIR_DATA, 'locationothercluster.txt')
 
 #location clustering log path for  hierarchy
 aa_not_postdoctorclusterpath = os.path.join(RESULT_DIR_DATA, 'aa_not_postdoctorcluster.txt')
@@ -53,6 +55,7 @@ aa_not_postorganizationclusterpath = os.path.join(RESULT_DIR_DATA, 'aa_not_posto
 aa_not_posthospitalclusterpath = os.path.join(RESULT_DIR_DATA, 'aa_not_posthospitalcluster.txt')
 aa_not_postcountryclusterpath = os.path.join(RESULT_DIR_DATA, 'aa_not_postcountrycluster.txt')
 aa_not_postusernameclusterpath = os.path.join(RESULT_DIR_DATA, 'aa_not_postusernamecluster.txt')
+aa_not_postlocationotherclusterpath = os.path.join(RESULT_DIR_DATA, 'aa_not_postlocationothercluster.txt')
 
 class BiKmeanClustering(Clustering):
 
@@ -60,20 +63,25 @@ class BiKmeanClustering(Clustering):
         super().__init__()
 
     def get_cluster(self, X, dataIndex):
+        dtIndex = []
         bikmeans = BiKMeans()
         clusters = bikmeans.execute(X)
         docscluster = {i : [] for i in range(len(clusters)) if clusters[i]['vectors'] is not None}
 
         for index, docIndex in enumerate(clusters):
+            
             for doc in docIndex['vectors']:
                 for k, v in enumerate(dataIndex):
                     if np.array_equal(v['value'],doc):
-                        docscluster[index].append(v['name'] )
+                        if k not in dtIndex:
+                            docscluster[index].append(v['name'])
+                            dtIndex.append(k)
+
 
         
-        for cluster in docscluster.keys():
-            if not docscluster[cluster]:
-                del docscluster[cluster]
+        for key, cluster in enumerate(docscluster):
+            if not docscluster[key]:
+                del docscluster[key]
         
         return docscluster, len(docscluster)
 
@@ -94,7 +102,9 @@ class BiKmeanClustering(Clustering):
 
 
 
-def constructioncluster(hc, onto, patientsmaxlength, doctorsmaxlength, professionsmaxlength, citysmaxlength, statesmaxlength, streetsmaxlength, countrysmaxlength, hospitalsmaxlength, organizationsmaxlength, usernamesmaxlength, is_abbrv = False, is_post = True):
+def constructioncluster(hc, onto, patientsmaxlength, doctorsmaxlength, professionsmaxlength, citysmaxlength, \
+    statesmaxlength, streetsmaxlength, countrysmaxlength, locationothersmaxlength, hospitalsmaxlength, \
+    organizationsmaxlength, usernamesmaxlength, is_abbrv = False, is_post = True):
     if is_post == True:
         patientslogclustering = open(patientclusterpath,"w")
         docslogclustering = open(doctorclusterpath,"w")
@@ -106,6 +116,7 @@ def constructioncluster(hc, onto, patientsmaxlength, doctorsmaxlength, professio
         hospitallogclustering = open(hospitalclusterpath,"w")
         organizationlogclustering = open(organizationclusterpath,"w")
         usernamelogclustering = open(usernameclusterpath,"w")
+        locationotherlogclustering = open(locationotherclusterpath,"w")
     else:
         patientslogclustering = open(aa_not_postpatientclusterpath,"w")
         docslogclustering = open(aa_not_postdoctorclusterpath,"w")
@@ -117,6 +128,7 @@ def constructioncluster(hc, onto, patientsmaxlength, doctorsmaxlength, professio
         hospitallogclustering = open(aa_not_posthospitalclusterpath,"w")
         organizationlogclustering = open(aa_not_postorganizationclusterpath,"w")
         usernamelogclustering = open(aa_not_postusernameclusterpath,"w")
+        locationotherlogclustering = open(aa_not_postlocationotherclusterpath,"w")
 
     is_abbrv = False
     silhouette_patient = []
@@ -129,6 +141,7 @@ def constructioncluster(hc, onto, patientsmaxlength, doctorsmaxlength, professio
     silhouette_street = []
     silhouette_organization = []
     silhouette_username = []
+    silhouette_locationother = []
     bi = BiKmeanClustering()
     for patientRecords in onto.PatientRecord.instances():
 
@@ -153,7 +166,9 @@ def constructioncluster(hc, onto, patientsmaxlength, doctorsmaxlength, professio
         organizations = []
         usernames = []
         usernameIndex = []
-        
+        locationothers = []
+        locationothersIndex = []
+
         if len(patientRecords.have_collect_patients) > 1:
             patientRecord = [hc.getword2vectabb(patient.hasName[0], patientsmaxlength, is_abbrv) for patient in patientRecords.have_collect_patients if np.isnan(hc.get_model().embeded_phrases(patient.hasName[0])).any() == False]
             patientIndex.extend([{"name": patient, "value": hc.getword2vectabb(patient.hasName[0], patientsmaxlength, is_abbrv)} for patient in patientRecords.have_collect_patients if np.isnan(hc.get_model().embeded_phrases(patient.hasName[0])).any() == False])
@@ -170,6 +185,7 @@ def constructioncluster(hc, onto, patientsmaxlength, doctorsmaxlength, professio
             streetRecord = []
             organizationRecord = []
             usernameRecord = []
+            locationotherRecord = []
 
             doctorRecord = [hc.getword2vectabb(doctor.hasName[0], doctorsmaxlength, is_abbrv) for doctor in medicalRecord.doctor_dianose if np.isnan(hc.get_model().embeded_phrases(doctor.hasName[0])).any() == False]
             doctorIndex.extend([{"name": doctor, "value": hc.getword2vectabb(doctor.hasName[0], doctorsmaxlength, is_abbrv)} for doctor in medicalRecord.doctor_dianose if np.isnan(hc.get_model().embeded_phrases(doctor.hasName[0])).any() == False])
@@ -214,6 +230,13 @@ def constructioncluster(hc, onto, patientsmaxlength, doctorsmaxlength, professio
                 usernameIndex.extend([{"name": username, "value": hc.getword2vectabb(username.hasName[0], usernamesmaxlength, is_abbrv)} for username in medicalRecord.has_username if np.isnan(hc.get_model().embeded_phrases(username.hasName[0])).any() == False])
                 usernames.extend(usernameRecord)
 
+            if len(medicalRecord.has_locationother) > 0:
+                locationotherRecord = [hc.getword2vectabb(locationother.hasLocation[0], locationothersmaxlength, is_abbrv) \
+                for locationother in medicalRecord.has_locationother if np.isnan(hc.get_model().embeded_phrases(locationother.hasLocation[0])).any() == False]
+                locationothersIndex.extend([{"name": locationother, "value": hc.getword2vectabb(locationother.hasLocation[0], locationothersmaxlength, is_abbrv)}  \
+                for locationother in medicalRecord.has_locationother if np.isnan(hc.get_model().embeded_phrases(locationother.hasLocation[0])).any() == False])
+                locationothers.extend(locationotherRecord)
+
 
         ###DOCTORS###
         # docscluster, clusters_number = hc.hierarchical(doctors, doctorIndex, 0.45)
@@ -247,8 +270,9 @@ def constructioncluster(hc, onto, patientsmaxlength, doctorsmaxlength, professio
         # post procressing for patients
         patientslogclustering.write("result patienttttttttttttttttttttttttttttttttttttttttttttttttt: " + str(patientRecords.hasRecordName[0]))
         if len(patients) > 1:
+            
             patientscluster, clusters_patient_number = bi.get_cluster(patients, patientIndex)
-            # patientscluster, clusters_patient_number = hc.hierarchical(patients, patientIndex, 0.35)
+            
             pnpcp = PostNameClusterProcessing()
             if is_post == True:
                 patientscluster = hc.postclustering(patientscluster, clusters_patient_number, pnpcp)
@@ -265,7 +289,7 @@ def constructioncluster(hc, onto, patientsmaxlength, doctorsmaxlength, professio
                     patientinstance.hasCloneInfo.append(fake_patient)
             silhouette_patient.append(hc.logdocsfile(patientslogclustering, patientscluster, patientIndex))
 
-
+        
 
         ###HOSPITALS###
         #post procressing for hospital
@@ -399,6 +423,25 @@ def constructioncluster(hc, onto, patientsmaxlength, doctorsmaxlength, professio
 
 
 
+        ###LOCATIONOTHER###
+        #post procressing for location other instance
+        locationotherlogclustering.write("result patienttttttttttttttttttttttttttttttttttttttttttttttttt: " + str(patientRecords.hasRecordName[0]))
+        if len(locationothers) > 1:
+            locationotherscluster, clusters_locationother_number = bi.get_cluster(locationothers, locationothersIndex)
+            if is_post == True:
+                locationotherscluster = hc.postclustering(locationotherscluster, clusters_locationother_number, pccp)
+        elif len(locationothers) == 1:
+            locationotherscluster = {1 : []}
+            locationotherscluster[1].append(locationothersIndex[0]['name'])
+
+        #generate fake infor for location other phi instances
+        if len(locationothers) > 0:
+            for cluster, locationotherinstance in locationotherscluster.items():
+                fake_locationother = faker.generate_street_add()
+                for i in range(len(locationotherinstance)):
+                    locationotherinstance[i].hasCloneInfo.append(fake_locationother)
+            silhouette_locationother.append(hc.logdocsfile(locationotherlogclustering, locationotherscluster, locationothersIndex))
+
 
 
         ###ORGANIZATIONS###
@@ -438,7 +481,7 @@ def constructioncluster(hc, onto, patientsmaxlength, doctorsmaxlength, professio
 
         #generate fake infor for username phi instances
         if len(usernames) > 0:
-            print(usernamescluster)
+            
             for cluster, usernamesinstances in usernamescluster.items():
                 fake_username = faker.generate_username()
                 for usernameinstance in usernamesinstances:
@@ -474,6 +517,10 @@ def constructioncluster(hc, onto, patientsmaxlength, doctorsmaxlength, professio
         avg_sil_profession = sum(silhouette_country) / len(silhouette_country)
         hc.logfile(countrylogclustering, avg_sil_profession)
 
+    if len(silhouette_locationother) > 0:
+        avg_sil_locationother = sum(silhouette_locationother) / len(silhouette_locationother)
+        hc.logfile(locationotherlogclustering, avg_sil_locationother)
+
     if len(silhouette_street) > 0:
         avg_sil_street = sum(silhouette_street) / len(silhouette_street)
         hc.logfile(streetlogclustering, avg_sil_street)
@@ -499,6 +546,7 @@ def constructioncluster(hc, onto, patientsmaxlength, doctorsmaxlength, professio
     countrylogclustering.close()
     organizationlogclustering.close()
     usernamelogclustering.close()
+    locationotherlogclustering.close()
     
 
     print('log cluster success')
@@ -510,18 +558,93 @@ if __name__ == '__main__':
     faker = FakerInfo()
 
     datesName = [date for date in onto.Date.instances()]
-    agesName = [age for age in onto.Age.instances()]
-    phonesName = [phone for phone in onto.Phone.instances()]
-    faxsName = [fax for fax in onto.Fax.instances()]
-    emailsName = [email for email in onto.Email.instances()]
-    urlsName = [url for url in onto.URL.instances()]
-    medicalRecordsName = [medicalRecord for medicalRecord in onto.MedicalRecord.instances() if len(medicalRecord.hasMedicalRecordID) > 0]
-    IDNumsName = [idNum for idNum in onto.IDNum.instances()]
-    devicesName = [device for device in onto.Device.instances()]
-    bioIDsName = [bioID for bioID in onto.BioID.instances()]
-    healthPlansName = [healthPlan for healthPlan in onto.HealthPlan.instances()]
-    zipsName = [zips for zips in onto.Zip.instances()]
-    patientsName = [patient.hasName[0] for patientRecords in onto.PatientRecord.instances() for patient in patientRecords.have_collect_patients]
+
+    agesName = {}
+    for age in onto.Age.instances():        
+        if age.hasAge[0] in agesName:
+            agesName[age.hasAge[0]].append(age)
+        else:
+            agesName[age.hasAge[0]] = [age]
+
+
+    phonesName = {}
+    for phone in onto.Phone.instances():        
+        if phone.phoneNumber[0] in phonesName:
+            phonesName[phone.phoneNumber[0]].append(phone)
+        else:
+            phonesName[phone.phoneNumber[0]] = [phone]
+    
+
+    medicalRecordIDsName = {}
+    for medicalRecordID in onto.MedicalRecordID.instances():
+        if medicalRecordID.hasMedicalRecordID[0] in medicalRecordIDsName:
+            medicalRecordIDsName[medicalRecordID.hasMedicalRecordID[0]].append(medicalRecordID)
+        else:
+            medicalRecordIDsName[medicalRecordID.hasMedicalRecordID[0]] = [medicalRecordID]
+    
+
+    faxsName = {}
+    for fax in onto.Fax.instances():        
+        if fax.faxNumber[0] in faxsName:
+            faxsName[fax.faxNumber[0]].append(fax)
+        else:
+            faxsName[fax.faxNumber[0]] = [fax]
+
+
+    emailsName = {}
+    for email in onto.Email.instances():        
+        if email.emailAddress[0] in emailsName:
+            emailsName[email.emailAddress[0]].append(email)
+        else:
+            emailsName[email.emailAddress[0]] = [email]
+
+
+    urlsName = {}
+    for url in onto.URL.instances():        
+        if url.urlAddress[0] in urlsName:
+            urlsName[url.urlAddress[0]].append(url)
+        else:
+            urlsName[url.urlAddress[0]] = [url]
+
+    IDNumsName = {}
+    for idNum in onto.IDNum.instances():        
+        if idNum.hasUniqueID[0] in IDNumsName:
+            IDNumsName[idNum.hasUniqueID[0]].append(idNum)
+        else:
+            IDNumsName[idNum.hasUniqueID[0]] = [idNum]
+    
+
+    devicesName = {}
+    for device in onto.Device.instances():        
+        if device.deviceID[0] in devicesName:
+            devicesName[device.deviceID[0]].append(device)
+        else:
+            devicesName[device.deviceID[0]] = [device]
+
+    
+    bioIDsName = {}
+    for bioID in onto.BioID.instances():        
+        if bioID.hasUniqueID[0] in bioIDsName:
+            bioIDsName[bioID.hasUniqueID[0]].append(bioID)
+        else:
+            bioIDsName[bioID.hasUniqueID[0]] = [bioID]
+
+    healthPlansName = {}
+    for healthPlan in onto.HealthPlan.instances():        
+        if healthPlan.hasUniqueID[0] in healthPlansName:
+            healthPlansName[healthPlan.hasUniqueID[0]].append(healthPlan)
+        else:
+            healthPlansName[healthPlan.hasUniqueID[0]] = [healthPlan]
+
+    zipsName = {}
+    for zips in onto.Zip.instances():        
+        if zips.hasLocation[0] in zipsName:
+            zipsName[zips.hasLocation[0]].append(zips)
+        else:
+            zipsName[zips.hasLocation[0]] = [zips]
+
+    patientsName = [patient.hasName[0] for patientRecords in onto.PatientRecord.instances() \
+    for patient in patientRecords.have_collect_patients]
     doctorsName = [doctor.hasName[0] for doctor in onto.Doctor.instances()]
     usernamesName = [username.hasName[0] for username in onto.Username.instances()]
     hospitalsName = [hospital.hasName[0] for hospital in onto.Hospital.instances()]
@@ -530,7 +653,7 @@ if __name__ == '__main__':
     streetsName = [street.hasLocation[0] for street in onto.Street.instances()]
     organizationsName = [organization.hasLocation[0] for organization in onto.Organization.instances()]
     countrysName = [country.hasLocation[0] for country in onto.Country.instances()]
-    locationOthersName = [locationOther.has_state[0] for locationOther in onto.LocationOther.instances()]
+    locationOthersName = [locationOther.hasLocation[0] for locationOther in onto.LocationOther.instances()]
     professionsName = [profession.jobName[0] for profession in onto.Profession.instances()]
 
     
@@ -540,75 +663,42 @@ if __name__ == '__main__':
         fk_date = faker.generate_date(date.hasDate[0])
         date.hasCloneInfo.append(fk_date)
 
-
+    # print(agesName)
     # save fake infor for date
-    dictAges = dict.fromkeys(agesName)
-    for k in dictAges.keys():
-        dictAges[k] = []    
 
-    for age in agesName:
-        dictAges[age].append(age)
-
-    for k, ages in dictAges.items():
-        fk_age = faker.generate_age(k.hasAge[0])
-        for age in ages:
+    for k, values in agesName.items():
+        fk_age = faker.generate_age(k)
+        for age in values:
             age.hasCloneInfo.append(fk_age)
 
 
 
     # save fake infor for phone
-    dictPhones = dict.fromkeys(phonesName)
-    for k in dictPhones.keys():
-        dictPhones[k] = []    
 
-    for phone in phonesName:
-        dictPhones[phone].append(phone)
-
-    for k, phones in dictPhones.items():
+    for k, values in phonesName.items():
         fk_phone = faker.generate_phone()
-        for phone in phones:
+        for phone in values:
             phone.hasCloneInfo.append(fk_phone)
 
 
     #save fake infor for phone
-    dictFaxs = dict.fromkeys(faxsName)
-    for k in dictFaxs.keys():
-        dictFaxs[k] = []    
-
-    for fax in faxsName:
-        dictFaxs[fax].append(fax)
-
-    for k, faxes in dictFaxs.items():
+    for k, values in faxsName.items():
         fk_fax = faker.generate_fax()
-        for fax in faxes:
+        for fax in values:
             fax.hasCloneInfo.append(fk_fax)
 
 
 
     #save fake infor for phone
-    dictEmails = dict.fromkeys(emailsName)
-    for k in dictEmails.keys():
-        dictEmails[k] = []    
-
-    for email in emailsName:
-        dictEmails[email].append(email)
-
-    for k, faxes in dictEmails.items():
+    for k, values in emailsName.items():
         fk_email = faker.generate_email()
-        for email in faxes:
+        for email in values:
             email.hasCloneInfo.append(fk_email)
 
 
 
     #save fake infor for phone
-    dictURLs = dict.fromkeys(urlsName)
-    for k in dictURLs.keys():
-        dictURLs[k] = []
-
-    for url in urlsName:
-        dictURLs[url].append(url)
-
-    for k, urls in dictURLs.items():
+    for k, urls in urlsName.items():
         fk_url = faker.generate_URL()
         for url in urls:
             url.hasCloneInfo.append(fk_url)
@@ -618,14 +708,7 @@ if __name__ == '__main__':
 
 
     #save fake infor for phone
-    dictIDNums = dict.fromkeys(IDNumsName)
-    for k in dictIDNums.keys():
-        dictIDNums[k] = []
-
-    for idNum in IDNumsName:
-        dictIDNums[idNum].append(idNum)
-
-    for k, IDNums in dictIDNums.items():
+    for k, IDNums in IDNumsName.items():
         fk_idNum = faker.generate_IDNum()
         for idNum in IDNums:
             idNum.hasCloneInfo.append(fk_idNum)
@@ -633,14 +716,7 @@ if __name__ == '__main__':
 
 
     #save fake infor for phone
-    dictdevicesName = dict.fromkeys(devicesName)
-    for k in dictdevicesName.keys():
-        dictdevicesName[k] = []
-
-    for device in devicesName:
-        dictdevicesName[device].append(device)
-
-    for k, devices in dictdevicesName.items():
+    for k, devices in devicesName.items():
         fk_device = faker.generate_device()
         for device in devices:
             device.hasCloneInfo.append(fk_device)
@@ -648,14 +724,8 @@ if __name__ == '__main__':
     
 
     #save fake infor for phone
-    dictBioIDsName = dict.fromkeys(bioIDsName)
-    for k in dictBioIDsName.keys():
-        dictBioIDsName[k] = []
 
-    for bio in bioIDsName:
-        dictBioIDsName[bio].append(bio)
-
-    for k, bioIDs in dictBioIDsName.items():
+    for k, bioIDs in bioIDsName.items():
         fk_bio = faker.generate_BioID()
         for bio in bioIDs:
             bio.hasCloneInfo.append(fk_bio)
@@ -664,14 +734,7 @@ if __name__ == '__main__':
 
 
     #save fake infor for phone
-    dictHealthPlansName = dict.fromkeys(healthPlansName)
-    for k in dictHealthPlansName.keys():
-        dictHealthPlansName[k] = []
-
-    for healthPlan in healthPlansName:
-        dictHealthPlansName[healthPlan].append(healthPlan)
-
-    for k, healthPlans in dictHealthPlansName.items():
+    for k, healthPlans in healthPlansName.items():
         fk_healthPlan = faker.generate_healthplan()
         for healthPlan in healthPlans:
             healthPlan.hasCloneInfo.append(fk_healthPlan)
@@ -679,29 +742,15 @@ if __name__ == '__main__':
     
 
     #save fake infor for phone
-    dictMedicalRecordsName = dict.fromkeys(medicalRecordsName)
-    for k in dictMedicalRecordsName.keys():
-        dictMedicalRecordsName[k] = []
 
-    for medicalRecord in medicalRecordsName:
-        if len(medicalRecord.hasMedicalRecordID[0]) > 0:
-            dictMedicalRecordsName[medicalRecord].append(medicalRecord)
-
-    for k, medicalRecords in dictMedicalRecordsName.items():
+    for k, medicalRecordIDs in medicalRecordIDsName.items():
         fk_medicalRecord = faker.generate_medicalrecord()
-        for medicalRecord in medicalRecords:
-            medicalRecord.hasCloneInfo.append(fk_medicalRecord)
+        for medicalRecordID in medicalRecordIDs:
+            medicalRecordID.hasCloneInfo.append(fk_medicalRecord)
 
 
     #save fake infor for phone
-    dictZipsNames = dict.fromkeys(zipsName)
-    for k in dictZipsNames.keys():
-        dictZipsNames[k] = []
-
-    for zipNumber in zipsName:
-        dictZipsNames[zipNumber].append(zipNumber)
-
-    for k, zipNumbers in dictZipsNames.items():
+    for k, zipNumbers in zipsName.items():
         fk_zip = faker.generate_zip()
         for zipNumber in zipNumbers:
             zipNumber.hasCloneInfo.append(fk_zip)
@@ -719,25 +768,20 @@ if __name__ == '__main__':
     statesmaxlength = hc.getmaxlengthabb(statesName, is_username = False)
     streetsmaxlength = hc.getmaxlengthabb(streetsName, is_username = False)
     countrysmaxlength = hc.getmaxlengthabb(countrysName, is_username = False)
+    locationothersmaxlength = hc.getmaxlengthabb(locationOthersName, is_username = True)
     hospitalsmaxlength = hc.getmaxlengthabb(hospitalsName, is_username = False)
     organizationsmaxlength = hc.getmaxlengthabb(organizationsName, is_username = False)
     usernamesmaxlength = hc.getmaxlengthabb(usernamesName, is_username = True)
 
 
-    constructioncluster(hc, onto, patientsmaxlength, doctorsmaxlength, professionsmaxlength, citysmaxlength, statesmaxlength, streetsmaxlength, countrysmaxlength, hospitalsmaxlength, organizationsmaxlength, usernamesmaxlength, is_abbrv=True)
-    constructioncluster(hc, onto, patientsmaxlength, doctorsmaxlength, professionsmaxlength, citysmaxlength, statesmaxlength, streetsmaxlength, countrysmaxlength, hospitalsmaxlength, organizationsmaxlength, usernamesmaxlength, is_abbrv=True, is_post = False)
+    constructioncluster(hc, onto, patientsmaxlength, doctorsmaxlength, professionsmaxlength, citysmaxlength, \
+        statesmaxlength, streetsmaxlength, countrysmaxlength, locationothersmaxlength, hospitalsmaxlength, organizationsmaxlength, \
+        usernamesmaxlength, is_abbrv=True)
+    # onto.save(file="newemr.owl", format = "rdfxml")
 
-    # devices = []
-    # dates = []
-    # ages = []
-    # phones = []
-    # emails = []
-    # Faxes = []
-    # urls = []
-    # devices = []
-    # ids = []
-    # zips = []
-    # locationothers = []
+    constructioncluster(hc, onto, patientsmaxlength, doctorsmaxlength, professionsmaxlength, citysmaxlength, \
+        statesmaxlength, streetsmaxlength, countrysmaxlength, locationothersmaxlength, hospitalsmaxlength, organizationsmaxlength, \
+        usernamesmaxlength, is_abbrv=True, is_post = False)
     
     
     # model.generate_tsne(path='log/tsne')

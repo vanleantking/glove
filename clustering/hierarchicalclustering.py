@@ -589,6 +589,7 @@ def constructioncluster(hc, onto, patientsmaxlength, doctorsmaxlength, professio
     countrylogclustering.close()
     organizationlogclustering.close()
     usernamelogclustering.close()
+    locationotherlogclustering.close()
     
 
     print('log cluster success')
