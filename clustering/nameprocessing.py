@@ -117,7 +117,7 @@ class PostProcessing:
             if lencls > 1:
                 for i in range(lencls):
                     try:
-                        if len(cluster[i].hasName[0]) > 1:
+                        if len(cluster[i].hasName[0].split()) > 1:
                             if any(self.check_equal(cluster[i].hasName[0], cluster[j].hasName[0]) == False for j in range(lencls) if i != j):
                                 result.append([cluster[i]])
                                 del cluster[i]
