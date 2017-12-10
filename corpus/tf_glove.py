@@ -208,7 +208,7 @@ class GloVeModel():
         if tf.train.latest_checkpoint(save_dir) is not None:
             with tf.Session() as session:
                 ckpt = tf.train.get_checkpoint_state(save_dir)
-                saver = tf.train.import_meta_graph(save_dir+'tf_glove.model-102450.meta')
+                saver = tf.train.import_meta_graph(save_dir+'tf_glove.model-91950.meta')
                 saver.restore(session, ckpt.model_checkpoint_path)
                 graph = tf.get_default_graph()
                 embedding_object = graph.get_tensor_by_name('combined_embeddings:0')

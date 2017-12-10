@@ -20,7 +20,7 @@ from nltk.stem.snowball import SnowballStemmer
 BASE_DIR_DATA = '/media/vanle/Studying/python/word2vec/glove/data'
 CORPUS_DIR_DATA = '/media/vanle/Studying/python/word2vec/glove/thesis/corpus'
 corpus_file = os.path.join(CORPUS_DIR_DATA, 'tf_corpus.p')
-corpus_log = os.path.join(CORPUS_DIR_DATA, 'corpus.txt')
+corpus_learning_ph = os.path.join(CORPUS_DIR_DATA, 'learning_phrase.txt')
 
 
 def load_corpus():
@@ -50,12 +50,15 @@ def load_corpus():
                         words_arrays = re.findall(r"[\w']+|[.,!?;\/+]", sent.strip().lower())
 
                         #remove date in sentence
-                        sentence = [word for word in words_arrays if not re.search(r'[0-9]{1,4}[\/,:,-][0-9]{1,3}([\/,:,-][0-9]{2,4})?([\/,:,-][0-9]{2,4})?', word)]
+                        sentence = [word for word in words_arrays \
+                        if not re.search(r'[0-9]{1,4}[\/,:,-][0-9]{1,3}([\/,:,-][0-9]{2,4})?([\/,:,-][0-9]{2,4})?', word)]
 
                         sentence = [word for word in sentence if not re.search(r'\'s', word)]
 
                         #remove specials symbols
-                        sentence = [c for c in sentence if c not in ('!','.',':', '-', '+', '_', '(', ')', '*', '&', '#', ';', '?', '>', '<', '%', '{', '}', '=', ',', ']', '[', '`', '\'')]
+                        sentence = [c for c in sentence if c not in \
+                        ('!','.',':', '-', '+', '_', '(', ')', '*', '&', '#', ';', '?', '>', '<', '%', \
+                            '{', '}', '=', ',', ']', '[', '`', '\'')]
 
                         #remove // in text
                         sentence = [c for c in sentence if not re.search(r'^/[/]?', c)]
@@ -64,7 +67,8 @@ def load_corpus():
                         sentence = [c for c in sentence if not re.search(r'_+', c)]
 
                         #split string 123tert to 123 tert
-                        sentence = [c for word in sentence for c in re.split(r'([0-9]*)([a-zA-Z\'0-9]+)', word) if c]
+                        sentence = [c for word in sentence for c in re.split(r'([0-9]*)([a-zA-Z\'0-9]+)', word) \
+                        if c]
                         #remove measure weight/digits in sentence
                         sentence = [word for word in sentence if not re.search(r'^\d+\.*\s?\d*\s?[mg]*$', word)]
                         sentence = [c for c in sentence if not re.search(r'^mg', c)]
@@ -88,6 +92,7 @@ def find_ngrams(input_list, n):
 
 def construct_ngrams(corpus, n):
     ngrams = Counter()
+    # for i in range(1, n+1):
     for line in corpus:
         ngram = ['_'.join(x) for x in find_ngrams(line, n)]
         ngrams.update(ngram)
@@ -95,6 +100,7 @@ def construct_ngrams(corpus, n):
 
 
 def learning_phrase(corpus, corpus_size, word_phrases = 4, min_count = 2, threshold = 200):
+    file = open(corpus_learning_ph,"w")
     phrase = 1
     ngram_counter = Counter()
     corpuses = []
@@ -105,23 +111,29 @@ def learning_phrase(corpus, corpus_size, word_phrases = 4, min_count = 2, thresh
         if phrase > 2:
             threshold = 100
         for line in corpus:
-            text = line
+            
             i = 0
-            while (i < len(line) - 1):
+            
+            while (i < len(line) - 1):                
                 if (ngram_counter[line[i]]) < min_count or (ngram_counter[line[i+1]]) < min_count :
                     i += 1
                 else:
-                    word_score = (ngram_counter[line[i]+"_"+line[i+1]] - min_count) / float(ngram_counter[line[i]]) / float(ngram_counter[line[i+1]]) * corpus_size;
                     
-                    if word_score > threshold:
-                        text.insert(i+2, line[i]+"_"+line[i+1])
-                        
+                    gram = line[i]+"_"+line[i+1]
+                    word_score = (ngram_counter[gram] - min_count) / float(ngram_counter[line[i]]) / float(ngram_counter[line[i+1]]) * corpus_size;
+                    file.write(str(word_score) + ' , ' + line[i]  + ' , ' + line[i+1])
+                    file.write('\n')
+                    
+                    if word_score > threshold and gram not in line:
+                        line.insert(i+2, gram)
                     else:
-                        del ngram_counter[line[i]+"_"+line[i+1]]
+                        del ngram_counter[gram]
                     i = i + 1
-            corpuses.append(text)
+            
+            corpuses.append(line)
     corpus_dict['corpus'] = corpuses
     corpus_dict['corpus_size'] = corpus_size
     pickle.dump( corpus_dict, open( corpus_file, "wb" ) )
+    file.close()
     return corpuses
 
