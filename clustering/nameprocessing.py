@@ -17,11 +17,12 @@ class PreProcessingText:
         len_name = name.strip().split()       
 
         #len is large than 1 mean name is not abbreviation, or name with length = 1 (example: Xue, Freddy)
-        if (len(len_name) == 1 and (name.strip() != name.strip().upper()) or isconsonant == False) or len(len_name) > 1:
+        if (len(len_name) == 1 and (name.strip() != name.strip().upper()) and isconsonant == False) or len(len_name) > 1:
             abb = [c[0] for c in name_processed.split() if c != ' ' and c[0].strip() != '']
 
 
-        #all consonant mean name is abbreviation or process for name with length = 1 with all upper (for both name = 1(XUE, FREDDY..) and name is abbreviation ready)
+        #all consonant mean name is abbreviation or process for name with length = 1 with\
+        # all upper (for both name = 1(XUE, FREDDY..) and name is abbreviation ready)
         elif isconsonant == True or (len(len_name) == 1 and name.strip() == name.strip().upper()):
             abb = [c for c in name_processed for char in c if c.strip() != '']
 
@@ -249,4 +250,7 @@ class PostLocationClusteringProcessing(PostProcessing):
 if __name__ == '__main__':
     p = PostNameClusterProcessing()
     print(p.check_equal('Quindarrius', 'Ervin, Quindarrius'))
+
+    pre = PreProcessingText()
+    print(pre.abbreviation("MI", False))
 
