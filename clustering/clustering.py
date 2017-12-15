@@ -88,7 +88,7 @@ class Clustering:
         result = []
         for index in range(max_length):
             if index < length_abb:
-                result.append(ord(abb[index]))
+                result.append(ord(abb[index])/1270000)
             else:
                 result.append(0)
         return result

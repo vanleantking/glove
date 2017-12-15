@@ -22,7 +22,7 @@ class PreProcessingText:
 
 
         #all consonant mean name is abbreviation or process for name with length = 1 with all upper (for both name = 1(XUE, FREDDY..) and name is abbreviation ready)
-        if isconsonant == True or (len(len_name) == 1 and name.strip() == name.strip().upper()):
+        elif isconsonant == True or (len(len_name) == 1 and name.strip() == name.strip().upper()):
             abb = [c for c in name_processed for char in c if c.strip() != '']
 
 
