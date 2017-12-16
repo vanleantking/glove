@@ -88,7 +88,7 @@ class Clustering:
         result = []
         for index in range(max_length):
             if index < length_abb:
-                result.append(ord(abb[index])/12700000)
+                result.append(ord(abb[index])/1270000000)
             else:
                 result.append(0)
         return result
@@ -128,6 +128,9 @@ class Clustering:
         if clusters_number > 1 and len(indexs) > clusters_number:
             cal_silhouette_score = silhouette_score(data_embeded, sample_labels, metric='cosine')
             sample_silhouette_values = silhouette_samples(data_embeded, sample_labels)
+            if (np.isnan(sample_silhouette_values).any()):                
+                sample_silhouette_values = [0.0] * len(sample_silhouette_values)
+                cal_silhouette_score = 0.0
         file.write('silhoutte score: ' + str(cal_silhouette_score))
         file.write('\n')
         file.write('silhoutte values: ' + str(sample_silhouette_values))

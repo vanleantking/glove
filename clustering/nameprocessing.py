@@ -14,18 +14,16 @@ class PreProcessingText:
         name_processed = self.preprocess(name)
         abb = []
         isconsonant = all(char not in self._vowels for c in name_processed for char in c)
-        len_name = name.strip().split()       
+
 
         #len is large than 1 mean name is not abbreviation, or name with length = 1 (example: Xue, Freddy)
-        if (len(len_name) == 1 and (name.strip() != name.strip().upper()) and isconsonant == False) or len(len_name) > 1:
+        if (len(name_processed.split()) == 1 and name.strip() != name.strip().upper() and isconsonant == False) or len(name_processed.split()) > 1:
             abb = [c[0] for c in name_processed.split() if c != ' ' and c[0].strip() != '']
-
 
         #all consonant mean name is abbreviation or process for name with length = 1 with\
         # all upper (for both name = 1(XUE, FREDDY..) and name is abbreviation ready)
-        elif isconsonant == True or (len(len_name) == 1 and name.strip() == name.strip().upper()):
-            abb = [c for c in name_processed for char in c if c.strip() != '']
-
+        elif isconsonant == True or (len(name_processed.split()) == 1 and name.strip() == name.strip().upper()):
+            abb = [c for c in name_processed if c.strip() != '']
 
 
         return abb, isconsonant
@@ -252,5 +250,10 @@ if __name__ == '__main__':
     print(p.check_equal('Quindarrius', 'Ervin, Quindarrius'))
 
     pre = PreProcessingText()
+    print(pre.abbreviation("ISENBERG,MICHAEL", False))
+    print(pre.abbreviation("DH", False))
+    print(pre.abbreviation("Xue", False))
+    print(pre.abbreviation("XUE", False))
     print(pre.abbreviation("MI", False))
+    
 
