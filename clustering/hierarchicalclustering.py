@@ -84,7 +84,10 @@ class HierachicalClustering(Clustering):
         for Z in Zdocs:
             distance += Z[2]
 
-        weighted_distance = distance / len(Zdocs)
+        if len(Zdocs) < 2:
+            weighted_distance = 0.002
+        else :
+            weighted_distance = distance / len(Zdocs)
 
         clustersdocs = fcluster(Zdocs, weighted_distance, criterion='distance')
 
