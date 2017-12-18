@@ -278,7 +278,9 @@ def constructioncluster(hc, onto, patientsmaxlength, doctorsmaxlength, professio
 
         #generate fake infor for patient phi instances
         if len(patients) > 0:
-            silhouette_patient.append(hc.logdocsfile(patientslogclustering, patientscluster, patientIndex))
+            sil_patient = hc.logdocsfile(patientslogclustering, patientscluster, patientIndex)
+            if np.isnan(sil_patient) == False:
+                silhouette_patient.append(sil_patient)
 
         
 
